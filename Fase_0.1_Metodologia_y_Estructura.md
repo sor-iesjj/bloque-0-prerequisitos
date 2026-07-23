@@ -118,7 +118,7 @@ Al terminar esta fase serás capaz de:
 > Necesitas un sitio donde subir todos los vídeos del curso. Esto se hace **una vez** y sirve para todas las fases:
 > 1. Crea una **cuenta de Gmail** parecida a tu correo del instituto. Ejemplo: si tu correo es `luis.garcia@alu.edu.gva.es`, crea algo como `luis.garcia.smr@gmail.com` (que se te reconozca).
 > 2. Con esa cuenta, entra en **YouTube** y crea tu **canal**.
-> 3. Crea una **playlist** llamada exactamente **`00_Prerrequisitos`**. Ahí subirás los vídeos de las fases 0.1 a 0.6.
+> 3. Crea una **playlist** llamada exactamente **`B0_Prerrequisitos`**. Ahí subirás los vídeos de las fases 0.1 a 0.6.
 > 4. Sube los vídeos como **"No listado"** (unlisted): así solo quien tenga el enlace (yo) los ve, no salen en búsquedas.
 >
 > > [!tip] 💡 Esta cuenta te vale para todo el curso
@@ -166,7 +166,7 @@ Al terminar esta fase serás capaz de:
 > [!example] Paso 4: Cierra el vídeo, nómbralo y súbelo a YouTube
 > 1. **Detén la grabación** en OBS y localiza el archivo del vídeo.
 > 2. **Nómbralo** con el nombre de la fase: `Fase 0.1 — Metodología y estructura`.
-> 3. **Súbelo a YouTube**, a tu playlist **`00_Prerrequisitos`**, como **"No listado"**.
+> 3. **Súbelo a YouTube**, a tu playlist **`B0_Prerrequisitos`**, como **"No listado"**.
 > 4. En la **descripción**, añade los **timestamps** (uno por paso). Ejemplo:
 >    ```
 >    00:00 Presentación
