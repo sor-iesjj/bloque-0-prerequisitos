@@ -10,8 +10,19 @@
 > **Correo:** p.navarromiralles2@edu.gva.es
 > **Centro:** IES Jorge Juan (ALICANTE)
 >
-> **⏱️ Tiempo estimado:** ~1 - 1,5 horas (explicación + práctica guiada + verificación grabada)
-> **Requisitos:** Obsidian y OBS ya instalados en el equipo (los instala Consellería — tú no tienes permisos). No hace falta Git en esta fase todavía.
+> **⏱️ Tiempo estimado:** ~1,5 - 2 horas (explicación + montar el canal de vídeo + práctica grabada)
+> **Requisitos:** Obsidian y OBS ya instalados en el equipo (los instala Consellería — tú no tienes permisos). Necesitarás una **cuenta de Gmail/YouTube** (la creas en el Paso previo). No hace falta Git en esta fase todavía.
+
+---
+
+> [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)
+> Esta práctica se **graba entera con OBS**, de principio a fin. No es un repaso al final: quiero ver **cómo lo haces tú**.
+> 1. **Prepárate primero (sin grabar):** comprueba que tienes lo necesario y **léete el procedimiento entero** para no atascarte a mitad del vídeo.
+> 2. **Arranca OBS y, nada más empezar, PRESÉNTATE:** *"Hola y bienvenidos. Me llamo [Nombre], soy alumno de 2.º SMR, y en este vídeo voy a explicar la Fase 0.1 — Metodología y estructura de la bóveda."* Y **muestra en pantalla algo que demuestre que eres tú** (tu **Teams** o tu **correo `@alu.edu.gva.es`** con tu nombre; cuando tengas GitHub, tu perfil). Di **qué vas a hacer**.
+> 3. **Graba TODO el procedimiento**, explicando cada paso en voz alta mientras lo haces.
+> 4. **Timestamps SIEMPRE** en la descripción del vídeo: `00:00 Presentación` y **uno por cada paso** (formato `mm:ss`).
+> 5. **Al terminar:** nombra el vídeo con el nombre de la fase (*"Fase 0.1 — Metodología y estructura"*) y **súbelo a tu playlist de YouTube `00_Prerrequisitos`**.
+> 6. **Duración:** ~5 min por vídeo. **Doble entrega:** grabas **uno en el centro** y **otro en casa** — los **dos** van a la playlist.
 
 ---
 
@@ -21,9 +32,10 @@ Al terminar esta fase serás capaz de:
 
 - [ ] Explicar con tus palabras qué es una **bóveda** de Obsidian y para qué la usamos.
 - [ ] Explicar la diferencia entre **tus apuntes** y las **prácticas** (Boochan), y por qué viven en carpetas separadas.
+- [ ] Tener tu **canal de YouTube** con la playlist `00_Prerrequisitos` lista.
 - [ ] Crear tu bóveda `Boveda_SOR` en la ruta correcta del equipo (y saber por qué **NO** va en OneDrive).
 - [ ] Crear la **estructura de carpetas** exacta que usaremos todo el curso, respetándola al detalle.
-- [ ] Grabar la práctica con **OBS** y saber que habrá **doble entrega**: una en clase y otra en casa.
+- [ ] **Grabar la práctica entera con OBS**, presentándote, y subirla a tu playlist.
 
 ---
 
@@ -36,17 +48,7 @@ Al terminar esta fase serás capaz de:
 > Un técnico no memoriza: **documenta**. Si no tienes un sitio ordenado donde anotar lo que haces, dentro de dos semanas no te acordarás de nada, no podrás repetir una práctica en casa, y yo no podré corregir tu trabajo. Por eso lo primero no es "instalar cosas", es **decidir dónde y cómo se guarda la información** — y que todos lo hagamos exactamente igual.
 
 > [!success] Objetivo de esta Fase
-> Dejar montada, en tu equipo, una **bóveda de Obsidian** llamada `Boveda_SOR` con una estructura de carpetas fija: una zona para **tus apuntes** (por trimestres) y otra para las **prácticas** (Boochan). Al final grabarás con OBS un pequeño vídeo demostrando que la tienes creada.
-
-> [!tip] Hoja de Ruta
-> 1. Entender la metodología: apuntes vs. prácticas, entrada diaria, grabación con OBS, doble entrega.
-> 2. Entender qué es Obsidian y qué es una bóveda.
-> 3. Crear la bóveda `Boveda_SOR` en la ruta correcta (local, **fuera de OneDrive**).
-> 4. Crear la estructura de carpetas exacta.
-> 5. Verificar que todo está bien y grabarlo con OBS.
->
-> **Resultado Final:** Tu entorno de trabajo del curso, montado y ordenado igual que el de tus compañeros.
-> **Siguiente:** Fase 0.2 — Crear tu cuenta de GitHub y configurar Git (para poder enviarme tus apuntes por Internet).
+> Dejar montada, en tu equipo, una **bóveda de Obsidian** llamada `Boveda_SOR` con una estructura de carpetas fija: una zona para **tus apuntes** (por trimestres) y otra para las **prácticas** (Boochan). Y entregar el **vídeo grabado** de todo el proceso en tu playlist de YouTube.
 
 ---
 
@@ -81,11 +83,11 @@ Al terminar esta fase serás capaz de:
 >
 > Las normas exactas de cómo nombrar y rellenar cada entrada las veremos en la **Fase 0.3**. Aquí solo dejamos preparadas las carpetas.
 
-> [!warning] 4. Todo se graba (OBS) y hay doble entrega
-> Regla de oro del curso: **una práctica que no se graba, no cuenta.**
-> - Yo explicaré cada fase **grabando un vídeo**, que subiré a **Teams** para que puedas verlo en clase y volver a verlo en casa.
-> - **Tú también grabas** con **OBS** mientras haces la práctica, explicando en voz alta lo que haces.
-> - Habrá **dos entregas** de cada práctica:
+> [!warning] 4. Por qué se graba TODO (y desde el principio)
+> Regla de oro del curso: **una práctica que no se graba, no cuenta.** Y se graba **de principio a fin**, no un repaso al final:
+> - Grabar todo el proceso demuestra que **lo has hecho tú** y me deja ver **cómo** lo haces (dónde dudas, dónde te atascas).
+> - Por eso **primero te preparas** (te lees el procedimiento) y **luego grabas** del tirón: así el vídeo sale limpio y no lleno de "espera, que no me acuerdo".
+> - Habrá **dos entregas** de cada práctica, y **las dos se suben a tu playlist de YouTube**:
 >   - **En el centro:** la primera toma, en clase, donde lo hacemos juntos por primera vez.
 >   - **En casa:** la repites tú solo, con calma, para reforzar. **Repetir es como se aprende esto de verdad.**
 
@@ -100,6 +102,8 @@ Al terminar esta fase serás capaz de:
 > - **Bloque:** un tema grande dentro de un trimestre. El Bloque 1 es "Introducción".
 > - **Entrada:** el fichero de notas de **un día concreto** de clase.
 > - **OBS:** programa para **grabar la pantalla** mientras haces la práctica.
+> - **Playlist:** una lista de reproducción de YouTube donde agrupas tus vídeos. La de este bloque: `00_Prerrequisitos`.
+> - **Timestamp:** una marca de tiempo (`mm:ss`) en la descripción del vídeo que salta a un momento concreto (cada paso).
 > - **OneDrive:** el disco en la nube de Microsoft. **Ojo:** aquí NO guardamos la bóveda (se explica abajo).
 
 ---
@@ -112,29 +116,39 @@ Al terminar esta fase serás capaz de:
 > - Tu "copia en la nube" será **GitHub** (lo montamos en la Fase 0.2), no OneDrive.
 > - Si no sabes dónde está tu carpeta de OneDrive, pregúntame antes de crear la bóveda.
 
-> [!example] Paso 0: Comprueba que tienes lo necesario instalado
-> No puedes instalar programas en el equipo del centro (no tienes permisos de administrador), así que esto lo ha dejado instalado Consellería. Solo tienes que **comprobar** que están:
-> 1. Busca **Obsidian** en el menú de aplicaciones. Si aparece, bien.
-> 2. Busca **OBS Studio** en el menú de aplicaciones. Si aparece, bien.
-> 3. Si **falta alguno**, avísame: **no intentes instalarlo tú** ni bajar versiones "portables" no autorizadas.
+> [!example] 🎬 Paso previo (UNA sola vez, no se graba): monta tu canal de vídeo
+> Necesitas un sitio donde subir todos los vídeos del curso. Esto se hace **una vez** y sirve para todas las fases:
+> 1. Crea una **cuenta de Gmail** parecida a tu correo del instituto. Ejemplo: si tu correo es `luis.garcia@alu.edu.gva.es`, crea algo como `luis.garcia.smr@gmail.com` (que se te reconozca).
+> 2. Con esa cuenta, entra en **YouTube** y crea tu **canal**.
+> 3. Crea una **playlist** llamada exactamente **`00_Prerrequisitos`**. Ahí subirás los vídeos de las fases 0.1 a 0.6.
+> 4. Sube los vídeos como **"No listado"** (unlisted): así solo quien tenga el enlace (yo) los ve, no salen en búsquedas.
+>
+> > [!tip] 💡 Esta cuenta te vale para todo el curso
+> > Cuando más adelante hagamos el proyecto Boochan y el curso de Git, crearás **más playlists** (una por bloque) en este mismo canal. Guárdate bien el usuario y la contraseña.
 
-> [!example] Paso 1: Abre Obsidian y crea la bóveda
-> 1. Abre **Obsidian**.
-> 2. En la pantalla de inicio, pulsa **`Create new vault`** (Crear nueva bóveda).
-> 3. En **`Vault name`** (nombre de la bóveda), escribe exactamente: **`Boveda_SOR`**
-> 4. En **`Location`** (ubicación), pulsa **`Browse`** y elige una carpeta **local**, fuera de OneDrive. Rutas recomendadas:
+> [!example] Paso 0: Prepárate (todavía SIN grabar)
+> Antes de darle a grabar, deja todo listo para que el vídeo salga del tirón:
+> 1. **Comprueba lo instalado:** busca **Obsidian** y **OBS Studio** en el menú de aplicaciones. Si **falta alguno**, avísame: **no intentes instalarlo tú** ni bajar versiones "portables" no autorizadas.
+> 2. **Léete el procedimiento entero** (los pasos 1 a 4 de abajo): así, cuando grabes, sabrás lo que viene y no te quedarás en blanco. Este procedimiento tiene **4 pasos** que se graban.
+> 3. **Ten OBS a mano** y una pestaña del navegador abierta con tu **Teams** o tu **correo `@alu.edu.gva.es`** (la usarás para presentarte).
+
+> [!example] Paso 1: Arranca la grabación y preséntate
+> 1. Abre **OBS Studio** y pulsa **"Iniciar grabación"**. A partir de aquí, **todo queda grabado**.
+> 2. **Preséntate en voz alta:** *"Hola y bienvenidos. Me llamo [tu nombre], soy alumno de 2.º SMR, y en este vídeo voy a explicar la Fase 0.1 — Metodología y estructura de la bóveda."*
+> 3. **Demuestra que eres tú:** cambia a la pestaña de tu **Teams** o tu **correo `@alu.edu.gva.es`** y enséñalo 2-3 segundos, para que se vea tu nombre.
+> 4. Di **qué vas a hacer:** *"Voy a crear mi bóveda de Obsidian y su estructura de carpetas, siguiendo el procedimiento de esta fase."*
+
+> [!example] Paso 2: Crea la bóveda (grabando y explicando)
+> Explicando en voz alta lo que haces:
+> 1. Abre **Obsidian** y pulsa **`Create new vault`** (Crear nueva bóveda).
+> 2. En **`Vault name`** escribe exactamente: **`Boveda_SOR`**
+> 3. En **`Location`** pulsa **`Browse`** y elige una carpeta **local, fuera de OneDrive**:
 >    - **Windows:** `C:\SOR\` (si no existe la carpeta `SOR`, créala primero).
 >    - **Linux:** tu carpeta personal, por ejemplo `/home/tu-usuario/SOR/`.
-> 5. Pulsa **`Create`**.
->
-> **Verificación:** Obsidian se abre con una bóveda **vacía** llamada `Boveda_SOR`. En la parte de arriba a la izquierda verás el nombre de la bóveda.
->
-> > [!tip] 💡 ¿Windows o Linux?
-> > Da igual dónde empieces: la misma bóveda funciona en los dos. Lo importante es **respetar el nombre y la estructura**, para que cuando la lleves de un sitio a otro (o me la entregues) todo cuadre.
+> 4. Pulsa **`Create`**. Obsidian se abre con la bóveda vacía `Boveda_SOR`.
 
-> [!example] Paso 2: Crea la estructura de carpetas (respétala al detalle)
-> Dentro de la bóveda vamos a crear esta estructura **exacta**. Los nombres van **sin tildes y sin espacios** a propósito (evita problemas al enviarlos por Internet):
->
+> [!example] Paso 3: Crea la estructura de carpetas y compruébala (grabando)
+> Crea esta estructura **exacta** (nombres **sin tildes ni espacios**), explicando cada carpeta:
 > ```
 > Boveda_SOR/
 > ├── 00_Apuntes/
@@ -144,33 +158,29 @@ Al terminar esta fase serás capaz de:
 > │   └── Trimestre_3/
 > └── Practicas/
 > ```
+> **Cómo:** clic derecho en el panel izquierdo → **`New folder`** → escribe el nombre **tal cual**. Para crear una carpeta **dentro** de otra, clic derecho **sobre la carpeta padre**. Créalas en este orden: `00_Apuntes` → dentro `Trimestre_1/2/3` → dentro de `Trimestre_1` la `Bloque_1_Introduccion` → y `Practicas` en la raíz.
 >
-> **Cómo crear una carpeta en Obsidian:**
-> 1. En el panel de la izquierda (el explorador de ficheros), haz **clic derecho** sobre un espacio vacío.
-> 2. Elige **`New folder`** (Nueva carpeta).
-> 3. Escribe el nombre **tal cual** aparece arriba (respeta mayúsculas, guiones bajos y números).
-> 4. Para crear una carpeta **dentro** de otra (por ejemplo `Trimestre_1` dentro de `00_Apuntes`), haz clic derecho **sobre la carpeta padre** y elige `New folder`.
->
-> Crea, en este orden:
-> 1. `00_Apuntes`
-> 2. Dentro de `00_Apuntes`: `Trimestre_1`, `Trimestre_2`, `Trimestre_3`
-> 3. Dentro de `Trimestre_1`: `Bloque_1_Introduccion`
-> 4. En la raíz de la bóveda (al mismo nivel que `00_Apuntes`): `Practicas`
+> Al terminar, **recorre la estructura con el ratón** y compruébala en voz alta: *"Aquí están mis apuntes por trimestres, aquí el bloque de introducción, y aquí la carpeta de prácticas."*
 >
 > > [!warning] ⚠️ El nombre importa
-> > No pongas `Apuntes` en vez de `00_Apuntes`, ni `Trimestre 1` con espacio, ni `Bloque1`. Si cada uno lo escribe a su manera, luego es imposible corregir a 20 personas. **Cópialo carácter a carácter.**
+> > No pongas `Apuntes` en vez de `00_Apuntes`, ni `Trimestre 1` con espacio, ni `Bloque1`. Si cada uno lo escribe a su manera, es imposible corregir a 20 personas. **Cópialo carácter a carácter.**
 
-> [!example] Paso 3: Verificación y grabación con OBS
-> 1. Comprueba en el panel izquierdo de Obsidian que ves **exactamente** esta estructura:
->    - `00_Apuntes/` con `Trimestre_1`, `Trimestre_2`, `Trimestre_3` dentro.
->    - `Trimestre_1` con `Bloque_1_Introduccion` dentro.
->    - `Practicas/` en la raíz.
-> 2. Abre **OBS Studio** y comienza una grabación corta (30-60 segundos).
-> 3. Con el ratón, **recorre la estructura** en Obsidian mientras la explicas en voz alta: *"Esta es mi bóveda Boveda_SOR, aquí están mis apuntes por trimestres, aquí el bloque de introducción, y aquí la carpeta de prácticas."*
-> 4. Detén la grabación y guarda el vídeo. Este vídeo es tu **evidencia** de la Fase 0.1.
+> [!example] Paso 4: Cierra el vídeo, nómbralo y súbelo a YouTube
+> 1. **Detén la grabación** en OBS y localiza el archivo del vídeo.
+> 2. **Nómbralo** con el nombre de la fase: `Fase 0.1 — Metodología y estructura`.
+> 3. **Súbelo a YouTube**, a tu playlist **`00_Prerrequisitos`**, como **"No listado"**.
+> 4. En la **descripción**, añade los **timestamps** (uno por paso). Ejemplo:
+>    ```
+>    00:00 Presentación
+>    00:20 Paso 2 — Crear la bóveda Boveda_SOR
+>    01:10 Paso 3 — Crear la estructura de carpetas
+>    02:30 Paso 4 — Repaso final
+>    ```
+>    *(Pon los minutos:segundos reales de tu vídeo.)*
+> 5. **Comprueba la duración:** debe rondar los **5 minutos**. Si se te va mucho, ve más al grano; los timestamps son obligatorios de todos modos.
 >
-> > [!success] ✅ Si la estructura coincide y tienes el vídeo, la Fase 0.1 está completa
-> > Bóveda `Boveda_SOR` creada en una ruta local + estructura de carpetas exacta + vídeo de OBS. Ya tienes tu entorno de trabajo montado.
+> > [!success] ✅ La Fase 0.1 está completa cuando…
+> > Tienes la bóveda `Boveda_SOR` con su estructura exacta **y** el vídeo subido a tu playlist `00_Prerrequisitos`, con presentación al principio y timestamps en la descripción. (Recuerda: **doble entrega** — repítelo en casa y sube el segundo vídeo.)
 
 ---
 
@@ -180,28 +190,30 @@ Al terminar esta fase serás capaz de:
 > | Problema | Causa Probable | Solución Sugerida |
 > | :--- | :--- | :--- |
 > | No encuentro Obsidian / OBS en el equipo. | No están instalados o tienen otro nombre en el menú. | Avisa al profesor. No los instales tú: dependemos de Consellería. |
-> | No me deja crear la carpeta con ese nombre. | Has dejado un espacio al final, o un carácter raro. | Borra la carpeta y créala de nuevo copiando el nombre exacto, sin espacios. |
-> | Creé la bóveda dentro de OneDrive sin querer. | Elegiste una ruta que estaba dentro de la carpeta de OneDrive. | Cierra Obsidian, mueve la carpeta `Boveda_SOR` a una ruta local (ej. `C:\SOR\`), y vuelve a abrirla con `Open folder as vault`. Ante la duda, pregúntame. |
-> | Puse las carpetas en el sitio equivocado (unas dentro de otras mal). | Hiciste clic derecho sobre la carpeta que no era. | En Obsidian puedes **arrastrar** una carpeta a su sitio correcto en el panel izquierdo, o borrarla y crearla bien. |
 > | OBS no graba / se ve la pantalla en negro. | Falta seleccionar la fuente de captura de pantalla. | En OBS, en "Fuentes" añade una **"Captura de pantalla / Display Capture"**. Si sigue en negro, avísame. |
+> | No se me oye en el vídeo. | El micrófono no está como fuente de audio en OBS. | En OBS añade "Captura de entrada de audio" (micrófono) y comprueba el nivel. |
+> | El vídeo se va de 5 minutos. | Te has enrollado o repites cosas. | Prepárate mejor antes de grabar (Paso 0). Los timestamps son obligatorios igualmente. |
+> | No me deja crear la carpeta con ese nombre. | Has dejado un espacio al final, o un carácter raro. | Bórrala y créala de nuevo copiando el nombre exacto, sin espacios. |
+> | Creé la bóveda dentro de OneDrive sin querer. | Elegiste una ruta dentro de OneDrive. | Cierra Obsidian, mueve `Boveda_SOR` a una ruta local (ej. `C:\SOR\`) y reábrela con `Open folder as vault`. Ante la duda, pregúntame. |
 
 > [!help] Preguntas Críticas (Autoevaluación del alumno)
 > 1. ¿Qué es una bóveda de Obsidian? ¿Es un formato especial o una carpeta normal?
-> 2. ¿Qué diferencia hay entre la carpeta `00_Apuntes/` y la carpeta `Practicas/`? ¿Qué guardas en cada una?
+> 2. ¿Qué diferencia hay entre la carpeta `00_Apuntes/` y la carpeta `Practicas/`?
 > 3. ¿Por qué **no** guardamos la bóveda dentro de OneDrive?
-> 4. ¿Cada cuánto creas una entrada de apuntes nueva: una por semana, una por día de clase, o una para todo el trimestre?
-> 5. 🔬 **Reto:** sin mirar la guía, dibuja en un papel el árbol de carpetas de la bóveda (trimestres y bloque incluidos). Luego compáralo con Obsidian: ¿te faltaba alguna?
+> 4. ¿En qué momento del vídeo te presentas y demuestras que eres tú: al principio o al final?
+> 5. 🔬 **Reto:** sin mirar la guía, dibuja en un papel el árbol de carpetas de la bóveda. Luego compáralo con Obsidian: ¿te faltaba alguna?
 
 ---
 
 ### ✅ Checklist Final de la Fase 0.1
 
+- [ ] Canal de YouTube creado con la playlist `00_Prerrequisitos`.
 - [ ] Obsidian y OBS comprobados en el equipo (instalados por Consellería).
 - [ ] Bóveda `Boveda_SOR` creada en una ruta **local** (no en OneDrive).
-- [ ] Carpeta `00_Apuntes/` creada.
-- [ ] Carpetas `Trimestre_1`, `Trimestre_2`, `Trimestre_3` creadas dentro de `00_Apuntes/`.
-- [ ] Carpeta `Bloque_1_Introduccion` creada dentro de `Trimestre_1/`.
-- [ ] Carpeta `Practicas/` creada en la raíz de la bóveda.
-- [ ] Vídeo de OBS grabado recorriendo la estructura.
+- [ ] Estructura de carpetas exacta: `00_Apuntes/` (con `Trimestre_1/2/3` y `Bloque_1_Introduccion` en T1) + `Practicas/`.
+- [ ] Vídeo grabado **de principio a fin**, con presentación e identidad al inicio.
+- [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `00_Prerrequisitos`.
+- [ ] Timestamps en la descripción (uno por paso).
+- [ ] **Doble entrega:** vídeo del centro **y** vídeo de casa, los dos en la playlist.
 
 > **Siguiente paso:** Fase 0.2 — Crear tu cuenta de **GitHub** y configurar **Git** en el equipo, para poder enviarme tus apuntes por Internet y que yo pueda corregirlos.
