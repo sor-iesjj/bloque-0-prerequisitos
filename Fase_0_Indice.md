@@ -13,10 +13,11 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 
 - **Apuntes** en Obsidian (una entrada por día), separados de las **prácticas** (Boochan).
 - Todo **versionado con Git** y subido a **GitHub** (un repo de apuntes por trimestre).
-- Todo **grabado con OBS**, con **doble entrega**: una en el centro y otra en casa.
+- Todo **grabado con OBS** y **subido a YouTube** (playlist `00_Prerrequisitos`), con **doble entrega**: centro y casa.
 
-> [!important] Herramientas necesarias (las instala Consellería en el centro)
-> **Obsidian**, **Git** y **OBS Studio**, en Windows y en Linux. El alumno **no tiene permisos** para instalarlas en el centro; en **casa** sí las instala él (Fase 0.5).
+> [!important] Herramientas y cuentas necesarias
+> - **Obsidian**, **Git** y **OBS Studio** — los instala **Consellería** en el centro (el alumno no tiene permisos); en **casa** los instala él (Fase 0.5.1).
+> - **Cuenta de Gmail/YouTube** (para subir los vídeos) — la crea el alumno en el **Paso previo de la Fase 0.1**, con un nombre parecido a su correo `@alu.edu.gva.es`.
 
 ---
 
@@ -41,14 +42,20 @@ Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init
 
 ### Las sub-fases (en orden)
 
+Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases largas se **parten en dos** para que ningún vídeo se vaya de ~5 minutos.
+
 | Sub-fase | Título | Qué consigue el alumno |
 | :--- | :--- | :--- |
-| **0.1** | [[Fase_0.1_Metodologia_y_Estructura]] | Entiende el método; crea la bóveda y la estructura de carpetas. |
-| **0.2** | [[Fase_0.2_GitHub_Git_y_SSH]] | Cuenta de GitHub, Git configurado, clave SSH (sin contraseñas). |
+| **0.1** | [[Fase_0.1_Metodologia_y_Estructura]] | Método + bóveda + estructura + **canal de YouTube** con la playlist `00_Prerrequisitos`. |
+| **0.2** | [[Fase_0.2_GitHub_Git_y_SSH]] | *(índice)* Conexión con GitHub, en 2 partes ↓ |
+| ↳ **0.2.1** | [[Fase_0.2.1_Cuenta_GitHub_y_Git]] | Crea la cuenta de GitHub y configura Git. |
+| ↳ **0.2.2** | [[Fase_0.2.2_Autenticacion_SSH]] | Clave SSH (y token HTTPS) + verificación. |
 | **0.3** | [[Fase_0.3_Repo_Apuntes_y_Primera_Entrada]] | Repo del Trimestre 1 + primera entrada del día (formato obligatorio). |
 | **0.4** | [[Fase_0.4_Clonar_Practica_Boochan]] | Clona su copia de `boochan-1` y domina `status → commit → push`. |
-| **0.5** | [[Fase_0.5_Casa_y_Centro_Sincronizacion]] | Replica el entorno en casa; ciclo `pull → push`; regla anti-OneDrive. |
-| **0.6** | [[Fase_0.6_Verificacion_y_Simulacion_Final]] | Simulación completa grabada; verificación global; entrega de enlaces. |
+| **0.5** | [[Fase_0.5_Casa_y_Centro_Sincronizacion]] | *(índice)* Casa ↔ centro, en 2 partes ↓ |
+| ↳ **0.5.1** | [[Fase_0.5.1_Montar_Entorno_Casa]] | Monta el entorno en casa y clona sus repos. |
+| ↳ **0.5.2** | [[Fase_0.5.2_Sincronizar_Casa_Centro]] | Ciclo `pull → push`; regla anti-OneDrive. |
+| **0.6** | [[Fase_0.6_Verificacion_y_Simulacion_Final]] | Simulación completa grabada; verificación global. |
 
 ---
 
@@ -57,7 +64,14 @@ Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init
 1. **Prueba diagnóstica de redes** ([[Prueba_Diagnostica_Inicial_SOR]]): el profesor mide qué base de 1º trae cada alumno (IP, máscara, ping, instalar una VM…) para reforzar lo necesario. Ver también [[Prerrequisitos_1SMR_para_Boochan]].
 2. **Proyecto Boochan** (Fase 1 en adelante): la práctica real, que el alumno clona en `Practicas/` y documenta en sus apuntes.
 
-> [!tip] Convenios que se repiten en todas las sub-fases
+> [!important] 📹 Método de grabación (igual en TODAS las sub-fases)
+> - Se **graba TODO el procedimiento con OBS, desde el principio** (no un repaso al final).
+> - **Preparación primero (sin grabar):** comprobar lo necesario + leerse el procedimiento entero.
+> - **Al empezar a grabar:** el alumno **se presenta**, **muestra en pantalla algo que demuestre que es él** (Teams/correo `@alu.edu.gva.es`; desde la 0.2.2, su perfil de GitHub) y dice qué va a hacer.
+> - **Timestamps SIEMPRE** en la descripción: `00:00 Presentación` + uno por cada paso.
+> - **Nombre del vídeo** = nombre de la fase. **Se sube a YouTube** (playlist `00_Prerrequisitos`, como "No listado").
+> - **Duración ~5 min.** Si una fase se pasa con creces, se **parte en dos** (como 0.2 y 0.5). **Doble entrega:** vídeo del centro **y** de casa, los dos a la playlist.
+
+> [!tip] Otros convenios
 > - **Entrada del día:** un fichero por día, nombre `AAAA-MM-DD_titulo-corto.md`, con estructura fija.
 > - **Ciclo diario:** `git pull` al empezar → trabajar → `git add` / `commit` / `push` al terminar.
-> - **Todo se graba** con OBS y se entrega **dos veces** (centro + casa).

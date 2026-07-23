@@ -22,7 +22,7 @@
 > 3. **Graba TODO el procedimiento**, explicando cada paso en voz alta mientras lo haces.
 > 4. **Timestamps SIEMPRE** en la descripción del vídeo: `00:00 Presentación` y **uno por cada paso** (formato `mm:ss`).
 > 5. **Al terminar:** nombra el vídeo con el nombre de la fase (*"Fase 0.1 — Metodología y estructura"*) y **súbelo a tu playlist de YouTube `00_Prerrequisitos`**.
-> 6. **Duración:** ~5 min por vídeo. **Doble entrega:** grabas **uno en el centro** y **otro en casa** — los **dos** van a la playlist.
+> 6. **Duración:** ~5 min por vídeo. **Doble entrega:** grabas **uno en el centro** y **otro en casa** — los **dos** van a la playlist, nombrados `Fase 0.1 — Metodología y estructura (centro)` y `(casa)`.
 
 ---
 
