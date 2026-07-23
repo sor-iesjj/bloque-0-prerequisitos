@@ -12,7 +12,7 @@ Bloque de **prerrequisitos** que se hace **antes** del proyecto Boochan. Monta e
 
 ## 🧭 Cómo usar este material
 
-Sigue las sub-fases **en orden**. Cada una es una práctica guiada, muy detallada, con teoría, pasos, verificaciones y preguntas de comprensión. Todas las prácticas se **graban con OBS** y se entregan **dos veces** (en el centro y en casa).
+Sigue las sub-fases **en orden**. Cada una es una práctica guiada, muy detallada, con teoría, pasos, verificaciones y preguntas de comprensión. Todas las prácticas se **graban con OBS** y se **suben a YouTube** (playlist `00_Prerrequisitos`).
 
 | Sub-fase | Qué consigue el alumno |
 | :--- | :--- |
@@ -28,7 +28,7 @@ Sigue las sub-fases **en orden**. Cada una es una práctica guiada, muy detallad
 | &nbsp;&nbsp;↳ [Fase 0.5.2 — Sincronizar casa ↔ centro](Fase_0.5.2_Sincronizar_Casa_Centro.md) | Ciclo `pull → push`; regla anti-OneDrive |
 | [Fase 0.6 — Verificación y simulación](Fase_0.6_Verificacion_y_Simulacion_Final.md) | Simulación completa grabada + verificación global |
 
-> 📹 Cada fase se **graba con OBS** (de principio a fin, con presentación e identidad) y se **sube a YouTube** (playlist `00_Prerrequisitos`), con timestamps y doble entrega (centro + casa). Las fases largas se parten en dos para no pasar de ~5 min de vídeo.
+> 📹 Cada fase se **graba con OBS** (de principio a fin, con presentación e identidad) y se **sube a YouTube** (playlist `00_Prerrequisitos`, "No listado"), con timestamps. **Una sola entrega por fase**, en su sitio: 🏫 **centro** (0.1, 0.2.1, 0.2.2, 0.3, 0.4, 0.6) · 🏠 **casa** (0.5.1, 0.5.2). Las fases largas se parten en dos para no pasar de ~5 min de vídeo.
 
 ---
 
