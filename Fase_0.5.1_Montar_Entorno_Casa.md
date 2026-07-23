@@ -16,11 +16,16 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.5.1 — Montar el entorno en casa."* Y **muestra tu perfil de GitHub** (o tu Teams/correo). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.5.1 — Montar el entorno en casa (centro)` [o `(casa)`] y súbelo a tu playlist **`00_Prerrequisitos`** (No listado).
-> 6. **~5 min.** **Doble entrega:** una primera toma y otra definitiva, las dos a la playlist.
+> 5. **Al terminar:** nombra el vídeo `Fase 0.5.1 — Montar el entorno en casa` y súbelo a tu playlist **`00_Prerrequisitos`** (No listado).
+> 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏠 casa** (en tu propio ordenador).
 
 > [!danger] ⚠️ La bóveda de casa TAMPOCO va en OneDrive
 > Igual que en el centro: la bóveda va en una carpeta **local** (ej. `C:\SOR\` o `~/SOR/`), **fuera de OneDrive**. Git y OneDrive se pelean. Tu "nube" es **GitHub**.
+
+---
+
+> [!info] 📌 Qué es realmente esta fase
+> Es **la versión de casa de las Fases 0.1 a 0.4, todas juntas**: en el centro montaste el equipo del cole poco a poco; aquí dejas **tu ordenador de casa** en el mismo estado, de una sola vez (instalar → clave SSH → clonar tus repos). Lo que se hizo "una sola vez" (crear la cuenta de GitHub, crear los repos) **no** se repite: ya está hecho.
 
 ---
 
@@ -111,6 +116,6 @@
 - [ ] Clave SSH de casa creada y añadida a GitHub (`Equipo Casa`).
 - [ ] Estructura `Boveda_SOR` recreada (local, fuera de OneDrive) con los repos clonados en su sitio.
 - [ ] Vídeo `Fase 0.5.1 — Montar el entorno en casa` subido a la playlist, con timestamps.
-- [ ] **Doble entrega.**
+- [ ] Una sola entrega, hecha **🏠 en casa**.
 
 > **Siguiente paso:** Fase 0.5.2 — El ciclo `pull → push` para sincronizar casa ↔ centro.

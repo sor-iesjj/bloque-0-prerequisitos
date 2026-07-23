@@ -21,8 +21,8 @@
 > 2. **Arranca OBS y, nada más empezar, PRESÉNTATE:** *"Hola y bienvenidos. Me llamo [Nombre], soy alumno de 2.º SMR, y en este vídeo voy a explicar la Fase 0.1 — Metodología y estructura de la bóveda."* Y **muestra en pantalla algo que demuestre que eres tú** (tu **Teams** o tu **correo `@alu.edu.gva.es`** con tu nombre; cuando tengas GitHub, tu perfil). Di **qué vas a hacer**.
 > 3. **Graba TODO el procedimiento**, explicando cada paso en voz alta mientras lo haces.
 > 4. **Timestamps SIEMPRE** en la descripción del vídeo: `00:00 Presentación` y **uno por cada paso** (formato `mm:ss`).
-> 5. **Al terminar:** nombra el vídeo con el nombre de la fase (*"Fase 0.1 — Metodología y estructura"*) y **súbelo a tu playlist de YouTube `00_Prerrequisitos`**.
-> 6. **Duración:** ~5 min por vídeo. **Doble entrega:** grabas **uno en el centro** y **otro en casa** — los **dos** van a la playlist, nombrados `Fase 0.1 — Metodología y estructura (centro)` y `(casa)`.
+> 5. **Al terminar:** nombra el vídeo `Fase 0.1 — Metodología y estructura` y **súbelo a tu playlist de YouTube `00_Prerrequisitos`** (No listado).
+> 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏫 el centro** (el equipo de casa se monta entero en la Fase 0.5.1, no aquí).
 
 ---
 
@@ -214,6 +214,6 @@ Al terminar esta fase serás capaz de:
 - [ ] Vídeo grabado **de principio a fin**, con presentación e identidad al inicio.
 - [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `00_Prerrequisitos`.
 - [ ] Timestamps en la descripción (uno por paso).
-- [ ] **Doble entrega:** vídeo del centro **y** vídeo de casa, los dos en la playlist.
+- [ ] Una sola entrega, hecha **🏫 en el centro**.
 
 > **Siguiente paso:** Fase 0.2 — Crear tu cuenta de **GitHub** y configurar **Git** en el equipo, para poder enviarme tus apuntes por Internet y que yo pueda corregirlos.

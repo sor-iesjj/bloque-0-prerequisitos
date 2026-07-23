@@ -16,8 +16,8 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.5.2 — Sincronizar casa y centro."* Y **muestra tu perfil de GitHub**. Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.5.2 — Sincronizar casa y centro (centro)` [o `(casa)`] y súbelo a tu playlist **`00_Prerrequisitos`** (No listado).
-> 6. **~5 min.** **Doble entrega.**
+> 5. **Al terminar:** nombra el vídeo `Fase 0.5.2 — Sincronizar casa y centro` y súbelo a tu playlist **`00_Prerrequisitos`** (No listado).
+> 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏠 casa**.
 
 ---
 
@@ -108,6 +108,6 @@
 - [ ] Sincronización confirmada (o explicada) entre casa y centro.
 - [ ] Sabes explicar por qué la bóveda no va en OneDrive.
 - [ ] Vídeo `Fase 0.5.2 — Sincronizar casa y centro` subido a la playlist, con timestamps.
-- [ ] **Doble entrega.**
+- [ ] Una sola entrega, hecha **🏠 en casa**.
 
 > **Siguiente paso:** Fase 0.6 — Verificación final y simulación completa.

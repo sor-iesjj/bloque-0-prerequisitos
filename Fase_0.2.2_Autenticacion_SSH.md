@@ -16,8 +16,8 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.2.2 — Autenticación con clave SSH."* Y **muestra algo que demuestre que eres tú**: ya tienes GitHub, así que enseña **tu perfil de GitHub** (o tu Teams/correo). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.2.2 — Autenticación SSH (centro)` [o `(casa)`] y súbelo a tu playlist **`00_Prerrequisitos`** como "No listado".
-> 6. **~5 min.** **Doble entrega:** uno en el centro y otro en casa, los dos a la playlist.
+> 5. **Al terminar:** nombra el vídeo `Fase 0.2.2 — Autenticación SSH` y súbelo a tu playlist **`00_Prerrequisitos`** como "No listado".
+> 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏫 el centro** (la clave SSH de casa se genera en la Fase 0.5.1).
 
 > [!danger] ⚠️ LÉEME: la clave privada no se comparte JAMÁS
 > Vas a generar una **pareja de claves**. Comparte **solo la PÚBLICA** (el fichero que termina en **`.pub`**). La **privada** se queda en tu equipo y no se sube, ni se pega en un chat, ni se enseña con detalle en el vídeo. Si alguien te la pide: **NO**.
@@ -128,6 +128,6 @@
 - [ ] `ssh -T git@github.com` responde `Hi TU-USUARIO!`.
 - [ ] *(Alternativa)* Token HTTPS creado y guardado.
 - [ ] Vídeo `Fase 0.2.2 — Autenticación SSH` subido a la playlist `00_Prerrequisitos`, con timestamps.
-- [ ] **Doble entrega:** vídeo del centro **y** de casa.
+- [ ] Una sola entrega, hecha **🏫 en el centro**.
 
 > **Siguiente paso:** Fase 0.3 — Crear el repositorio de tus apuntes del **Trimestre 1** y escribir tu **primera entrada del día**.

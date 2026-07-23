@@ -16,8 +16,8 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a hacer la simulación final de la Fase 0."* **Muestra tu perfil de GitHub**. Di qué vas a demostrar.
 > 3. **Graba TODO el circuito**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.6 — Simulación final (centro)` [o `(casa)`] y súbelo a tu playlist **`00_Prerrequisitos`** (No listado).
-> 6. **~5-7 min.** **Doble entrega:** una toma y otra definitiva, las dos a la playlist.
+> 5. **Al terminar:** nombra el vídeo `Fase 0.6 — Simulación final` y súbelo a tu playlist **`00_Prerrequisitos`** (No listado).
+> 6. **~5-7 min. Una sola entrega:** esta simulación se hace en **🏫 el centro** (o donde indique el profesor).
 
 ---
 
@@ -107,6 +107,6 @@
 - [ ] **0.4:** práctica `boochan-1` clonada y con un cambio subido.
 - [ ] **0.5.1 / 0.5.2:** entorno replicado en casa + ciclo `pull → push` demostrado.
 - [ ] **0.6:** simulación final grabada.
-- [ ] **Vídeos:** TODAS las fases (0.1 a 0.6) subidas a la playlist `00_Prerrequisitos`, con presentación y timestamps, y doble entrega (centro + casa).
+- [ ] **Vídeos:** TODAS las fases (0.1 a 0.6) subidas a la playlist `00_Prerrequisitos`, con presentación y timestamps. Una entrega por fase, en su sitio: 🏫 centro (0.1–0.4, 0.6) · 🏠 casa (0.5.1, 0.5.2).
 
 > **Siguiente paso:** empieza el proyecto **Boochan** (Fase 1). Antes, el profesor pasará la **prueba diagnóstica de redes** (ver `Prueba_Diagnostica_Inicial_SOR`).

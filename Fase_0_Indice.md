@@ -13,7 +13,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 
 - **Apuntes** en Obsidian (una entrada por día), separados de las **prácticas** (Boochan).
 - Todo **versionado con Git** y subido a **GitHub** (un repo de apuntes por trimestre).
-- Todo **grabado con OBS** y **subido a YouTube** (playlist `00_Prerrequisitos`), con **doble entrega**: centro y casa.
+- Todo **grabado con OBS** y **subido a YouTube** (playlist `00_Prerrequisitos`), con **una entrega por fase**, cada una en su sitio (centro o casa).
 
 > [!important] Herramientas y cuentas necesarias
 > - **Obsidian**, **Git** y **OBS Studio** — los instala **Consellería** en el centro (el alumno no tiene permisos); en **casa** los instala él (Fase 0.5.1).
@@ -70,7 +70,8 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 > - **Al empezar a grabar:** el alumno **se presenta**, **muestra en pantalla algo que demuestre que es él** (Teams/correo `@alu.edu.gva.es`; desde la 0.2.2, su perfil de GitHub) y dice qué va a hacer.
 > - **Timestamps SIEMPRE** en la descripción: `00:00 Presentación` + uno por cada paso.
 > - **Nombre del vídeo** = nombre de la fase. **Se sube a YouTube** (playlist `00_Prerrequisitos`, como "No listado").
-> - **Duración ~5 min.** Si una fase se pasa con creces, se **parte en dos** (como 0.2 y 0.5). **Doble entrega:** vídeo del centro **y** de casa, los dos a la playlist.
+> - **Duración ~5 min.** Si una fase se pasa con creces, se **parte en dos** (como 0.2 y 0.5).
+> - **Una sola entrega por fase**, en su sitio: 🏫 **centro** (0.1, 0.2.1, 0.2.2, 0.3, 0.4, 0.6) · 🏠 **casa** (0.5.1, 0.5.2). En prerequisitos no hay doble entrega: el "en casa" de las 0.1–0.4 **es** la Fase 0.5.1.
 
 > [!tip] Otros convenios
 > - **Entrada del día:** un fichero por día, nombre `AAAA-MM-DD_titulo-corto.md`, con estructura fija.
