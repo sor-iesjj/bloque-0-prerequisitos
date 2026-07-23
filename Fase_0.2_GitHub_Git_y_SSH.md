@@ -1,6 +1,6 @@
 ## 🔑 Fase 0.2: Cuenta de GitHub, Git y Autenticación (ÍNDICE — 2 partes)
 
-### Preparar el canal por el que me enviarás tu trabajo
+### Preparar el canal por el que me enviarás tu trabajo ...
 
 > **[Módulo: SOR — Sistemas Operativos en Red]**
 > **[Bloque de Prerrequisitos · Fase 0 — Puesta a punto del entorno de trabajo]**

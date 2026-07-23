@@ -1,4 +1,4 @@
-## 🧰 Fase 0 — Puesta a Punto del Entorno de Trabajo (ÍndiceX)
+## 🧰 Fase 0 — Puesta a Punto del Entorno de Trabajo (Índice)
 
 > **[Módulo: SOR — Sistemas Operativos en Red · 2.º SMR]**
 > **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)

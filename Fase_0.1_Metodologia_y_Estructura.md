@@ -1,6 +1,6 @@
 ## 🧭 Fase 0.1: Metodología de Trabajo y Estructura de la Bóveda
 
-### Cómo vamos a trabajar todo el curso (y por qué)
+### Cómo vamos a trabajar todo el curso (y por qué...)
 
 > **[Módulo: SOR — Sistemas Operativos en Red]**
 > **[Bloque de Prerrequisitos · Fase 0 — Puesta a punto del entorno de trabajo]**

@@ -1,6 +1,6 @@
 ## 🏠 Fase 0.5.1: Montar el Entorno en Casa
 
-### Instala, autentícate y reconstruye tu bóveda clonando tus repos
+### Instala, autentícate y reconstruye tu bóveda clonando tus repos ...
 
 > **[Módulo: SOR — Sistemas Operativos en Red]**
 > **[Bloque de Prerrequisitos · Fase 0.5 — parte 1 de 2]**
