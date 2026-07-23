@@ -9,7 +9,7 @@
 ---
 
 > [!info] Por qué esta fase va en DOS partes
-> Montar la conexión con GitHub tiene mucha tela (crear cuenta, confirmar correo, configurar Git, generar una clave de seguridad, verificar…). Todo junto se iría **muy por encima de 5 minutos** de vídeo. Así que la partimos en **dos prácticas independientes**, cada una con **su propio vídeo y su doble entrega** (centro + casa):
+> Montar la conexión con GitHub tiene mucha tela (crear cuenta, confirmar correo, configurar Git, generar una clave de seguridad, verificar…). Todo junto se iría **muy por encima de 5 minutos** de vídeo. Así que la partimos en **dos prácticas independientes**, cada una con **su propio vídeo** (una entrega, en el centro):
 
 | Parte | Qué haces | Vídeo |
 | :--- | :--- | :--- |

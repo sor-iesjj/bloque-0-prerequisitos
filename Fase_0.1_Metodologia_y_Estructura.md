@@ -87,9 +87,7 @@ Al terminar esta fase serás capaz de:
 > Regla de oro del curso: **una práctica que no se graba, no cuenta.** Y se graba **de principio a fin**, no un repaso al final:
 > - Grabar todo el proceso demuestra que **lo has hecho tú** y me deja ver **cómo** lo haces (dónde dudas, dónde te atascas).
 > - Por eso **primero te preparas** (te lees el procedimiento) y **luego grabas** del tirón: así el vídeo sale limpio y no lleno de "espera, que no me acuerdo".
-> - Habrá **dos entregas** de cada práctica, y **las dos se suben a tu playlist de YouTube**:
->   - **En el centro:** la primera toma, en clase, donde lo hacemos juntos por primera vez.
->   - **En casa:** la repites tú solo, con calma, para reforzar. **Repetir es como se aprende esto de verdad.**
+> - En los **prerequisitos**, cada fase tiene **una sola entrega**, en el sitio que le toca: las 0.1–0.4 se hacen **en el centro** (montas el equipo del cole), y montar el equipo de **casa** es la **Fase 0.5.1**. Así no repites lo mismo dos veces.
 
 ### 📖 Diccionario de Conceptos Clave
 
@@ -180,7 +178,7 @@ Al terminar esta fase serás capaz de:
 > 5. **Comprueba la duración:** debe rondar los **5 minutos**. Si se te va mucho, ve más al grano; los timestamps son obligatorios de todos modos.
 >
 > > [!success] ✅ La Fase 0.1 está completa cuando…
-> > Tienes la bóveda `Boveda_SOR` con su estructura exacta **y** el vídeo subido a tu playlist `00_Prerrequisitos`, con presentación al principio y timestamps en la descripción. (Recuerda: **doble entrega** — repítelo en casa y sube el segundo vídeo.)
+> > Tienes la bóveda `Boveda_SOR` con su estructura exacta **y** el vídeo subido a tu playlist `00_Prerrequisitos`, con presentación al principio y timestamps en la descripción. (Esta fase es **una sola entrega, en el centro**; el equipo de casa lo montarás en la Fase 0.5.1.)
 
 ---
 

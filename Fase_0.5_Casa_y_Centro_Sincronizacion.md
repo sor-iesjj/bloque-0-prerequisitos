@@ -9,7 +9,7 @@
 ---
 
 > [!info] Por qué esta fase va en DOS partes
-> Trabajarás en **dos ordenadores** (centro y casa). Montar el entorno en casa (instalar todo, clave SSH, clonar los repos) **y además** aprender a sincronizar es demasiado para un solo vídeo de 5 minutos. Lo partimos en **dos prácticas**, cada una con **su vídeo y su doble entrega**:
+> Trabajarás en **dos ordenadores** (centro y casa). Montar el entorno en casa (instalar todo, clave SSH, clonar los repos) **y además** aprender a sincronizar es demasiado para un solo vídeo de 5 minutos. Lo partimos en **dos prácticas**, cada una con **su propio vídeo** (una entrega, en casa):
 
 | Parte | Qué haces | Vídeo |
 | :--- | :--- | :--- |
