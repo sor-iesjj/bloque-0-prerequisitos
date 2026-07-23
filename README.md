@@ -18,11 +18,17 @@ Sigue las sub-fases **en orden**. Cada una es una práctica guiada, muy detallad
 | :--- | :--- |
 | [Índice de la Fase 0](Fase_0_Indice.md) | Visión general, estructura de la bóveda y regla de oro |
 | [Fase 0.1 — Metodología y Estructura](Fase_0.1_Metodologia_y_Estructura.md) | Entiende el método; crea la bóveda y la estructura de carpetas |
-| [Fase 0.2 — GitHub, Git y SSH](Fase_0.2_GitHub_Git_y_SSH.md) | Cuenta de GitHub, Git configurado, autenticación (SSH o token) |
+| [Fase 0.2 — GitHub, Git y autenticación (índice)](Fase_0.2_GitHub_Git_y_SSH.md) | Conexión con GitHub, en 2 partes ↓ |
+| &nbsp;&nbsp;↳ [Fase 0.2.1 — Cuenta de GitHub y Git](Fase_0.2.1_Cuenta_GitHub_y_Git.md) | Crea la cuenta de GitHub y configura Git |
+| &nbsp;&nbsp;↳ [Fase 0.2.2 — Autenticación SSH](Fase_0.2.2_Autenticacion_SSH.md) | Clave SSH (y token HTTPS) + verificación |
 | [Fase 0.3 — Repo de apuntes y primera entrada](Fase_0.3_Repo_Apuntes_y_Primera_Entrada.md) | Repo del Trimestre 1 + primera entrada del día |
 | [Fase 0.4 — Clonar la práctica Boochan](Fase_0.4_Clonar_Practica_Boochan.md) | Clona su copia de una práctica y domina `status → commit → push` |
-| [Fase 0.5 — Casa y centro](Fase_0.5_Casa_y_Centro_Sincronizacion.md) | Replica el entorno en casa; ciclo `pull → push`; regla anti-OneDrive |
+| [Fase 0.5 — Casa y centro (índice)](Fase_0.5_Casa_y_Centro_Sincronizacion.md) | Casa ↔ centro, en 2 partes ↓ |
+| &nbsp;&nbsp;↳ [Fase 0.5.1 — Montar el entorno en casa](Fase_0.5.1_Montar_Entorno_Casa.md) | Instala en casa y clona sus repos |
+| &nbsp;&nbsp;↳ [Fase 0.5.2 — Sincronizar casa ↔ centro](Fase_0.5.2_Sincronizar_Casa_Centro.md) | Ciclo `pull → push`; regla anti-OneDrive |
 | [Fase 0.6 — Verificación y simulación](Fase_0.6_Verificacion_y_Simulacion_Final.md) | Simulación completa grabada + verificación global |
+
+> 📹 Cada fase se **graba con OBS** (de principio a fin, con presentación e identidad) y se **sube a YouTube** (playlist `00_Prerrequisitos`), con timestamps y doble entrega (centro + casa). Las fases largas se parten en dos para no pasar de ~5 min de vídeo.
 
 ---
 
