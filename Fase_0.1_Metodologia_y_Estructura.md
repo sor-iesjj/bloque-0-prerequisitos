@@ -21,7 +21,7 @@
 > 2. **Arranca OBS y, nada más empezar, PRESÉNTATE:** *"Hola y bienvenidos. Me llamo [Nombre], soy alumno de 2.º SMR, y en este vídeo voy a explicar la Fase 0.1 — Metodología y estructura de la bóveda."* Y **muestra en pantalla algo que demuestre que eres tú** (tu **Teams** o tu **correo `@alu.edu.gva.es`** con tu nombre; cuando tengas GitHub, tu perfil). Di **qué vas a hacer**.
 > 3. **Graba TODO el procedimiento**, explicando cada paso en voz alta mientras lo haces.
 > 4. **Timestamps SIEMPRE** en la descripción del vídeo: `00:00 Presentación` y **uno por cada paso** (formato `mm:ss`).
-> 5. **Al terminar:** nombra el vídeo `Fase 0.1 — Metodología y estructura` y **súbelo a tu playlist de YouTube `00_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `Fase 0.1 — Metodología y estructura` y **súbelo a tu playlist de YouTube `B0_Prerrequisitos`** (No listado).
 > 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏫 el centro** (el equipo de casa se monta entero en la Fase 0.5.1, no aquí).
 
 ---
@@ -32,7 +32,7 @@ Al terminar esta fase serás capaz de:
 
 - [ ] Explicar con tus palabras qué es una **bóveda** de Obsidian y para qué la usamos.
 - [ ] Explicar la diferencia entre **tus apuntes** y las **prácticas** (Boochan), y por qué viven en carpetas separadas.
-- [ ] Tener tu **canal de YouTube** con la playlist `00_Prerrequisitos` lista.
+- [ ] Tener tu **canal de YouTube** con la playlist `B0_Prerrequisitos` lista.
 - [ ] Crear tu bóveda `Boveda_SOR` en la ruta correcta del equipo (y saber por qué **NO** va en OneDrive).
 - [ ] Crear la **estructura de carpetas** exacta que usaremos todo el curso, respetándola al detalle.
 - [ ] **Grabar la práctica entera con OBS**, presentándote, y subirla a tu playlist.
@@ -100,7 +100,7 @@ Al terminar esta fase serás capaz de:
 > - **Bloque:** un tema grande dentro de un trimestre. El Bloque 1 es "Introducción".
 > - **Entrada:** el fichero de notas de **un día concreto** de clase.
 > - **OBS:** programa para **grabar la pantalla** mientras haces la práctica.
-> - **Playlist:** una lista de reproducción de YouTube donde agrupas tus vídeos. La de este bloque: `00_Prerrequisitos`.
+> - **Playlist:** una lista de reproducción de YouTube donde agrupas tus vídeos. La de este bloque: `B0_Prerrequisitos`.
 > - **Timestamp:** una marca de tiempo (`mm:ss`) en la descripción del vídeo que salta a un momento concreto (cada paso).
 > - **OneDrive:** el disco en la nube de Microsoft. **Ojo:** aquí NO guardamos la bóveda (se explica abajo).
 
@@ -178,7 +178,7 @@ Al terminar esta fase serás capaz de:
 > 5. **Comprueba la duración:** debe rondar los **5 minutos**. Si se te va mucho, ve más al grano; los timestamps son obligatorios de todos modos.
 >
 > > [!success] ✅ La Fase 0.1 está completa cuando…
-> > Tienes la bóveda `Boveda_SOR` con su estructura exacta **y** el vídeo subido a tu playlist `00_Prerrequisitos`, con presentación al principio y timestamps en la descripción. (Esta fase es **una sola entrega, en el centro**; el equipo de casa lo montarás en la Fase 0.5.1.)
+> > Tienes la bóveda `Boveda_SOR` con su estructura exacta **y** el vídeo subido a tu playlist `B0_Prerrequisitos`, con presentación al principio y timestamps en la descripción. (Esta fase es **una sola entrega, en el centro**; el equipo de casa lo montarás en la Fase 0.5.1.)
 
 ---
 
@@ -205,12 +205,12 @@ Al terminar esta fase serás capaz de:
 
 ### ✅ Checklist Final de la Fase 0.1
 
-- [ ] Canal de YouTube creado con la playlist `00_Prerrequisitos`.
+- [ ] Canal de YouTube creado con la playlist `B0_Prerrequisitos`.
 - [ ] Obsidian y OBS comprobados en el equipo (instalados por Consellería).
 - [ ] Bóveda `Boveda_SOR` creada en una ruta **local** (no en OneDrive).
 - [ ] Estructura de carpetas exacta: `00_Apuntes/` (con `Trimestre_1/2/3` y `Bloque_1_Introduccion` en T1) + `Practicas/`.
 - [ ] Vídeo grabado **de principio a fin**, con presentación e identidad al inicio.
-- [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `00_Prerrequisitos`.
+- [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `B0_Prerrequisitos`.
 - [ ] Timestamps en la descripción (uno por paso).
 - [ ] Una sola entrega, hecha **🏫 en el centro**.
 

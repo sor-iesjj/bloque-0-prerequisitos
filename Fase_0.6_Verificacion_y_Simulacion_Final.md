@@ -16,7 +16,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a hacer la simulación final de la Fase 0."* **Muestra tu perfil de GitHub**. Di qué vas a demostrar.
 > 3. **Graba TODO el circuito**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.6 — Simulación final` y súbelo a tu playlist **`00_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `Fase 0.6 — Simulación final` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5-7 min. Una sola entrega:** esta simulación se hace en **🏫 el centro** (o donde indique el profesor).
 
 ---
@@ -79,7 +79,7 @@
 > Abre en el navegador tus **dos** repos (`apuntes-sor-t1` y `boochan-1`) y muestra que los **últimos commits** son los que acabas de hacer.
 
 > [!example] Paso 5: Cierra el vídeo, nómbralo y súbelo
-> Detén la grabación, nombra el vídeo `Fase 0.6 — Simulación final`, súbelo a la playlist `00_Prerrequisitos` con **timestamps** (`00:00 Presentación`, Paso 2 apuntes, Paso 3 práctica, Paso 4 comprobación).
+> Detén la grabación, nombra el vídeo `Fase 0.6 — Simulación final`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps** (`00:00 Presentación`, Paso 2 apuntes, Paso 3 práctica, Paso 4 comprobación).
 
 ---
 
@@ -101,12 +101,12 @@
 
 ### ✅ Checklist Global del Bloque de Prerrequisitos (Fase 0 completa)
 
-- [ ] **0.1:** bóveda `Boveda_SOR` con estructura + canal de YouTube con playlist `00_Prerrequisitos`.
+- [ ] **0.1:** bóveda `Boveda_SOR` con estructura + canal de YouTube con playlist `B0_Prerrequisitos`.
 - [ ] **0.2.1 / 0.2.2:** cuenta de GitHub + Git configurado + autenticación (SSH/token).
 - [ ] **0.3:** repo `apuntes-sor-t1` con entradas con formato correcto; enlace enviado.
 - [ ] **0.4:** práctica `boochan-1` clonada y con un cambio subido.
 - [ ] **0.5.1 / 0.5.2:** entorno replicado en casa + ciclo `pull → push` demostrado.
 - [ ] **0.6:** simulación final grabada.
-- [ ] **Vídeos:** TODAS las fases (0.1 a 0.6) subidas a la playlist `00_Prerrequisitos`, con presentación y timestamps. Una entrega por fase, en su sitio: 🏫 centro (0.1–0.4, 0.6) · 🏠 casa (0.5.1, 0.5.2).
+- [ ] **Vídeos:** TODAS las fases (0.1 a 0.6) subidas a la playlist `B0_Prerrequisitos`, con presentación y timestamps. Una entrega por fase, en su sitio: 🏫 centro (0.1–0.4, 0.6) · 🏠 casa (0.5.1, 0.5.2).
 
 > **Siguiente paso:** empieza el proyecto **Boochan** (Fase 1). Antes, el profesor pasará la **prueba diagnóstica de redes** (ver `Prueba_Diagnostica_Inicial_SOR`).

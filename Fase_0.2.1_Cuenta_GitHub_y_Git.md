@@ -16,7 +16,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.2.1 — Cuenta de GitHub y configuración de Git."* Y **muestra algo que demuestre que eres tú**: tu **Teams** o tu **correo `@alu.edu.gva.es`** (aún no tienes GitHub, lo creas ahora). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.2.1 — Cuenta de GitHub y Git` y súbelo a tu playlist **`00_Prerrequisitos`** como "No listado".
+> 5. **Al terminar:** nombra el vídeo `Fase 0.2.1 — Cuenta de GitHub y Git` y súbelo a tu playlist **`B0_Prerrequisitos`** como "No listado".
 > 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏫 el centro** (crear la cuenta es de una sola vez; el equipo de casa se monta en la Fase 0.5.1).
 
 ---
@@ -85,7 +85,7 @@
 > [!example] Paso 4: Cierra el vídeo, nómbralo y súbelo
 > 1. **Detén la grabación** en OBS.
 > 2. **Nómbralo:** `Fase 0.2.1 — Cuenta de GitHub y Git`.
-> 3. **Súbelo** a tu playlist **`00_Prerrequisitos`** (No listado).
+> 3. **Súbelo** a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 4. **Timestamps** en la descripción, por ejemplo:
 >    ```
 >    00:00 Presentación
@@ -117,7 +117,7 @@
 - [ ] `git --version` funciona.
 - [ ] Cuenta de GitHub creada y correo confirmado.
 - [ ] Git configurado con `user.name` y `user.email` (mismo correo que GitHub).
-- [ ] Vídeo `Fase 0.2.1 — Cuenta de GitHub y Git` subido a la playlist `00_Prerrequisitos`, con timestamps.
+- [ ] Vídeo `Fase 0.2.1 — Cuenta de GitHub y Git` subido a la playlist `B0_Prerrequisitos`, con timestamps.
 - [ ] Una sola entrega, hecha **🏫 en el centro**.
 
 > **Siguiente paso:** Fase 0.2.2 — Autenticación con **clave SSH** (y token HTTPS), para enviar tu trabajo sin escribir la contraseña.

@@ -16,7 +16,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.5.2 — Sincronizar casa y centro."* Y **muestra tu perfil de GitHub**. Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.5.2 — Sincronizar casa y centro` y súbelo a tu playlist **`00_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `Fase 0.5.2 — Sincronizar casa y centro` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏠 casa**.
 
 ---
@@ -82,7 +82,7 @@
 > y que eso **baja** la entrada que hiciste en casa. (Si puedes, demuéstralo con el otro equipo; si no, explícalo con el flujo.)
 
 > [!example] Paso 3: Cierra el vídeo, nómbralo y súbelo
-> Detén la grabación, nombra el vídeo `Fase 0.5.2 — Sincronizar casa y centro`, súbelo a la playlist `00_Prerrequisitos` con **timestamps**.
+> Detén la grabación, nombra el vídeo `Fase 0.5.2 — Sincronizar casa y centro`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps**.
 
 ---
 

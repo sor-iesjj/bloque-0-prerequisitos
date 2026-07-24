@@ -16,7 +16,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.4 — Clonar mi copia de la práctica Boochan."* Y **muestra tu perfil de GitHub** (o tu Teams/correo). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.4 — Clonar la práctica Boochan` y súbelo a tu playlist **`00_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `Fase 0.4 — Clonar la práctica Boochan` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏫 el centro**.
 
 ---
@@ -84,7 +84,7 @@
 > Recarga tu repo `boochan-1` en GitHub: debe aparecer `MIS_DATOS.md`.
 
 > [!example] Paso 6: Cierra el vídeo, nómbralo y súbelo
-> Detén la grabación, nombra el vídeo `Fase 0.4 — Clonar la práctica Boochan`, súbelo a la playlist `00_Prerrequisitos` (No listado) y añade **timestamps** (`00:00 Presentación` + uno por paso).
+> Detén la grabación, nombra el vídeo `Fase 0.4 — Clonar la práctica Boochan`, súbelo a la playlist `B0_Prerrequisitos` (No listado) y añade **timestamps** (`00:00 Presentación` + uno por paso).
 
 ---
 

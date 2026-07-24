@@ -16,7 +16,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.3 — Repositorio de apuntes y primera entrada."* Y **muestra tu perfil de GitHub** (o tu Teams/correo). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada` y súbelo a tu playlist **`00_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏫 el centro**.
 
 ---
@@ -117,7 +117,7 @@
 > Recarga GitHub: debe verse `Bloque_1_Introduccion/` con tu entrada.
 
 > [!example] Paso 6: Cierra el vídeo, nómbralo, súbelo y pásame el enlace
-> 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada` y súbelo a la playlist `00_Prerrequisitos` con **timestamps** (`00:00 Presentación`, y uno por paso).
+> 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada` y súbelo a la playlist `B0_Prerrequisitos` con **timestamps** (`00:00 Presentación`, y uno por paso).
 > 2. **Pásame por Teams el enlace** de tu repo (`https://github.com/TU-USUARIO/apuntes-sor-t1`). Al ser privado, te diré mi usuario para que me añadas en `Settings → Collaborators`.
 
 > [!note] 📌 A partir de ahora, cada día de clase

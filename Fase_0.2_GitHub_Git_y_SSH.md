@@ -17,7 +17,7 @@
 | **[Fase 0.2.2 — Autenticación: clave SSH (y token HTTPS)](Fase_0.2.2_Autenticacion_SSH.md)** | Generas tu clave SSH, la añades a GitHub y verificas la conexión (más la vía token) | `Fase 0.2.2 — Autenticación SSH` |
 
 > [!tip] Orden
-> Haz **primero la 0.2.1** (necesitas la cuenta de GitHub para poder añadir la clave en la 0.2.2). Cada parte se sube a tu playlist **`00_Prerrequisitos`**.
+> Haz **primero la 0.2.1** (necesitas la cuenta de GitHub para poder añadir la clave en la 0.2.2). Cada parte se sube a tu playlist **`B0_Prerrequisitos`**.
 
 ---
 

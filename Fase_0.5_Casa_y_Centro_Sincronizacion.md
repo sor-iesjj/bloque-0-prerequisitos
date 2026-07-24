@@ -17,7 +17,7 @@
 | **[Fase 0.5.2 — Sincronizar casa ↔ centro](Fase_0.5.2_Sincronizar_Casa_Centro.md)** | El **ciclo diario** `pull → trabajar → push` y por qué el puente es Git, **nunca OneDrive** | `Fase 0.5.2 — Sincronizar casa y centro` |
 
 > [!tip] Orden
-> Primero la **0.5.1** (necesitas el entorno montado en casa) y luego la **0.5.2** (sincronizar). Las dos a tu playlist `00_Prerrequisitos`.
+> Primero la **0.5.1** (necesitas el entorno montado en casa) y luego la **0.5.2** (sincronizar). Las dos a tu playlist `B0_Prerrequisitos`.
 
 ---
 
