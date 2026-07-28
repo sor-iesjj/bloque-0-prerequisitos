@@ -27,7 +27,7 @@
 - [ ] Explicar por qué usamos **un repositorio por trimestre**.
 - [ ] Crear un repositorio en GitHub y conectarlo con tu carpeta `Trimestre_1`.
 - [ ] Escribir la **entrada de esta fase** con el **nombre** y la **estructura** obligatorios.
-- [ ] Hacer el ciclo `git add` → `commit` → `push` y **darme el enlace**.
+- [ ] Hacer el ciclo `git add` → `commit` → `push`, con **un commit por fase** y mensajes que se entiendan.
 
 ---
 
@@ -59,7 +59,8 @@
 
 > [!quote] Terminología
 > - **`git init`:** convierte una carpeta en repositorio. · **Remoto (`origin`):** la dirección en GitHub.
-> - **`git add` / `commit` / `push`:** preparar / guardar / subir. · **Entrada:** el fichero de apuntes de un día.
+> - **`git add` / `commit` / `push`:** preparar / guardar / subir. · **Entrada:** el fichero de apuntes de una fase.
+> - **`git log`:** la lista de todos tus commits. Tu historial. · **Commit:** una foto guardada **y un punto al que puedes volver**.
 
 ---
 
@@ -143,21 +144,54 @@
 > Dentro de `Trimestre_1`. Sustituye la dirección por **la tuya**, la que copiaste en el Paso 4 — y recuerda: para pegar en la terminal es **`Shift + Insert`** o **clic derecho**, `Ctrl+V` ahí no vale (Fase 0.2.1):
 > ```bash
 > git remote add origin git@github.com:TU-USUARIO/apuntes-sor-t1.git
-> git add .
-> git commit -m "Primera entrada: introduccion al modulo"
+> ```
+> Ahora **NO subas todo de golpe**. Vas a hacer **un commit por cada entrada**, en orden. Sustituye los nombres por los de tus ficheros:
+> ```bash
+> git add B0_Prerrequisitos/091526_fase-0.1-metodologia-y-estructura.md
+> git commit -m "Fase 0.1: metodologia y estructura de la boveda"
+>
+> git add B0_Prerrequisitos/091626_fase-0.2.1-cuenta-github.md
+> git commit -m "Fase 0.2.1: cuenta de GitHub y configuracion de Git"
+>
+> git add B0_Prerrequisitos/091626_fase-0.2.2-clave-ssh.md
+> git commit -m "Fase 0.2.2: autenticacion con clave SSH"
+>
+> git add B0_Prerrequisitos/091726_fase-0.3-repo-de-apuntes.md
+> git commit -m "Fase 0.3: repositorio de apuntes"
+> ```
+> Y ahora sí, súbelo todo:
+> ```bash
 > git push -u origin main
 > ```
+>
+> > [!important] 🕐 Por qué un commit por fase y no uno gordo
+> > Podrías hacer `git add .` y un único commit con todo. **Funcionaría igual.** Pero fíjate en la diferencia cuando pides el historial:
+> > ```bash
+> > git log --oneline
+> > ```
+> > | Con un commit gordo | Con un commit por fase |
+> > | :--- | :--- |
+> > | `a1b2c3d Primera entrega` | `d4e5f6a Fase 0.3: repositorio de apuntes` |
+> > | | `c3d4e5f Fase 0.2.2: autenticacion con clave SSH` |
+> > | | `b2c3d4e Fase 0.2.1: cuenta de GitHub y Git` |
+> > | | `a1b2c3d Fase 0.1: metodologia y estructura` |
+> >
+> > A la derecha, **el historial es un índice de lo que has hecho**. A la izquierda no es nada.
+> > Y hay algo más importante que la estética: cada commit es un **punto de restauración**. Si mañana rompes la entrada de la 0.2.2, puedes volver a como estaba **esa sola**, sin tocar las demás. Con un commit gordo, o vuelves entero o no vuelves. Lo vas a comprobar tú mismo en la **Fase 0.3.1**.
+> >
+> > **Regla para todo el curso: un commit = un cambio con sentido propio.** Ni un commit por cada letra, ni uno cada tres semanas con todo dentro.
 > Recarga GitHub: debe verse `B0_Prerrequisitos/` con **tus dos entradas** dentro.
 
 > [!example] Paso 6: Cierra el vídeo, complétalo todo y entrega
 > 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada`, súbelo a la playlist `B0_Prerrequisitos` y **copia su enlace**.
 > 2. **Pega ese enlace en la entrada de esta fase**, en el apartado `Enlace al vídeo explicativo`. Y aprovecha para **repasar tus entradas anteriores**: la de la 0.1, la 0.2.1 y la 0.2.2 tienen que tener **su** enlace y **sus** respuestas. Donde hay vídeo, hay entrada — y donde hay entrada, hay enlace.
-> 3. **Sube los cambios** (ahora ya sabes):
+> 3. **Sube los cambios.** Como antes, con mensajes que digan algo:
 >    ```bash
 >    git add .
->    git commit -m "Enlaces de video y respuestas de las fases 0.1 a 0.3"
+>    git commit -m "Anadir enlaces de video y respuestas de las fases 0.1 a 0.3"
 >    git push
 >    ```
+>    Aquí sí vale un `git add .`: es **un solo cambio con sentido propio** (completar los enlaces y las respuestas), aunque toque varios ficheros.
 > 4. **Dame acceso al repo:** es **privado**, así que yo no lo veo. Te diré mi usuario para que me añadas en `Settings → Collaborators`. **Sin esto, tu repositorio para mí no existe.**
 > 5. **Ve a Teams → `Tareas`** y mira la tarea que cubre estas fases. Pega ahí **solo dos cosas**:
 >
