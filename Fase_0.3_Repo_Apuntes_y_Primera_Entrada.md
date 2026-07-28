@@ -110,8 +110,31 @@
 > > ```
 > > El `~` significa "mi carpeta de usuario". Y ojo: en Linux la carpeta se llama `Documentos`, pero en Windows es `Documents` **aunque el Explorador te la enseñe traducida como "Documentos"**. Comprueba con `pwd` igualmente.
 
-> [!example] Paso 4: Crea el repositorio en GitHub
-> En `github.com` → **`+` → New repository**: **name** `apuntes-sor-t1`, **Private**, **SIN** README/gitignore/license. En el botón **`Code`** copia tu dirección (**SSH** `git@github.com:...` o **HTTPS** `https://github.com/...`).
+> [!example] Paso 4: Crea el repositorio en GitHub y copia su dirección
+> 1. En `github.com`, arriba a la derecha: **`+` → `New repository`**.
+> 2. Rellena:
+>    - **Repository name:** `apuntes-sor-t1` (exacto, en minúsculas)
+>    - **Visibility:** **`Private`** — son tus apuntes, no tienen que verlos desconocidos.
+>    - **⚠️ NO marques nada** de `Add a README file`, `Add .gitignore` ni `Choose a license`. El repositorio tiene que nacer **completamente vacío**.
+> 3. Pulsa **`Create repository`**.
+> 4. **Copia la dirección.** Verás una pantalla titulada **`Quick setup — if you've done this kind of thing before`**, con una caja arriba y dos pestañas: **`HTTPS`** y **`SSH`**. Pulsa **`SSH`** (es lo que configuraste en la 0.2.2) y dale al **icono de copiar** 📋 que hay al final de la caja. Copiarás algo así:
+>    ```
+>    git@github.com:TU-USUARIO/apuntes-sor-t1.git
+>    ```
+>
+> > [!warning] ⚠️ Aquí NO hay botón verde `Code`. Es normal
+> > Si has visto tutoriales por internet, todos dicen *"pulsa el botón `Code`"*. **En tu pantalla no está**, y no es que lo hayas hecho mal: ese botón sirve para **descargar** un repositorio, y el tuyo está vacío — no hay nada que descargar. Aparecerá solo, después del Paso 5, cuando ya tenga tus apuntes dentro.
+> > Por eso el repositorio se crea **vacío**: porque tus ficheros ya existen en tu ordenador y los vas a **subir**. Si le hubieras marcado el `README`, GitHub crearía un commit por su cuenta y al hacer `push` chocarían las dos historias.
+>
+> > [!tip] 💡 En esa misma pantalla te regalan los comandos
+> > Debajo verás dos bloques de comandos. Fíjate bien en cuál es el tuyo:
+> >
+> > | Bloque | ¿Es el tuyo? |
+> > | :--- | :--- |
+> > | *…or create a new repository on the command line* | **NO.** Lleva `git init` y tú ya lo hiciste en el Paso 3 |
+> > | *…or push an existing repository from the command line* | **SÍ.** Es exactamente el Paso 5 |
+> >
+> > Cotéjalo con el Paso 5: son los mismos comandos. Compruébalo en voz alta en el vídeo, que es la mejor prueba de que entiendes lo que estás haciendo y no copias.
 
 > [!example] Paso 5: Conecta y sube
 > Dentro de `Trimestre_1`:

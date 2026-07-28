@@ -52,7 +52,11 @@
 > Inicia la grabación en **OBS**, preséntate, **enseña tu perfil de GitHub** 2-3 segundos y di qué vas a hacer.
 
 > [!example] Paso 2: Crea tu copia de la plantilla en GitHub
-> En `github.com/sor-iesjj/boochan-v1`, pulsa **`Use this template` → Create a new repository**: **Owner** tu usuario, **name** `boochan-1`, **Visibility** la que indique el profesor. **Create repository**. En **`Code`**, copia tu dirección (**SSH** `git@github.com:TU-USUARIO/boochan-1.git` o **HTTPS**).
+> En `github.com/sor-iesjj/boochan-v1`, pulsa **`Use this template` → Create a new repository**: **Owner** tu usuario, **name** `boochan-1`, **Visibility** la que indique el profesor. **Create repository**. Ahora sí: pulsa el botón verde **`Code`**, pestaña **`SSH`**, y copia tu dirección (`git@github.com:TU-USUARIO/boochan-1.git`).
+>
+> > [!tip] 💡 ¿Ves la diferencia con la Fase 0.3?
+> > En la 0.3 creaste un repositorio **vacío** y **no había botón `Code`**. Aquí sí lo hay. ¿Por qué? Porque este repo **ya tiene contenido**: lo has copiado de una plantilla que trae el manual y las fases dentro.
+> > El botón `Code` sirve para **bajarse** un repositorio. En la 0.3 no había nada que bajar (tú **subías**); aquí sí lo hay (tú **bajas**). Es la misma lógica al revés, y es exactamente la diferencia entre `push` y `clone`.
 
 > [!example] Paso 3: Clona tu copia dentro de `01_Practicas/`
 > Igual que en la Fase 0.3: **clic derecho sobre la carpeta `01_Practicas` de tu bóveda** → `Abrir Git Bash aquí` (Windows) / `Abrir en un terminal` (Linux). Comprueba dónde estás **antes de clonar**:
