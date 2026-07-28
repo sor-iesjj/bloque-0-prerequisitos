@@ -58,6 +58,20 @@
 > 2. **Léete el procedimiento** (pasos 1 a 4): este procedimiento tiene **4 pasos** grabados.
 > 3. **Ten OBS listo** y una pestaña con tu **Teams** o tu **correo `@alu.edu.gva.es`**.
 
+> [!danger] ⌨️ LÉEME: en la terminal, `Ctrl+C` y `Ctrl+V` NO funcionan
+> Esto le pasa a todo el mundo el primer día, así que te lo aviso antes de que te bloquees. En **Git Bash** (y en las terminales de Linux) el portapapeles **no va con `Ctrl+C` / `Ctrl+V`**.
+>
+> **¿Por qué?** Porque en una terminal esas teclas ya significaban otra cosa desde mucho antes de que Windows las usara para copiar y pegar: **`Ctrl+C` sirve para INTERRUMPIR el programa que se está ejecutando**. Si lo pulsas esperando copiar, lo que haces es cortar lo que estuviera corriendo. No es un fallo: es que ahí esa tecla tiene otro trabajo.
+>
+> | Quieres… | En Git Bash (Windows) | En la terminal de Linux |
+> | :--- | :--- | :--- |
+> | **Pegar** (meter texto en la terminal) | **`Shift + Insert`** ← la que nunca falla · o **clic derecho** | **`Ctrl + Shift + V`** · o clic derecho → Pegar |
+> | **Copiar** (sacar texto de la terminal) | **Selecciona con el ratón** y suelta: en Git Bash eso ya lo copia. Si no, `Ctrl + Insert` | **Selecciona** y `Ctrl + Shift + C` |
+>
+> **Regla para recordarlo:** en la terminal, las teclas de copiar y pegar llevan **`Shift`**. Así se distinguen de las de toda la vida, que ahí dentro significan otra cosa.
+>
+> Lo vas a necesitar ya: en la **Fase 0.2.2** tienes que **sacar** tu clave SSH de la terminal, y en la **Fase 0.3** tienes que **meter** la dirección de tu repositorio.
+
 > [!note] 📎 Nota de referencia: cómo se instala Git (y Obsidian) por tu cuenta
 > **En el centro no tienes que hacer nada de esto** — lo instala Consellería y tú no tienes permisos. Lo pongo aquí porque **en casa sí te va a tocar a ti** (Fase 0.5.1), porque en una entrevista de trabajo te lo pueden preguntar, y porque un técnico tiene que saber instalar sus propias herramientas. Léelo, no lo ejecutes en el aula.
 >

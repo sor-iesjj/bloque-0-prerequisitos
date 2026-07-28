@@ -113,6 +113,7 @@
 > [!bug] Troubleshooting
 > | Problema | Causa | Solución |
 > | :--- | :--- | :--- |
+> | No consigo copiar la clave: `Ctrl+C` no hace nada. | En la terminal `Ctrl+C` **interrumpe**, no copia. | **Selecciona la línea con el ratón** (en Git Bash eso ya la copia) o usa `Ctrl+Insert`. Ver la Fase 0.2.1. |
 > | `Permission denied (publickey)`. | La clave pública no se añadió bien o se pegó cortada. | Repite el Paso 3: copia la línea **entera** de `id_ed25519.pub`. |
 > | `Overwrite?` al generar la clave. | Ya había una clave en este equipo. | Escribe `n` y reutiliza la existente (salta al Paso 3 con `cat`). |
 > | "key is invalid" al pegar. | Copiaste líneas de más o falta `ssh-ed25519`. | Copia solo la línea que empieza por `ssh-ed25519` y acaba en tu correo. |

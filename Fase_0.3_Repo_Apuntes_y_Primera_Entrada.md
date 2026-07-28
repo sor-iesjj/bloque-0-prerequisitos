@@ -137,7 +137,7 @@
 > > Cotéjalo con el Paso 5: son los mismos comandos. Compruébalo en voz alta en el vídeo, que es la mejor prueba de que entiendes lo que estás haciendo y no copias.
 
 > [!example] Paso 5: Conecta y sube
-> Dentro de `Trimestre_1`:
+> Dentro de `Trimestre_1`. Sustituye la dirección por **la tuya**, la que copiaste en el Paso 4 — y recuerda: para pegar en la terminal es **`Shift + Insert`** o **clic derecho**, `Ctrl+V` ahí no vale (Fase 0.2.1):
 > ```bash
 > git remote add origin git@github.com:TU-USUARIO/apuntes-sor-t1.git
 > git add .
@@ -178,6 +178,8 @@
 > [!bug] Troubleshooting
 > | Problema | Causa | Solución |
 > | :--- | :--- | :--- |
+> | Copio la dirección y `Ctrl+V` no pega nada en la terminal. | En Git Bash `Ctrl+V` no es "pegar". | **`Shift + Insert`**, o **clic derecho**. Lo tienes explicado en la Fase 0.2.1. |
+> | Pego la dirección y sale cortada o con saltos de línea. | Copiaste texto de más de la caja de GitHub. | Usa el **icono de copiar** 📋 de GitHub, no selecciones a mano. |
 > | `fatal: not a git repository`. | No estás en `Trimestre_1` o no hiciste `git init`. | `pwd` para comprobar; haz `git init` ahí. |
 > | `remote origin already exists`. | Ejecutaste `git remote add` dos veces. | `git remote set-url origin git@github.com:...`. |
 > | `Updates were rejected`. | Creaste el repo con README (no vacío). | Recréalo vacío, o `git pull origin main --rebase` y `push`. |
