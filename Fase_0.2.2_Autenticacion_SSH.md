@@ -59,7 +59,7 @@
 
 > [!example] Paso 0: Prepárate (todavía SIN grabar)
 > 1. Abre la terminal (**Git Bash** en Windows / **Terminal** en Linux).
-> 2. **Léete el procedimiento** (pasos 1 a 5): este procedimiento tiene **5 pasos** grabados.
+> 2. **Léete el procedimiento** (pasos 1 a 6): este procedimiento tiene **6 pasos** grabados.
 > 3. **Ten OBS listo** y una pestaña con **tu perfil de GitHub** (para presentarte).
 
 > [!example] Paso 1: Arranca la grabación y preséntate
@@ -103,6 +103,7 @@
 > 01:30 Paso 3 — Añadir la clave pública a GitHub
 > 02:40 Paso 4 — Verificar la conexión
 > 03:30 Paso 5 — Alternativa HTTPS + token
+> 04:20 Paso 6 — Repaso final
 > ```
 
 ---

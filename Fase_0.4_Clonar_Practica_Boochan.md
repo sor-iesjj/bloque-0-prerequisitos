@@ -46,7 +46,7 @@
 ### 🛠️ Procedimiento Práctico
 
 > [!example] Paso 0: Prepárate (todavía SIN grabar)
-> Comprueba tu bóveda y tu autenticación. **Léete el procedimiento** (tiene **5 pasos** grabados). Ten **OBS** listo y tu **perfil de GitHub** en una pestaña.
+> Comprueba tu bóveda y tu autenticación. **Léete el procedimiento** (tiene **6 pasos** grabados). Ten **OBS** listo y tu **perfil de GitHub** en una pestaña.
 
 > [!example] Paso 1: Arranca la grabación y preséntate
 > Inicia la grabación en **OBS**, preséntate, **enseña tu perfil de GitHub** 2-3 segundos y di qué vas a hacer.

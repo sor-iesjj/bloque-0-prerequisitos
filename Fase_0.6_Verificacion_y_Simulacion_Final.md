@@ -47,7 +47,7 @@
 ### 🛠️ Procedimiento Práctico (la simulación)
 
 > [!example] Paso 0: Prepárate (sin grabar) y arranca OBS
-> Repasa el flujo. Abre **OBS**, comprueba pantalla y **micrófono** (vas a hablar) y empieza a grabar.
+> Repasa el flujo y **léete el procedimiento entero** (tiene **5 pasos** grabados). Abre **OBS**, comprueba pantalla y **micrófono** (vas a hablar) y empieza a grabar.
 
 > [!example] Paso 1: Preséntate
 > *"Soy [Nombre], 2.º SMR, simulación final de la Fase 0."* Enseña tu **perfil de GitHub** 2-3 segundos.
