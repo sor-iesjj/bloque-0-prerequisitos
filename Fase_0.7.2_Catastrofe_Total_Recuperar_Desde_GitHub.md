@@ -124,6 +124,8 @@
 > | `Your branch is ahead by N commits` | **Tienes N commits solo aquí** | 🛑 `git push` **ahora**, y repite el `status` |
 > | `Changes not staged` / `Untracked files` | Hay trabajo sin guardar | 🛑 `git add .` → `git commit` → `git push`, y repite |
 >
+> **Léete además el procedimiento entero** antes de grabar: tiene **6 pasos** grabados.
+>
 > **Última comprobación, y esta con los ojos:** abre `github.com`, entra en tus dos repositorios y **mira que tus ficheros están ahí**. No te fíes solo del terminal. Si algo no aparece en la web, **no existe** para lo que viene ahora.
 
 > [!example] Paso 1: Arranca la grabación y preséntate

@@ -27,6 +27,9 @@ Sigue las sub-fases **en orden**. Cada una es una práctica guiada, muy detallad
 | &nbsp;&nbsp;↳ [Fase 0.5.1 — Montar el entorno en casa](Fase_0.5.1_Montar_Entorno_Casa.md) | Instala en casa y clona sus repos |
 | &nbsp;&nbsp;↳ [Fase 0.5.2 — Sincronizar casa ↔ centro](Fase_0.5.2_Sincronizar_Casa_Centro.md) | Ciclo `pull → push`; regla anti-OneDrive |
 | [Fase 0.6 — Verificación y simulación](Fase_0.6_Verificacion_y_Simulacion_Final.md) | Simulación completa grabada + verificación global |
+| [Fase 0.7 — Cuando todo se rompe (índice)](Fase_0.7_Cuando_Todo_Se_Rompe.md) | Dos catástrofes provocadas, en 2 partes ↓ |
+| &nbsp;&nbsp;↳ [Fase 0.7.1 — He perdido lo que escribí](Fase_0.7.1_Catastrofe_Local_Recuperar_Con_Git.md) | Pierde el contenido y lo recupera **solo con Git**, sin Internet |
+| &nbsp;&nbsp;↳ [Fase 0.7.2 — Se ha llevado el disco por delante](Fase_0.7.2_Catastrofe_Total_Recuperar_Desde_GitHub.md) | Borra la bóveda entera y la reconstruye **clonando** desde GitHub |
 
 > 📹 Cada fase se **graba con OBS** (de principio a fin, con presentación e identidad) y se **sube a YouTube** (playlist `B0_Prerrequisitos`, No listado, con timestamps). Regla central: **donde hay vídeo, hay entrada** — cada fase tiene su nota de apuntes, con el **enlace de ese vídeo** y las **respuestas** a sus preguntas dentro. En la **tarea de Teams** se entregan solo los enlaces de **repositorio** y de la **playlist**; las entregas se **agrupan** por varias fases, no van una a una.
 

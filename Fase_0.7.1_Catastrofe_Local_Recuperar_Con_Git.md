@@ -102,7 +102,7 @@
 > - **Si NO lo dice:** tienes cambios sin guardar y **los vas a perder de verdad**. Haz `git add .` y `git commit -m "..."` **antes** de continuar. No sigas hasta que el `status` esté limpio.
 
 > [!example] Paso 0: Prepárate (todavía SIN grabar)
-> 1. **Léete el procedimiento entero** (tiene **5 pasos** grabados).
+> 1. **Léete el procedimiento entero** (tiene **6 pasos** grabados).
 > 2. Comprueba el `git status` limpio del aviso de arriba.
 > 3. Ten **OBS** listo y tu **perfil de GitHub** en una pestaña.
 
