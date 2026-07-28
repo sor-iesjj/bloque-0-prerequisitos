@@ -309,7 +309,7 @@ Al terminar esta fase serás capaz de:
 > > Tú, hoy: **graba, sube el vídeo a la playlist y pega su enlace en tu entrada.** Nada más.
 >
 > > [!success] ✅ La Fase 0.1 está completa cuando…
-> > Tienes la bóveda `Boveda_SOR` con su estructura exacta, **tu primera entrada escrita** dentro de `B0_Prerrequisitos/`, y el vídeo subido a tu playlist `B0_Prerrequisitos` (con presentación al principio y timestamps en la descripción), **con su enlace guardado** para la Entrega 1.
+> > Tienes la bóveda `Boveda_SOR` con su estructura exacta, **tu primera entrada escrita** dentro de `B0_Prerrequisitos/`, y el vídeo subido a tu playlist `B0_Prerrequisitos` (con presentación al principio y timestamps en la descripción), **y su enlace pegado dentro de esa entrada**, junto con las respuestas a las Preguntas Críticas.
 
 ---
 
