@@ -26,7 +26,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > - **Timestamps SIEMPRE** en la descripción: `00:00 Presentación` + uno por cada paso.
 > - **Nombre del vídeo** = nombre de la fase. **Se sube a YouTube** (playlist `B0_Prerrequisitos`, como "No listado").
 > - **Duración ~5 min.** Si una fase se pasa con creces, se **parte en dos** (como 0.2 y 0.5).
-> - **Cada fase se graba una vez**, en su sitio: 🏫 **centro** (0.1, 0.2.1, 0.2.2, 0.3, 0.4, 0.6) · 🏠 **casa** (0.5.1, 0.5.2). En prerequisitos no se graba dos veces lo mismo: el "en casa" de las 0.1–0.4 **es** la Fase 0.5.1.
+> - **Cada fase se graba una vez**, en su sitio: 🏫 **centro** (0.1, 0.2.1, 0.2.2, 0.3, 0.4, 0.6, 0.7.1, 0.7.2) · 🏠 **casa** (0.5.1, 0.5.2). En prerequisitos no se graba dos veces lo mismo: el "en casa" de las 0.1–0.4 **es** la Fase 0.5.1.
 > - **Al subir cada vídeo, el alumno guarda su enlace.** Lo necesitará para la entrega.
 
 > [!important] 📤 Cómo se ENTREGA (tres sitios, tres trabajos distintos)
@@ -85,7 +85,10 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 | **0.5** | [[Fase_0.5_Casa_y_Centro_Sincronizacion]] | *(índice)* Casa ↔ centro, en 2 partes ↓ |
 | ↳ **0.5.1** | [[Fase_0.5.1_Montar_Entorno_Casa]] | Monta el entorno en casa y clona sus repos. |
 | ↳ **0.5.2** | [[Fase_0.5.2_Sincronizar_Casa_Centro]] | Ciclo `pull → push`; regla anti-OneDrive. |
-| **0.6** | [[Fase_0.6_Verificacion_y_Simulacion_Final]] | Simulación completa grabada; verificación global + **entrega de cierre** en Teams. |
+| **0.6** | [[Fase_0.6_Verificacion_y_Simulacion_Final]] | Simulación completa grabada; verificación global. |
+| **0.7** | [[Fase_0.7_Cuando_Todo_Se_Rompe]] | *(índice)* Romper el trabajo a propósito y recuperarlo, en 2 partes ↓ |
+| ↳ **0.7.1** | [[Fase_0.7.1_Catastrofe_Local_Recuperar_Con_Git]] | Pierde el contenido de sus apuntes y lo recupera **solo con Git**, sin Internet. |
+| ↳ **0.7.2** | [[Fase_0.7.2_Catastrofe_Total_Recuperar_Desde_GitHub]] | Borra la bóveda entera (apuntes **y** práctica) y la reconstruye **clonando**. |
 
 ---
 

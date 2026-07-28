@@ -177,7 +177,7 @@
 > > | | `a1b2c3d Fase 0.1: metodologia y estructura` |
 > >
 > > A la derecha, **el historial es un índice de lo que has hecho**. A la izquierda no es nada.
-> > Y hay algo más importante que la estética: cada commit es un **punto de restauración**. Si mañana rompes la entrada de la 0.2.2, puedes volver a como estaba **esa sola**, sin tocar las demás. Con un commit gordo, o vuelves entero o no vuelves. Lo vas a comprobar tú mismo en la **Fase 0.3.1**.
+> > Y hay algo más importante que la estética: cada commit es un **punto de restauración**. Si mañana rompes la entrada de la 0.2.2, puedes volver a como estaba **esa sola**, sin tocar las demás. Con un commit gordo, o vuelves entero o no vuelves. Lo vas a comprobar tú mismo en la **Fase 0.7.1**, rompiendo tus apuntes a propósito.
 > >
 > > **Regla para todo el curso: un commit = un cambio con sentido propio.** Ni un commit por cada letra, ni uno cada tres semanas con todo dentro.
 > Recarga GitHub: debe verse `B0_Prerrequisitos/` con **tus dos entradas** dentro.

@@ -18,7 +18,7 @@
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `Fase 0.6 — Simulación final` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5-7 min.** Se graba en **🏫 el centro** (o donde indique el profesor).
-> 7. **Al terminar esta fase toca revisar Teams**: ahí tendrás la tarea que cubre estas últimas fases.
+> 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación.
 
 ---
 
@@ -108,6 +108,7 @@
 - [ ] **0.4:** práctica `boochan-1` clonada y con un cambio subido.
 - [ ] **0.5.1 / 0.5.2:** entorno replicado en casa + ciclo `pull → push` demostrado.
 - [ ] **0.6:** simulación final grabada.
+- [ ] **0.7.1 / 0.7.2:** las dos catástrofes provocadas y recuperadas (local con `git restore`, total clonando).
 - [ ] **Vídeos:** TODAS las fases (0.1 a 0.6) subidas a la playlist `B0_Prerrequisitos`, con presentación y timestamps. Grabadas en su sitio: 🏫 centro (0.1–0.4, 0.6) · 🏠 casa (0.5.1, 0.5.2).
 - [ ] **Una entrada por fase** (0.1, 0.2.1, 0.2.2, 0.3, 0.4, 0.5.1, 0.5.2, 0.6), cada una con **su enlace de vídeo** y **sus respuestas**.
 - [ ] **Todas las tareas de Teams** del bloque entregadas, con `Entregar` pulsado.
@@ -129,4 +130,4 @@
 
 ---
 
-> **Siguiente paso:** empieza el proyecto **Boochan** (Fase 1). Antes, el profesor pasará la **prueba diagnóstica de redes** (ver `Prueba_Diagnostica_Inicial_SOR`).
+> **Siguiente paso:** Fase 0.7 — **Cuando todo se rompe**: vamos a destruir tu trabajo a propósito, dos veces, y a recuperarlo. Es lo último de los prerrequisitos.
