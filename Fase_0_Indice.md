@@ -40,7 +40,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init aquí.
 ├── 00_Apuntes/
 │   ├── Trimestre_1/             ← REPO propio (apuntes-sor-t1) → GitHub → enlace al profe
-│   │   └── Tema_1_Introduccion/
+│   │   └── Bloque_0_Prerrequisitos/
 │   │       └── 2026-09-15_introduccion-al-modulo.md   ← una entrada por día
 │   ├── Trimestre_2/             ← REPO propio (apuntes-sor-t2)
 │   └── Trimestre_3/             ← REPO propio (apuntes-sor-t3)

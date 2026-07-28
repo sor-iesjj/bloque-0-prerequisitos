@@ -53,13 +53,17 @@
 > - `AAAA-MM-DD` con guiones (ej. `2026-09-15`) · `_` · `titulo-corto` en minúsculas con guiones, sin tildes ni espacios.
 >
 > **Correcto:** `2026-09-15_introduccion-al-modulo.md` · **Incorrecto:** `apuntes dia 1.md` ❌, `15-9.md` ❌.
+>
+> La **carpeta ya te dice el bloque**, así que en el título no lo repitas: pon **de qué va** la clase de ese día. Si los apuntes son de una fase o práctica concreta, nómbrala — te ahorra buscar en junio:
+> `2026-09-16_fase-0.2-github-y-ssh.md` · `2026-10-05_b1.5-usb-booteable-con-rufus.md`
 
 > [!important] 2. La entrada del día: ESTRUCTURA obligatoria
 > ```markdown
 > # 2026-09-15 — Introducción al módulo
 >
 > **Fecha:** 2026-09-15
-> **Tema:** Tema 1 — Introducción
+> **Bloque:** Bloque 0 — Prerrequisitos
+> **Fase / práctica:** Fase 0.1 — Metodología y estructura   *(o "clase de teoría", si ese día no tocaba práctica)*
 >
 > ## Qué hemos visto hoy
 > - (con tus palabras)
@@ -92,7 +96,7 @@
 > Inicia la grabación en **OBS**, preséntate, **enseña tu perfil de GitHub** 2-3 segundos y di qué vas a hacer.
 
 > [!example] Paso 2: Escribe tu primera entrada en Obsidian
-> En `00_Apuntes/Trimestre_1/Tema_1_Introduccion/`, clic derecho → **New note**, nómbrala `2026-09-15_introduccion-al-modulo` y pega la **plantilla** (apartado 2), rellenándola con lo de hoy. Guarda.
+> En `00_Apuntes/Trimestre_1/Bloque_0_Prerrequisitos/`, clic derecho → **New note**, nómbrala `2026-09-15_introduccion-al-modulo` y pega la **plantilla** (apartado 2), rellenándola con lo de hoy. Guarda.
 
 > [!example] Paso 3: Convierte `Trimestre_1` en repositorio
 > **Primero hay que meter la terminal DENTRO de `Trimestre_1`.** No teclees la ruta: la carpeta de cada uno está en un sitio distinto (lo viste en la Fase 0.1). Haz esto, que es lo que hacemos los técnicos:
@@ -137,7 +141,7 @@
 > git commit -m "Primera entrada: introduccion al modulo"
 > git push -u origin main
 > ```
-> Recarga GitHub: debe verse `Tema_1_Introduccion/` con tu entrada.
+> Recarga GitHub: debe verse `Bloque_0_Prerrequisitos/` con tu entrada.
 
 > [!example] Paso 6: Cierra el vídeo, nómbralo, súbelo y pásame el enlace
 > 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada` y súbelo a la playlist `B0_Prerrequisitos` con **timestamps** (`00:00 Presentación`, y uno por paso).
@@ -167,7 +171,7 @@
 
 ### ✅ Checklist Final de la Fase 0.3
 
-- [ ] Primera entrada en `Tema_1_Introduccion/` con nombre y estructura correctos.
+- [ ] Primera entrada en `Bloque_0_Prerrequisitos/` con nombre y estructura correctos.
 - [ ] `Trimestre_1` convertido en repositorio; repo `apuntes-sor-t1` en GitHub.
 - [ ] `commit` + `push` hechos; la entrada se ve en GitHub.
 - [ ] Enlace enviado (y acceso concedido si es privado).

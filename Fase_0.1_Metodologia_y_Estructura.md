@@ -75,16 +75,21 @@ Al terminar esta fase serás capaz de:
 > [!note] 3. La metodología: una entrada por día
 > Tus apuntes se organizan así, de lo más grande a lo más pequeño:
 >
-> **Trimestre → Tema → Entrada del día**
+> **Trimestre → Bloque → Entrada del día**
 >
 > - **Trimestre:** primero, segundo o tercero. Cada uno en su carpeta.
-> - **Tema:** un asunto grande dentro del trimestre. El **Tema 1 es "Introducción"** (esto que estamos haciendo ahora).
+> - **Bloque:** cada parte grande del curso. Son **los míos, los que yo numero**: el **Bloque 0 son los Prerrequisitos** (esto que estamos haciendo ahora), el **Bloque 1 es el Entorno**, y así. Tus carpetas se llaman **igual que mis bloques**, a propósito.
 > - **Entrada del día:** **cada día de clase creas un fichero nuevo** con lo que hayas anotado ese día. No escribes todo en un único fichero gigante: un fichero por día.
 >
 > Las normas exactas de cómo nombrar y rellenar cada entrada las veremos en la **Fase 0.3**. Aquí solo dejamos preparadas las carpetas.
 
-> [!warning] ⚠️ "Tema" (tus apuntes) ≠ "Bloque" (el curso)
-> Ojo con esto, que si no en noviembre nos liamos: **el curso** está dividido en **Bloques** (Bloque 1 — Entorno, Bloque 6 — Contenedores…), que son míos y los nombro yo. **Tus apuntes** se dividen en **Temas**, que numeras tú. Son dos cosas distintas y **no tienen por qué coincidir**: cuando yo diga *"esto es del Bloque 1"*, me refiero al material del curso, no a tu carpeta.
+> [!tip] 💡 Tus carpetas se llaman igual que mis bloques. No es casualidad
+> Cuando yo diga en clase *"esto es del Bloque 1"*, tú ya sabes **exactamente** en qué carpeta va: `Bloque_1_Entorno`. No hay que traducir nada. Por eso **no te inventes tus propios nombres ni tu propia numeración**: si cada uno organiza sus apuntes a su manera, ni tú encuentras nada en junio ni yo puedo corregir a veinte personas.
+>
+> Los bloques del curso son estos, y los iremos abriendo según lleguemos:
+> `Bloque_0_Prerrequisitos` · `Bloque_1_Entorno` · `Bloque_2_Ubuntu_Local` · `Bloque_3_Windows_Local` · `Bloque_4_Ubuntu_Nube` · `Bloque_5_Windows_Nube` · `Bloque_6_Contenedores`
+>
+> **Hoy solo creas el primero.** Los demás los irás creando cuando toquen — no adelantes carpetas vacías.
 
 > [!warning] 4. Por qué se graba TODO (y desde el principio)
 > Regla de oro del curso: **una práctica que no se graba, no cuenta.** Y se graba **de principio a fin**, no un repaso al final:
@@ -100,7 +105,7 @@ Al terminar esta fase serás capaz de:
 > - **Markdown (`.md`):** formato de texto simple para escribir notas con títulos, listas, etc.
 > - **Apuntes:** lo que escribes tú (carpeta `00_Apuntes/`). Se corrige.
 > - **Práctica:** el material Boochan que te doy y sobre el que trabajas (carpeta `01_Practicas/`).
-> - **Tema:** un asunto grande dentro de un trimestre, en **tus apuntes**. El Tema 1 es "Introducción". No lo confundas con los **Bloques del curso**, que los numero yo.
+> - **Bloque:** cada parte grande del curso, numerada por mí (Bloque 0 — Prerrequisitos, Bloque 1 — Entorno…). Tus carpetas de apuntes se llaman igual.
 > - **Entrada:** el fichero de notas de **un día concreto** de clase.
 > - **OBS:** programa para **grabar la pantalla** mientras haces la práctica.
 > - **Playlist:** una lista de reproducción de YouTube donde agrupas tus vídeos. La de este bloque: `B0_Prerrequisitos`.
@@ -179,14 +184,14 @@ Al terminar esta fase serás capaz de:
 > Boveda_SOR/
 > ├── 00_Apuntes/
 > │   ├── Trimestre_1/
-> │   │   └── Tema_1_Introduccion/
+> │   │   └── Bloque_0_Prerrequisitos/
 > │   ├── Trimestre_2/
 > │   └── Trimestre_3/
 > └── 01_Practicas/
 > ```
-> **Cómo:** clic derecho en el panel izquierdo → **`New folder`** → escribe el nombre **tal cual**. Para crear una carpeta **dentro** de otra, clic derecho **sobre la carpeta padre**. Créalas en este orden: `00_Apuntes` → dentro `Trimestre_1/2/3` → dentro de `Trimestre_1` la `Tema_1_Introduccion` → y `01_Practicas` en la raíz.
+> **Cómo:** clic derecho en el panel izquierdo → **`New folder`** → escribe el nombre **tal cual**. Para crear una carpeta **dentro** de otra, clic derecho **sobre la carpeta padre**. Créalas en este orden: `00_Apuntes` → dentro `Trimestre_1/2/3` → dentro de `Trimestre_1` la `Bloque_0_Prerrequisitos` → y `01_Practicas` en la raíz.
 >
-> Al terminar, **recorre la estructura con el ratón** y compruébala en voz alta: *"Aquí están mis apuntes por trimestres, aquí el tema de introducción, y aquí la carpeta de prácticas."*
+> Al terminar, **recorre la estructura con el ratón** y compruébala en voz alta: *"Aquí están mis apuntes por trimestres, aquí el bloque 0 de prerrequisitos, y aquí la carpeta de prácticas."*
 >
 > > [!warning] ⚠️ El nombre importa
 > > No pongas `Apuntes` en vez de `00_Apuntes`, ni `Trimestre 1` con espacio, ni `Bloque1`. Si cada uno lo escribe a su manera, es imposible corregir a 20 personas. **Cópialo carácter a carácter.**
@@ -245,7 +250,7 @@ Al terminar esta fase serás capaz de:
 - [ ] Obsidian y OBS comprobados en el equipo (instalados por Consellería).
 - [ ] Carpeta `Documentos` comprobada (¿nube o local?) y bóveda `Boveda_SOR` creada en una ruta **local** (no en OneDrive).
 - [ ] **Tu ruta apuntada** en un papel o una nota.
-- [ ] Estructura de carpetas exacta: `00_Apuntes/` (con `Trimestre_1/2/3` y `Tema_1_Introduccion` en T1) + `01_Practicas/`.
+- [ ] Estructura de carpetas exacta: `00_Apuntes/` (con `Trimestre_1/2/3` y `Bloque_0_Prerrequisitos` en T1) + `01_Practicas/`.
 - [ ] Vídeo grabado **de principio a fin**, con presentación e identidad al inicio.
 - [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `B0_Prerrequisitos`.
 - [ ] Timestamps en la descripción (uno por paso).
