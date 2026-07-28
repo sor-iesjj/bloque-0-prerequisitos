@@ -17,7 +17,9 @@
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `Fase 0.5.2 — Sincronizar casa y centro` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
-> 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏠 casa**.
+> 6. **~5 min.** Se graba en **🏠 casa**.
+> 7. **La entrega va por la TAREA de Teams.** Esta fase forma parte de la **Entrega 2 (fases 0.4 → 0.6)**, que se hace al terminar la 0.6.
+> 8. **Guarda el enlace del vídeo** en cuanto lo subas: lo necesitarás para pegarlo en la tarea.
 
 ---
 
@@ -108,6 +110,7 @@
 - [ ] Sincronización confirmada (o explicada) entre casa y centro.
 - [ ] Sabes explicar por qué la bóveda no va en OneDrive.
 - [ ] Vídeo `Fase 0.5.2 — Sincronizar casa y centro` subido a la playlist, con timestamps.
-- [ ] Una sola entrega, hecha **🏠 en casa**.
+- [ ] **Enlace del vídeo guardado** para la Entrega 2 (no se entrega hoy).
+- [ ] Grabada **🏠 en casa**.
 
 > **Siguiente paso:** Fase 0.6 — Verificación final y simulación completa.

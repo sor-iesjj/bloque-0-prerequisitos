@@ -17,7 +17,8 @@
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
-> 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏫 el centro**.
+> 6. **~5 min.** Se graba en **🏫 el centro**.
+> 7. **Al terminar esta fase se hace la ENTREGA 1** en Teams (cubre las fases 0.1, 0.2.1, 0.2.2 y 0.3).
 
 ---
 
@@ -45,39 +46,14 @@
 > [!info] ¿Por qué un repositorio por trimestre?
 > Al cerrar cada trimestre, ese repo queda "congelado" y **te lo califico** limpio; es un enlace claro que me pasas una vez; y si algo se lía en uno, no afecta a los demás. Tendrás **tres**: `apuntes-sor-t1`, `apuntes-sor-t2`, `apuntes-sor-t3`. Montamos el primero.
 
-> [!important] 1. La entrada del día: NOMBRE obligatorio
-> Cada día de clase, **un fichero nuevo** en el bloque que toque, con este nombre exacto:
-> ```
-> AAAA-MM-DD_titulo-corto.md
-> ```
-> - `AAAA-MM-DD` con guiones (ej. `2026-09-15`) · `_` · `titulo-corto` en minúsculas con guiones, sin tildes ni espacios.
+> [!important] 1. Recordatorio: cómo se llama y cómo se escribe una entrada
+> Esto ya lo viste en la **Fase 0.1** y hoy lo repites, porque hoy toca **la entrada de HOY**. Por si no lo tienes a mano:
 >
-> **Correcto:** `2026-09-15_introduccion-al-modulo.md` · **Incorrecto:** `apuntes dia 1.md` ❌, `15-9.md` ❌.
+> - **Nombre:** `MMDDAA_titulo-corto.md` — mes, día y año en dos dígitos, guion bajo, y un título corto en minúsculas sin tildes ni espacios. Ejemplo para el 16 de septiembre de 2026: `091626_fase-0.3-repo-de-apuntes.md`
+> - **Estructura:** cabecera (`Fecha`, `Bloque`, `Fase / práctica`) + los cuatro apartados: *Qué hemos visto hoy*, *Conceptos clave*, *Comandos / pasos importantes*, *Dudas / a repasar en casa*.
 >
-> La **carpeta ya te dice el bloque**, así que en el título no lo repitas: pon **de qué va** la clase de ese día. Si los apuntes son de una fase o práctica concreta, nómbrala — te ahorra buscar en junio:
-> `2026-09-16_fase-0.2-github-y-ssh.md` · `2026-10-05_b1.5-usb-booteable-con-rufus.md`
-
-> [!important] 2. La entrada del día: ESTRUCTURA obligatoria
-> ```markdown
-> # 2026-09-15 — Introducción al módulo
->
-> **Fecha:** 2026-09-15
-> **Bloque:** Bloque 0 — Prerrequisitos
-> **Fase / práctica:** Fase 0.1 — Metodología y estructura   *(o "clase de teoría", si ese día no tocaba práctica)*
->
-> ## Qué hemos visto hoy
-> - (con tus palabras)
->
-> ## Conceptos clave
-> - **Término:** definición corta.
->
-> ## Comandos / pasos importantes
-> - `comando` — para qué sirve.
->
-> ## Dudas / a repasar en casa
-> - (lo que no te ha quedado claro)
-> ```
-> > [!tip] 💡 Escribe con tus palabras. El apartado "Dudas" me dice en qué reforzar.
+> > [!tip] 💡 Hoy SÍ hay comandos que anotar
+> > En la 0.1 el apartado de comandos lo dejaste vacío. Hoy no: `git init`, `git add`, `git commit`, `git push`. Anótalos **con lo que hace cada uno**, que es justo lo que se te va a olvidar en dos semanas.
 
 ### 📖 Diccionario de Conceptos Clave
 
@@ -95,8 +71,12 @@
 > [!example] Paso 1: Arranca la grabación y preséntate
 > Inicia la grabación en **OBS**, preséntate, **enseña tu perfil de GitHub** 2-3 segundos y di qué vas a hacer.
 
-> [!example] Paso 2: Escribe tu primera entrada en Obsidian
-> En `00_Apuntes/Trimestre_1/B0_Prerrequisitos/`, clic derecho → **New note**, nómbrala `2026-09-15_introduccion-al-modulo` y pega la **plantilla** (apartado 2), rellenándola con lo de hoy. Guarda.
+> [!example] Paso 2: Escribe la entrada de HOY en Obsidian
+> En `00_Apuntes/Trimestre_1/B0_Prerrequisitos/` ya tienes **la entrada que escribiste en la Fase 0.1**. No la toques: hoy es otro día, así que va **otro fichero**.
+>
+> Clic derecho sobre `B0_Prerrequisitos` → **`New note`**, nómbrala con **la fecha de hoy** (`MMDDAA_titulo-corto`) y rellena la estructura con lo de esta sesión. Guarda.
+>
+> Al terminar debes tener **dos** ficheros en esa carpeta. Enséñalo en el vídeo: eso es "una entrada por día" funcionando.
 
 > [!example] Paso 3: Convierte `Trimestre_1` en repositorio
 > **Primero hay que meter la terminal DENTRO de `Trimestre_1`.** No teclees la ruta: la carpeta de cada uno está en un sitio distinto (lo viste en la Fase 0.1). Haz esto, que es lo que hacemos los técnicos:
@@ -141,11 +121,29 @@
 > git commit -m "Primera entrada: introduccion al modulo"
 > git push -u origin main
 > ```
-> Recarga GitHub: debe verse `B0_Prerrequisitos/` con tu entrada.
+> Recarga GitHub: debe verse `B0_Prerrequisitos/` con **tus dos entradas** dentro.
 
-> [!example] Paso 6: Cierra el vídeo, nómbralo, súbelo y pásame el enlace
-> 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada` y súbelo a la playlist `B0_Prerrequisitos` con **timestamps** (`00:00 Presentación`, y uno por paso).
-> 2. **Pásame por Teams el enlace** de tu repo (`https://github.com/TU-USUARIO/apuntes-sor-t1`). Al ser privado, te diré mi usuario para que me añadas en `Settings → Collaborators`.
+> [!example] Paso 6: Cierra el vídeo y **haz la ENTREGA 1**
+> 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps**, y **copia su enlace**.
+> 2. **Da acceso al repo:** al ser **privado**, yo no lo veo. Te diré mi usuario para que me añadas en `Settings → Collaborators`. **Sin esto, tu repo para mí no existe.**
+> 3. **Ve a Teams → Tareas → `Entrega 1 — Mi entorno de trabajo`** y pega ahí:
+>
+> | Qué | De dónde sale |
+> | :--- | :--- |
+> | Enlace del vídeo de la **0.1** | El que guardaste en la Fase 0.1 |
+> | Enlace del vídeo de la **0.2.1** | El que guardaste en la Fase 0.2.1 |
+> | Enlace del vídeo de la **0.2.2** | El que guardaste en la Fase 0.2.2 |
+> | Enlace del vídeo de la **0.3** | El de hoy |
+> | Enlace de tu **repositorio** | `https://github.com/TU-USUARIO/apuntes-sor-t1` |
+> | Enlace de tu **playlist** | `B0_Prerrequisitos` (esto solo la primera vez) |
+>
+> 4. **Dale a `Entregar`.** Hasta que no pulses ese botón, para Teams no has entregado — aunque tengas todo pegado.
+>
+> > [!danger] ⚠️ Por qué te pido los vídeos uno a uno y no solo la playlist
+> > Porque el enlace de una playlist **no demuestra nada**: puede estar vacía el día del plazo y llenarse el martes siguiente. El enlace de un vídeo concreto sí demuestra que ese vídeo existía cuando entregaste. Los vídeos van **igualmente** dentro de la playlist: eso no es negociable, es como está organizado el curso.
+>
+> > [!tip] 💡 Tienes varios días
+> > La tarea se abre con **fecha límite de varios días**, no del mismo día. Te llegará **notificación** de Teams al darla de alta. Si algo no te ha salido, dímelo **antes** del plazo, no después.
 
 > [!note] 📌 A partir de ahora, cada día de clase
 > Creas la **entrada del día** (nombre + estructura) y, dentro de `Trimestre_1`: `git add .` → `git commit -m "Apuntes del ..."` → `git push`. Así el repo está siempre al día.
@@ -176,6 +174,7 @@
 - [ ] `commit` + `push` hechos; la entrada se ve en GitHub.
 - [ ] Enlace enviado (y acceso concedido si es privado).
 - [ ] Vídeo `Fase 0.3 — Repo de apuntes y primera entrada` subido a la playlist, con timestamps.
-- [ ] Una sola entrega, hecha **🏫 en el centro**.
+- [ ] **Entrega 1 hecha en Teams**: 4 enlaces de vídeo + enlace del repo + playlist, y pulsado `Entregar`.
+- [ ] Grabada **🏫 en el centro**.
 
 > **Siguiente paso:** Fase 0.4 — Clonar tu copia de la práctica **`boochan-1`** y dominar el ciclo `status → commit → push`.

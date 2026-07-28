@@ -21,8 +21,9 @@
 > 2. **Arranca OBS y, nada más empezar, PRESÉNTATE:** *"Hola y bienvenidos. Me llamo [Nombre], soy alumno de 2.º SMR, y en este vídeo voy a explicar la Fase 0.1 — Metodología y estructura de la bóveda."* Y **muestra en pantalla algo que demuestre que eres tú** (tu **Teams** o tu **correo `@alu.edu.gva.es`** con tu nombre; cuando tengas GitHub, tu perfil). Di **qué vas a hacer**.
 > 3. **Graba TODO el procedimiento**, explicando cada paso en voz alta mientras lo haces.
 > 4. **Timestamps SIEMPRE** en la descripción del vídeo: `00:00 Presentación` y **uno por cada paso** (formato `mm:ss`).
-> 5. **Al terminar:** nombra el vídeo `Fase 0.1 — Metodología y estructura` y **súbelo a tu playlist de YouTube `B0_Prerrequisitos`** (No listado).
-> 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏫 el centro** (el equipo de casa se monta entero en la Fase 0.5.1, no aquí).
+> 5. **Al terminar:** nombra el vídeo `Fase 0.1 — Metodología y estructura`, **súbelo a tu playlist de YouTube `B0_Prerrequisitos`** (No listado) y **guarda su enlace**.
+> 6. **~5 min.** Se graba en **🏫 el centro** (el equipo de casa se monta entero en la Fase 0.5.1, no aquí).
+> 7. **La entrega va por la TAREA de Teams**, no por la playlist. Esta fase forma parte de la **Entrega 1 (fases 0.1 → 0.3)**.
 
 ---
 
@@ -32,10 +33,12 @@ Al terminar esta fase serás capaz de:
 
 - [ ] Explicar con tus palabras qué es una **bóveda** de Obsidian y para qué la usamos.
 - [ ] Explicar la diferencia entre **tus apuntes** y las **prácticas** (Boochan), y por qué viven en carpetas separadas.
-- [ ] Tener tu **canal de YouTube** con la playlist `B0_Prerrequisitos` lista, y **haberme pasado su enlace** para que pueda corregirte.
+- [ ] Tener tu **canal de YouTube** con la playlist `B0_Prerrequisitos` lista.
 - [ ] Comprobar si tu carpeta `Documentos` está en OneDrive, y crear tu bóveda `Boveda_SOR` en la ruta correcta (sabiendo **por qué** no puede vivir en OneDrive).
 - [ ] Crear la **estructura de carpetas** exacta que usaremos todo el curso, respetándola al detalle.
+- [ ] Escribir tu **primera entrada de apuntes** con el nombre y la estructura obligatorios.
 - [ ] **Grabar la práctica entera con OBS**, presentándote, y subirla a tu playlist.
+- [ ] Distinguir **subir a la playlist** (organizar) de **entregar en la tarea de Teams** (evaluar).
 
 ---
 
@@ -81,7 +84,7 @@ Al terminar esta fase serás capaz de:
 > - **Bloque:** cada parte grande del curso. Son **los míos, los que yo numero**: el **Bloque 0 son los Prerrequisitos** (esto que estamos haciendo ahora), el **Bloque 1 es el Entorno**, y así. Tus carpetas se llaman **igual que mis bloques**, a propósito.
 > - **Entrada del día:** **cada día de clase creas un fichero nuevo** con lo que hayas anotado ese día. No escribes todo en un único fichero gigante: un fichero por día.
 >
-> Las normas exactas de cómo nombrar y rellenar cada entrada las veremos en la **Fase 0.3**. Aquí solo dejamos preparadas las carpetas.
+> Hoy dejas preparadas las carpetas **y escribes tu primera entrada**.
 
 > [!tip] 💡 Tus carpetas se llaman igual que mis bloques. No es casualidad
 > Cuando yo diga en clase *"esto es del Bloque 1"*, tú ya sabes **exactamente** en qué carpeta va: `B1_Entorno`. No hay que traducir nada. Por eso **no te inventes tus propios nombres ni tu propia numeración**: si cada uno organiza sus apuntes a su manera, ni tú encuentras nada en junio ni yo puedo corregir a veinte personas.
@@ -93,11 +96,48 @@ Al terminar esta fase serás capaz de:
 >
 > Y fíjate en un detalle que **te va a ahorrar líos**: tu carpeta de apuntes del Bloque 0 se llama `B0_Prerrequisitos`… y tu **playlist de YouTube** de este bloque se llama **exactamente igual**. Es a propósito: **un bloque = un nombre**, valga para la carpeta o para la lista de vídeos. Cuando lleguemos al Bloque 1 tendrás la carpeta `B1_Entorno` y la playlist `B1_Entorno`, y así siempre.
 
-> [!warning] 4. Por qué se graba TODO (y desde el principio)
+> [!important] 4. La entrada del día: NOMBRE obligatorio
+> Cada día de clase, **un fichero nuevo** dentro de la carpeta del bloque que toque, con este nombre exacto:
+> ```
+> MMDDAA_titulo-corto.md
+> ```
+> - `MM` mes (2 dígitos) · `DD` día (2 dígitos) · `AA` año (2 dígitos) · `_` · `titulo-corto` en minúsculas, con guiones, **sin tildes ni espacios**.
+>
+> **Correcto:** `091526_metodologia-y-estructura.md` (15 de septiembre de 2026)
+> **Incorrecto:** `apuntes dia 1.md` ❌ · `15-9.md` ❌ · `Apuntes Día 1.md` ❌
+>
+> La **carpeta ya te dice el bloque**, así que en el título no lo repitas: pon **de qué va** la clase de ese día. Si los apuntes son de una fase concreta, nómbrala — te ahorra buscar en junio:
+> `091626_fase-0.2-github-y-ssh.md` · `100526_b1.5-usb-booteable-con-rufus.md`
+
+> [!important] 5. La entrada del día: ESTRUCTURA obligatoria
+> Todas tus entradas se escriben igual. Cópiala tal cual y rellénala:
+> ```markdown
+> # 091526 — Fase 0.1: Metodología y estructura
+>
+> **Fecha:** 15/09/2026
+> **Bloque:** B0 — Prerrequisitos
+> **Fase / práctica:** Fase 0.1 — Metodología y estructura
+>
+> ## Qué hemos visto hoy
+> - (con tus palabras)
+>
+> ## Conceptos clave
+> - **Término:** definición corta.
+>
+> ## Comandos / pasos importantes
+> - `comando` — para qué sirve.
+>
+> ## Dudas / a repasar en casa
+> - (lo que no te ha quedado claro)
+> ```
+> > [!tip] 💡 Escribe con tus palabras, no copies lo que yo diga
+> > El apartado **"Dudas"** no es para rellenar: es lo que me dice en qué tengo que insistir. Si lo dejas vacío siempre, o no te estás enterando de nada o no te estás enterando de que no te enteras.
+
+> [!warning] 6. Por qué se graba TODO (y desde el principio)
 > Regla de oro del curso: **una práctica que no se graba, no cuenta.** Y se graba **de principio a fin**, no un repaso al final:
 > - Grabar todo el proceso demuestra que **lo has hecho tú** y me deja ver **cómo** lo haces (dónde dudas, dónde te atascas).
 > - Por eso **primero te preparas** (te lees el procedimiento) y **luego grabas** del tirón: así el vídeo sale limpio y no lleno de "espera, que no me acuerdo".
-> - En los **prerequisitos**, cada fase tiene **una sola entrega**, en el sitio que le toca: las 0.1–0.4 se hacen **en el centro** (montas el equipo del cole), y montar el equipo de **casa** es la **Fase 0.5.1**. Así no repites lo mismo dos veces.
+> - Cada fase se graba **una sola vez**, en el sitio que le toca: las 0.1–0.4 se hacen **en el centro** (montas el equipo del cole), y montar el equipo de **casa** es la **Fase 0.5.1**. Así no repites lo mismo dos veces.
 
 ### 📖 Diccionario de Conceptos Clave
 
@@ -112,6 +152,7 @@ Al terminar esta fase serás capaz de:
 > - **OBS:** programa para **grabar la pantalla** mientras haces la práctica.
 > - **Playlist:** una lista de reproducción de YouTube donde agrupas tus vídeos. La de este bloque: `B0_Prerrequisitos`.
 > - **Timestamp:** una marca de tiempo (`mm:ss`) en la descripción del vídeo que salta a un momento concreto (cada paso).
+> - **Tarea (de Teams):** el sitio donde se **entrega**. La doy de alta yo, te llega notificación y tiene fecha límite. La playlist organiza tus vídeos; **la tarea es la entrega**. No es lo mismo.
 > - **OneDrive:** el disco en la nube de Microsoft. **Ojo:** aquí NO guardamos la bóveda (se explica abajo).
 
 ---
@@ -137,7 +178,7 @@ Al terminar esta fase serás capaz de:
 > [!example] Paso 0: Prepárate (todavía SIN grabar)
 > Antes de darle a grabar, deja todo listo para que el vídeo salga del tirón: (este procedimiento se explica CLARAMENTE AHORA, en el resto de procedimiento se dará por entendido)
 > 1. **Comprueba lo instalado:** busca **Obsidian** y **OBS Studio** en el menú de aplicaciones. Si **falta alguno**, avísame: **no intentes instalarlo tú** ni bajar versiones "portables" no autorizadas.
-> 2. **Léete el procedimiento entero** (los pasos 1 a 4 de abajo): así, cuando grabes, sabrás lo que viene y no te quedarás en blanco. Este procedimiento tiene **5 pasos** que se graban (1, 2, 2b, 3 y 4).
+> 2. **Léete el procedimiento entero** (los pasos 1 a 6 de abajo): así, cuando grabes, sabrás lo que viene y no te quedarás en blanco. Este procedimiento tiene **6 pasos** que se graban.
 > 3. **Ten OBS a mano** y una pestaña del navegador abierta con tu **Teams** o tu **correo `@alu.edu.gva.es`** (la usarás para presentarte).
 
 > [!example] Paso 1: Arranca la grabación y preséntate
@@ -161,7 +202,7 @@ Al terminar esta fase serás capaz de:
 > > [!tip] 💡 ¿Por qué te hago mirar esto?
 > > Porque en muchos equipos del centro OneDrive "se lleva" la carpeta `Documentos` a la nube sin avisar. Y Git (que montamos en la Fase 0.2) y OneDrive **se pelean** por los mismos ficheros: aparecen "copias en conflicto" y se corrompe el control de versiones. Diez segundos de comprobación ahora te ahorran una tarde de líos en noviembre.
 
-> [!example] Paso 2b: Crea la bóveda y **apunta tu ruta** (grabando y explicando)
+> [!example] Paso 3: Crea la bóveda y **apunta tu ruta** (grabando y explicando)
 > Explicando en voz alta lo que haces:
 > 1. Abre **Obsidian** y pulsa **`Create new vault`** (Crear nueva bóveda).
 > 2. En **`Vault name`** escribe exactamente: **`Boveda_SOR`**
@@ -180,7 +221,7 @@ Al terminar esta fase serás capaz de:
 > >
 > > **Anótala en un papel o en una nota.** No pasa nada por que la tuya no sea igual que la de tu compañero: a partir de la Fase 0.3 **no vas a teclear la ruta nunca** — abrirás la terminal directamente sobre la carpeta (te lo explico allí). Pero saber dónde vive tu bóveda es lo mínimo que se le pide a un técnico.
 
-> [!example] Paso 3: Crea la estructura de carpetas y compruébala (grabando)
+> [!example] Paso 4: Crea la estructura de carpetas y compruébala (grabando)
 > Crea esta estructura **exacta** (nombres **sin tildes ni espacios**), explicando cada carpeta:
 > ```
 > Boveda_SOR/
@@ -198,28 +239,48 @@ Al terminar esta fase serás capaz de:
 > > [!warning] ⚠️ El nombre importa
 > > No pongas `Apuntes` en vez de `00_Apuntes`, ni `Trimestre 1` con espacio, ni `Bloque1`. Si cada uno lo escribe a su manera, es imposible corregir a 20 personas. **Cópialo carácter a carácter.**
 
-> [!example] Paso 4: Cierra el vídeo, nómbralo y súbelo a YouTube
+> [!example] Paso 5: Escribe tu PRIMERA entrada de apuntes (grabando)
+> La carpeta `B0_Prerrequisitos` está vacía, y una carpeta vacía no son apuntes. Estréñala ahora, con lo que hemos visto hoy:
+> 1. En Obsidian, **clic derecho sobre `B0_Prerrequisitos`** → **`New note`**.
+> 2. **Nómbrala** con el formato de arriba, poniendo **la fecha de HOY**: `MMDDAA_titulo-corto`. Si hoy es 15 de septiembre de 2026 → `091526_metodologia-y-estructura`.
+> 3. **Pega la plantilla** (apartado 5 del fundamento) y **rellénala con lo de hoy**, explicando en voz alta lo que escribes. No hace falta que sea largo: tres o cuatro líneas honestas valen más que media página copiada.
+>    - En **"Comandos / pasos importantes"**, hoy pon: *"Ninguno: todavía no hemos usado la terminal."* Es una respuesta perfectamente válida.
+> 4. **Guarda** y comprueba que el fichero aparece dentro de `B0_Prerrequisitos`.
+>
+> > [!note] 📌 Esto todavía NO está en GitHub
+> > Tu entrada existe solo en este ordenador. Para que yo pueda verla hace falta Git, y eso es la **Fase 0.2**. No te preocupes ahora: escríbela bien y déjala ahí. En la **Fase 0.3** la subiremos junto con la del día que toque.
+
+> [!example] Paso 6: Cierra el vídeo, nómbralo y súbelo a YouTube
 > 1. **Detén la grabación** en OBS y localiza el archivo del vídeo.
 > 2. **Renombra el archivo** (el `.mkv` o `.mp4` que ha dejado OBS) a `Fase 0.1 - Metodologia y estructura`. Con **guion normal y sin tildes**: es un nombre de fichero, no un título.
 > 3. **Súbelo a YouTube**, a tu playlist **`B0_Prerrequisitos`**, como **"No listado"**. Ahí sí, el **título del vídeo** en YouTube va tal cual: `Fase 0.1 — Metodología y estructura`.
 > 4. En la **descripción**, añade los **timestamps** (uno por paso). Ejemplo:
 >    ```
->    00:00 Presentación
->    00:20 Paso 2 — Comprobar la carpeta Documentos
->    00:50 Paso 2b — Crear la bóveda Boveda_SOR
->    01:10 Paso 3 — Crear la estructura de carpetas
->    02:30 Paso 4 — Repaso final
+>    00:00 Presentacion
+>    00:20 Paso 2 - Comprobar la carpeta Documentos
+>    00:50 Paso 3 - Crear la boveda Boveda_SOR
+>    01:30 Paso 4 - Crear la estructura de carpetas
+>    02:40 Paso 5 - Primera entrada de apuntes
+>    04:10 Paso 6 - Repaso final
 >    ```
 >    *(Pon los minutos:segundos reales de tu vídeo.)*
 > 5. **Comprueba la duración:** debe rondar los **5 minutos**. Si se te va mucho, ve más al grano; los timestamps son obligatorios de todos modos.
-> 6. **PÁSAME EL ENLACE DE LA PLAYLIST por Teams** (una sola vez en todo el curso). En YouTube, entra en tu playlist `B0_Prerrequisitos` → **`Compartir`** → **`Copiar enlace`**, y me lo mandas por Teams.
+> 6. **Guarda el enlace del vídeo.** Dale a `Compartir` → `Copiar enlace` y **pégalo en un sitio donde no lo pierdas** (tu propia entrada de apuntes de hoy, por ejemplo). Lo necesitarás para la entrega.
 >
-> > [!danger] ⚠️ Sin este paso, para mí no has entregado nada
-> > "No listado" significa que el vídeo **solo lo ve quien tiene el enlace**. Si no me lo pasas, no aparece en ninguna búsqueda y **yo no puedo verlo**: no está suspenso, es que directamente no existe.
-> > La buena noticia: **es una sola vez**. Como todos los vídeos de este bloque van a la misma playlist, cuando subas la 0.2, la 0.3 y las demás **no tienes que mandarme nada** — aparecen solas en la playlist que ya tengo. Solo repetirás esto al empezar un bloque nuevo (con su playlist nueva).
+> > [!important] 📤 Ojo: subir el vídeo NO es entregar
+> > Esto es lo que más confunde el primer día, así que léelo dos veces:
+> >
+> > | | Qué es | Cuándo |
+> > | :--- | :--- | :--- |
+> > | **La playlist `B0_Prerrequisitos`** | **Organización tuya.** TODOS los vídeos del bloque van dentro, siempre. | Cada vez que grabas |
+> > | **La tarea de Teams** | **La entrega.** La doy de alta yo, te llega **notificación** y tiene **fecha límite**. Ahí pegas los enlaces. | Cuando yo la abra |
+> >
+> > **Esta fase NO se entrega hoy sola.** Forma parte de la **Entrega 1**, que abarca las fases **0.1, 0.2.1, 0.2.2 y 0.3**. Cuando lleguemos al final de la 0.3 abriré la tarea en Teams con varios días de plazo, y ahí pegarás los enlaces de los cuatro vídeos **y el de tu repositorio de apuntes**.
+> >
+> > Tú, hoy: **graba, sube a la playlist y guarda el enlace.** Nada más.
 >
 > > [!success] ✅ La Fase 0.1 está completa cuando…
-> > Tienes la bóveda `Boveda_SOR` con su estructura exacta, el vídeo subido a tu playlist `B0_Prerrequisitos` (con presentación al principio y timestamps en la descripción) **y me has pasado el enlace de la playlist por Teams**. (Esta fase es **una sola entrega, en el centro**; el equipo de casa lo montarás en la Fase 0.5.1.)
+> > Tienes la bóveda `Boveda_SOR` con su estructura exacta, **tu primera entrada escrita** dentro de `B0_Prerrequisitos/`, y el vídeo subido a tu playlist `B0_Prerrequisitos` (con presentación al principio y timestamps en la descripción), **con su enlace guardado** para la Entrega 1.
 
 ---
 
@@ -256,7 +317,8 @@ Al terminar esta fase serás capaz de:
 - [ ] Vídeo grabado **de principio a fin**, con presentación e identidad al inicio.
 - [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `B0_Prerrequisitos`.
 - [ ] Timestamps en la descripción (uno por paso).
-- [ ] **Enlace de la playlist `B0_Prerrequisitos` enviado al profesor por Teams** (una sola vez, vale para todas las fases del bloque).
-- [ ] Una sola entrega, hecha **🏫 en el centro**.
+- [ ] **Primera entrada escrita** en `B0_Prerrequisitos/`, con nombre `MMDDAA_titulo-corto.md` y la estructura obligatoria.
+- [ ] **Enlace del vídeo guardado** (lo necesitas para la Entrega 1; hoy no se entrega nada).
+- [ ] Grabada **🏫 en el centro**.
 
 > **Siguiente paso:** Fase 0.2 — Crear tu cuenta de **GitHub** y configurar **Git** en el equipo, para poder enviarme tus apuntes por Internet y que yo pueda corregirlos.

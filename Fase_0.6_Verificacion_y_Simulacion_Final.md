@@ -17,7 +17,8 @@
 > 3. **Graba TODO el circuito**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `Fase 0.6 — Simulación final` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
-> 6. **~5-7 min. Una sola entrega:** esta simulación se hace en **🏫 el centro** (o donde indique el profesor).
+> 6. **~5-7 min.** Se graba en **🏫 el centro** (o donde indique el profesor).
+> 7. **Al terminar esta fase se hace la ENTREGA 2** en Teams (cubre las fases 0.4, 0.5.1, 0.5.2 y 0.6).
 
 ---
 
@@ -57,7 +58,7 @@
 > pwd          # .../Boveda_SOR/00_Apuntes/Trimestre_1  (abre la terminal ahí con clic derecho)
 > git pull
 > ```
-> Crea una **entrada del día** (nombre `AAAA-MM-DD_...` y estructura de la 0.3) y súbela:
+> Crea una **entrada del día** (nombre `MMDDAA_titulo-corto.md` y estructura de la 0.1) y súbela:
 > ```bash
 > git add .
 > git commit -m "Entrada de la simulacion final"
@@ -107,6 +108,20 @@
 - [ ] **0.4:** práctica `boochan-1` clonada y con un cambio subido.
 - [ ] **0.5.1 / 0.5.2:** entorno replicado en casa + ciclo `pull → push` demostrado.
 - [ ] **0.6:** simulación final grabada.
-- [ ] **Vídeos:** TODAS las fases (0.1 a 0.6) subidas a la playlist `B0_Prerrequisitos`, con presentación y timestamps. Una entrega por fase, en su sitio: 🏫 centro (0.1–0.4, 0.6) · 🏠 casa (0.5.1, 0.5.2).
+- [ ] **Vídeos:** TODAS las fases (0.1 a 0.6) subidas a la playlist `B0_Prerrequisitos`, con presentación y timestamps. Grabadas en su sitio: 🏫 centro (0.1–0.4, 0.6) · 🏠 casa (0.5.1, 0.5.2).
+- [ ] **Entrega 1** (fases 0.1 → 0.3) hecha en Teams y **pulsado `Entregar`**.
+- [ ] **Entrega 2** (fases 0.4 → 0.6) hecha en Teams y **pulsado `Entregar`**.
+
+> [!example] Último paso: haz la ENTREGA 2
+> Ve a **Teams → Tareas → `Entrega 2 — Práctica y sincronización`** y pega:
+>
+> | Qué | De dónde sale |
+> | :--- | :--- |
+> | Enlaces de los vídeos de la **0.4, 0.5.1, 0.5.2 y 0.6** | Los que fuiste guardando |
+> | Enlace de tu repositorio **`boochan-1`** | `https://github.com/TU-USUARIO/boochan-1` |
+>
+> Y pulsa **`Entregar`**. Igual que en la Entrega 1: **pido los vídeos uno a uno**, porque una playlist puede llenarse después del plazo y un enlace de vídeo concreto, no.
+
+---
 
 > **Siguiente paso:** empieza el proyecto **Boochan** (Fase 1). Antes, el profesor pasará la **prueba diagnóstica de redes** (ver `Prueba_Diagnostica_Inicial_SOR`).
