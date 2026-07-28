@@ -135,4 +135,4 @@
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase.
 - [ ] Grabada **🏫 en el centro**.
 
-> **Siguiente paso:** Fase 0.3 — Crear el repositorio de tus apuntes del **Trimestre 1** y escribir tu **primera entrada del día**.
+> **Siguiente paso:** Fase 0.3 — Crear el repositorio de tus apuntes del **Trimestre 1** y escribir la **entrada de esa fase**.

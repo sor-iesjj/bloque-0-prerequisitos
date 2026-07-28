@@ -21,7 +21,7 @@ Sigue las sub-fases **en orden**. Cada una es una práctica guiada, muy detallad
 | [Fase 0.2 — GitHub, Git y autenticación (índice)](Fase_0.2_GitHub_Git_y_SSH.md) | Conexión con GitHub, en 2 partes ↓ |
 | &nbsp;&nbsp;↳ [Fase 0.2.1 — Cuenta de GitHub y Git](Fase_0.2.1_Cuenta_GitHub_y_Git.md) | Crea la cuenta de GitHub y configura Git |
 | &nbsp;&nbsp;↳ [Fase 0.2.2 — Autenticación SSH](Fase_0.2.2_Autenticacion_SSH.md) | Clave SSH (y token HTTPS) + verificación |
-| [Fase 0.3 — Repo de apuntes y primera entrada](Fase_0.3_Repo_Apuntes_y_Primera_Entrada.md) | Repo del Trimestre 1 + primera entrada del día |
+| [Fase 0.3 — Repo de apuntes y primera entrada](Fase_0.3_Repo_Apuntes_y_Primera_Entrada.md) | Repo del Trimestre 1 + entrada de la fase |
 | [Fase 0.4 — Clonar la práctica Boochan](Fase_0.4_Clonar_Practica_Boochan.md) | Clona su copia de una práctica y domina `status → commit → push` |
 | [Fase 0.5 — Casa y centro (índice)](Fase_0.5_Casa_y_Centro_Sincronizacion.md) | Casa ↔ centro, en 2 partes ↓ |
 | &nbsp;&nbsp;↳ [Fase 0.5.1 — Montar el entorno en casa](Fase_0.5.1_Montar_Entorno_Casa.md) | Instala en casa y clona sus repos |

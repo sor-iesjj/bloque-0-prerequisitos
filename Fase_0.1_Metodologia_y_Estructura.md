@@ -75,14 +75,14 @@ Al terminar esta fase serás capaz de:
 >
 > **¿Por qué separadas?** Porque tus apuntes son **tuyos** y me los entregas para que los corrija; las prácticas son material del curso. Mezclarlos sería como escribir tus apuntes encima del libro de otra persona: un lío para ti y para mí.
 
-> [!note] 3. La metodología: una entrada por día
+> [!note] 3. La metodología: una entrada por FASE
 > Tus apuntes se organizan así, de lo más grande a lo más pequeño:
 >
-> **Trimestre → Bloque → Entrada del día**
+> **Trimestre → Bloque → Entrada de fase**
 >
 > - **Trimestre:** primero, segundo o tercero. Cada uno en su carpeta.
 > - **Bloque:** cada parte grande del curso. Son **los míos, los que yo numero**: el **Bloque 0 son los Prerrequisitos** (esto que estamos haciendo ahora), el **Bloque 1 es el Entorno**, y así. Tus carpetas se llaman **igual que mis bloques**, a propósito.
-> - **Entrada del día:** **cada día de clase creas un fichero nuevo** con lo que hayas anotado ese día. No escribes todo en un único fichero gigante: un fichero por día.
+> - **Entrada de fase:** **un fichero por cada fase**, no uno por día. Si una fase nos lleva tres clases, **sigues escribiendo en el mismo fichero** durante esos tres días. Así toda la información de esa fase está junta en un sitio, y no repartida en tres trozos que no se entienden por separado.
 >
 > Hoy dejas preparadas las carpetas **y escribes tu primera entrada**.
 
@@ -99,17 +99,22 @@ Al terminar esta fase serás capaz de:
 > [!important] 4. La regla de oro de los apuntes: DONDE HAY VÍDEO, HAY ENTRADA
 > Esta es la norma que más te conviene entender, porque de ella sale tu nota de apuntes:
 >
-> - **Cada fase que grabes lleva SU PROPIA entrada.** Si un día hacemos dos fases, escribes **dos** ficheros, no uno. Si grabas la 0.2.1 y la 0.2.2 la misma tarde, son dos entradas con la misma fecha y distinto título.
-> - **Cada día de clase, al menos una entrada**, aunque ese día no hayamos grabado nada (los días de teoría también se anotan).
+> - **Una fase = una entrada.** Ni más ni menos.
+> - **Si una fase dura varios días**, NO creas una entrada nueva cada día: **abres la de siempre y sigues escribiendo**. Toda la fase, en un solo sitio.
+> - **Si un día hacemos dos fases**, escribes **dos** entradas, no una. La 0.2.1 y la 0.2.2 la misma tarde son dos ficheros con la misma fecha y distinto título.
+> - **Si damos teoría que no pertenece a ninguna fase**, esa clase también tiene su entrada, con el tema como título.
 >
-> ¿Por qué así de estricto? Porque **la entrada es donde vive el enlace de tu vídeo** (lo verás en el apartado 6). Si tienes una entrada por fase, tu repositorio me cuenta solo la historia completa: qué fase hiciste, qué entendiste y dónde está el vídeo que lo demuestra. Una entrada que mezcla tres fases no me dice nada de ninguna.
+> ¿Por qué así? Por dos razones, y las dos te convienen:
+> 1. **La entrada es donde vive el enlace de tu vídeo** (apartado 6). Una entrada por fase = tu repositorio me cuenta solo la historia: qué hiciste, qué entendiste y dónde está el vídeo que lo demuestra. Si me falta una entrada, sé exactamente qué fase falta.
+> 2. **Para ti, en junio.** Buscar "lo de las claves SSH" en un fichero llamado `Fase 0.2.2` es inmediato. Buscarlo repartido en tres entradas de tres martes distintos es perder la tarde.
 
-> [!important] 5. La entrada del día: NOMBRE obligatorio
-> **Un fichero nuevo** dentro de la carpeta del bloque que toque, con este nombre exacto:
+> [!important] 5. La entrada: NOMBRE obligatorio
+> **Un fichero por fase** dentro de la carpeta del bloque que toque, con este nombre exacto:
 > ```
 > MMDDAA_titulo-corto.md
 > ```
 > - `MM` mes (2 dígitos) · `DD` día (2 dígitos) · `AA` año (2 dígitos) · `_` · `titulo-corto` en minúsculas, con guiones, **sin tildes ni espacios**.
+> - La fecha es la del **día en que EMPIEZAS la fase**. Si luego se alarga tres clases, el nombre del fichero **no cambia**: sigue siendo el del día que arrancaste.
 >
 > **Correcto:** `091526_metodologia-y-estructura.md` (15 de septiembre de 2026)
 > **Incorrecto:** `apuntes dia 1.md` ❌ · `15-9.md` ❌ · `Apuntes Día 1.md` ❌
@@ -117,12 +122,12 @@ Al terminar esta fase serás capaz de:
 > La **carpeta ya te dice el bloque**, así que en el título no lo repitas: pon **de qué va** la clase de ese día. Si los apuntes son de una fase concreta, nómbrala — te ahorra buscar en junio:
 > `091626_fase-0.2-github-y-ssh.md` · `100526_b1.5-usb-booteable-con-rufus.md`
 
-> [!important] 6. La entrada del día: ESTRUCTURA obligatoria
+> [!important] 6. La entrada: ESTRUCTURA obligatoria
 > Todas tus entradas se escriben igual. Cópiala tal cual y rellénala:
 > ```markdown
 > # 091526 — Fase 0.1: Metodología y estructura
 >
-> **Fecha:** 15/09/2026
+> **Fecha:** 15/09/2026            (si la fase dura varios días: 15/09/2026 - 17/09/2026)
 > **Bloque:** B0 — Prerrequisitos
 > **Fase / práctica:** Fase 0.1 — Metodología y estructura
 >
@@ -268,7 +273,7 @@ Al terminar esta fase serás capaz de:
 > > No pongas `Apuntes` en vez de `00_Apuntes`, ni `Trimestre 1` con espacio, ni `Bloque1`. Si cada uno lo escribe a su manera, es imposible corregir a 20 personas. **Cópialo carácter a carácter.**
 
 > [!example] Paso 5: Escribe tu PRIMERA entrada de apuntes (grabando)
-> La carpeta `B0_Prerrequisitos` está vacía, y una carpeta vacía no son apuntes. Estréñala ahora, con lo que hemos visto hoy:
+> La carpeta `B0_Prerrequisitos` está vacía, y una carpeta vacía no son apuntes. Estréñala ahora con la entrada **de esta fase**:
 > 1. En Obsidian, **clic derecho sobre `B0_Prerrequisitos`** → **`New note`**.
 > 2. **Nómbrala** con el formato del apartado 5, poniendo **la fecha de HOY**: `MMDDAA_titulo-corto`. Si hoy es 15 de septiembre de 2026 → `091526_metodologia-y-estructura`.
 > 3. **Pega la plantilla** (apartado 6 del fundamento) y **rellénala con lo de hoy**, explicando en voz alta lo que escribes. No hace falta que sea largo: tres o cuatro líneas honestas valen más que media página copiada.
@@ -276,7 +281,7 @@ Al terminar esta fase serás capaz de:
 > 4. **Guarda** y comprueba que el fichero aparece dentro de `B0_Prerrequisitos`.
 >
 > > [!note] 📌 Esto todavía NO está en GitHub
-> > Tu entrada existe solo en este ordenador. Para que yo pueda verla hace falta Git, y eso es la **Fase 0.2**. No te preocupes ahora: escríbela bien y déjala ahí. En la **Fase 0.3** la subiremos junto con la del día que toque.
+> > Tu entrada existe solo en este ordenador. Para que yo pueda verla hace falta Git, y eso es la **Fase 0.2**. No te preocupes ahora: escríbela bien y déjala ahí. En la **Fase 0.3** la subiremos junto con las de las fases que hayas hecho para entonces.
 
 > [!example] Paso 6: Cierra el vídeo, nómbralo y súbelo a YouTube
 > 1. **Detén la grabación** en OBS y localiza el archivo del vídeo.

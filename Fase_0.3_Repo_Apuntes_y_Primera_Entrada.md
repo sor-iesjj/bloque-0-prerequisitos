@@ -26,7 +26,7 @@
 
 - [ ] Explicar por qué usamos **un repositorio por trimestre**.
 - [ ] Crear un repositorio en GitHub y conectarlo con tu carpeta `Trimestre_1`.
-- [ ] Escribir la **entrada del día** con el **nombre** y la **estructura** obligatorios.
+- [ ] Escribir la **entrada de esta fase** con el **nombre** y la **estructura** obligatorios.
 - [ ] Hacer el ciclo `git add` → `commit` → `push` y **darme el enlace**.
 
 ---
@@ -71,12 +71,15 @@
 > [!example] Paso 1: Arranca la grabación y preséntate
 > Inicia la grabación en **OBS**, preséntate, **enseña tu perfil de GitHub** 2-3 segundos y di qué vas a hacer.
 
-> [!example] Paso 2: Escribe la entrada de HOY en Obsidian
-> En `00_Apuntes/Trimestre_1/B0_Prerrequisitos/` ya tienes **la entrada que escribiste en la Fase 0.1**. No la toques: hoy es otro día, así que va **otro fichero**.
+> [!example] Paso 2: Escribe la entrada de ESTA FASE en Obsidian
+> En `00_Apuntes/Trimestre_1/B0_Prerrequisitos/` ya tienes las entradas de las fases anteriores. **No las toques**: esta es **otra fase**, así que va **otro fichero**.
 >
-> Clic derecho sobre `B0_Prerrequisitos` → **`New note`**, nómbrala con **la fecha de hoy** (`MMDDAA_titulo-corto`) y rellena la estructura con lo de esta sesión. Guarda.
+> Clic derecho sobre `B0_Prerrequisitos` → **`New note`**, nómbrala con la fecha de hoy y el título de la fase (`MMDDAA_fase-0.3-repo-de-apuntes`) y rellena la estructura. Guarda.
 >
-> Al terminar debes tener **dos** ficheros en esa carpeta. Enséñalo en el vídeo: eso es "una entrada por día" funcionando.
+> Al terminar tienes **una entrada por cada fase que llevas**. Enséñalo en el vídeo: eso es la regla funcionando.
+>
+> > [!tip] 💡 ¿Y si esta fase nos lleva dos clases?
+> > Entonces **mañana no creas otro fichero**: abres este mismo y sigues escribiendo. Una fase, una entrada — aunque dure varios días.
 
 > [!example] Paso 3: Convierte `Trimestre_1` en repositorio
 > **Primero hay que meter la terminal DENTRO de `Trimestre_1`.** No teclees la ruta: la carpeta de cada uno está en un sitio distinto (lo viste en la Fase 0.1). Haz esto, que es lo que hacemos los técnicos:
@@ -148,7 +151,7 @@
 
 > [!example] Paso 6: Cierra el vídeo, complétalo todo y entrega
 > 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada`, súbelo a la playlist `B0_Prerrequisitos` y **copia su enlace**.
-> 2. **Pega ese enlace en la entrada de hoy**, en el apartado `Enlace al vídeo explicativo`. Y aprovecha para **repasar tus entradas anteriores**: la de la 0.1, la 0.2.1 y la 0.2.2 tienen que tener **su** enlace y **sus** respuestas. Donde hay vídeo, hay entrada — y donde hay entrada, hay enlace.
+> 2. **Pega ese enlace en la entrada de esta fase**, en el apartado `Enlace al vídeo explicativo`. Y aprovecha para **repasar tus entradas anteriores**: la de la 0.1, la 0.2.1 y la 0.2.2 tienen que tener **su** enlace y **sus** respuestas. Donde hay vídeo, hay entrada — y donde hay entrada, hay enlace.
 > 3. **Sube los cambios** (ahora ya sabes):
 >    ```bash
 >    git add .
@@ -172,8 +175,8 @@
 > > [!tip] 💡 Tienes varios días
 > > La tarea se abre con **fecha límite de varios días**, no del mismo día, y te llega **notificación** de Teams. Si algo no te ha salido, dímelo **antes** del plazo, no después.
 
-> [!note] 📌 A partir de ahora, cada día de clase
-> Creas la **entrada del día** (nombre + estructura) y, dentro de `Trimestre_1`: `git add .` → `git commit -m "Apuntes del ..."` → `git push`. Así el repo está siempre al día.
+> [!note] 📌 A partir de ahora, en cada fase
+> Creas **su entrada** (nombre + estructura), la vas rellenando mientras dure la fase, y al acabar el día, dentro de `Trimestre_1`: `git add .` → `git commit -m "Apuntes del ..."` → `git push`. Así el repo está siempre al día.
 
 ---
 

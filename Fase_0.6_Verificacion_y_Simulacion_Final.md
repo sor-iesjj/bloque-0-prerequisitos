@@ -58,7 +58,7 @@
 > pwd          # .../Boveda_SOR/00_Apuntes/Trimestre_1  (abre la terminal ahí con clic derecho)
 > git pull
 > ```
-> Crea una **entrada del día** (nombre `MMDDAA_titulo-corto.md` y estructura de la 0.1) y súbela:
+> Crea la **entrada de esta fase** (nombre `MMDDAA_titulo-corto.md` y estructura de la 0.1) y súbela:
 > ```bash
 > git add .
 > git commit -m "Entrada de la simulacion final"
