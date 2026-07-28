@@ -12,7 +12,7 @@
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)
 > Esta práctica se **graba entera con OBS**, de principio a fin.
-> 1. **Prepárate primero (sin grabar):** comprueba lo necesario y **léete el procedimiento entero**.
+> 1. **Prepárate primero (sin grabar):** comprueba lo necesario, **léete el procedimiento entero** y **crea la entrada de apuntes de esta fase** en Obsidian (nombre `MMDDAA_fase-0.7.2-titulo.md`, estructura de la Fase 0.1). La vas rellenando **mientras** haces la práctica, no al final.
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.7.2 — Se ha llevado el disco por delante."* Y **muestra tu perfil de GitHub**. Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
@@ -124,7 +124,7 @@
 > | `Your branch is ahead by N commits` | **Tienes N commits solo aquí** | 🛑 `git push` **ahora**, y repite el `status` |
 > | `Changes not staged` / `Untracked files` | Hay trabajo sin guardar | 🛑 `git add .` → `git commit` → `git push`, y repite |
 >
-> **Léete además el procedimiento entero** antes de grabar: tiene **6 pasos** grabados.
+> **Léete además el procedimiento entero** antes de grabar: tiene **6 pasos** grabados. Y **crea ya la entrada de apuntes de esta fase**: si la creas después de borrar la bóveda, tendrás que rehacerla.
 >
 > **Última comprobación, y esta con los ojos:** abre `github.com`, entra en tus dos repositorios y **mira que tus ficheros están ahí**. No te fíes solo del terminal. Si algo no aparece en la web, **no existe** para lo que viene ahora.
 

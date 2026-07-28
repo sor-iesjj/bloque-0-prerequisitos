@@ -12,7 +12,7 @@
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)
 > Esta práctica se **graba entera con OBS**, de principio a fin.
-> 1. **Prepárate primero (sin grabar):** comprueba lo necesario y **léete el procedimiento entero**.
+> 1. **Prepárate primero (sin grabar):** comprueba lo necesario, **léete el procedimiento entero** y **crea la entrada de apuntes de esta fase** en Obsidian (nombre `MMDDAA_fase-0.4-titulo.md`, estructura de la Fase 0.1). La vas rellenando **mientras** haces la práctica, no al final.
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.4 — Clonar mi copia de la práctica Boochan."* Y **muestra tu perfil de GitHub** (o tu Teams/correo). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
@@ -47,6 +47,7 @@
 
 > [!example] Paso 0: Prepárate (todavía SIN grabar)
 > Comprueba tu bóveda y tu autenticación. **Léete el procedimiento** (tiene **6 pasos** grabados). Ten **OBS** listo y tu **perfil de GitHub** en una pestaña.
+> **Y antes de grabar: crea la entrada de apuntes de esta fase** en Obsidian, con su nombre y su estructura. Es lo primero, no lo último: la vas rellenando mientras trabajas.
 
 > [!example] Paso 1: Arranca la grabación y preséntate
 > Inicia la grabación en **OBS**, preséntate, **enseña tu perfil de GitHub** 2-3 segundos y di qué vas a hacer.

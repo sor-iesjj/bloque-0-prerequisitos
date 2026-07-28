@@ -17,7 +17,7 @@
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)
 > Esta práctica se **graba entera con OBS**, de principio a fin. No es un repaso al final: quiero ver **cómo lo haces tú**.
-> 1. **Prepárate primero (sin grabar):** comprueba que tienes lo necesario y **léete el procedimiento entero** para no atascarte a mitad del vídeo.
+> 1. **Prepárate primero (sin grabar):** comprueba que tienes lo necesario y **léete el procedimiento entero** para no atascarte a mitad del vídeo. *(En esta primera fase la entrada de apuntes la creas **dentro** de la práctica, en el Paso 5: todavía no sabes cómo se hace. **A partir de la 0.2.1, crear la entrada será lo PRIMERO que hagas**, antes de grabar.)*
 > 2. **Arranca OBS y, nada más empezar, PRESÉNTATE:** *"Hola y bienvenidos. Me llamo [Nombre], soy alumno de 2.º SMR, y en este vídeo voy a explicar la Fase 0.1 — Metodología y estructura de la bóveda."* Y **muestra en pantalla algo que demuestre que eres tú** (tu **Teams** o tu **correo `@alu.edu.gva.es`** con tu nombre; cuando tengas GitHub, tu perfil). Di **qué vas a hacer**.
 > 3. **Graba TODO el procedimiento**, explicando cada paso en voz alta mientras lo haces.
 > 4. **Timestamps SIEMPRE** en la descripción del vídeo: `00:00 Presentación` y **uno por cada paso** (formato `mm:ss`).
@@ -103,6 +103,7 @@ Al terminar esta fase serás capaz de:
 > - **Si una fase dura varios días**, NO creas una entrada nueva cada día: **abres la de siempre y sigues escribiendo**. Toda la fase, en un solo sitio.
 > - **Si un día hacemos dos fases**, escribes **dos** entradas, no una. La 0.2.1 y la 0.2.2 la misma tarde son dos ficheros con la misma fecha y distinto título.
 > - **Si damos teoría que no pertenece a ninguna fase**, esa clase también tiene su entrada, con el tema como título.
+> - **La entrada se crea AL EMPEZAR la fase, no al terminarla.** Es lo primero que haces, antes incluso de arrancar OBS, y la vas rellenando **mientras** trabajas. Si la dejas para el final, escribirás de memoria — y lo que quiero leer es lo que pensabas *mientras* lo hacías, incluidas las dudas.
 >
 > ¿Por qué así? Por dos razones, y las dos te convienen:
 > 1. **La entrada es donde vive el enlace de tu vídeo** (apartado 6). Una entrada por fase = tu repositorio me cuenta solo la historia: qué hiciste, qué entendiste y dónde está el vídeo que lo demuestra. Si me falta una entrada, sé exactamente qué fase falta.
