@@ -84,12 +84,14 @@ Al terminar esta fase serás capaz de:
 > Las normas exactas de cómo nombrar y rellenar cada entrada las veremos en la **Fase 0.3**. Aquí solo dejamos preparadas las carpetas.
 
 > [!tip] 💡 Tus carpetas se llaman igual que mis bloques. No es casualidad
-> Cuando yo diga en clase *"esto es del Bloque 1"*, tú ya sabes **exactamente** en qué carpeta va: `Bloque_1_Entorno`. No hay que traducir nada. Por eso **no te inventes tus propios nombres ni tu propia numeración**: si cada uno organiza sus apuntes a su manera, ni tú encuentras nada en junio ni yo puedo corregir a veinte personas.
+> Cuando yo diga en clase *"esto es del Bloque 1"*, tú ya sabes **exactamente** en qué carpeta va: `B1_Entorno`. No hay que traducir nada. Por eso **no te inventes tus propios nombres ni tu propia numeración**: si cada uno organiza sus apuntes a su manera, ni tú encuentras nada en junio ni yo puedo corregir a veinte personas.
 >
 > Los bloques del curso son estos, y los iremos abriendo según lleguemos:
-> `Bloque_0_Prerrequisitos` · `Bloque_1_Entorno` · `Bloque_2_Ubuntu_Local` · `Bloque_3_Windows_Local` · `Bloque_4_Ubuntu_Nube` · `Bloque_5_Windows_Nube` · `Bloque_6_Contenedores`
+> `B0_Prerrequisitos` · `B1_Entorno` · `B2_Ubuntu_Local` · `B3_Windows_Local` · `B4_Ubuntu_Nube` · `B5_Windows_Nube` · `B6_Contenedores`
 >
 > **Hoy solo creas el primero.** Los demás los irás creando cuando toquen — no adelantes carpetas vacías.
+>
+> Y fíjate en un detalle que **te va a ahorrar líos**: tu carpeta de apuntes del Bloque 0 se llama `B0_Prerrequisitos`… y tu **playlist de YouTube** de este bloque se llama **exactamente igual**. Es a propósito: **un bloque = un nombre**, valga para la carpeta o para la lista de vídeos. Cuando lleguemos al Bloque 1 tendrás la carpeta `B1_Entorno` y la playlist `B1_Entorno`, y así siempre.
 
 > [!warning] 4. Por qué se graba TODO (y desde el principio)
 > Regla de oro del curso: **una práctica que no se graba, no cuenta.** Y se graba **de principio a fin**, no un repaso al final:
@@ -184,12 +186,12 @@ Al terminar esta fase serás capaz de:
 > Boveda_SOR/
 > ├── 00_Apuntes/
 > │   ├── Trimestre_1/
-> │   │   └── Bloque_0_Prerrequisitos/
+> │   │   └── B0_Prerrequisitos/
 > │   ├── Trimestre_2/
 > │   └── Trimestre_3/
 > └── 01_Practicas/
 > ```
-> **Cómo:** clic derecho en el panel izquierdo → **`New folder`** → escribe el nombre **tal cual**. Para crear una carpeta **dentro** de otra, clic derecho **sobre la carpeta padre**. Créalas en este orden: `00_Apuntes` → dentro `Trimestre_1/2/3` → dentro de `Trimestre_1` la `Bloque_0_Prerrequisitos` → y `01_Practicas` en la raíz.
+> **Cómo:** clic derecho en el panel izquierdo → **`New folder`** → escribe el nombre **tal cual**. Para crear una carpeta **dentro** de otra, clic derecho **sobre la carpeta padre**. Créalas en este orden: `00_Apuntes` → dentro `Trimestre_1/2/3` → dentro de `Trimestre_1` la `B0_Prerrequisitos` → y `01_Practicas` en la raíz.
 >
 > Al terminar, **recorre la estructura con el ratón** y compruébala en voz alta: *"Aquí están mis apuntes por trimestres, aquí el bloque 0 de prerrequisitos, y aquí la carpeta de prácticas."*
 >
@@ -250,7 +252,7 @@ Al terminar esta fase serás capaz de:
 - [ ] Obsidian y OBS comprobados en el equipo (instalados por Consellería).
 - [ ] Carpeta `Documentos` comprobada (¿nube o local?) y bóveda `Boveda_SOR` creada en una ruta **local** (no en OneDrive).
 - [ ] **Tu ruta apuntada** en un papel o una nota.
-- [ ] Estructura de carpetas exacta: `00_Apuntes/` (con `Trimestre_1/2/3` y `Bloque_0_Prerrequisitos` en T1) + `01_Practicas/`.
+- [ ] Estructura de carpetas exacta: `00_Apuntes/` (con `Trimestre_1/2/3` y `B0_Prerrequisitos` en T1) + `01_Practicas/`.
 - [ ] Vídeo grabado **de principio a fin**, con presentación e identidad al inicio.
 - [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `B0_Prerrequisitos`.
 - [ ] Timestamps en la descripción (uno por paso).

@@ -96,7 +96,7 @@
 > Inicia la grabación en **OBS**, preséntate, **enseña tu perfil de GitHub** 2-3 segundos y di qué vas a hacer.
 
 > [!example] Paso 2: Escribe tu primera entrada en Obsidian
-> En `00_Apuntes/Trimestre_1/Bloque_0_Prerrequisitos/`, clic derecho → **New note**, nómbrala `2026-09-15_introduccion-al-modulo` y pega la **plantilla** (apartado 2), rellenándola con lo de hoy. Guarda.
+> En `00_Apuntes/Trimestre_1/B0_Prerrequisitos/`, clic derecho → **New note**, nómbrala `2026-09-15_introduccion-al-modulo` y pega la **plantilla** (apartado 2), rellenándola con lo de hoy. Guarda.
 
 > [!example] Paso 3: Convierte `Trimestre_1` en repositorio
 > **Primero hay que meter la terminal DENTRO de `Trimestre_1`.** No teclees la ruta: la carpeta de cada uno está en un sitio distinto (lo viste en la Fase 0.1). Haz esto, que es lo que hacemos los técnicos:
@@ -141,7 +141,7 @@
 > git commit -m "Primera entrada: introduccion al modulo"
 > git push -u origin main
 > ```
-> Recarga GitHub: debe verse `Bloque_0_Prerrequisitos/` con tu entrada.
+> Recarga GitHub: debe verse `B0_Prerrequisitos/` con tu entrada.
 
 > [!example] Paso 6: Cierra el vídeo, nómbralo, súbelo y pásame el enlace
 > 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada` y súbelo a la playlist `B0_Prerrequisitos` con **timestamps** (`00:00 Presentación`, y uno por paso).
@@ -171,7 +171,7 @@
 
 ### ✅ Checklist Final de la Fase 0.3
 
-- [ ] Primera entrada en `Bloque_0_Prerrequisitos/` con nombre y estructura correctos.
+- [ ] Primera entrada en `B0_Prerrequisitos/` con nombre y estructura correctos.
 - [ ] `Trimestre_1` convertido en repositorio; repo `apuntes-sor-t1` en GitHub.
 - [ ] `commit` + `push` hechos; la entrada se ve en GitHub.
 - [ ] Enlace enviado (y acceso concedido si es privado).
