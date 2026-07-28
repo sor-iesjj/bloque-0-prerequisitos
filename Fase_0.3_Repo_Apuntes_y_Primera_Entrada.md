@@ -59,7 +59,7 @@
 > # 2026-09-15 — Introducción al módulo
 >
 > **Fecha:** 2026-09-15
-> **Bloque:** Bloque 1 — Introducción
+> **Tema:** Tema 1 — Introducción
 >
 > ## Qué hemos visto hoy
 > - (con tus palabras)
@@ -92,7 +92,7 @@
 > Inicia la grabación en **OBS**, preséntate, **enseña tu perfil de GitHub** 2-3 segundos y di qué vas a hacer.
 
 > [!example] Paso 2: Escribe tu primera entrada en Obsidian
-> En `00_Apuntes/Trimestre_1/Bloque_1_Introduccion/`, clic derecho → **New note**, nómbrala `2026-09-15_introduccion-al-modulo` y pega la **plantilla** (apartado 2), rellenándola con lo de hoy. Guarda.
+> En `00_Apuntes/Trimestre_1/Tema_1_Introduccion/`, clic derecho → **New note**, nómbrala `2026-09-15_introduccion-al-modulo` y pega la **plantilla** (apartado 2), rellenándola con lo de hoy. Guarda.
 
 > [!example] Paso 3: Convierte `Trimestre_1` en repositorio
 > ```bash
@@ -114,7 +114,7 @@
 > git commit -m "Primera entrada: introduccion al modulo"
 > git push -u origin main
 > ```
-> Recarga GitHub: debe verse `Bloque_1_Introduccion/` con tu entrada.
+> Recarga GitHub: debe verse `Tema_1_Introduccion/` con tu entrada.
 
 > [!example] Paso 6: Cierra el vídeo, nómbralo, súbelo y pásame el enlace
 > 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada` y súbelo a la playlist `B0_Prerrequisitos` con **timestamps** (`00:00 Presentación`, y uno por paso).
@@ -144,7 +144,7 @@
 
 ### ✅ Checklist Final de la Fase 0.3
 
-- [ ] Primera entrada en `Bloque_1_Introduccion/` con nombre y estructura correctos.
+- [ ] Primera entrada en `Tema_1_Introduccion/` con nombre y estructura correctos.
 - [ ] `Trimestre_1` convertido en repositorio; repo `apuntes-sor-t1` en GitHub.
 - [ ] `commit` + `push` hechos; la entrada se ve en GitHub.
 - [ ] Enlace enviado (y acceso concedido si es privado).
