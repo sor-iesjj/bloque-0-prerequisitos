@@ -45,7 +45,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > > **Las entregas se agrupan**, no van fase a fase. El profesor decide qué fases cubre cada tarea y lo dice al abrirla en Teams: un bloque puede tener dos, tres o cuatro entregas según lo denso que sea. El alumno **no tiene que adivinarlo** — le llega la notificación.
 
 > [!tip] Otros convenios
-> - **Entrada:** una **por fase**, no una por día. Si una fase dura varias clases, se sigue escribiendo en el mismo fichero. Nombre `MMDDAA_titulo-corto.md` (fecha del día en que se empieza la fase). Estructura fija con dos apartados obligatorios: **Respuesta a las preguntas** y **Enlace al vídeo explicativo**. Se define en la **Fase 0.1**.
+> - **Entrada:** una **por fase**, no una por día. Si una fase dura varias clases, se sigue escribiendo en el mismo fichero. Nombre `fase-CODIGO-titulo-corto.md` — **se llama como la fase, sin fecha** (el código ya ordena). Los días de teoría suelta: `teoria-MMDDAA-tema.md`. Estructura fija con dos apartados obligatorios: **Respuesta a las preguntas** y **Enlace al vídeo explicativo**. Se define en la **Fase 0.1**.
 > - **Ciclo diario:** `git pull` al empezar → trabajar → `git add` / `commit` / `push` al terminar.
 
 ---
@@ -57,7 +57,7 @@ Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init
 ├── 00_Apuntes/
 │   ├── Trimestre_1/             ← REPO propio (apuntes-sor-t1) → GitHub → enlace al profe
 │   │   └── B0_Prerrequisitos/
-│   │       └── 091526_metodologia-y-estructura.md   ← una entrada por FASE (MMDDAA)
+│   │       └── fase-0.1-metodologia-y-estructura.md  ← una entrada por FASE
 │   ├── Trimestre_2/             ← REPO propio (apuntes-sor-t2)
 │   └── Trimestre_3/             ← REPO propio (apuntes-sor-t3)
 └── 01_Practicas/

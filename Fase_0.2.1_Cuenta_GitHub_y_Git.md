@@ -12,7 +12,7 @@
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)
 > Esta práctica se **graba entera con OBS**, de principio a fin.
-> 1. **Prepárate primero (sin grabar):** comprueba lo necesario, **léete el procedimiento entero** y **crea la entrada de apuntes de esta fase** en Obsidian (nombre `MMDDAA_fase-0.2.1-titulo.md`, estructura de la Fase 0.1). La vas rellenando **mientras** haces la práctica, no al final.
+> 1. **Prepárate primero (sin grabar):** comprueba lo necesario, **léete el procedimiento entero** y **crea la entrada de apuntes de esta fase** en Obsidian: fichero `fase-0.2.1-cuenta-github-y-git.md` con la estructura de la Fase 0.1, **vacía**. Rellenarla es cosa tuya, después; hoy solo tiene que existir.
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.2.1 — Cuenta de GitHub y configuración de Git."* Y **muestra algo que demuestre que eres tú**: tu **Teams** o tu **correo `@alu.edu.gva.es`** (aún no tienes GitHub, lo creas ahora). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
@@ -57,7 +57,7 @@
 > 1. **Comprueba Git:** abre la terminal (**Git Bash** en Windows / **Terminal** en Linux) y escribe `git --version`. Si da error, **avísame** (no lo instales tú).
 > 2. **Léete el procedimiento** (pasos 1 a 4): este procedimiento tiene **4 pasos** grabados.
 > 3. **Ten OBS listo** y una pestaña con tu **Teams** o tu **correo `@alu.edu.gva.es`**.
-> **Y antes de grabar: crea la entrada de apuntes de esta fase** en Obsidian, con su nombre y su estructura. Es lo primero, no lo último: la vas rellenando mientras trabajas.
+> **Y antes de grabar: crea la entrada de apuntes de esta fase** (`fase-0.2.1-cuenta-github-y-git.md`) con la estructura pegada y **vacía**. En el vídeo solo tienes que **enseñarla**, no rellenarla.
 
 > [!danger] ⌨️ LÉEME: en la terminal, `Ctrl+C` y `Ctrl+V` NO funcionan
 > Esto le pasa a todo el mundo el primer día, así que te lo aviso antes de que te bloquees. En **Git Bash** (y en las terminales de Linux) el portapapeles **no va con `Ctrl+C` / `Ctrl+V`**.

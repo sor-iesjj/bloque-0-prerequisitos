@@ -12,7 +12,7 @@
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)
 > Esta práctica se **graba entera con OBS**, de principio a fin.
-> 1. **Prepárate primero (sin grabar):** comprueba lo necesario, **léete el procedimiento entero** y **crea la entrada de apuntes de esta fase** en Obsidian (nombre `MMDDAA_fase-0.3-titulo.md`, estructura de la Fase 0.1). La vas rellenando **mientras** haces la práctica, no al final.
+> 1. **Prepárate primero (sin grabar):** comprueba lo necesario, **léete el procedimiento entero** y **crea la entrada de apuntes de esta fase** en Obsidian: fichero `fase-0.3-repo-de-apuntes.md` con la estructura de la Fase 0.1, **vacía**. Rellenarla es cosa tuya, después; hoy solo tiene que existir.
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.3 — Repositorio de apuntes y primera entrada."* Y **muestra tu perfil de GitHub** (o tu Teams/correo). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
@@ -49,7 +49,7 @@
 > [!important] 1. Recordatorio: cómo se llama y cómo se escribe una entrada
 > Esto ya lo viste en la **Fase 0.1** y hoy lo repites, porque hoy toca **la entrada de HOY**. Por si no lo tienes a mano:
 >
-> - **Nombre:** `MMDDAA_titulo-corto.md` — mes, día y año en dos dígitos, guion bajo, y un título corto en minúsculas sin tildes ni espacios. Ejemplo para el 16 de septiembre de 2026: `091626_fase-0.3-repo-de-apuntes.md`
+> - **Nombre:** `fase-CODIGO-titulo-corto.md`, en minúsculas y con guiones. La entrada **se llama como la fase**, sin fecha: el código ya ordena. Ejemplo: `fase-0.3-repo-de-apuntes.md`
 > - **Estructura:** cabecera (`Fecha`, `Bloque`, `Fase / práctica`) + los cuatro apartados: *Qué hemos visto hoy*, *Conceptos clave*, *Comandos / pasos importantes*, *Dudas / a repasar en casa*.
 >
 > > [!tip] 💡 Hoy SÍ hay comandos que anotar
@@ -68,7 +68,7 @@
 
 > [!example] Paso 0: Prepárate (todavía SIN grabar)
 > Comprueba que tienes la bóveda y la autenticación de la 0.2. **Léete el procedimiento** (tiene **6 pasos** grabados). Ten **OBS** listo y tu **perfil de GitHub** en una pestaña.
-> **Y antes de grabar: crea la entrada de apuntes de esta fase** en Obsidian, con su nombre y su estructura. Es lo primero, no lo último: la vas rellenando mientras trabajas.
+> **Y antes de grabar: crea la entrada de apuntes de esta fase** (`fase-0.3-repo-de-apuntes.md`) con la estructura pegada y **vacía**. En el vídeo solo tienes que **enseñarla**, no rellenarla.
 
 > [!example] Paso 1: Arranca la grabación y preséntate
 > Inicia la grabación en **OBS**, preséntate, **enseña tu perfil de GitHub** 2-3 segundos y di qué vas a hacer.
@@ -76,7 +76,7 @@
 > [!example] Paso 2: Escribe la entrada de ESTA FASE en Obsidian
 > En `00_Apuntes/Trimestre_1/B0_Prerrequisitos/` ya tienes las entradas de las fases anteriores. **No las toques**: esta es **otra fase**, así que va **otro fichero**.
 >
-> Clic derecho sobre `B0_Prerrequisitos` → **`New note`**, nómbrala con la fecha de hoy y el título de la fase (`MMDDAA_fase-0.3-repo-de-apuntes`) y rellena la estructura. Guarda.
+> Clic derecho sobre `B0_Prerrequisitos` → **`New note`**, nómbrala `fase-0.3-repo-de-apuntes` y pega la estructura (rellena solo la cabecera). Guarda. **No te grabes redactando**: el contenido lo escribes después, a tu ritmo.
 >
 > Al terminar tienes **una entrada por cada fase que llevas**. Enséñalo en el vídeo: eso es la regla funcionando.
 >
@@ -148,16 +148,16 @@
 > ```
 > Ahora **NO subas todo de golpe**. Vas a hacer **un commit por cada entrada**, en orden. Sustituye los nombres por los de tus ficheros:
 > ```bash
-> git add B0_Prerrequisitos/091526_fase-0.1-metodologia-y-estructura.md
+> git add B0_Prerrequisitos/fase-0.1-metodologia-y-estructura.md
 > git commit -m "Fase 0.1: metodologia y estructura de la boveda"
 >
-> git add B0_Prerrequisitos/091626_fase-0.2.1-cuenta-github.md
+> git add B0_Prerrequisitos/fase-0.2.1-cuenta-github-y-git.md
 > git commit -m "Fase 0.2.1: cuenta de GitHub y configuracion de Git"
 >
-> git add B0_Prerrequisitos/091626_fase-0.2.2-clave-ssh.md
+> git add B0_Prerrequisitos/fase-0.2.2-clave-ssh.md
 > git commit -m "Fase 0.2.2: autenticacion con clave SSH"
 >
-> git add B0_Prerrequisitos/091726_fase-0.3-repo-de-apuntes.md
+> git add B0_Prerrequisitos/fase-0.3-repo-de-apuntes.md
 > git commit -m "Fase 0.3: repositorio de apuntes"
 > ```
 > Y ahora sí, súbelo todo:
@@ -211,7 +211,7 @@
 > > La tarea se abre con **fecha límite de varios días**, no del mismo día, y te llega **notificación** de Teams. Si algo no te ha salido, dímelo **antes** del plazo, no después.
 
 > [!note] 📌 A partir de ahora, en cada fase
-> Creas **su entrada** (nombre + estructura), la vas rellenando mientras dure la fase, y al acabar el día, dentro de `Trimestre_1`: `git add .` → `git commit -m "Apuntes del ..."` → `git push`. Así el repo está siempre al día.
+> **Al empezar la fase** creas su entrada (nombre + estructura, vacía). **Durante la fase** la vas rellenando a tu ritmo, sin grabar. **Al acabar cada día**, dentro de `Trimestre_1`: `git add .` → `git commit -m "Fase 0.X: ..."` → `git push`. Así el repo está siempre al día y nunca pierdes más de una sesión.
 
 ---
 

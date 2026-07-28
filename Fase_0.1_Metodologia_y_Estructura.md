@@ -17,7 +17,7 @@
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)
 > Esta práctica se **graba entera con OBS**, de principio a fin. No es un repaso al final: quiero ver **cómo lo haces tú**.
-> 1. **Prepárate primero (sin grabar):** comprueba que tienes lo necesario y **léete el procedimiento entero** para no atascarte a mitad del vídeo. *(En esta primera fase la entrada de apuntes la creas **dentro** de la práctica, en el Paso 5: todavía no sabes cómo se hace. **A partir de la 0.2.1, crear la entrada será lo PRIMERO que hagas**, antes de grabar.)*
+> 1. **Prepárate primero (sin grabar):** comprueba que tienes lo necesario y **léete el procedimiento entero** para no atascarte a mitad del vídeo. *(En esta primera fase la entrada de apuntes la creas **dentro** de la práctica, en el Paso 5: todavía no sabes cómo se hace. **A partir de la 0.2.1, crearla será lo PRIMERO que hagas**, antes de grabar.)*
 > 2. **Arranca OBS y, nada más empezar, PRESÉNTATE:** *"Hola y bienvenidos. Me llamo [Nombre], soy alumno de 2.º SMR, y en este vídeo voy a explicar la Fase 0.1 — Metodología y estructura de la bóveda."* Y **muestra en pantalla algo que demuestre que eres tú** (tu **Teams** o tu **correo `@alu.edu.gva.es`** con tu nombre; cuando tengas GitHub, tu perfil). Di **qué vas a hacer**.
 > 3. **Graba TODO el procedimiento**, explicando cada paso en voz alta mientras lo haces.
 > 4. **Timestamps SIEMPRE** en la descripción del vídeo: `00:00 Presentación` y **uno por cada paso** (formato `mm:ss`).
@@ -103,30 +103,35 @@ Al terminar esta fase serás capaz de:
 > - **Si una fase dura varios días**, NO creas una entrada nueva cada día: **abres la de siempre y sigues escribiendo**. Toda la fase, en un solo sitio.
 > - **Si un día hacemos dos fases**, escribes **dos** entradas, no una. La 0.2.1 y la 0.2.2 la misma tarde son dos ficheros con la misma fecha y distinto título.
 > - **Si damos teoría que no pertenece a ninguna fase**, esa clase también tiene su entrada, con el tema como título.
-> - **La entrada se crea AL EMPEZAR la fase, no al terminarla.** Es lo primero que haces, antes incluso de arrancar OBS, y la vas rellenando **mientras** trabajas. Si la dejas para el final, escribirás de memoria — y lo que quiero leer es lo que pensabas *mientras* lo hacías, incluidas las dudas.
+> - **La entrada se CREA al empezar la fase**, antes incluso de arrancar OBS: con su nombre y su estructura pegada, aunque esté vacía. En el vídeo solo tienes que **enseñarla**. **Rellenarla es cosa tuya, a tu ritmo**, mientras dure la fase — no hay que grabarse escribiendo.
 >
 > ¿Por qué así? Por dos razones, y las dos te convienen:
 > 1. **La entrada es donde vive el enlace de tu vídeo** (apartado 6). Una entrada por fase = tu repositorio me cuenta solo la historia: qué hiciste, qué entendiste y dónde está el vídeo que lo demuestra. Si me falta una entrada, sé exactamente qué fase falta.
 > 2. **Para ti, en junio.** Buscar "lo de las claves SSH" en un fichero llamado `Fase 0.2.2` es inmediato. Buscarlo repartido en tres entradas de tres martes distintos es perder la tarde.
 
 > [!important] 5. La entrada: NOMBRE obligatorio
-> **Un fichero por fase** dentro de la carpeta del bloque que toque, con este nombre exacto:
+> **Un fichero por fase** dentro de la carpeta del bloque que toque. **La entrada se llama como la fase**:
 > ```
-> MMDDAA_titulo-corto.md
+> fase-CODIGO-titulo-corto.md
 > ```
-> - `MM` mes (2 dígitos) · `DD` día (2 dígitos) · `AA` año (2 dígitos) · `_` · `titulo-corto` en minúsculas, con guiones, **sin tildes ni espacios**.
-> - La fecha es la del **día en que EMPIEZAS la fase**. Si luego se alarga tres clases, el nombre del fichero **no cambia**: sigue siendo el del día que arrancaste.
+> Todo en minúsculas, con guiones, **sin tildes ni espacios**.
 >
-> **Correcto:** `091526_metodologia-y-estructura.md` (15 de septiembre de 2026)
-> **Incorrecto:** `apuntes dia 1.md` ❌ · `15-9.md` ❌ · `Apuntes Día 1.md` ❌
+> **¿Y la fecha? No va en el nombre.** No hace falta: **el código de la fase ya ordena**. `fase-0.1`, `fase-0.2.1`, `fase-0.2.2`, `fase-0.3`… se colocan solas y en el orden en que las hemos dado. Meter además la fecha sería repetir información y encima descolocaría el orden si una fase se retrasa. La fecha va **dentro** de la entrada, en su campo.
 >
-> La **carpeta ya te dice el bloque**, así que en el título no lo repitas: pon **de qué va** la clase de ese día. Si los apuntes son de una fase concreta, nómbrala — te ahorra buscar en junio:
-> `091626_fase-0.2-github-y-ssh.md` · `100526_b1.5-usb-booteable-con-rufus.md`
+> **Correcto:** `fase-0.1-metodologia-y-estructura.md` · `fase-0.2.2-clave-ssh.md`
+> **Incorrecto:** `apuntes dia 1.md` ❌ · `Fase 0.1.md` ❌ (espacios y mayúsculas) · `0.1.md` ❌ (sin decir de qué va)
+>
+> La **carpeta ya te dice el bloque**, así que en el título no lo repitas: `fase-0.2.2-clave-ssh` y no `fase-0.2.2-bloque-0-clave-ssh`.
+>
+> > [!note] 📌 ¿Y los días de teoría, que no son ninguna fase?
+> > Esos sí llevan fecha, porque no tienen código que los ordene. Se nombran `teoria-MMDDAA-tema.md`:
+> > `teoria-091726-que-es-un-dominio.md`
+> > Así, dentro de la carpeta del bloque, **las fases van juntas y en orden, y la teoría va junta y por fecha**.
 
 > [!important] 6. La entrada: ESTRUCTURA obligatoria
 > Todas tus entradas se escriben igual. Cópiala tal cual y rellénala:
 > ```markdown
-> # 091526 — Fase 0.1: Metodología y estructura
+> # Fase 0.1 — Metodología y estructura
 >
 > **Fecha:** 15/09/2026            (si la fase dura varios días: 15/09/2026 - 17/09/2026)
 > **Bloque:** B0 — Prerrequisitos
@@ -273,13 +278,17 @@ Al terminar esta fase serás capaz de:
 > > [!warning] ⚠️ El nombre importa
 > > No pongas `Apuntes` en vez de `00_Apuntes`, ni `Trimestre 1` con espacio, ni `Bloque1`. Si cada uno lo escribe a su manera, es imposible corregir a 20 personas. **Cópialo carácter a carácter.**
 
-> [!example] Paso 5: Escribe tu PRIMERA entrada de apuntes (grabando)
-> La carpeta `B0_Prerrequisitos` está vacía, y una carpeta vacía no son apuntes. Estréñala ahora con la entrada **de esta fase**:
+> [!example] Paso 5: Crea tu PRIMERA entrada de apuntes (grabando)
+> La carpeta `B0_Prerrequisitos` está vacía, y una carpeta vacía no son apuntes. Vamos a dejarla estrenada:
 > 1. En Obsidian, **clic derecho sobre `B0_Prerrequisitos`** → **`New note`**.
-> 2. **Nómbrala** con el formato del apartado 5, poniendo **la fecha de HOY**: `MMDDAA_titulo-corto`. Si hoy es 15 de septiembre de 2026 → `091526_metodologia-y-estructura`.
-> 3. **Pega la plantilla** (apartado 6 del fundamento) y **rellénala con lo de hoy**, explicando en voz alta lo que escribes. No hace falta que sea largo: tres o cuatro líneas honestas valen más que media página copiada.
->    - En **"Comandos / pasos importantes"**, hoy pon: *"Ninguno: todavía no hemos usado la terminal."* Es una respuesta perfectamente válida.
-> 4. **Guarda** y comprueba que el fichero aparece dentro de `B0_Prerrequisitos`.
+> 2. **Nómbrala como la fase**, con el formato del apartado 5: `fase-0.1-metodologia-y-estructura`.
+> 3. **Pega la plantilla** (apartado 6 del fundamento) y rellena **solo la cabecera**: `Fecha`, `Bloque` y `Fase / práctica`.
+> 4. **Recorre los apartados vacíos con el ratón** y di en voz alta qué vas a poner en cada uno. Eso es lo que quiero ver: que sabes para qué sirve cada sección.
+> 5. **Guarda** y comprueba que el fichero aparece dentro de `B0_Prerrequisitos`.
+>
+> > [!important] ⏱️ NO te grabes escribiendo los apuntes
+> > En el vídeo la entrada tiene que **existir y verse**, con su nombre y su estructura. **Nada más.** Escribir el contenido lo haces **después**, sin grabar y a tu ritmo, mientras dure la fase.
+> > Si te grabas redactando, el vídeo se te va a cuarenta minutos y nadie lo va a ver — ni yo. **Cinco minutos.**
 >
 > > [!note] 📌 Esto todavía NO está en GitHub
 > > Tu entrada existe solo en este ordenador. Para que yo pueda verla hace falta Git, y eso es la **Fase 0.2**. No te preocupes ahora: escríbela bien y déjala ahí. En la **Fase 0.3** la subiremos junto con las de las fases que hayas hecho para entonces.
@@ -352,7 +361,7 @@ Al terminar esta fase serás capaz de:
 - [ ] Vídeo grabado **de principio a fin**, con presentación e identidad al inicio.
 - [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `B0_Prerrequisitos`.
 - [ ] Timestamps en la descripción (uno por paso).
-- [ ] **Primera entrada escrita** en `B0_Prerrequisitos/`, con nombre `MMDDAA_titulo-corto.md` y la estructura obligatoria.
+- [ ] **Primera entrada escrita** en `B0_Prerrequisitos/`, con nombre `fase-0.1-metodologia-y-estructura.md` y la estructura obligatoria.
 - [ ] **Enlace del vídeo pegado en tu entrada**, en el apartado `Enlace al vídeo explicativo`.
 - [ ] **Preguntas Críticas contestadas** en tu entrada (el 🔬 Reto es voluntario).
 - [ ] Grabada **🏫 en el centro**.
