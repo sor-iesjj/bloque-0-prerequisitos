@@ -33,7 +33,7 @@ Al terminar esta fase serás capaz de:
 - [ ] Explicar con tus palabras qué es una **bóveda** de Obsidian y para qué la usamos.
 - [ ] Explicar la diferencia entre **tus apuntes** y las **prácticas** (Boochan), y por qué viven en carpetas separadas.
 - [ ] Tener tu **canal de YouTube** con la playlist `B0_Prerrequisitos` lista, y **haberme pasado su enlace** para que pueda corregirte.
-- [ ] Crear tu bóveda `Boveda_SOR` en la ruta correcta del equipo (y saber por qué **NO** va en OneDrive).
+- [ ] Comprobar si tu carpeta `Documentos` está en OneDrive, y crear tu bóveda `Boveda_SOR` en la ruta correcta (sabiendo **por qué** no puede vivir en OneDrive).
 - [ ] Crear la **estructura de carpetas** exacta que usaremos todo el curso, respetándola al detalle.
 - [ ] **Grabar la práctica entera con OBS**, presentándote, y subirla a tu playlist.
 
@@ -79,12 +79,12 @@ Al terminar esta fase serás capaz de:
 >
 > - **Trimestre:** primero, segundo o tercero. Cada uno en su carpeta.
 > - **Tema:** un asunto grande dentro del trimestre. El **Tema 1 es "Introducción"** (esto que estamos haciendo ahora).
->
-> > [!warning] ⚠️ "Tema" (tus apuntes) ≠ "Bloque" (el curso)
-> > Ojo con esto, que si no en noviembre nos liamos: **el curso** está dividido en **Bloques** (Bloque 1 — Entorno, Bloque 6 — Contenedores…), que son míos y los nombro yo. **Tus apuntes** se dividen en **Temas**, que numeras tú. Son dos cosas distintas y **no tienen por qué coincidir**: cuando yo diga "esto es del Bloque 1", me refiero al material del curso, no a tu carpeta.
 > - **Entrada del día:** **cada día de clase creas un fichero nuevo** con lo que hayas anotado ese día. No escribes todo en un único fichero gigante: un fichero por día.
 >
 > Las normas exactas de cómo nombrar y rellenar cada entrada las veremos en la **Fase 0.3**. Aquí solo dejamos preparadas las carpetas.
+
+> [!warning] ⚠️ "Tema" (tus apuntes) ≠ "Bloque" (el curso)
+> Ojo con esto, que si no en noviembre nos liamos: **el curso** está dividido en **Bloques** (Bloque 1 — Entorno, Bloque 6 — Contenedores…), que son míos y los nombro yo. **Tus apuntes** se dividen en **Temas**, que numeras tú. Son dos cosas distintas y **no tienen por qué coincidir**: cuando yo diga *"esto es del Bloque 1"*, me refiero al material del curso, no a tu carpeta.
 
 > [!warning] 4. Por qué se graba TODO (y desde el principio)
 > Regla de oro del curso: **una práctica que no se graba, no cuenta.** Y se graba **de principio a fin**, no un repaso al final:
@@ -130,7 +130,7 @@ Al terminar esta fase serás capaz de:
 > [!example] Paso 0: Prepárate (todavía SIN grabar)
 > Antes de darle a grabar, deja todo listo para que el vídeo salga del tirón: (este procedimiento se explica CLARAMENTE AHORA, en el resto de procedimiento se dará por entendido)
 > 1. **Comprueba lo instalado:** busca **Obsidian** y **OBS Studio** en el menú de aplicaciones. Si **falta alguno**, avísame: **no intentes instalarlo tú** ni bajar versiones "portables" no autorizadas.
-> 2. **Léete el procedimiento entero** (los pasos 1 a 4 de abajo): así, cuando grabes, sabrás lo que viene y no te quedarás en blanco. Este procedimiento tiene **4 pasos** que se graban.
+> 2. **Léete el procedimiento entero** (los pasos 1 a 4 de abajo): así, cuando grabes, sabrás lo que viene y no te quedarás en blanco. Este procedimiento tiene **5 pasos** que se graban (1, 2, 2b, 3 y 4).
 > 3. **Ten OBS a mano** y una pestaña del navegador abierta con tu **Teams** o tu **correo `@alu.edu.gva.es`** (la usarás para presentarte).
 
 > [!example] Paso 1: Arranca la grabación y preséntate
@@ -139,14 +139,39 @@ Al terminar esta fase serás capaz de:
 > 3. **Demuestra que eres tú:** cambia a la pestaña de tu **Teams** o tu **correo `@alu.edu.gva.es`** y enséñalo 2-3 segundos, para que se vea tu nombre.
 > 4. Di **qué vas a hacer:** *"Voy a crear mi bóveda de Obsidian y su estructura de carpetas, siguiendo el procedimiento de esta fase."*
 
-> [!example] Paso 2: Crea la bóveda (grabando y explicando)
+> [!example] Paso 2: Comprueba tu carpeta `Documentos` (grabando)
+> La bóveda va **dentro de tu carpeta de usuario**: ahí tienes permisos siempre, tanto en el Windows del centro como en tu Linux. Pero antes de crear nada hay que comprobar **una cosa**, y es importante:
+> 1. Abre el **Explorador de archivos** (Windows) o el **gestor de archivos** (Linux) y ve a tu carpeta **`Documentos`**.
+> 2. **Mira el icono que tiene al lado, y dilo en voz alta:**
+>
+> | Lo que ves | Qué significa | Qué haces |
+> | :--- | :--- | :--- |
+> | Una **nube ☁️** (o pone "OneDrive" en la barra de direcciones) | Tu `Documentos` **está dentro de OneDrive**. No vale. | Sal de ahí y usa **directamente tu carpeta de usuario**: `C:\Users\TU-USUARIO\` (Windows) o `/home/tu-usuario/` (Linux) |
+> | Una **carpeta normal**, sin nube | Es local. Perfecta. | Trabajas dentro de `Documentos` |
+>
+> 3. **Crea ahí una carpeta llamada `SOR`** (en `Documentos` o en tu carpeta de usuario, según lo que te haya salido). Dentro de ella irá la bóveda.
+>
+> > [!tip] 💡 ¿Por qué te hago mirar esto?
+> > Porque en muchos equipos del centro OneDrive "se lleva" la carpeta `Documentos` a la nube sin avisar. Y Git (que montamos en la Fase 0.2) y OneDrive **se pelean** por los mismos ficheros: aparecen "copias en conflicto" y se corrompe el control de versiones. Diez segundos de comprobación ahora te ahorran una tarde de líos en noviembre.
+
+> [!example] Paso 2b: Crea la bóveda y **apunta tu ruta** (grabando y explicando)
 > Explicando en voz alta lo que haces:
 > 1. Abre **Obsidian** y pulsa **`Create new vault`** (Crear nueva bóveda).
 > 2. En **`Vault name`** escribe exactamente: **`Boveda_SOR`**
-> 3. En **`Location`** pulsa **`Browse`** y elige una carpeta **local, fuera de OneDrive**:
->    - **Windows:** `C:\SOR\` (si no existe la carpeta `SOR`, créala primero).
->    - **Linux:** tu carpeta personal, por ejemplo `/home/tu-usuario/SOR/`.
+> 3. En **`Location`** pulsa **`Browse`** y elige la carpeta **`SOR`** que acabas de crear en el paso anterior.
 > 4. Pulsa **`Create`**. Obsidian se abre con la bóveda vacía `Boveda_SOR`.
+>
+> > [!important] 📌 APÚNTATE TU RUTA — la vas a necesitar en todas las fases
+> > Según lo que te haya salido en el Paso 2, tu bóveda está en **una** de estas:
+> >
+> > | | Ruta |
+> > | :--- | :--- |
+> > | Windows, `Documentos` local | `C:\Users\TU-USUARIO\Documents\SOR\Boveda_SOR` |
+> > | Windows, `Documentos` en OneDrive | `C:\Users\TU-USUARIO\SOR\Boveda_SOR` |
+> > | Linux, `Documentos` | `/home/tu-usuario/Documentos/SOR/Boveda_SOR` |
+> > | Linux, sin `Documentos` | `/home/tu-usuario/SOR/Boveda_SOR` |
+> >
+> > **Anótala en un papel o en una nota.** No pasa nada por que la tuya no sea igual que la de tu compañero: a partir de la Fase 0.3 **no vas a teclear la ruta nunca** — abrirás la terminal directamente sobre la carpeta (te lo explico allí). Pero saber dónde vive tu bóveda es lo mínimo que se le pide a un técnico.
 
 > [!example] Paso 3: Crea la estructura de carpetas y compruébala (grabando)
 > Crea esta estructura **exacta** (nombres **sin tildes ni espacios**), explicando cada carpeta:
@@ -173,7 +198,8 @@ Al terminar esta fase serás capaz de:
 > 4. En la **descripción**, añade los **timestamps** (uno por paso). Ejemplo:
 >    ```
 >    00:00 Presentación
->    00:20 Paso 2 — Crear la bóveda Boveda_SOR
+>    00:20 Paso 2 — Comprobar la carpeta Documentos
+>    00:50 Paso 2b — Crear la bóveda Boveda_SOR
 >    01:10 Paso 3 — Crear la estructura de carpetas
 >    02:30 Paso 4 — Repaso final
 >    ```
@@ -201,7 +227,8 @@ Al terminar esta fase serás capaz de:
 > | El vídeo se va de 5 minutos. | Te has enrollado o repites cosas. | Prepárate mejor antes de grabar (Paso 0). Los timestamps son obligatorios igualmente. |
 > | El profesor me dice que no ve mi vídeo. | Lo subiste como "No listado" y no le pasaste el enlace de la playlist. | Playlist → `Compartir` → `Copiar enlace` → mándamelo por Teams. Si lo subiste como **"Privado"** por error, cámbialo a **"No listado"**: en privado no lo veo ni con el enlace. |
 > | No me deja crear la carpeta con ese nombre. | Has dejado un espacio al final, o un carácter raro. | Bórrala y créala de nuevo copiando el nombre exacto, sin espacios. |
-> | Creé la bóveda dentro de OneDrive sin querer. | Elegiste una ruta dentro de OneDrive. | Cierra Obsidian, mueve `Boveda_SOR` a una ruta local (ej. `C:\SOR\`) y reábrela con `Open folder as vault`. Ante la duda, pregúntame. |
+> | Creé la bóveda dentro de OneDrive sin querer. | Tu `Documentos` estaba redirigido a OneDrive y no lo viste (Paso 2). | Cierra Obsidian, mueve la carpeta `SOR` entera a tu carpeta de usuario (`C:\Users\TU-USUARIO\`) y reábrela con `Open folder as vault`. Ante la duda, pregúntame. |
+> | No sé si mi `Documentos` está en OneDrive o no. | El icono de nube no siempre se ve bien. | Entra en `Documentos` y mira la **barra de direcciones** del Explorador: si aparece `OneDrive` en la ruta, está en la nube. Si dudas, tira por la carpeta de usuario: esa nunca falla. |
 
 > [!help] Preguntas Críticas (Autoevaluación del alumno)
 > 1. ¿Qué es una bóveda de Obsidian? ¿Es un formato especial o una carpeta normal?
@@ -216,7 +243,8 @@ Al terminar esta fase serás capaz de:
 
 - [ ] Canal de YouTube creado con la playlist `B0_Prerrequisitos`.
 - [ ] Obsidian y OBS comprobados en el equipo (instalados por Consellería).
-- [ ] Bóveda `Boveda_SOR` creada en una ruta **local** (no en OneDrive).
+- [ ] Carpeta `Documentos` comprobada (¿nube o local?) y bóveda `Boveda_SOR` creada en una ruta **local** (no en OneDrive).
+- [ ] **Tu ruta apuntada** en un papel o una nota.
 - [ ] Estructura de carpetas exacta: `00_Apuntes/` (con `Trimestre_1/2/3` y `Tema_1_Introduccion` en T1) + `Practicas/`.
 - [ ] Vídeo grabado **de principio a fin**, con presentación e identidad al inicio.
 - [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `B0_Prerrequisitos`.

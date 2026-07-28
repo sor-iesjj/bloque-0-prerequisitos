@@ -95,13 +95,36 @@
 > En `00_Apuntes/Trimestre_1/Tema_1_Introduccion/`, clic derecho → **New note**, nómbrala `2026-09-15_introduccion-al-modulo` y pega la **plantilla** (apartado 2), rellenándola con lo de hoy. Guarda.
 
 > [!example] Paso 3: Convierte `Trimestre_1` en repositorio
-> ```bash
-> cd ~/SOR/Boveda_SOR/00_Apuntes/Trimestre_1
-> git init
-> git branch -M main
-> git status
-> ```
-> > [!danger] ⚠️ `git init` **solo** dentro de `Trimestre_1`. Comprueba con `pwd` antes. Nunca en `Boveda_SOR`.
+> **Primero hay que meter la terminal DENTRO de `Trimestre_1`.** No teclees la ruta: la carpeta de cada uno está en un sitio distinto (lo viste en la Fase 0.1). Haz esto, que es lo que hacemos los técnicos:
+>
+> 1. Abre el **Explorador/gestor de archivos** y navega hasta `Boveda_SOR/00_Apuntes/Trimestre_1`.
+> 2. **Clic derecho sobre la carpeta `Trimestre_1`** (o dentro de ella, en un hueco vacío):
+>    - **Windows:** `Abrir Git Bash aquí` / `Git Bash Here`. En Windows 11 puede estar dentro de **`Mostrar más opciones`**.
+>    - **Linux:** `Abrir en un terminal`.
+> 3. **Comprueba SIEMPRE dónde has caído** antes de tocar nada:
+>    ```bash
+>    pwd
+>    ```
+>    Tiene que terminar en `.../Boveda_SOR/00_Apuntes/Trimestre_1`. Si no, no sigas: has abierto la terminal en otro sitio.
+> 4. Ahora sí:
+>    ```bash
+>    git init
+>    git branch -M main
+>    git status
+>    ```
+>
+> > [!danger] ⚠️ `git init` **solo** dentro de `Trimestre_1`
+> > Nunca en `Boveda_SOR` ni en `00_Apuntes`. Por eso el `pwd` del punto 3 no es opcional: es el seguro que evita convertir media bóveda en un repositorio. **Dilo en voz alta en el vídeo cuando lo hagas.**
+>
+> > [!tip] 💡 Si no te aparece la opción de clic derecho
+> > Abre la terminal como sea, escribe `cd ` (con un espacio detrás) y **completa con tu ruta**, la que apuntaste en la Fase 0.1. Es una de estas cuatro:
+> > ```bash
+> > cd ~/Documents/SOR/Boveda_SOR/00_Apuntes/Trimestre_1     # Windows, Documentos local
+> > cd ~/SOR/Boveda_SOR/00_Apuntes/Trimestre_1               # Windows, Documentos en OneDrive
+> > cd ~/Documentos/SOR/Boveda_SOR/00_Apuntes/Trimestre_1    # Linux en español
+> > cd ~/SOR/Boveda_SOR/00_Apuntes/Trimestre_1               # Linux sin Documentos
+> > ```
+> > El `~` significa "mi carpeta de usuario". Y ojo: en Linux la carpeta se llama `Documentos`, pero en Windows es `Documents` **aunque el Explorador te la enseñe traducida como "Documentos"**. Comprueba con `pwd` igualmente.
 
 > [!example] Paso 4: Crea el repositorio en GitHub
 > En `github.com` → **`+` → New repository**: **name** `apuntes-sor-t1`, **Private**, **SIN** README/gitignore/license. En el botón **`Code`** copia tu dirección (**SSH** `git@github.com:...` o **HTTPS** `https://github.com/...`).

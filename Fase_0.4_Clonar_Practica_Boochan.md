@@ -53,8 +53,9 @@
 > En `github.com/sor-iesjj/boochan-v1`, pulsa **`Use this template` → Create a new repository**: **Owner** tu usuario, **name** `boochan-1`, **Visibility** la que indique el profesor. **Create repository**. En **`Code`**, copia tu dirección (**SSH** `git@github.com:TU-USUARIO/boochan-1.git` o **HTTPS**).
 
 > [!example] Paso 3: Clona tu copia dentro de `Practicas/`
+> Igual que en la Fase 0.3: **clic derecho sobre la carpeta `Practicas` de tu bóveda** → `Abrir Git Bash aquí` (Windows) / `Abrir en un terminal` (Linux). Comprueba dónde estás **antes de clonar**:
 > ```bash
-> cd ~/SOR/Boveda_SOR/Practicas
+> pwd          # tiene que terminar en .../Boveda_SOR/Practicas
 > git clone git@github.com:TU-USUARIO/boochan-1.git
 > cd boochan-1
 > ls

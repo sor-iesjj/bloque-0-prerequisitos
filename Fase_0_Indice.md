@@ -38,6 +38,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 
 ```
 Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init aquí.
+   (vive dentro de la carpeta de usuario: ~/Documents/SOR, ~/Documentos/SOR o ~/SOR — NUNCA en OneDrive)
 ├── 00_Apuntes/
 │   ├── Trimestre_1/             ← REPO propio (apuntes-sor-t1) → GitHub → enlace al profe
 │   │   └── Tema_1_Introduccion/
@@ -59,7 +60,7 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 
 | Sub-fase | Título | Qué consigue el alumno |
 | :--- | :--- | :--- |
-| **0.1** | [[Fase_0.1_Metodologia_y_Estructura]] | Método + bóveda + estructura + **canal de YouTube** con la playlist `B0_Prerrequisitos`. |
+| **0.1** | [[Fase_0.1_Metodologia_y_Estructura]] | Método + bóveda + estructura + **canal de YouTube** con la playlist `B0_Prerrequisitos`, **cuyo enlace me pasa por Teams** (una sola vez para todo el bloque). |
 | **0.2** | [[Fase_0.2_GitHub_Git_y_SSH]] | *(índice)* Conexión con GitHub, en 2 partes ↓ |
 | ↳ **0.2.1** | [[Fase_0.2.1_Cuenta_GitHub_y_Git]] | Crea la cuenta de GitHub y configura Git. |
 | ↳ **0.2.2** | [[Fase_0.2.2_Autenticacion_SSH]] | Clave SSH (y token HTTPS) + verificación. |

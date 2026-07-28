@@ -20,7 +20,7 @@
 > 6. **~5 min. Una sola entrega:** esta práctica se hace en **🏠 casa** (en tu propio ordenador).
 
 > [!danger] ⚠️ La bóveda de casa TAMPOCO va en OneDrive
-> Igual que en el centro: la bóveda va en una carpeta **local** (ej. `C:\SOR\` o `~/SOR/`), **fuera de OneDrive**. Git y OneDrive se pelean. Tu "nube" es **GitHub**.
+> Igual que en el centro: la bóveda va **dentro de tu carpeta de usuario** (en `Documentos`, o directamente en tu carpeta personal), **fuera de OneDrive**. En casa haz la **misma comprobación** que hiciste en la Fase 0.1: si tu `Documentos` tiene el icono de **nube ☁️**, está sincronizado con OneDrive y no vale. Git y OneDrive se pelean. Tu "nube" es **GitHub**.
 
 ---
 
@@ -70,22 +70,24 @@
 > Verifica: `ssh -T git@github.com` → `Hi TU-USUARIO!`.
 
 > [!example] Paso 3: Reconstruye la bóveda clonando tus repos
-> 1. Crea la estructura contenedor (local, **fuera de OneDrive**):
+> 1. Crea la estructura contenedor (local, **fuera de OneDrive**). Sustituye `RUTA_SOR` por tu carpeta (la que apuntaste en la Fase 0.1: `~/Documents/SOR`, `~/Documentos/SOR` o `~/SOR`):
 >    ```bash
->    mkdir -p ~/SOR/Boveda_SOR/00_Apuntes
->    mkdir -p ~/SOR/Boveda_SOR/Practicas
+>    mkdir -p RUTA_SOR/Boveda_SOR/00_Apuntes
+>    mkdir -p RUTA_SOR/Boveda_SOR/Practicas
 >    ```
+>    Ejemplo si en casa usas Linux en español: `mkdir -p ~/Documentos/SOR/Boveda_SOR/00_Apuntes`
 > 2. Clona tus apuntes **dentro de `00_Apuntes/`**, con nombre de carpeta `Trimestre_1`:
 >    ```bash
->    cd ~/SOR/Boveda_SOR/00_Apuntes
+>    cd RUTA_SOR/Boveda_SOR/00_Apuntes
+>    pwd          # comprueba que estás donde crees
 >    git clone git@github.com:TU-USUARIO/apuntes-sor-t1.git Trimestre_1
 >    ```
 > 3. Clona la práctica **dentro de `Practicas/`**:
 >    ```bash
->    cd ~/SOR/Boveda_SOR/Practicas
+>    cd RUTA_SOR/Boveda_SOR/Practicas
 >    git clone git@github.com:TU-USUARIO/boochan-1.git
 >    ```
-> 4. Abre Obsidian → **`Open folder as vault`** → `~/SOR/Boveda_SOR`.
+> 4. Abre Obsidian → **`Open folder as vault`** → tu `Boveda_SOR`.
 >
 > > [!note] 📌 El truco del nombre: al escribir `... .git Trimestre_1` al final, la carpeta se llama `Trimestre_1` (no `apuntes-sor-t1`), idéntica a la del centro.
 

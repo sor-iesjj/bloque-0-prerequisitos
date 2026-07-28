@@ -59,9 +59,9 @@
 
 > [!example] Paso 1: Arranca la grabación y practica el ciclo (en casa)
 > Inicia la grabación, preséntate y muestra tu identidad. Luego:
-> 1. **Al empezar**, baja lo último:
+> 1. **Al empezar**, baja lo último (clic derecho sobre `Trimestre_1` → abrir terminal ahí, como en la Fase 0.3):
 >    ```bash
->    cd ~/SOR/Boveda_SOR/00_Apuntes/Trimestre_1
+>    pwd          # .../Boveda_SOR/00_Apuntes/Trimestre_1
 >    git pull
 >    ```
 > 2. En Obsidian, crea una entrada de prueba (formato de la Fase 0.3).
@@ -76,7 +76,7 @@
 > [!example] Paso 2: Confirma la sincronización centro ↔ casa
 > Explica que, al día siguiente **en el centro**, lo primero es:
 > ```bash
-> cd ~/SOR/Boveda_SOR/00_Apuntes/Trimestre_1
+> pwd          # .../Boveda_SOR/00_Apuntes/Trimestre_1
 > git pull
 > ```
 > y que eso **baja** la entrada que hiciste en casa. (Si puedes, demuéstralo con el otro equipo; si no, explícalo con el flujo.)

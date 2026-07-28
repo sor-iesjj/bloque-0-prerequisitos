@@ -54,7 +54,7 @@
 > [!example] Paso 2: Simulación A — ciclo de apuntes
 > Narrándolo:
 > ```bash
-> cd ~/SOR/Boveda_SOR/00_Apuntes/Trimestre_1
+> pwd          # .../Boveda_SOR/00_Apuntes/Trimestre_1  (abre la terminal ahí con clic derecho)
 > git pull
 > ```
 > Crea una **entrada del día** (nombre `AAAA-MM-DD_...` y estructura de la 0.3) y súbela:
@@ -66,7 +66,7 @@
 
 > [!example] Paso 3: Simulación B — ciclo de práctica
 > ```bash
-> cd ~/SOR/Boveda_SOR/Practicas/boochan-1
+> pwd          # .../Boveda_SOR/Practicas/boochan-1  (abre la terminal ahí con clic derecho)
 > ```
 > Edita `MIS_DATOS.md`, míralo con `git status` y súbelo:
 > ```bash
