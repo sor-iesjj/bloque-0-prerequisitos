@@ -1,4 +1,4 @@
-## 🎬 Fase 0.6: Verificación Final y Simulación Completa
+	## 🎬 Fase 0.6: Verificación Final y Simulación Completa
 
 ### Demostrar, de principio a fin y grabado, que todo tu entorno funciona
 
