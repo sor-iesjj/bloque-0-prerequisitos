@@ -58,6 +58,41 @@
 > 2. **Léete el procedimiento** (pasos 1 a 4): este procedimiento tiene **4 pasos** grabados.
 > 3. **Ten OBS listo** y una pestaña con tu **Teams** o tu **correo `@alu.edu.gva.es`**.
 
+> [!note] 📎 Nota de referencia: cómo se instala Git (y Obsidian) por tu cuenta
+> **En el centro no tienes que hacer nada de esto** — lo instala Consellería y tú no tienes permisos. Lo pongo aquí porque **en casa sí te va a tocar a ti** (Fase 0.5.1), porque en una entrevista de trabajo te lo pueden preguntar, y porque un técnico tiene que saber instalar sus propias herramientas. Léelo, no lo ejecutes en el aula.
+>
+> **🪟 Windows — dos caminos, el mismo resultado**
+>
+> *Camino A, desde la terminal* (PowerShell, y es el que usaría un técnico):
+> ```powershell
+> winget install --id Git.Git -e
+> winget install --id Obsidian.Obsidian -e
+> ```
+> `winget` es el gestor de paquetes de Windows, ya viene con Windows 10 y 11. `-e` significa "coincidencia exacta del nombre", para que no te instale otra cosa parecida.
+>
+> *Camino B, descargando el instalador:* ve a **`git-scm.com/download/win`** y ejecuta el `.exe`. Te hará muchas preguntas: **acepta las opciones por defecto**, pero asegúrate de dejar marcadas estas tres, que son las que usamos en el curso:
+>
+> | Opción del instalador | Para qué la necesitas |
+> | :--- | :--- |
+> | *Windows Explorer integration → **Open Git Bash here*** | El clic derecho sobre una carpeta que usamos en la Fase 0.3 |
+> | *Git from the command line and also from 3rd-party software* | Que `git` funcione también en PowerShell, no solo en Git Bash |
+> | *Add a Git Bash Profile to Windows Terminal* | Abrir Git Bash desde la Terminal de Windows |
+>
+> **🐧 Linux — según tu distribución**
+> ```bash
+> sudo apt update && sudo apt install git      # Ubuntu, Debian, Linux Mint
+> sudo dnf install git                         # Fedora
+> sudo pacman -S git                           # Arch, Manjaro
+> ```
+> En Linux **no existe Git Bash y no hace falta**: la terminal del sistema ya es una terminal de este tipo, así que todos los comandos del curso funcionan tal cual.
+> Obsidian se baja de **`obsidian.md`** (`.deb`, AppImage, o `sudo snap install obsidian --classic`).
+>
+> **✅ Comprobar que ha ido bien** — en cualquiera de los dos sistemas, cierra la terminal, ábrela de nuevo y escribe:
+> ```bash
+> git --version
+> ```
+> Si responde algo tipo `git version 2.53.0`, está instalado. Si dice `command not found`, **no ha funcionado**: normalmente es que no has cerrado y vuelto a abrir la terminal (el `PATH` solo se refresca al abrirla).
+
 > [!example] Paso 1: Arranca la grabación y preséntate
 > 1. En **OBS**, pulsa **"Iniciar grabación"**.
 > 2. Preséntate: *"Hola, me llamo [Nombre], 2.º SMR, y en este vídeo voy a crear mi cuenta de GitHub y a configurar Git."*

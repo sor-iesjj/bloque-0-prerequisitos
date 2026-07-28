@@ -57,6 +57,8 @@
 > [!example] Paso 1: Arranca la grabación, preséntate e instala las herramientas
 > Inicia la grabación, preséntate y **enseña tu perfil de GitHub**. Luego instala (en casa **sí** puedes):
 > 1. **Obsidian** (`obsidian.md`), **Git** (`git-scm.com` / `sudo apt install git`), **OBS** (`obsproject.com`).
+>    - 📎 **Los comandos exactos de instalación**, para Windows y para Linux, los tienes en la **nota de referencia de la Fase 0.2.1** ("cómo se instala Git por tu cuenta"). No los repito aquí: si cambian, cambian en un solo sitio.
+>    - ⚠️ En Windows, al instalar Git **deja marcada la opción `Open Git Bash here`**: es la que te da el clic derecho sobre una carpeta que usas en todas las fases.
 > 2. Comprueba: `git --version`.
 
 > [!example] Paso 2: Clave SSH del equipo de casa
