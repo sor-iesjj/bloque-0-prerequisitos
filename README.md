@@ -47,7 +47,7 @@ Boveda_SOR/                 ← se abre en Obsidian. NUNCA se hace git init aqu�
 │   ├── Trimestre_1/        ← repo propio → GitHub → enlace al profesor
 │   ├── Trimestre_2/
 │   └── Trimestre_3/
-└── Practicas/
+└── 01_Practicas/
     └── boochan-1/          ← tu copia de la plantilla = repo propio
 ```
 

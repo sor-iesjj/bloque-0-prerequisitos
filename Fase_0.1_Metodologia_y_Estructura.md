@@ -68,7 +68,7 @@ Al terminar esta fase serás capaz de:
 > | Zona | Qué es | Ejemplo |
 > | :--- | :--- | :--- |
 > | **`00_Apuntes/`** | **Lo que TÚ escribes**: tus notas de lo que yo explico cada día. Es tu cuaderno digital. | "Hoy hemos visto qué es una IP y para qué sirve el ping…" |
-> | **`Practicas/`** | **El material que YO te doy**: las prácticas Boochan que descargarás de Internet. Tú las sigues y trabajas sobre ellas. | La práctica `boochan-1` con sus fases. |
+> | **`01_Practicas/`** | **El material que YO te doy**: las prácticas Boochan que descargarás de Internet. Tú las sigues y trabajas sobre ellas. | La práctica `boochan-1` con sus fases. |
 >
 > **¿Por qué separadas?** Porque tus apuntes son **tuyos** y me los entregas para que los corrija; las prácticas son material del curso. Mezclarlos sería como escribir tus apuntes encima del libro de otra persona: un lío para ti y para mí.
 
@@ -99,7 +99,7 @@ Al terminar esta fase serás capaz de:
 > - **Bóveda (vault):** la carpeta del disco que Obsidian gestiona. La nuestra: `Boveda_SOR`.
 > - **Markdown (`.md`):** formato de texto simple para escribir notas con títulos, listas, etc.
 > - **Apuntes:** lo que escribes tú (carpeta `00_Apuntes/`). Se corrige.
-> - **Práctica:** el material Boochan que te doy y sobre el que trabajas (carpeta `Practicas/`).
+> - **Práctica:** el material Boochan que te doy y sobre el que trabajas (carpeta `01_Practicas/`).
 > - **Tema:** un asunto grande dentro de un trimestre, en **tus apuntes**. El Tema 1 es "Introducción". No lo confundas con los **Bloques del curso**, que los numero yo.
 > - **Entrada:** el fichero de notas de **un día concreto** de clase.
 > - **OBS:** programa para **grabar la pantalla** mientras haces la práctica.
@@ -182,11 +182,11 @@ Al terminar esta fase serás capaz de:
 > │   │   └── Tema_1_Introduccion/
 > │   ├── Trimestre_2/
 > │   └── Trimestre_3/
-> └── Practicas/
+> └── 01_Practicas/
 > ```
-> **Cómo:** clic derecho en el panel izquierdo → **`New folder`** → escribe el nombre **tal cual**. Para crear una carpeta **dentro** de otra, clic derecho **sobre la carpeta padre**. Créalas en este orden: `00_Apuntes` → dentro `Trimestre_1/2/3` → dentro de `Trimestre_1` la `Tema_1_Introduccion` → y `Practicas` en la raíz.
+> **Cómo:** clic derecho en el panel izquierdo → **`New folder`** → escribe el nombre **tal cual**. Para crear una carpeta **dentro** de otra, clic derecho **sobre la carpeta padre**. Créalas en este orden: `00_Apuntes` → dentro `Trimestre_1/2/3` → dentro de `Trimestre_1` la `Tema_1_Introduccion` → y `01_Practicas` en la raíz.
 >
-> Al terminar, **recorre la estructura con el ratón** y compruébala en voz alta: *"Aquí están mis apuntes por trimestres, aquí el bloque de introducción, y aquí la carpeta de prácticas."*
+> Al terminar, **recorre la estructura con el ratón** y compruébala en voz alta: *"Aquí están mis apuntes por trimestres, aquí el tema de introducción, y aquí la carpeta de prácticas."*
 >
 > > [!warning] ⚠️ El nombre importa
 > > No pongas `Apuntes` en vez de `00_Apuntes`, ni `Trimestre 1` con espacio, ni `Bloque1`. Si cada uno lo escribe a su manera, es imposible corregir a 20 personas. **Cópialo carácter a carácter.**
@@ -232,7 +232,7 @@ Al terminar esta fase serás capaz de:
 
 > [!help] Preguntas Críticas (Autoevaluación del alumno)
 > 1. ¿Qué es una bóveda de Obsidian? ¿Es un formato especial o una carpeta normal?
-> 2. ¿Qué diferencia hay entre la carpeta `00_Apuntes/` y la carpeta `Practicas/`?
+> 2. ¿Qué diferencia hay entre la carpeta `00_Apuntes/` y la carpeta `01_Practicas/`?
 > 3. ¿Por qué **no** guardamos la bóveda dentro de OneDrive?
 > 4. ¿En qué momento del vídeo te presentas y demuestras que eres tú: al principio o al final?
 > 5. 🔬 **Reto:** sin mirar la guía, dibuja en un papel el árbol de carpetas de la bóveda. Luego compáralo con Obsidian: ¿te faltaba alguna?
@@ -245,7 +245,7 @@ Al terminar esta fase serás capaz de:
 - [ ] Obsidian y OBS comprobados en el equipo (instalados por Consellería).
 - [ ] Carpeta `Documentos` comprobada (¿nube o local?) y bóveda `Boveda_SOR` creada en una ruta **local** (no en OneDrive).
 - [ ] **Tu ruta apuntada** en un papel o una nota.
-- [ ] Estructura de carpetas exacta: `00_Apuntes/` (con `Trimestre_1/2/3` y `Tema_1_Introduccion` en T1) + `Practicas/`.
+- [ ] Estructura de carpetas exacta: `00_Apuntes/` (con `Trimestre_1/2/3` y `Tema_1_Introduccion` en T1) + `01_Practicas/`.
 - [ ] Vídeo grabado **de principio a fin**, con presentación e identidad al inicio.
 - [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `B0_Prerrequisitos`.
 - [ ] Timestamps en la descripción (uno por paso).

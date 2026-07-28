@@ -73,7 +73,7 @@
 > 1. Crea la estructura contenedor (local, **fuera de OneDrive**). Sustituye `RUTA_SOR` por tu carpeta (la que apuntaste en la Fase 0.1: `~/Documents/SOR`, `~/Documentos/SOR` o `~/SOR`):
 >    ```bash
 >    mkdir -p RUTA_SOR/Boveda_SOR/00_Apuntes
->    mkdir -p RUTA_SOR/Boveda_SOR/Practicas
+>    mkdir -p RUTA_SOR/Boveda_SOR/01_Practicas
 >    ```
 >    Ejemplo si en casa usas Linux en español: `mkdir -p ~/Documentos/SOR/Boveda_SOR/00_Apuntes`
 > 2. Clona tus apuntes **dentro de `00_Apuntes/`**, con nombre de carpeta `Trimestre_1`:
@@ -82,9 +82,9 @@
 >    pwd          # comprueba que estás donde crees
 >    git clone git@github.com:TU-USUARIO/apuntes-sor-t1.git Trimestre_1
 >    ```
-> 3. Clona la práctica **dentro de `Practicas/`**:
+> 3. Clona la práctica **dentro de `01_Practicas/`**:
 >    ```bash
->    cd RUTA_SOR/Boveda_SOR/Practicas
+>    cd RUTA_SOR/Boveda_SOR/01_Practicas
 >    git clone git@github.com:TU-USUARIO/boochan-1.git
 >    ```
 > 4. Abre Obsidian → **`Open folder as vault`** → tu `Boveda_SOR`.

@@ -24,7 +24,7 @@
 ### 🎯 Objetivos de la fase
 
 - [ ] Explicar qué es una **plantilla** de repositorio y qué hace "Use this template".
-- [ ] Crear **tu propia copia** de `boochan-1` y **clonarla** dentro de `Practicas/`.
+- [ ] Crear **tu propia copia** de `boochan-1` y **clonarla** dentro de `01_Practicas/`.
 - [ ] Hacer un cambio y subirlo con `git status` → `add` → `commit` → `push`.
 
 ---
@@ -52,19 +52,19 @@
 > [!example] Paso 2: Crea tu copia de la plantilla en GitHub
 > En `github.com/sor-iesjj/boochan-v1`, pulsa **`Use this template` → Create a new repository**: **Owner** tu usuario, **name** `boochan-1`, **Visibility** la que indique el profesor. **Create repository**. En **`Code`**, copia tu dirección (**SSH** `git@github.com:TU-USUARIO/boochan-1.git` o **HTTPS**).
 
-> [!example] Paso 3: Clona tu copia dentro de `Practicas/`
-> Igual que en la Fase 0.3: **clic derecho sobre la carpeta `Practicas` de tu bóveda** → `Abrir Git Bash aquí` (Windows) / `Abrir en un terminal` (Linux). Comprueba dónde estás **antes de clonar**:
+> [!example] Paso 3: Clona tu copia dentro de `01_Practicas/`
+> Igual que en la Fase 0.3: **clic derecho sobre la carpeta `01_Practicas` de tu bóveda** → `Abrir Git Bash aquí` (Windows) / `Abrir en un terminal` (Linux). Comprueba dónde estás **antes de clonar**:
 > ```bash
-> pwd          # tiene que terminar en .../Boveda_SOR/Practicas
+> pwd          # tiene que terminar en .../Boveda_SOR/01_Practicas
 > git clone git@github.com:TU-USUARIO/boochan-1.git
 > cd boochan-1
 > ls
 > ```
 > Debes ver los ficheros de la práctica (`Manual_BoochanV1.md`, `Fases/`…).
-> > [!danger] ⚠️ Comprueba con `pwd` que clonas dentro de `.../Boveda_SOR/Practicas`.
+> > [!danger] ⚠️ Comprueba con `pwd` que clonas dentro de `.../Boveda_SOR/01_Practicas`.
 
 > [!example] Paso 4: Ábrela en Obsidian y haz un cambio
-> Como `Practicas/boochan-1/` está **dentro** de tu bóveda, Obsidian ya la ve (apuntes y práctica en una sola ventana). Crea ahí una nota `MIS_DATOS.md`:
+> Como `01_Practicas/boochan-1/` está **dentro** de tu bóveda, Obsidian ya la ve (apuntes y práctica en una sola ventana). Crea ahí una nota `MIS_DATOS.md`:
 > ```markdown
 > # Mis datos
 > - Alumno: Juan García
@@ -95,7 +95,7 @@
 > | Problema | Causa | Solución |
 > | :--- | :--- | :--- |
 > | `git clone` da `Permission denied (publickey)`. | Usas SSH pero la clave no está lista. | Repasa la 0.2.2, **o** clona por HTTPS con tu token. |
-> | La carpeta `boochan-1` no aparece en Obsidian. | La clonaste fuera de la bóveda. | Comprueba con `pwd`; clónala dentro de `Practicas/`. |
+> | La carpeta `boochan-1` no aparece en Obsidian. | La clonaste fuera de la bóveda. | Comprueba con `pwd`; clónala dentro de `01_Practicas/`. |
 > | `git push` dice `nothing to commit`. | No hiciste `git add` o no guardaste. | Guarda en Obsidian, `git add .` y `git commit`. |
 > | No veo "Use this template". | El repo no está como plantilla o no has iniciado sesión. | Inicia sesión; si sigue, avisa al profesor. |
 
@@ -109,7 +109,7 @@
 ### ✅ Checklist Final de la Fase 0.4
 
 - [ ] Copia de la plantilla creada (`boochan-1` en tu cuenta).
-- [ ] Repo clonado dentro de `Practicas/boochan-1/` (se ve en Obsidian).
+- [ ] Repo clonado dentro de `01_Practicas/boochan-1/` (se ve en Obsidian).
 - [ ] `MIS_DATOS.md` creado y subido con `add` → `commit` → `push`; visible en GitHub.
 - [ ] Vídeo `Fase 0.4 — Clonar la práctica Boochan` subido a la playlist, con timestamps.
 - [ ] Una sola entrega, hecha **🏫 en el centro**.

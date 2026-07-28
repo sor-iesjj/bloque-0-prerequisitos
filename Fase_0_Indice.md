@@ -38,16 +38,16 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 
 ```
 Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init aquí.
-   (vive dentro de la carpeta de usuario: ~/Documents/SOR, ~/Documentos/SOR o ~/SOR — NUNCA en OneDrive)
 ├── 00_Apuntes/
 │   ├── Trimestre_1/             ← REPO propio (apuntes-sor-t1) → GitHub → enlace al profe
 │   │   └── Tema_1_Introduccion/
 │   │       └── 2026-09-15_introduccion-al-modulo.md   ← una entrada por día
 │   ├── Trimestre_2/             ← REPO propio (apuntes-sor-t2)
 │   └── Trimestre_3/             ← REPO propio (apuntes-sor-t3)
-└── Practicas/
+└── 01_Practicas/
     └── boochan-1/               ← tu copia de la plantilla = REPO propio
 ```
+> `Boveda_SOR/` vive **dentro de la carpeta de usuario** del alumno: `~/Documents/SOR/`, `~/Documentos/SOR/` o `~/SOR/` según el equipo (se decide en la Fase 0.1). **Nunca en OneDrive.**
 
 > [!note] La regla de oro del diseño
 > La carpeta contenedor `Boveda_SOR` **no** se versiona (nada de `git init` en la raíz). Cada carpeta de dentro (cada trimestre, cada práctica) es **su propio repositorio independiente**. Así no hay "git dentro de git" y cada cosa sincroniza por su lado. El puente entre casa y centro es **Git + GitHub, nunca OneDrive**.

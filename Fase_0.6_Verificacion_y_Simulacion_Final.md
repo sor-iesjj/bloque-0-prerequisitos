@@ -66,7 +66,7 @@
 
 > [!example] Paso 3: Simulación B — ciclo de práctica
 > ```bash
-> pwd          # .../Boveda_SOR/Practicas/boochan-1  (abre la terminal ahí con clic derecho)
+> pwd          # .../Boveda_SOR/01_Practicas/boochan-1  (abre la terminal ahí con clic derecho)
 > ```
 > Edita `MIS_DATOS.md`, míralo con `git status` y súbelo:
 > ```bash
@@ -90,7 +90,7 @@
 > | :--- | :--- | :--- |
 > | No se me oye en el vídeo. | Micrófono no seleccionado en OBS. | Añade "Captura de entrada de audio" y prueba el nivel. |
 > | Un `push` falla en la simulación. | Olvidaste el `pull`, o hay cambios del otro equipo. | `git pull`, resuelve (o pregunta) y repite el `push`. |
-> | Me lío con las rutas apuntes/práctica. | Son repos distintos. | `pwd`: apuntes en `00_Apuntes/Trimestre_1`, práctica en `Practicas/boochan-1`. |
+> | Me lío con las rutas apuntes/práctica. | Son repos distintos. | `pwd`: apuntes en `00_Apuntes/Trimestre_1`, práctica en `01_Practicas/boochan-1`. |
 
 > [!help] Preguntas Críticas
 > 1. Describe el "circuito completo" (Obsidian → add → commit → push → GitHub → pull).
