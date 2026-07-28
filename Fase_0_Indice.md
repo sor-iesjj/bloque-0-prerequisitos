@@ -72,7 +72,3 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 
 ---
 
-### Qué va después de la Fase 0
-
-1. **Prueba diagnóstica de redes** ([[Prueba_Diagnostica_Inicial_SOR]]): el profesor mide qué base de 1º trae cada alumno (IP, máscara, ping, instalar una VM…) para reforzar lo necesario. Ver también [[Prerrequisitos_1SMR_para_Boochan]].
-2. **Proyecto Boochan** (Fase 1 en adelante): la práctica real, que el alumno clona en `Practicas/` y documenta en sus apuntes.
