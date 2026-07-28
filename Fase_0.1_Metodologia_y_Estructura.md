@@ -1,4 +1,4 @@
-## 🧭 Fase 0.1: Metodología de Trabajo y Estructura de la Bóveda
+ ## 🧭 Fase 0.1: Metodología de Trabajo y Estructura de la Bóveda
 
 ### Cómo vamos a trabajar todo el curso (y por qué...)
 
@@ -42,7 +42,7 @@ Al terminar esta fase serás capaz de:
 ### 🎯 ¿Dónde Estamos?
 
 > [!info] El Punto de Partida
-> Este es el primer día de verdad. No vamos a tocar servidores todavía: primero vamos a montar **tu forma de trabajar conmigo durante todo el curso**. En este módulo vas a hacer **prácticas** que imitan situaciones reales de un técnico (las prácticas *Boochan*), y a la vez vas a **tomar apuntes** de todo lo que expliquemos. Las dos cosas se entregan, y las dos cosas cuentan para nota.
+> Este es el primer día de verdad. No vamos a tocar servidores todavía: primero vamos a montar **tu forma de trabajar conmigo durante todo el curso**. En este módulo vas a hacer **prácticas** que imitan situaciones reales de un técnico (las prácticas *Boochan* en recuerdo de Iker y Héctor), y a la vez vas a **tomar apuntes** de todo lo que expliquemos. Las dos cosas se entregan, y las dos cosas cuentan para nota.
 
 > [!warning] El Problema
 > Un técnico no memoriza: **documenta**. Si no tienes un sitio ordenado donde anotar lo que haces, dentro de dos semanas no te acordarás de nada, no podrás repetir una práctica en casa, y yo no podré corregir tu trabajo. Por eso lo primero no es "instalar cosas", es **decidir dónde y cómo se guarda la información** — y que todos lo hagamos exactamente igual.
