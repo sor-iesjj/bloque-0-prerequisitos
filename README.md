@@ -28,7 +28,7 @@ Sigue las sub-fases **en orden**. Cada una es una práctica guiada, muy detallad
 | &nbsp;&nbsp;↳ [Fase 0.5.2 — Sincronizar casa ↔ centro](Fase_0.5.2_Sincronizar_Casa_Centro.md) | Ciclo `pull → push`; regla anti-OneDrive |
 | [Fase 0.6 — Verificación y simulación](Fase_0.6_Verificacion_y_Simulacion_Final.md) | Simulación completa grabada + verificación global |
 
-> 📹 Cada fase se **graba con OBS** (de principio a fin, con presentación e identidad) y se **sube a YouTube** (playlist `B0_Prerrequisitos`, No listado, con timestamps). La **entrega** no es la playlist: son **dos tareas de Teams** agrupadas — **Entrega 1** (fases 0.1→0.3) y **Entrega 2** (fases 0.4→0.6) — donde se pegan los enlaces de cada vídeo y del repositorio correspondiente.
+> 📹 Cada fase se **graba con OBS** (de principio a fin, con presentación e identidad) y se **sube a YouTube** (playlist `B0_Prerrequisitos`, No listado, con timestamps). Regla central: **donde hay vídeo, hay entrada** — cada fase tiene su nota de apuntes, con el **enlace de ese vídeo** y las **respuestas** a sus preguntas dentro. En la **tarea de Teams** se entregan solo los enlaces de **repositorio** y de la **playlist**; las entregas se **agrupan** por varias fases, no van una a una.
 
 ---
 

@@ -18,8 +18,8 @@
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `Fase 0.2.2 — Autenticación SSH` y súbelo a tu playlist **`B0_Prerrequisitos`** como "No listado".
 > 6. **~5 min.** Se graba en **🏫 el centro** (la clave SSH de casa se genera en la Fase 0.5.1).
-> 7. **La entrega va por la TAREA de Teams.** Esta fase forma parte de la **Entrega 1 (fases 0.1 → 0.3)**, que se hace al terminar la 0.3.
-> 8. **Guarda el enlace del vídeo** en cuanto lo subas: lo necesitarás para pegarlo en la tarea.
+> 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
+> 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
 
 > [!danger] ⚠️ LÉEME: la clave privada no se comparte JAMÁS
 > Vas a generar una **pareja de claves**. Comparte **solo la PÚBLICA** (el fichero que termina en **`.pub`**). La **privada** se queda en tu equipo y no se sube, ni se pega en un chat, ni se enseña con detalle en el vídeo. Si alguien te la pide: **NO**.
@@ -132,7 +132,7 @@
 - [ ] `ssh -T git@github.com` responde `Hi TU-USUARIO!`.
 - [ ] *(Alternativa)* Token HTTPS creado y guardado.
 - [ ] Vídeo `Fase 0.2.2 — Autenticación SSH` subido a la playlist `B0_Prerrequisitos`, con timestamps.
-- [ ] **Enlace del vídeo guardado** para la Entrega 1 (no se entrega hoy).
+- [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase.
 - [ ] Grabada **🏫 en el centro**.
 
 > **Siguiente paso:** Fase 0.3 — Crear el repositorio de tus apuntes del **Trimestre 1** y escribir tu **primera entrada del día**.

@@ -21,9 +21,9 @@
 > 2. **Arranca OBS y, nada más empezar, PRESÉNTATE:** *"Hola y bienvenidos. Me llamo [Nombre], soy alumno de 2.º SMR, y en este vídeo voy a explicar la Fase 0.1 — Metodología y estructura de la bóveda."* Y **muestra en pantalla algo que demuestre que eres tú** (tu **Teams** o tu **correo `@alu.edu.gva.es`** con tu nombre; cuando tengas GitHub, tu perfil). Di **qué vas a hacer**.
 > 3. **Graba TODO el procedimiento**, explicando cada paso en voz alta mientras lo haces.
 > 4. **Timestamps SIEMPRE** en la descripción del vídeo: `00:00 Presentación` y **uno por cada paso** (formato `mm:ss`).
-> 5. **Al terminar:** nombra el vídeo `Fase 0.1 — Metodología y estructura`, **súbelo a tu playlist de YouTube `B0_Prerrequisitos`** (No listado) y **guarda su enlace**.
+> 5. **Al terminar:** nombra el vídeo `Fase 0.1 — Metodología y estructura`, **súbelo a tu playlist de YouTube `B0_Prerrequisitos`** (No listado) y **pega su enlace en tu entrada de apuntes**.
 > 6. **~5 min.** Se graba en **🏫 el centro** (el equipo de casa se monta entero en la Fase 0.5.1, no aquí).
-> 7. **La entrega va por la TAREA de Teams**, no por la playlist. Esta fase forma parte de la **Entrega 1 (fases 0.1 → 0.3)**.
+> 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
 
 ---
 
@@ -96,8 +96,16 @@ Al terminar esta fase serás capaz de:
 >
 > Y fíjate en un detalle que **te va a ahorrar líos**: tu carpeta de apuntes del Bloque 0 se llama `B0_Prerrequisitos`… y tu **playlist de YouTube** de este bloque se llama **exactamente igual**. Es a propósito: **un bloque = un nombre**, valga para la carpeta o para la lista de vídeos. Cuando lleguemos al Bloque 1 tendrás la carpeta `B1_Entorno` y la playlist `B1_Entorno`, y así siempre.
 
-> [!important] 4. La entrada del día: NOMBRE obligatorio
-> Cada día de clase, **un fichero nuevo** dentro de la carpeta del bloque que toque, con este nombre exacto:
+> [!important] 4. La regla de oro de los apuntes: DONDE HAY VÍDEO, HAY ENTRADA
+> Esta es la norma que más te conviene entender, porque de ella sale tu nota de apuntes:
+>
+> - **Cada fase que grabes lleva SU PROPIA entrada.** Si un día hacemos dos fases, escribes **dos** ficheros, no uno. Si grabas la 0.2.1 y la 0.2.2 la misma tarde, son dos entradas con la misma fecha y distinto título.
+> - **Cada día de clase, al menos una entrada**, aunque ese día no hayamos grabado nada (los días de teoría también se anotan).
+>
+> ¿Por qué así de estricto? Porque **la entrada es donde vive el enlace de tu vídeo** (lo verás en el apartado 6). Si tienes una entrada por fase, tu repositorio me cuenta solo la historia completa: qué fase hiciste, qué entendiste y dónde está el vídeo que lo demuestra. Una entrada que mezcla tres fases no me dice nada de ninguna.
+
+> [!important] 5. La entrada del día: NOMBRE obligatorio
+> **Un fichero nuevo** dentro de la carpeta del bloque que toque, con este nombre exacto:
 > ```
 > MMDDAA_titulo-corto.md
 > ```
@@ -109,7 +117,7 @@ Al terminar esta fase serás capaz de:
 > La **carpeta ya te dice el bloque**, así que en el título no lo repitas: pon **de qué va** la clase de ese día. Si los apuntes son de una fase concreta, nómbrala — te ahorra buscar en junio:
 > `091626_fase-0.2-github-y-ssh.md` · `100526_b1.5-usb-booteable-con-rufus.md`
 
-> [!important] 5. La entrada del día: ESTRUCTURA obligatoria
+> [!important] 6. La entrada del día: ESTRUCTURA obligatoria
 > Todas tus entradas se escriben igual. Cópiala tal cual y rellénala:
 > ```markdown
 > # 091526 — Fase 0.1: Metodología y estructura
@@ -127,13 +135,33 @@ Al terminar esta fase serás capaz de:
 > ## Comandos / pasos importantes
 > - `comando` — para qué sirve.
 >
+> ## Respuesta a las preguntas
+> 1. (respuesta a la pregunta 1 de la fase)
+> 2. (respuesta a la pregunta 2)
+> 3. …
+>
+> ## Enlace al vídeo explicativo
+> - https://youtu.be/XXXXXXXXXXX
+>
 > ## Dudas / a repasar en casa
 > - (lo que no te ha quedado claro)
 > ```
+>
+> Dos apartados son **nuevos y obligatorios**, y son los que más peso tienen:
+>
+> | Apartado | Qué va ahí |
+> | :--- | :--- |
+> | **Respuesta a las preguntas** | Las **Preguntas Críticas** que hay al final de cada fase, contestadas **con tus palabras**. Las respuestas están en la teoría de esa misma fase: si no sabes contestar, es que hay que releerla. El **🔬 Reto** es voluntario. |
+> | **Enlace al vídeo explicativo** | La dirección del vídeo **de esa fase concreta**, no la de la playlist. Sin este enlace, la entrada está incompleta. |
+>
+> > [!warning] ⚠️ El enlace del VÍDEO, no el de la playlist
+> > Son cosas distintas y aquí va **el del vídeo**. En YouTube: abre **ese vídeo**, `Compartir` → `Copiar enlace`. Te saldrá algo como `https://youtu.be/aB3dE5f...`.
+> > Si pegas el de la playlist (lleva `list=` dentro), me estás mandando a una lista de ocho vídeos para que adivine cuál es el de esta fase. Eso no lo voy a hacer.
+>
 > > [!tip] 💡 Escribe con tus palabras, no copies lo que yo diga
 > > El apartado **"Dudas"** no es para rellenar: es lo que me dice en qué tengo que insistir. Si lo dejas vacío siempre, o no te estás enterando de nada o no te estás enterando de que no te enteras.
 
-> [!warning] 6. Por qué se graba TODO (y desde el principio)
+> [!warning] 7. Por qué se graba TODO (y desde el principio)
 > Regla de oro del curso: **una práctica que no se graba, no cuenta.** Y se graba **de principio a fin**, no un repaso al final:
 > - Grabar todo el proceso demuestra que **lo has hecho tú** y me deja ver **cómo** lo haces (dónde dudas, dónde te atascas).
 > - Por eso **primero te preparas** (te lees el procedimiento) y **luego grabas** del tirón: así el vídeo sale limpio y no lleno de "espera, que no me acuerdo".
@@ -242,8 +270,8 @@ Al terminar esta fase serás capaz de:
 > [!example] Paso 5: Escribe tu PRIMERA entrada de apuntes (grabando)
 > La carpeta `B0_Prerrequisitos` está vacía, y una carpeta vacía no son apuntes. Estréñala ahora, con lo que hemos visto hoy:
 > 1. En Obsidian, **clic derecho sobre `B0_Prerrequisitos`** → **`New note`**.
-> 2. **Nómbrala** con el formato de arriba, poniendo **la fecha de HOY**: `MMDDAA_titulo-corto`. Si hoy es 15 de septiembre de 2026 → `091526_metodologia-y-estructura`.
-> 3. **Pega la plantilla** (apartado 5 del fundamento) y **rellénala con lo de hoy**, explicando en voz alta lo que escribes. No hace falta que sea largo: tres o cuatro líneas honestas valen más que media página copiada.
+> 2. **Nómbrala** con el formato del apartado 5, poniendo **la fecha de HOY**: `MMDDAA_titulo-corto`. Si hoy es 15 de septiembre de 2026 → `091526_metodologia-y-estructura`.
+> 3. **Pega la plantilla** (apartado 6 del fundamento) y **rellénala con lo de hoy**, explicando en voz alta lo que escribes. No hace falta que sea largo: tres o cuatro líneas honestas valen más que media página copiada.
 >    - En **"Comandos / pasos importantes"**, hoy pon: *"Ninguno: todavía no hemos usado la terminal."* Es una respuesta perfectamente válida.
 > 4. **Guarda** y comprueba que el fichero aparece dentro de `B0_Prerrequisitos`.
 >
@@ -265,19 +293,20 @@ Al terminar esta fase serás capaz de:
 >    ```
 >    *(Pon los minutos:segundos reales de tu vídeo.)*
 > 5. **Comprueba la duración:** debe rondar los **5 minutos**. Si se te va mucho, ve más al grano; los timestamps son obligatorios de todos modos.
-> 6. **Guarda el enlace del vídeo.** Dale a `Compartir` → `Copiar enlace` y **pégalo en un sitio donde no lo pierdas** (tu propia entrada de apuntes de hoy, por ejemplo). Lo necesitarás para la entrega.
+> 6. **Copia el enlace del vídeo** (`Compartir` → `Copiar enlace`) y **pégalo en la entrada que escribiste en el Paso 5**, en el apartado `Enlace al vídeo explicativo`. Ahí es donde vive, no en un papel.
 >
 > > [!important] 📤 Ojo: subir el vídeo NO es entregar
-> > Esto es lo que más confunde el primer día, así que léelo dos veces:
+> > Esto es lo que más confunde el primer día, así que léelo dos veces. Hay **tres** sitios distintos y cada uno tiene su trabajo:
 > >
-> > | | Qué es | Cuándo |
+> > | | Qué es | Para qué |
 > > | :--- | :--- | :--- |
-> > | **La playlist `B0_Prerrequisitos`** | **Organización tuya.** TODOS los vídeos del bloque van dentro, siempre. | Cada vez que grabas |
-> > | **La tarea de Teams** | **La entrega.** La doy de alta yo, te llega **notificación** y tiene **fecha límite**. Ahí pegas los enlaces. | Cuando yo la abra |
+> > | **La playlist `B0_Prerrequisitos`** | Organización tuya. TODOS los vídeos del bloque van dentro, siempre. | Que no se te pierdan |
+> > | **Tu entrada de apuntes** | Donde pegas **el enlace de ESE vídeo** y contestas las preguntas. | Que yo sepa qué has hecho y qué has entendido |
+> > | **La tarea de Teams** | **La entrega.** La doy de alta yo, con notificación y fecha límite. | Poner nota |
 > >
-> > **Esta fase NO se entrega hoy sola.** Forma parte de la **Entrega 1**, que abarca las fases **0.1, 0.2.1, 0.2.2 y 0.3**. Cuando lleguemos al final de la 0.3 abriré la tarea en Teams con varios días de plazo, y ahí pegarás los enlaces de los cuatro vídeos **y el de tu repositorio de apuntes**.
+> > **Hoy no se entrega nada todavía**, porque tus apuntes aún no están en Internet: eso lo montamos en la Fase 0.3. Cuando llegue el momento abriré la tarea en Teams y te avisará sola.
 > >
-> > Tú, hoy: **graba, sube a la playlist y guarda el enlace.** Nada más.
+> > Tú, hoy: **graba, sube el vídeo a la playlist y pega su enlace en tu entrada.** Nada más.
 >
 > > [!success] ✅ La Fase 0.1 está completa cuando…
 > > Tienes la bóveda `Boveda_SOR` con su estructura exacta, **tu primera entrada escrita** dentro de `B0_Prerrequisitos/`, y el vídeo subido a tu playlist `B0_Prerrequisitos` (con presentación al principio y timestamps en la descripción), **con su enlace guardado** para la Entrega 1.
@@ -318,7 +347,8 @@ Al terminar esta fase serás capaz de:
 - [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `B0_Prerrequisitos`.
 - [ ] Timestamps en la descripción (uno por paso).
 - [ ] **Primera entrada escrita** en `B0_Prerrequisitos/`, con nombre `MMDDAA_titulo-corto.md` y la estructura obligatoria.
-- [ ] **Enlace del vídeo guardado** (lo necesitas para la Entrega 1; hoy no se entrega nada).
+- [ ] **Enlace del vídeo pegado en tu entrada**, en el apartado `Enlace al vídeo explicativo`.
+- [ ] **Preguntas Críticas contestadas** en tu entrada (el 🔬 Reto es voluntario).
 - [ ] Grabada **🏫 en el centro**.
 
 > **Siguiente paso:** Fase 0.2 — Crear tu cuenta de **GitHub** y configurar **Git** en el equipo, para poder enviarme tus apuntes por Internet y que yo pueda corregirlos.

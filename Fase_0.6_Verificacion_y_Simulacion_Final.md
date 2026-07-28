@@ -18,7 +18,7 @@
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `Fase 0.6 — Simulación final` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5-7 min.** Se graba en **🏫 el centro** (o donde indique el profesor).
-> 7. **Al terminar esta fase se hace la ENTREGA 2** en Teams (cubre las fases 0.4, 0.5.1, 0.5.2 y 0.6).
+> 7. **Al terminar esta fase toca revisar Teams**: ahí tendrás la tarea que cubre estas últimas fases.
 
 ---
 
@@ -109,18 +109,23 @@
 - [ ] **0.5.1 / 0.5.2:** entorno replicado en casa + ciclo `pull → push` demostrado.
 - [ ] **0.6:** simulación final grabada.
 - [ ] **Vídeos:** TODAS las fases (0.1 a 0.6) subidas a la playlist `B0_Prerrequisitos`, con presentación y timestamps. Grabadas en su sitio: 🏫 centro (0.1–0.4, 0.6) · 🏠 casa (0.5.1, 0.5.2).
-- [ ] **Entrega 1** (fases 0.1 → 0.3) hecha en Teams y **pulsado `Entregar`**.
-- [ ] **Entrega 2** (fases 0.4 → 0.6) hecha en Teams y **pulsado `Entregar`**.
+- [ ] **Una entrada por fase** (0.1, 0.2.1, 0.2.2, 0.3, 0.4, 0.5.1, 0.5.2, 0.6), cada una con **su enlace de vídeo** y **sus respuestas**.
+- [ ] **Todas las tareas de Teams** del bloque entregadas, con `Entregar` pulsado.
 
-> [!example] Último paso: haz la ENTREGA 2
-> Ve a **Teams → Tareas → `Entrega 2 — Práctica y sincronización`** y pega:
+> [!example] Último paso: repasa, sube y entrega
+> 1. **Repasa que no te falta ninguna entrada.** Abre `B0_Prerrequisitos/` y cuenta: debe haber **una entrada por cada fase que has grabado**, y cada una con **su enlace de vídeo** y **sus respuestas**. Si falta alguna, escríbela ahora — todavía estás a tiempo.
+> 2. **Sube todo:** `git add .` → `git commit -m "Cierre de los prerrequisitos"` → `git push`.
+> 3. **Ve a Teams → `Tareas`** y abre la que cubre estas fases. Pega **los dos enlaces**:
 >
-> | Qué | De dónde sale |
+> | Qué se entrega | Ejemplo |
 > | :--- | :--- |
-> | Enlaces de los vídeos de la **0.4, 0.5.1, 0.5.2 y 0.6** | Los que fuiste guardando |
-> | Enlace de tu repositorio **`boochan-1`** | `https://github.com/TU-USUARIO/boochan-1` |
+> | Enlace de tu **repositorio de apuntes** | `https://github.com/TU-USUARIO/apuntes-sor-t1` |
+> | Enlace de tu **repositorio de la práctica** | `https://github.com/TU-USUARIO/boochan-1` |
 >
-> Y pulsa **`Entregar`**. Igual que en la Entrega 1: **pido los vídeos uno a uno**, porque una playlist puede llenarse después del plazo y un enlace de vídeo concreto, no.
+> 4. Pulsa **`Entregar`**.
+>
+> > [!important] 📌 Los vídeos ya me los has dado
+> > No hace falta que pegues ningún enlace de vídeo en la tarea: **cada uno está dentro de su entrada**, en tu repositorio. Por eso la regla es *una entrada por fase* — si me falta una entrada, sé exactamente qué fase falta.
 
 ---
 

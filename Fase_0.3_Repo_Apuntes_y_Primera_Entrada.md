@@ -18,7 +18,7 @@
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min.** Se graba en **🏫 el centro**.
-> 7. **Al terminar esta fase se hace la ENTREGA 1** en Teams (cubre las fases 0.1, 0.2.1, 0.2.2 y 0.3).
+> 7. **Al terminar esta fase toca revisar Teams**: ahí tendrás la tarea que cubre estas primeras fases.
 
 ---
 
@@ -146,27 +146,31 @@
 > ```
 > Recarga GitHub: debe verse `B0_Prerrequisitos/` con **tus dos entradas** dentro.
 
-> [!example] Paso 6: Cierra el vídeo y **haz la ENTREGA 1**
-> 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps**, y **copia su enlace**.
-> 2. **Da acceso al repo:** al ser **privado**, yo no lo veo. Te diré mi usuario para que me añadas en `Settings → Collaborators`. **Sin esto, tu repo para mí no existe.**
-> 3. **Ve a Teams → Tareas → `Entrega 1 — Mi entorno de trabajo`** y pega ahí:
+> [!example] Paso 6: Cierra el vídeo, complétalo todo y entrega
+> 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada`, súbelo a la playlist `B0_Prerrequisitos` y **copia su enlace**.
+> 2. **Pega ese enlace en la entrada de hoy**, en el apartado `Enlace al vídeo explicativo`. Y aprovecha para **repasar tus entradas anteriores**: la de la 0.1, la 0.2.1 y la 0.2.2 tienen que tener **su** enlace y **sus** respuestas. Donde hay vídeo, hay entrada — y donde hay entrada, hay enlace.
+> 3. **Sube los cambios** (ahora ya sabes):
+>    ```bash
+>    git add .
+>    git commit -m "Enlaces de video y respuestas de las fases 0.1 a 0.3"
+>    git push
+>    ```
+> 4. **Dame acceso al repo:** es **privado**, así que yo no lo veo. Te diré mi usuario para que me añadas en `Settings → Collaborators`. **Sin esto, tu repositorio para mí no existe.**
+> 5. **Ve a Teams → `Tareas`** y mira la tarea que cubre estas fases. Pega ahí **solo dos cosas**:
 >
-> | Qué | De dónde sale |
+> | Qué se entrega | Ejemplo |
 > | :--- | :--- |
-> | Enlace del vídeo de la **0.1** | El que guardaste en la Fase 0.1 |
-> | Enlace del vídeo de la **0.2.1** | El que guardaste en la Fase 0.2.1 |
-> | Enlace del vídeo de la **0.2.2** | El que guardaste en la Fase 0.2.2 |
-> | Enlace del vídeo de la **0.3** | El de hoy |
-> | Enlace de tu **repositorio** | `https://github.com/TU-USUARIO/apuntes-sor-t1` |
-> | Enlace de tu **playlist** | `B0_Prerrequisitos` (esto solo la primera vez) |
+> | Enlace de tu **repositorio de apuntes** | `https://github.com/TU-USUARIO/apuntes-sor-t1` |
+> | Enlace de tu **playlist** de YouTube | la de `B0_Prerrequisitos` |
 >
-> 4. **Dale a `Entregar`.** Hasta que no pulses ese botón, para Teams no has entregado — aunque tengas todo pegado.
+> 6. **Pulsa `Entregar`.** Hasta que no pulses ese botón, para Teams no has entregado — aunque lo tengas todo pegado.
 >
-> > [!danger] ⚠️ Por qué te pido los vídeos uno a uno y no solo la playlist
-> > Porque el enlace de una playlist **no demuestra nada**: puede estar vacía el día del plazo y llenarse el martes siguiente. El enlace de un vídeo concreto sí demuestra que ese vídeo existía cuando entregaste. Los vídeos van **igualmente** dentro de la playlist: eso no es negociable, es como está organizado el curso.
+> > [!important] 📌 Por qué solo dos enlaces (y no uno por vídeo)
+> > Porque **los vídeos ya me los has dado**: cada uno está dentro de su entrada de apuntes, en el repositorio. Al abrir tu repo veo, de un vistazo, qué fases has hecho, qué has entendido de cada una y dónde está el vídeo que lo demuestra.
+> > Por eso la regla es **una entrada por fase**: si te falta una entrada, me falta una fase. No hay que buscar nada en ninguna lista.
 >
 > > [!tip] 💡 Tienes varios días
-> > La tarea se abre con **fecha límite de varios días**, no del mismo día. Te llegará **notificación** de Teams al darla de alta. Si algo no te ha salido, dímelo **antes** del plazo, no después.
+> > La tarea se abre con **fecha límite de varios días**, no del mismo día, y te llega **notificación** de Teams. Si algo no te ha salido, dímelo **antes** del plazo, no después.
 
 > [!note] 📌 A partir de ahora, cada día de clase
 > Creas la **entrada del día** (nombre + estructura) y, dentro de `Trimestre_1`: `git add .` → `git commit -m "Apuntes del ..."` → `git push`. Así el repo está siempre al día.
@@ -199,7 +203,8 @@
 - [ ] `commit` + `push` hechos; la entrada se ve en GitHub.
 - [ ] Enlace enviado (y acceso concedido si es privado).
 - [ ] Vídeo `Fase 0.3 — Repo de apuntes y primera entrada` subido a la playlist, con timestamps.
-- [ ] **Entrega 1 hecha en Teams**: 4 enlaces de vídeo + enlace del repo + playlist, y pulsado `Entregar`.
+- [ ] **Entrega hecha en Teams**: enlace del repositorio + enlace de la playlist, y pulsado `Entregar`.
+- [ ] Todas mis entradas (0.1, 0.2.1, 0.2.2, 0.3) tienen **su enlace de vídeo** y **sus respuestas**.
 - [ ] Grabada **🏫 en el centro**.
 
 > **Siguiente paso:** Fase 0.4 — Clonar tu copia de la práctica **`boochan-1`** y dominar el ciclo `status → commit → push`.

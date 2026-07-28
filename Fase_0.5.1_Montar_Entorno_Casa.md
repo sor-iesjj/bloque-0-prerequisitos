@@ -18,8 +18,8 @@
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `Fase 0.5.1 — Montar el entorno en casa` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min.** Se graba en **🏠 casa** (en tu propio ordenador).
-> 7. **La entrega va por la TAREA de Teams.** Esta fase forma parte de la **Entrega 2 (fases 0.4 → 0.6)**, que se hace al terminar la 0.6.
-> 8. **Guarda el enlace del vídeo** en cuanto lo subas: lo necesitarás para pegarlo en la tarea.
+> 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
+> 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
 
 > [!danger] ⚠️ La bóveda de casa TAMPOCO va en OneDrive
 > Igual que en el centro: la bóveda va **dentro de tu carpeta de usuario** (en `Documentos`, o directamente en tu carpeta personal), **fuera de OneDrive**. En casa haz la **misma comprobación** que hiciste en la Fase 0.1: si tu `Documentos` tiene el icono de **nube ☁️**, está sincronizado con OneDrive y no vale. Git y OneDrive se pelean. Tu "nube" es **GitHub**.
@@ -122,7 +122,7 @@
 - [ ] Clave SSH de casa creada y añadida a GitHub (`Equipo Casa`).
 - [ ] Estructura `Boveda_SOR` recreada (local, fuera de OneDrive) con los repos clonados en su sitio.
 - [ ] Vídeo `Fase 0.5.1 — Montar el entorno en casa` subido a la playlist, con timestamps.
-- [ ] **Enlace del vídeo guardado** para la Entrega 2 (no se entrega hoy).
+- [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase.
 - [ ] Grabada **🏠 en casa**.
 
 > **Siguiente paso:** Fase 0.5.2 — El ciclo `pull → push` para sincronizar casa ↔ centro.

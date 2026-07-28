@@ -13,7 +13,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 
 - **Apuntes** en Obsidian (una entrada por día), separados de las **prácticas** (Boochan).
 - Todo **versionado con Git** y subido a **GitHub** (un repo de apuntes por trimestre).
-- Todo **grabado con OBS** y **subido a YouTube** (playlist `B0_Prerrequisitos`), y **entregado en dos tareas de Teams** agrupadas, no fase a fase.
+- Todo **grabado con OBS** y **subido a YouTube** (playlist `B0_Prerrequisitos`), con el **enlace de cada vídeo dentro de su entrada de apuntes**, y entregado en **tareas de Teams agrupadas**, no fase a fase.
 
 > [!important] Herramientas y cuentas necesarias
 > - **Obsidian**, **Git** y **OBS Studio** — los instala **Consellería** en el centro (el alumno no tiene permisos); en **casa** los instala él (Fase 0.5.1).
@@ -29,25 +29,23 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > - **Cada fase se graba una vez**, en su sitio: 🏫 **centro** (0.1, 0.2.1, 0.2.2, 0.3, 0.4, 0.6) · 🏠 **casa** (0.5.1, 0.5.2). En prerequisitos no se graba dos veces lo mismo: el "en casa" de las 0.1–0.4 **es** la Fase 0.5.1.
 > - **Al subir cada vídeo, el alumno guarda su enlace.** Lo necesitará para la entrega.
 
-> [!important] 📤 Cómo se ENTREGA (playlist ≠ entrega)
-> Dos cosas distintas que el alumnado confunde el primer día:
+> [!important] 📤 Cómo se ENTREGA (tres sitios, tres trabajos distintos)
+> Lo que más se confunde el primer día. Cada cosa tiene su función y **no se sustituyen entre sí**:
 >
-> | | Qué es | Quién lo mueve |
+> | | Qué es | Para qué sirve |
 > | :--- | :--- | :--- |
-> | **Playlist `B0_Prerrequisitos`** | **Organización.** TODOS los vídeos del bloque van dentro, siempre. | El alumno, cada vez que graba |
-> | **Tarea de Teams** | **La entrega evaluable.** Con notificación y **fecha límite de varios días**. | El profesor la abre; el alumno pega enlaces y pulsa `Entregar` |
+> | **Playlist `B0_Prerrequisitos`** | Organización del alumno. TODOS los vídeos del bloque van dentro. | Que no se pierdan |
+> | **La entrada de apuntes** | Una **por fase**. Dentro va el **enlace de ESE vídeo** y las **respuestas** a las Preguntas Críticas. | Que el profesor vea qué hizo y qué entendió |
+> | **La tarea de Teams** | La entrega evaluable. La abre el profesor, con notificación y **fecha límite de varios días**. | Poner nota |
 >
-> **No hay una entrega por fase.** Hay **dos entregas agrupadas**, cada una cerrada por un artefacto verificable:
+> **La regla que lo sostiene todo: DONDE HAY VÍDEO, HAY ENTRADA.** Una entrada por fase grabada, con su enlace y sus respuestas dentro. Así el repositorio cuenta la historia completa y no hace falta cotejar nada contra ninguna lista.
 >
-> | Entrega | Fases | Qué se pega en la tarea |
-> | :--- | :--- | :--- |
-> | **Entrega 1 — Mi entorno de trabajo** | 0.1 · 0.2.1 · 0.2.2 · 0.3 | Los **4 enlaces de vídeo** + enlace del repo `apuntes-sor-t1` + enlace de la playlist (solo esta vez) |
-> | **Entrega 2 — Práctica y sincronización** | 0.4 · 0.5.1 · 0.5.2 · 0.6 | Los **4 enlaces de vídeo** + enlace del repo `boochan-1` |
+> **En la tarea de Teams se pegan SOLO enlaces de repositorio** (el de apuntes y, al final, el de la práctica) **y el de la playlist**. **Nunca enlaces de vídeo sueltos**: esos ya están dentro de las entradas.
 >
-> **Se piden los vídeos uno a uno, no la playlist.** Una playlist puede estar vacía el día del plazo y llenarse el martes siguiente; el enlace de un vídeo concreto demuestra que existía. La playlist se pide igualmente **una vez**, para tenerla localizada.
+> > **Las entregas se agrupan**, no van fase a fase. El profesor decide qué fases cubre cada tarea y lo dice al abrirla en Teams: un bloque puede tener dos, tres o cuatro entregas según lo denso que sea. El alumno **no tiene que adivinarlo** — le llega la notificación.
 
 > [!tip] Otros convenios
-> - **Entrada del día:** un fichero por día, nombre `MMDDAA_titulo-corto.md` (mes, día, año), con estructura fija. Se define en la **Fase 0.1**.
+> - **Entrada:** una **por fase grabada** (y al menos una por día de clase). Nombre `MMDDAA_titulo-corto.md`. Estructura fija con dos apartados obligatorios: **Respuesta a las preguntas** y **Enlace al vídeo explicativo**. Se define en la **Fase 0.1**.
 > - **Ciclo diario:** `git pull` al empezar → trabajar → `git add` / `commit` / `push` al terminar.
 
 ---
@@ -82,12 +80,12 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 | **0.2** | [[Fase_0.2_GitHub_Git_y_SSH]] | *(índice)* Conexión con GitHub, en 2 partes ↓ |
 | ↳ **0.2.1** | [[Fase_0.2.1_Cuenta_GitHub_y_Git]] | Crea la cuenta de GitHub y configura Git. |
 | ↳ **0.2.2** | [[Fase_0.2.2_Autenticacion_SSH]] | Clave SSH (y token HTTPS) + verificación. |
-| **0.3** | [[Fase_0.3_Repo_Apuntes_y_Primera_Entrada]] | Repo del Trimestre 1 + entrada del día + **ENTREGA 1** en Teams. |
+| **0.3** | [[Fase_0.3_Repo_Apuntes_y_Primera_Entrada]] | Repo del Trimestre 1 + entrada del día + **primera entrega** en Teams. |
 | **0.4** | [[Fase_0.4_Clonar_Practica_Boochan]] | Clona su copia de `boochan-1` y domina `status → commit → push`. |
 | **0.5** | [[Fase_0.5_Casa_y_Centro_Sincronizacion]] | *(índice)* Casa ↔ centro, en 2 partes ↓ |
 | ↳ **0.5.1** | [[Fase_0.5.1_Montar_Entorno_Casa]] | Monta el entorno en casa y clona sus repos. |
 | ↳ **0.5.2** | [[Fase_0.5.2_Sincronizar_Casa_Centro]] | Ciclo `pull → push`; regla anti-OneDrive. |
-| **0.6** | [[Fase_0.6_Verificacion_y_Simulacion_Final]] | Simulación completa grabada; verificación global + **ENTREGA 2** en Teams. |
+| **0.6** | [[Fase_0.6_Verificacion_y_Simulacion_Final]] | Simulación completa grabada; verificación global + **entrega de cierre** en Teams. |
 
 ---
 
