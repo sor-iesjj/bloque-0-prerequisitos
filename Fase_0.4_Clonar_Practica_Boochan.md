@@ -54,7 +54,7 @@
 > [!info] 2. Plantilla y "Use this template"
 > Una **plantilla** es un repositorio pensado para sacar copias. Al pulsar **"Use this template"**, GitHub crea en **tu** cuenta un repositorio **nuevo e independiente** con el mismo contenido pero **historial propio**. No es un enlace a la plantilla del profesor: es **tuyo**.
 >
-> **Y por eso el Bloque 1 no lo tiene:** ese repo **no es plantilla**, así que en su página no verás ese botón. Solo `Code` → clonar.
+> **Todos los repos del curso son plantilla**, así que verás ese botón en todos: en el Bloque 1, en Boochan y en los que vengan.
 
 > [!abstract] 3. Clonar vs. Push
 > - **`git clone`** (GitHub → tu ordenador): **una sola vez**, para bajar el repo.
@@ -92,7 +92,7 @@
 
 > [!example] Paso 3: Haz lo mismo con Boochan
 > **Exactamente el mismo procedimiento**, cambiando el repositorio de origen. Cuéntalo así en el vídeo: *"repito los mismos pasos, porque todo el material del curso se baja igual."*
-> En `github.com/sor-iesjj/boochan-v1`, pulsa **`Use this template` → Create a new repository**: **Owner** tu usuario, **name** `boochan-1`, **Visibility** la que indique el profesor. **Create repository**. Ahora sí: pulsa el botón verde **`Code`**, pestaña **`SSH`**, y copia tu dirección (`git@github.com:TU-USUARIO/boochan-1.git`).
+> En `github.com/sor-iesjj/bloque-2-ubuntu-local`, pulsa **`Use this template` → Create a new repository**: **Owner** tu usuario, **name** `boochan-1`, **Visibility** la que indique el profesor. **Create repository**. Ahora sí: pulsa el botón verde **`Code`**, pestaña **`SSH`**, y copia tu dirección (`git@github.com:TU-USUARIO/boochan-1.git`).
 >
 > > [!tip] 💡 ¿Ves la diferencia con la Fase 0.3?
 > > En la 0.3 creaste un repositorio **vacío** y **no había botón `Code`**. Aquí sí lo hay. ¿Por qué? Porque este repo **ya tiene contenido**: lo has copiado de una plantilla que trae el manual y las fases dentro.
