@@ -188,6 +188,7 @@
 > [!bug] Troubleshooting
 > | Problema | Causa | Solución |
 > | :--- | :--- | :--- |
+> | `fatal: you must specify path(s) to restore`. | Escribiste `git restore` **sin el punto**. Git no adivina qué quieres recuperar. | `git restore .` — el punto significa *"todo lo que hay desde aquí hacia abajo"*. Si estás dentro de `Fases/` recupera solo eso; desde la raíz del repo, recupera todo. |
 > | `git restore .` no recupera nada y el fichero sigue vacío. | Estás en la carpeta equivocada. | `pwd`: tienes que estar dentro de `Trimestre_1`. |
 > | `git status` decía `working tree clean` **con los ficheros ya vacíos**. | Hiciste `commit` **después** de vaciarlos: guardaste una foto del desastre. | Se recupera del commit anterior: `git restore --source=HEAD~1 .` Y aprende la lección: **mira antes de commitear**. |
 > | `error: pathspec ... did not match`. | Escribiste mal el nombre del fichero. | Cópialo de la salida de `git status`, no lo teclees a mano. |
