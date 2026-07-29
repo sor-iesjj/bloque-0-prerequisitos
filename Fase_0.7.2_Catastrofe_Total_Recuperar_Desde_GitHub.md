@@ -143,7 +143,7 @@
 > Ahora, sin miedo, porque acabas de comprobar que hay red:
 > 1. Cierra **Obsidian** (si no, se queja de que le mueven las carpetas).
 > 2. En el Explorador, borra **la carpeta `Trimestre_1` entera**. Con todo lo que hay dentro, incluida la carpeta oculta `.git`.
-> 3. Borra también **`boochan-1` entera**. Sí, con mi manual y las fases del proyecto dentro.
+> 3. Borra también **`boochan-1` entera** y **`bloque-1-entorno` entera**. Sí, con mi manual y las fases del proyecto dentro.
 > 4. **Reinicia el ordenador.** Que quede claro que no es un truco de Obsidian.
 > 5. Al volver, abre Obsidian y **enseña el desastre**: `00_Apuntes/` vacía, `01_Practicas/` vacía. No queda nada.
 >
@@ -175,7 +175,9 @@
 >    ```bash
 >    pwd          # .../Boveda_SOR/01_Practicas
 >    git clone git@github.com:TU-USUARIO/boochan-1.git
+>    git clone https://github.com/sor-iesjj/bloque-1-entorno.git
 >    ```
+>    El segundo va por **HTTPS** porque es material mío: lo lees, no lo subes.
 >
 > 3. **Comprueba que ha vuelto TODO, no solo los ficheros:**
 >    ```bash
@@ -229,7 +231,7 @@
 
 - [ ] `git status` comprobado en **los dos** repos, con `up to date with 'origin/main'` visible.
 - [ ] Los dos repositorios comprobados **también en la web** de GitHub.
-- [ ] `Trimestre_1` y `boochan-1` borradas por completo, y equipo reiniciado.
+- [ ] `Trimestre_1`, `boochan-1` y `bloque-1-entorno` borradas por completo, y equipo reiniciado.
 - [ ] `fatal: not a git repository` demostrado y explicado en voz alta.
 - [ ] Los dos repos clonados, con `Trimestre_1` recuperando **su nombre de carpeta**.
 - [ ] `git log` enseñado tras el clon: el **historial completo** ha vuelto, no solo los ficheros.
