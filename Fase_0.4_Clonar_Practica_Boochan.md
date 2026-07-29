@@ -25,35 +25,31 @@
 
 ### 🎯 Objetivos de la fase
 
-- [ ] Distinguir **material del curso** (solo lectura) de **tu copia de trabajo** (tuya, con `push`).
+- [ ] Entender que **todo el material del curso se baja igual**: plantilla → tu repo → clonar.
 - [ ] Explicar qué es una **plantilla** de repositorio y qué hace "Use this template".
-- [ ] **Clonar el Bloque 1** (el material de las próximas semanas) y **crear tu copia de `boochan-1`**.
+- [ ] Crear **tu copia** del Bloque 1 y de Boochan, y clonarlas en `01_Practicas/`.
 - [ ] Hacer un cambio y subirlo con `git status` → `add` → `commit` → `push`.
 - [ ] **Recuperar ficheros borrados** con `git restore`, sin Internet.
 - [ ] **Reconstruir el repositorio entero** clonando, cuando ya no queda ni el historial.
 - [ ] Explicar **por qué** el segundo caso no se arregla como el primero.
-- [ ] Demostrar que **lo que escribes en material ajeno no se recupera**, y deducir dónde tienen que vivir tus apuntes.
+- [ ] Demostrar que **lo que no se empuja no se recupera**, aunque esté en un repositorio tuyo.
 
 ---
 
 ### 📚 Fundamento Teórico
 
-> [!important] 1. Hoy bajas DOS repositorios, y no son iguales
-> Es lo más importante de esta fase y lo que más se confunde. Los dos vienen de mí, pero tu relación con ellos es **distinta**:
+> [!important] 1. Hoy bajas DOS repositorios, y los dos se bajan igual
+> Hoy te llevas a tu ordenador **el material del Bloque 1** (lo que trabajaremos las próximas semanas) y **la práctica Boochan** (para más adelante). El procedimiento es **idéntico** en los dos:
 >
-> | | **Bloque 1 — Entorno** | **Boochan** |
-> | :--- | :--- | :--- |
-> | Qué es | El material de las **próximas semanas** | La práctica grande, para más adelante |
-> | Cómo lo bajas | **`git clone`** directo | **`Use this template`** y luego clonas **tu copia** |
-> | ¿De quién es el repo? | **Mío.** Tú tienes una copia local | **Tuyo.** Está en tu cuenta de GitHub |
-> | ¿Puedes hacer `push`? | **NO.** No eres colaborador | **SÍ.** Es tu repositorio |
-> | Si escribes algo dentro | **no se guarda en ningún sitio** | se guarda al hacer `push` |
+> ```
+> Mi repo (plantilla)  →  Use this template  →  TU repo en tu GitHub  →  git clone  →  tu ordenador
+> ```
 >
-> **¿Por qué esta diferencia?** Porque el Bloque 1 es **documentación que yo mantengo**: si mañana corrijo una errata, quiero que la corrección sea mía y llegue a todos. Boochan es un **proyecto que tú construyes**: necesitas un sitio propio donde guardar tu trabajo.
+> Fíjate en lo que pasa ahí: **el material deja de ser mío y pasa a ser tuyo.** A partir del segundo paso trabajas sobre **tu** repositorio, en **tu** cuenta. Puedes escribir, borrar, romper y hacer `push` sin pedir permiso a nadie.
 >
-> > [!danger] ⚠️ Entonces, ¿dónde escribo yo?
-> > **En tu repositorio de apuntes.** Siempre. Las respuestas, las dudas, los enlaces de vídeo y tus notas van a `00_Apuntes/`, que es **tuyo** y sí se sube.
-> > El material del curso **no se toca**: si crees que hay un error, dímelo y lo corrijo yo en el original. Lo de la Fase 0.1 —*"tus apuntes son tuyos, las prácticas son material del curso"*— empieza a tener sentido justo aquí.
+> > [!success] 🔒 Y no puedes estropear mi material ni queriendo
+> > Mi repositorio y tu copia quedan **completamente separados** desde el primer segundo. No hay ningún vínculo entre los dos: lo que hagas en el tuyo no llega al mío. **No eres colaborador de mis repos**, así que un `push` contra ellos te lo rechazaría GitHub con un error `403`.
+> > Trabaja tranquilo: **no hay forma de que la líes en el material del curso.**
 
 > [!info] 2. Plantilla y "Use this template"
 > Una **plantilla** es un repositorio pensado para sacar copias. Al pulsar **"Use this template"**, GitHub crea en **tu** cuenta un repositorio **nuevo e independiente** con el mismo contenido pero **historial propio**. No es un enlace a la plantilla del profesor: es **tuyo**.
@@ -76,24 +72,26 @@
 > [!example] Paso 1: Arranca la grabación y preséntate
 > Inicia la grabación en **OBS**, preséntate, **enseña tu perfil de GitHub** 2-3 segundos y di qué vas a hacer.
 
-> [!example] Paso 2: Baja el material del Bloque 1 (lo que viene ahora)
-> Esto es lo que vamos a usar **las próximas semanas**, así que empieza por aquí. Es un repositorio **mío**: solo lo clonas.
+> [!example] Paso 2: Haz tuyo el material del Bloque 1 (lo que viene ahora)
+> Empieza por aquí, que es lo que usaremos las próximas semanas.
 >
-> 1. Entra en `github.com/sor-iesjj/bloque-1-entorno` y **fíjate en el botón verde**: pone `Code`, y **no hay ningún `Use this template`**. Dilo en voz alta: *"este repositorio no es una plantilla, así que no puedo sacar una copia propia: solo puedo clonarlo."*
-> 2. `Code` → pestaña **`HTTPS`** → copiar. *(Aquí sí usamos HTTPS: como no vas a subir nada, no hace falta tu clave SSH.)*
-> 3. Clic derecho sobre **`01_Practicas`** → abrir la terminal ahí, y:
+> 1. Entra en **`github.com/sor-iesjj/bloque-1-entorno`**.
+> 2. Pulsa **`Use this template` → `Create a new repository`**:
+>    - **Owner:** tu usuario · **Repository name:** `bloque-1-entorno` · **Visibility:** la que indique el profesor.
+>    - **`Create repository`**.
+> 3. Ya está en **tu** cuenta. Compruébalo: la dirección ahora es `github.com/TU-USUARIO/bloque-1-entorno`. Enséñalo en el vídeo.
+> 4. Pulsa **`Code`** → pestaña **`SSH`** → copia la dirección.
+> 5. Clic derecho sobre **`01_Practicas`** → abrir la terminal ahí:
 >    ```bash
 >    pwd          # .../Boveda_SOR/01_Practicas
->    git clone https://github.com/sor-iesjj/bloque-1-entorno.git
+>    git clone git@github.com:TU-USUARIO/bloque-1-entorno.git
 >    cd bloque-1-entorno
 >    ls
 >    ```
-> 4. Ábrelo en Obsidian: ya puedes leer las prácticas del Bloque 1 **dentro de tu bóveda**, sin ir al navegador.
->
-> > [!warning] ⚠️ Aquí no escribas nada
-> > Este material es mío y **tú no puedes subir cambios**. Si editas un fichero, ese cambio vive **solo en tu ordenador** y se pierde en cuanto pase cualquier cosa (lo comprobarás en el Reto 3). Tus notas van a `00_Apuntes/`.
+> 6. Ábrelo en Obsidian: ya puedes leer las prácticas del Bloque 1 **dentro de tu bóveda**, sin navegador.
 
-> [!example] Paso 3: Crea tu copia de la plantilla Boochan en GitHub
+> [!example] Paso 3: Haz lo mismo con Boochan
+> **Exactamente el mismo procedimiento**, cambiando el repositorio de origen. Cuéntalo así en el vídeo: *"repito los mismos pasos, porque todo el material del curso se baja igual."*
 > En `github.com/sor-iesjj/boochan-v1`, pulsa **`Use this template` → Create a new repository**: **Owner** tu usuario, **name** `boochan-1`, **Visibility** la que indique el profesor. **Create repository**. Ahora sí: pulsa el botón verde **`Code`**, pestaña **`SSH`**, y copia tu dirección (`git@github.com:TU-USUARIO/boochan-1.git`).
 >
 > > [!tip] 💡 ¿Ves la diferencia con la Fase 0.3?
@@ -187,40 +185,31 @@
 > > [!note] 📌 Esto lo volveremos a ver, y con calma
 > > Los dos retos de hoy son un aperitivo, hechos deprisa sobre una práctica que acabas de clonar. En la **Fase 0.7** los repetiremos **sobre todo tu trabajo del curso** —apuntes incluidos—, con la teoría detrás y las comprobaciones de seguridad que hoy nos hemos saltado porque aquí no arriesgabas nada.
 
-> [!example] 🔬 Paso 9 — RETO 3: el mismo desastre, pero con el material del Bloque 1
-> Los dos retos anteriores han ido bien. Vamos a repetir **exactamente lo mismo** con la otra carpeta, la de `bloque-1-entorno`. Parece igual. **No lo es.**
+> [!example] 🔬 Paso 9 — RETO 3: ¿y si lo que borro son MIS anotaciones?
+> Los dos retos anteriores han ido bien porque recuperaste **material que yo había escrito**. Ahora vamos a por lo que has escrito **tú**, que es lo que de verdad no se puede rehacer.
 >
-> 1. Abre `01_Practicas/bloque-1-entorno/` en Obsidian y **escribe algo dentro**: crea un fichero `MIS_NOTAS_B1.md` con dos líneas, lo que quieras. Guarda.
-> 2. Intenta subirlo, como has hecho con Boochan:
->    ```bash
->    git add .
->    git commit -m "Mis notas del bloque 1"
->    git push
->    ```
-> 3. **Lee el error en voz alta.** Git te dirá algo parecido a:
->    ```
->    remote: Permission to sor-iesjj/bloque-1-entorno.git denied
->    fatal: unable to access ... 403
->    ```
-> 4. Ahora **borra la carpeta `bloque-1-entorno` entera** y vuelve a clonarla:
+> 1. Entra en `01_Practicas/bloque-1-entorno/` y **escribe algo tuyo**: crea `MIS_NOTAS_B1.md` con dos o tres líneas de verdad, algo que te costaría rehacer.
+> 2. **NO hagas `commit` ni `push`.** Guarda y ya está. *(Es lo que pasa de verdad un viernes a última hora.)*
+> 3. Borra **la carpeta `bloque-1-entorno` entera** y vuelve a clonarla:
 >    ```bash
 >    pwd          # .../Boveda_SOR/01_Practicas
->    git clone https://github.com/sor-iesjj/bloque-1-entorno.git
+>    git clone git@github.com:TU-USUARIO/bloque-1-entorno.git
 >    ```
-> 5. **Busca tu `MIS_NOTAS_B1.md`.**
+> 4. **Busca tu `MIS_NOTAS_B1.md`.**
 >
 > > [!success] ✅ Solución del Reto 3 — y la conclusión de la fase
-> > **El material ha vuelto entero. Tus notas, no.** Y no hay ningún comando que las traiga: no existían en ningún sitio salvo en la carpeta que acabas de borrar.
+> > **No hay solución.** El material del curso ha vuelto entero, porque estaba en GitHub desde que copiaste la plantilla. **Tus notas no vuelven**, y no hay ningún comando que las traiga: nunca salieron de la carpeta que acabas de borrar.
 > >
-> > ¿Por qué con Boochan sí y aquí no? Porque `boochan-1` **es tuyo** y pudiste hacer `push`; `bloque-1-entorno` **es mío** y el `push` te lo rechazó con un `403`. Sin `push` no hay copia fuera. Sin copia fuera, no hay recuperación.
+> > | Qué borraste | ¿Vuelve? | Por qué |
+> > | :--- | :---: | :--- |
+> > | El material del Bloque 1 | ✅ | Estaba en tu GitHub desde el primer momento |
+> > | `MIS_DATOS.md` del Reto 2 | ✅ | **Le hiciste `push`** |
+> > | `MIS_NOTAS_B1.md` de ahora | ❌ | **Nunca hiciste `push`** |
 > >
-> > | | Boochan (tuyo) | Bloque 1 (mío) |
-> > | :--- | :--- | :--- |
-> > | Recuperas **el material** | ✅ clonando | ✅ clonando |
-> > | Recuperas **lo que tú escribiste** | ✅ *si hiciste `push`* | ❌ **nunca** |
+> > Fíjate en que la diferencia **no es el repositorio: es el `push`**. Mismo sitio, mismo Git, distinto resultado — porque uno subió y el otro no.
 > >
-> > **Por eso tus apuntes van a `00_Apuntes/`, en tu propio repositorio.** No es una manía de ordenar carpetas: es el único sitio donde lo que escribes está a salvo.
-> > Escríbelo así en tu entrada de hoy, con tus palabras. Es la respuesta que más peso tiene de esta fase.
+> > **De aquí sale la norma que vas a oírme todo el curso:** `commit` y `push` **al terminar cada sesión de trabajo**. No cuando te acuerdes, no el viernes. Al terminar.
+> > Escríbelo en tu entrada de hoy con tus palabras. Es la respuesta que más peso tiene de esta fase.
 
 > [!example] Paso 10: Cierra el vídeo, nómbralo y súbelo
 > Detén la grabación, nombra el vídeo `Fase 0.4 — Clonar la práctica Boochan`, súbelo a la playlist `B0_Prerrequisitos` (No listado) y añade **timestamps**. Los dos retos llevan el suyo, que es lo que voy a mirar primero:
@@ -233,7 +222,7 @@
 > 04:30 Paso 6 - add, commit, push
 > 05:20 Paso 7 - RETO 1: borrar las fases y recuperarlas
 > 06:40 Paso 8 - RETO 2: borrar boochan-1 entera y clonar
-> 08:00 Paso 9 - RETO 3: lo mismo con el Bloque 1 (y aqui NO vuelve todo)
+> 08:00 Paso 9 - RETO 3: borrar mis propias notas sin push (NO vuelven)
 > 09:20 Paso 10 - Repaso final
 > ```
 >
@@ -250,7 +239,7 @@
 > | La carpeta `boochan-1` no aparece en Obsidian. | La clonaste fuera de la bóveda. | Comprueba con `pwd`; clónala dentro de `01_Practicas/`. |
 > | `git push` dice `nothing to commit`. | No hiciste `git add` o no guardaste. | Guarda en Obsidian, `git add .` y `git commit`. |
 > | `fatal: you must specify path(s) to restore`. | Escribiste `git restore` **sin el punto**. Git no adivina qué quieres recuperar. | `git restore .` — el punto significa *"todo lo que hay desde aquí hacia abajo"*. Si estás dentro de `Fases/` recupera solo eso; desde la raíz del repo, recupera todo. |
-> | `Permission ... denied` / `403` al hacer `push` en `bloque-1-entorno`. | **Es lo esperado**: ese repo no es tuyo. | Nada que arreglar: es justo lo que demuestra el Reto 3. Tus notas van a `00_Apuntes/`. |
+> | `Permission ... denied` / `403` al hacer `push`. | Estás apuntando al repo **del profesor**, no al tuyo. | `git remote -v`: la dirección debe llevar **TU usuario**. Si lleva `sor-iesjj`, clonaste el original en vez de tu copia. |
 > | `git restore .` no recupera nada. | No estás dentro de `boochan-1`. | `pwd`: tienes que estar dentro de la carpeta del repo, no en `01_Practicas`. |
 > | Tras el Reto 2, `git clone` dice `destination path already exists`. | La carpeta no se borró del todo. | Bórrala por completo y repite. |
 > | Tras el Reto 2 falta algo que yo había creado. | No le hiciste `push`. | No hay solución: no estaba en GitHub. Es justo la lección del reto. |
@@ -270,8 +259,8 @@
 - [ ] `MIS_DATOS.md` creado y subido con `add` → `commit` → `push`; visible en GitHub.
 - [ ] **Reto 1 resuelto:** fases borradas y recuperadas con `git restore`, explicando por qué no hizo falta Internet.
 - [ ] **Reto 2 resuelto:** carpeta borrada entera y recuperada clonando, explicando por qué `git restore` ya no valía.
-- [ ] **Reto 3 resuelto:** `push` rechazado con `403` en el Bloque 1, y comprobado que tus notas **no vuelven** tras clonar.
-- [ ] `bloque-1-entorno` clonado dentro de `01_Practicas/` y visible en Obsidian.
+- [ ] **Reto 3 resuelto:** notas propias sin `push`, borradas y **no recuperadas**; explicado por qué.
+- [ ] **Tu copia** de `bloque-1-entorno` creada, clonada en `01_Practicas/` y visible en Obsidian.
 - [ ] Vídeo `Fase 0.4 — Clonar la práctica Boochan` subido a la playlist, con timestamps.
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase.
 - [ ] Grabada **🏫 en el centro**.

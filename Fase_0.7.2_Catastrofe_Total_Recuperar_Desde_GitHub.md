@@ -175,9 +175,9 @@
 >    ```bash
 >    pwd          # .../Boveda_SOR/01_Practicas
 >    git clone git@github.com:TU-USUARIO/boochan-1.git
->    git clone https://github.com/sor-iesjj/bloque-1-entorno.git
+>    git clone git@github.com:TU-USUARIO/bloque-1-entorno.git
 >    ```
->    El segundo va por **HTTPS** porque es material mío: lo lees, no lo subes.
+>    Los dos son **repositorios tuyos**, así que los dos van por SSH.
 >
 > 3. **Comprueba que ha vuelto TODO, no solo los ficheros:**
 >    ```bash

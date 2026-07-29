@@ -22,7 +22,7 @@ Sigue las sub-fases **en orden**. Cada una es una práctica guiada, muy detallad
 | &nbsp;&nbsp;↳ [Fase 0.2.1 — Cuenta de GitHub y Git](Fase_0.2.1_Cuenta_GitHub_y_Git.md) | Crea la cuenta de GitHub y configura Git |
 | &nbsp;&nbsp;↳ [Fase 0.2.2 — Autenticación SSH](Fase_0.2.2_Autenticacion_SSH.md) | Clave SSH (y token HTTPS) + verificación |
 | [Fase 0.3 — Repo de apuntes y primera entrada](Fase_0.3_Repo_Apuntes_y_Primera_Entrada.md) | Repo del Trimestre 1 + entrada de la fase |
-| [Fase 0.4 — Bajar el material del curso](Fase_0.4_Clonar_Practica_Boochan.md) | Clona el Bloque 1 (solo lectura) + su copia de Boochan; `status → commit → push` y **3 retos** de recuperación |
+| [Fase 0.4 — Bajar el material del curso](Fase_0.4_Clonar_Practica_Boochan.md) | Sus copias del Bloque 1 y de Boochan (`Use this template` + clonar); `status → commit → push` y **3 retos** de recuperación |
 | [Fase 0.5 — Casa y centro (índice)](Fase_0.5_Casa_y_Centro_Sincronizacion.md) | Casa ↔ centro, en 2 partes ↓ |
 | &nbsp;&nbsp;↳ [Fase 0.5.1 — Montar el entorno en casa](Fase_0.5.1_Montar_Entorno_Casa.md) | Instala en casa y clona sus repos |
 | &nbsp;&nbsp;↳ [Fase 0.5.2 — Sincronizar casa ↔ centro](Fase_0.5.2_Sincronizar_Casa_Centro.md) | Ciclo `pull → push`; regla anti-OneDrive |

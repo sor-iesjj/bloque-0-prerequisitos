@@ -105,7 +105,7 @@
 - [ ] **0.1:** bóveda `Boveda_SOR` con estructura + canal de YouTube con playlist `B0_Prerrequisitos`.
 - [ ] **0.2.1 / 0.2.2:** cuenta de GitHub + Git configurado + autenticación (SSH/token).
 - [ ] **0.3:** repo `apuntes-sor-t1` con entradas con formato correcto; enlace enviado.
-- [ ] **0.4:** material del **Bloque 1** clonado (solo lectura) + práctica `boochan-1` clonada y con un cambio subido. Los **3 retos** de borrado y recuperación resueltos.
+- [ ] **0.4:** **tus copias** del Bloque 1 y de `boochan-1` creadas y clonadas, con un cambio subido. Los **3 retos** de borrado y recuperación resueltos.
 - [ ] **0.5.1 / 0.5.2:** entorno replicado en casa + ciclo `pull → push` demostrado.
 - [ ] **0.6:** simulación final grabada.
 - [ ] **0.7.1 / 0.7.2:** las dos catástrofes provocadas y recuperadas (local con `git restore`, total clonando).

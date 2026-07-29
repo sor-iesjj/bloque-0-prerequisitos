@@ -91,9 +91,9 @@
 >    ```bash
 >    cd RUTA_SOR/Boveda_SOR/01_Practicas
 >    git clone git@github.com:TU-USUARIO/boochan-1.git
->    git clone https://github.com/sor-iesjj/bloque-1-entorno.git
+>    git clone git@github.com:TU-USUARIO/bloque-1-entorno.git
 >    ```
->    Sí, **dos**: tu copia de Boochan (por SSH, es tuya) y el material del Bloque 1 (por HTTPS, es del profesor y solo se lee).
+>    Sí, **dos**: tus dos copias, la de Boochan y la del Bloque 1. Las dos son **tuyas** y las dos van por SSH — el `Use this template` lo hiciste en el centro, en la Fase 0.4, así que aquí solo hay que clonar.
 >    ```bash
 >    ```
 > 4. Abre Obsidian → **`Open folder as vault`** → tu `Boveda_SOR`.
