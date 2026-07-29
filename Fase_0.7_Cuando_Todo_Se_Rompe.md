@@ -14,6 +14,10 @@
 > Esta fase existe para que **lo compruebes tú**. Vamos a **romper tu trabajo a propósito** —de verdad, no de mentira— y a recuperarlo. Dos veces, de dos maneras distintas, porque **no todos los desastres se arreglan igual**.
 >
 > Va al final a propósito: ahora ya tienes **dos repositorios** con material dentro, uno de ellos con trabajo que **no escribiste tú y no puedes rehacer**. Hacer esto en la Fase 0.3, cuando solo tenías cuatro notas, no habría demostrado nada.
+>
+> > [!note] 📌 Esto ya lo probaste de refilón en la Fase 0.4
+> > Allí, con los dos retos del final, borraste las fases de tu copia de Boochan y la carpeta entera. Fue un aperitivo: sobre una práctica recién clonada, donde **no arriesgabas nada tuyo**.
+> > Hoy es distinto y por eso hay una fase entera. Vas a romper **tu trabajo del curso**, incluidos tus apuntes, y con la teoría delante para entender **por qué** cada desastre se arregla de una manera y no de la otra.
 
 | Parte | El desastre | Cómo se arregla | Vídeo |
 | :--- | :--- | :--- | :--- |

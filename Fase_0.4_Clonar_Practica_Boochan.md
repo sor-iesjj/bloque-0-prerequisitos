@@ -17,7 +17,7 @@
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `Fase 0.4 — Clonar la práctica Boochan` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
-> 6. **~5 min.** Se graba en **🏫 el centro**.
+> 6. **~7-8 min** (esta fase lleva dos retos al final). Se graba en **🏫 el centro**.
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
 > 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
 
@@ -28,6 +28,9 @@
 - [ ] Explicar qué es una **plantilla** de repositorio y qué hace "Use this template".
 - [ ] Crear **tu propia copia** de `boochan-1` y **clonarla** dentro de `01_Practicas/`.
 - [ ] Hacer un cambio y subirlo con `git status` → `add` → `commit` → `push`.
+- [ ] **Recuperar ficheros borrados** con `git restore`, sin Internet.
+- [ ] **Reconstruir el repositorio entero** clonando, cuando ya no queda ni el historial.
+- [ ] Explicar **por qué** el segundo caso no se arregla como el primero.
 
 ---
 
@@ -46,7 +49,7 @@
 ### 🛠️ Procedimiento Práctico
 
 > [!example] Paso 0: Prepárate (todavía SIN grabar)
-> Comprueba tu bóveda y tu autenticación. **Léete el procedimiento** (tiene **6 pasos** grabados). Ten **OBS** listo y tu **perfil de GitHub** en una pestaña.
+> Comprueba tu bóveda y tu autenticación. **Léete el procedimiento** (tiene **8 pasos** grabados: los 5 primeros son el ciclo normal y los **dos últimos son retos** en los que romperás tu copia a propósito). Ten **OBS** listo y tu **perfil de GitHub** en una pestaña.
 > **Y antes de grabar: crea la entrada de apuntes de esta fase** (`fase-0.4-clonar-boochan.md`) con la estructura pegada y **vacía**. En el vídeo solo tienes que **enseñarla**, no rellenarla.
 
 > [!example] Paso 1: Arranca la grabación y preséntate
@@ -91,8 +94,74 @@
 > ```
 > Recarga tu repo `boochan-1` en GitHub: debe aparecer `MIS_DATOS.md`.
 
-> [!example] Paso 6: Cierra el vídeo, nómbralo y súbelo
-> Detén la grabación, nombra el vídeo `Fase 0.4 — Clonar la práctica Boochan`, súbelo a la playlist `B0_Prerrequisitos` (No listado) y añade **timestamps** (`00:00 Presentación` + uno por paso).
+> [!example] 🔬 Paso 6 — RETO 1: bórralo y recupéralo (sin Internet)
+> Ahora que tienes tu copia y ya sabes hacer `commit`, vamos a romperla a propósito. **Sigue grabando.**
+>
+> 1. En el Explorador, entra en `boochan-1/Fases/` y **borra TODOS los ficheros de fase**. Todos. Guarda y mira la carpeta vacía.
+> 2. En la terminal, **dentro de `boochan-1`**, mira qué opina Git:
+>    ```bash
+>    git status
+>    ```
+>    Verás tus fases marcadas con **`D`** (de *deleted*). Git sabe perfectamente lo que falta.
+> 3. **Piénsalo dos segundos antes de leer la solución.** ¿Necesitas Internet para recuperarlas? ¿Necesitas volver a GitHub?
+>
+> > [!success] ✅ Solución del Reto 1
+> > **No hace falta Internet.** Un comando:
+> > ```bash
+> > git restore .
+> > ```
+> > Comprueba con `git status`: vuelve a decir `working tree clean`. Y las fases están otra vez ahí.
+> >
+> > **¿Por qué ha funcionado?** Porque al clonar te trajiste **también el historial**, que vive en la carpeta oculta `.git` dentro de `boochan-1`. Esos ficheros estaban guardados ahí, en tu propio ordenador. `git restore` los ha copiado de vuelta.
+> > Dilo en voz alta en el vídeo: *"he recuperado el material sin conectarme a nada, porque el historial está en mi equipo."*
+
+> [!example] 🔬 Paso 7 — RETO 2: ahora bórralo TODO (y aquí sí cambia la cosa)
+> El reto anterior fue fácil. Este no se arregla igual. **Sigue grabando.**
+>
+> 1. Cierra Obsidian.
+> 2. Borra **la carpeta `boochan-1` ENTERA**, con todo dentro. Sí, la carpeta completa.
+> 3. Abre la terminal en `01_Practicas/` y prueba el truco de antes:
+>    ```bash
+>    git status
+>    ```
+>    Responde:
+>    ```
+>    fatal: not a git repository (or any of the parent directories): .git
+>    ```
+> 4. **Explica en voz alta por qué el Reto 1 ya no sirve.** Si no lo ves, la pista está en la respuesta de Git.
+>
+> > [!success] ✅ Solución del Reto 2
+> > **Aquí Git en tu ordenador no puede hacer nada**, y la razón es esta: la carpeta oculta `.git` —tu historial, tu máquina del tiempo— **estaba DENTRO de `boochan-1`**. Al borrar la carpeta, la has borrado con ella. `git restore` no existe si no hay repositorio.
+> >
+> > Lo único que queda está **fuera de tu ordenador**: en GitHub. Así que se vuelve a clonar. Desde `01_Practicas/`:
+> > ```bash
+> > pwd          # .../Boveda_SOR/01_Practicas
+> > git clone git@github.com:TU-USUARIO/boochan-1.git
+> > ```
+> > En segundos lo tienes todo otra vez: el manual, las fases **y tu historial completo** (`git log --oneline` lo demuestra).
+> >
+> > > [!important] 🔍 Fíjate en un detalle que lo explica todo
+> > > **`MIS_DATOS.md` también ha vuelto.** ¿Por qué? Porque en el Paso 5 hiciste `push`. Estaba en GitHub.
+> > > Si lo hubieras creado y **no** lo hubieras empujado, ahora no estaría. Se habría perdido para siempre, junto con la carpeta.
+> > > **Esa es toda la lección:** lo que está en GitHub sobrevive; lo que solo está en tu ordenador, no. Por eso `push` al terminar cada sesión.
+>
+> > [!note] 📌 Esto lo volveremos a ver, y con calma
+> > Los dos retos de hoy son un aperitivo, hechos deprisa sobre una práctica que acabas de clonar. En la **Fase 0.7** los repetiremos **sobre todo tu trabajo del curso** —apuntes incluidos—, con la teoría detrás y las comprobaciones de seguridad que hoy nos hemos saltado porque aquí no arriesgabas nada.
+
+> [!example] Paso 8: Cierra el vídeo, nómbralo y súbelo
+> Detén la grabación, nombra el vídeo `Fase 0.4 — Clonar la práctica Boochan`, súbelo a la playlist `B0_Prerrequisitos` (No listado) y añade **timestamps**. Los dos retos llevan el suyo, que es lo que voy a mirar primero:
+> ```
+> 00:00 Presentacion
+> 00:30 Paso 2 - Use this template
+> 01:20 Paso 3 - Clonar dentro de 01_Practicas
+> 02:10 Paso 4 - MIS_DATOS.md
+> 02:50 Paso 5 - add, commit, push
+> 03:40 Paso 6 - RETO 1: borrar las fases y recuperarlas
+> 05:10 Paso 7 - RETO 2: borrar la carpeta entera y clonar
+> 07:00 Paso 8 - Repaso final
+> ```
+>
+> Y en tu **entrada de apuntes** de esta fase, además de las respuestas, contesta a esto con tus palabras: **¿por qué el Reto 2 no se arregla igual que el Reto 1?** Es la pregunta que resume la fase.
 
 ---
 
@@ -104,6 +173,9 @@
 > | `git clone` da `Permission denied (publickey)`. | Usas SSH pero la clave no está lista. | Repasa la 0.2.2, **o** clona por HTTPS con tu token. |
 > | La carpeta `boochan-1` no aparece en Obsidian. | La clonaste fuera de la bóveda. | Comprueba con `pwd`; clónala dentro de `01_Practicas/`. |
 > | `git push` dice `nothing to commit`. | No hiciste `git add` o no guardaste. | Guarda en Obsidian, `git add .` y `git commit`. |
+> | `git restore .` no recupera nada. | No estás dentro de `boochan-1`. | `pwd`: tienes que estar dentro de la carpeta del repo, no en `01_Practicas`. |
+> | Tras el Reto 2, `git clone` dice `destination path already exists`. | La carpeta no se borró del todo. | Bórrala por completo y repite. |
+> | Tras el Reto 2 falta algo que yo había creado. | No le hiciste `push`. | No hay solución: no estaba en GitHub. Es justo la lección del reto. |
 > | No veo "Use this template". | El repo no está como plantilla o no has iniciado sesión. | Inicia sesión; si sigue, avisa al profesor. |
 
 > [!help] Preguntas Críticas
@@ -118,6 +190,8 @@
 - [ ] Copia de la plantilla creada (`boochan-1` en tu cuenta).
 - [ ] Repo clonado dentro de `01_Practicas/boochan-1/` (se ve en Obsidian).
 - [ ] `MIS_DATOS.md` creado y subido con `add` → `commit` → `push`; visible en GitHub.
+- [ ] **Reto 1 resuelto:** fases borradas y recuperadas con `git restore`, explicando por qué no hizo falta Internet.
+- [ ] **Reto 2 resuelto:** carpeta borrada entera y recuperada clonando, explicando por qué `git restore` ya no valía.
 - [ ] Vídeo `Fase 0.4 — Clonar la práctica Boochan` subido a la playlist, con timestamps.
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase.
 - [ ] Grabada **🏫 en el centro**.
