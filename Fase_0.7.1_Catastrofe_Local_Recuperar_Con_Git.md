@@ -78,6 +78,23 @@
 >
 > De ahí sale la norma: **commit al terminar cada sesión de trabajo**, no cuando te acuerdes. Cada commit que no haces es trabajo que estás dejando sin red.
 
+
+> [!danger] ⌨️ Si la pantalla se te queda "atascada": pulsa `q`
+> Te va a pasar con `git log` y con `git diff`, y la primera vez asusta: ejecutas el comando, aparece el texto, y **el terminal deja de responder**. No puedes escribir nada. Parece que se ha colgado o que te has metido en un editor.
+>
+> **No se ha colgado y no es un editor.** Es el **paginador**: cuando la salida no cabe en pantalla, Git te la enseña con un programa (`less`) que te deja moverte por ella tranquilamente. Se sale con **una tecla**:
+>
+> | Tecla | Qué hace |
+> | :--- | :--- |
+> | **`q`** | **SALIR** ← la que buscas |
+> | `↓` `↑` o `Enter` | bajar o subir línea a línea |
+> | `Espacio` | avanzar una página |
+> | `/palabra` | buscar dentro del texto |
+>
+> Fíjate en que abajo del todo aparece un `:` o el nombre del fichero: **esa es la señal** de que estás dentro del paginador.
+>
+> Y no es cosa de Git: es el mismo programa que verás en las páginas de manual (`man`) y en muchas herramientas de Linux. **La tecla `q` te va a sacar de todas ellas.** Apréndetela hoy y te ahorras cerrar la terminal a lo bruto durante años.
+
 ### 📖 Diccionario de Conceptos Clave
 
 > [!quote] Terminología
@@ -86,6 +103,7 @@
 > - **`git diff`:** te enseña **exactamente qué líneas** han cambiado. **No modifica nada.**
 > - **`git restore`:** copia el contenido del último commit encima de tu carpeta de trabajo. **Sí modifica.**
 > - **`git log`:** la lista de tus commits, del más nuevo al más viejo.
+> - **Paginador (`less`):** el visor donde Git te enseña las salidas largas. **Se sale con `q`.**
 
 ---
 
@@ -188,6 +206,7 @@
 > [!bug] Troubleshooting
 > | Problema | Causa | Solución |
 > | :--- | :--- | :--- |
+> | La pantalla se queda atascada tras `git log` o `git diff` y no puedo escribir. | Estás dentro del **paginador**, no en un editor ni colgado. | Pulsa **`q`**. Es la misma tecla que en `man` y en todo Linux. |
 > | `fatal: you must specify path(s) to restore`. | Escribiste `git restore` **sin el punto**. Git no adivina qué quieres recuperar. | `git restore .` — el punto significa *"todo lo que hay desde aquí hacia abajo"*. Si estás dentro de `Fases/` recupera solo eso; desde la raíz del repo, recupera todo. |
 > | `git restore .` no recupera nada y el fichero sigue vacío. | Estás en la carpeta equivocada. | `pwd`: tienes que estar dentro de `Trimestre_1`. |
 > | `git status` decía `working tree clean` **con los ficheros ya vacíos**. | Hiciste `commit` **después** de vaciarlos: guardaste una foto del desastre. | Se recupera del commit anterior: `git restore --source=HEAD~1 .` Y aprende la lección: **mira antes de commitear**. |

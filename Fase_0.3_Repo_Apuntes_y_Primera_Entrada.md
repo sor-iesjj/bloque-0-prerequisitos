@@ -165,6 +165,23 @@
 > git push -u origin main
 > ```
 >
+
+> [!danger] ⌨️ Si la pantalla se te queda "atascada": pulsa `q`
+> Te va a pasar con `git log` y con `git diff`, y la primera vez asusta: ejecutas el comando, aparece el texto, y **el terminal deja de responder**. No puedes escribir nada. Parece que se ha colgado o que te has metido en un editor.
+>
+> **No se ha colgado y no es un editor.** Es el **paginador**: cuando la salida no cabe en pantalla, Git te la enseña con un programa (`less`) que te deja moverte por ella tranquilamente. Se sale con **una tecla**:
+>
+> | Tecla | Qué hace |
+> | :--- | :--- |
+> | **`q`** | **SALIR** ← la que buscas |
+> | `↓` `↑` o `Enter` | bajar o subir línea a línea |
+> | `Espacio` | avanzar una página |
+> | `/palabra` | buscar dentro del texto |
+>
+> Fíjate en que abajo del todo aparece un `:` o el nombre del fichero: **esa es la señal** de que estás dentro del paginador.
+>
+> Y no es cosa de Git: es el mismo programa que verás en las páginas de manual (`man`) y en muchas herramientas de Linux. **La tecla `q` te va a sacar de todas ellas.** Apréndetela hoy y te ahorras cerrar la terminal a lo bruto durante años.
+
 > > [!important] 🕐 Por qué un commit por fase y no uno gordo
 > > Podrías hacer `git add .` y un único commit con todo. **Funcionaría igual.** Pero fíjate en la diferencia cuando pides el historial:
 > > ```bash
@@ -222,6 +239,7 @@
 > | :--- | :--- | :--- |
 > | Copio la dirección y `Ctrl+V` no pega nada en la terminal. | En Git Bash `Ctrl+V` no es "pegar". | **`Shift + Insert`**, o **clic derecho**. Lo tienes explicado en la Fase 0.2.1. |
 > | Pego la dirección y sale cortada o con saltos de línea. | Copiaste texto de más de la caja de GitHub. | Usa el **icono de copiar** 📋 de GitHub, no selecciones a mano. |
+> | La pantalla se queda atascada tras `git log` o `git diff` y no puedo escribir. | Estás dentro del **paginador**, no en un editor ni colgado. | Pulsa **`q`**. Es la misma tecla que en `man` y en todo Linux. |
 > | `fatal: not a git repository`. | No estás en `Trimestre_1` o no hiciste `git init`. | `pwd` para comprobar; haz `git init` ahí. |
 > | `remote origin already exists`. | Ejecutaste `git remote add` dos veces. | `git remote set-url origin git@github.com:...`. |
 > | `Updates were rejected`. | Creaste el repo con README (no vacío). | Recréalo vacío, o `git pull origin main --rebase` y `push`. |

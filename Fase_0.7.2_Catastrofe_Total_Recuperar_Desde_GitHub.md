@@ -210,6 +210,7 @@
 > [!bug] Troubleshooting
 > | Problema | Causa | Solución |
 > | :--- | :--- | :--- |
+> | La pantalla se queda atascada tras `git log` o `git diff` y no puedo escribir. | Estás dentro del **paginador**, no en un editor ni colgado. | Pulsa **`q`**. Es la misma tecla que en `man` y en todo Linux. |
 > | `git clone` deja la carpeta con nombre `apuntes-sor-t1`. | Olvidaste el segundo argumento. | Bórrala y repite con `... .git Trimestre_1` al final. |
 > | `Permission denied (publickey)`. | El equipo ya no reconoce tu clave SSH, o estás en otro equipo. | Repasa la Fase 0.2.2, o clona por HTTPS con tu token. |
 > | `Repository not found`. | Usuario mal escrito, o el repo es privado y no estás identificado. | Comprueba la dirección en la web de GitHub, botón `Code`. |
