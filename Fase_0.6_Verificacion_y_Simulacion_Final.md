@@ -41,6 +41,7 @@
 >        ↑                                                              │
 >        └──────────────────────  git pull  ←───────────────────────────┘
 > ```
+> Y una cosa que se olvida siempre: **este circuito es de UN repositorio**. Tú tienes tres, así que tienes **tres circuitos independientes** funcionando en paralelo. Cada uno con su `pull` y su `push`.
 
 ---
 
@@ -65,9 +66,11 @@
 > git push
 > ```
 
-> [!example] Paso 3: Simulación B — ciclo de práctica
+> [!example] Paso 3: Simulación B — el MISMO ciclo, en otro repositorio
+> Fíjate en que es **exactamente lo mismo** que acabas de hacer, cambiando de carpeta. Empieza igual, por el `pull`:
 > ```bash
 > pwd          # .../Boveda_SOR/01_Practicas/boochan-1  (abre la terminal ahí con clic derecho)
+> git pull
 > ```
 > Edita `MIS_DATOS.md`, míralo con `git status` y súbelo:
 > ```bash
@@ -75,9 +78,29 @@
 > git commit -m "Cambio en la practica (simulacion final)"
 > git push
 > ```
+>
+> > [!important] ⚠️ El ciclo va POR REPOSITORIO, no una vez al día
+> > Esto es lo que hay que llevarse de la fase, y es lo que más se falla en la práctica.
+> >
+> > **`git pull` y `git push` NO son "lo que se hace al llegar y al irme".** Son **lo que se hace en cada carpeta en la que vas a trabajar**. Git no sabe nada de tus otras carpetas: cada repositorio va por su cuenta y **no se entera de lo que pasa en los demás**.
+> >
+> > Ahora mismo tienes **tres**:
+> > ```
+> > 00_Apuntes/Trimestre_1/        ← tus apuntes
+> > 01_Practicas/bloque-1-entorno/ ← tu copia del Bloque 1
+> > 01_Practicas/boochan-1/        ← tu copia de Boochan
+> > ```
+> > Si hoy tocas los apuntes y el Bloque 1, hoy haces **dos `pull` y dos `push`**, uno en cada carpeta. Si solo tocas uno, uno.
+> >
+> > **Hoy simulamos dos** porque con dos ya se ve el patrón y el vídeo tiene que durar cinco minutos. Pero el tercero funciona **exactamente igual**: mismo comando, otra carpeta.
 
 > [!example] Paso 4: Comprobación final en GitHub
-> Abre en el navegador tus **dos** repos (`apuntes-sor-t1` y `boochan-1`) y muestra que los **últimos commits** son los que acabas de hacer.
+> Abre en el navegador tus **tres** repositorios y enséñalos:
+> - `apuntes-sor-t1` → el último commit debe ser el de hace un minuto (Simulación A).
+> - `boochan-1` → el último commit debe ser el de hace unos segundos (Simulación B).
+> - `bloque-1-entorno` → **este no lo has tocado hoy**, así que su último commit es el de cuando lo copiaste. Y está bien que sea así: enséñalo y explica por qué.
+>
+> Ese contraste es la prueba de que lo has entendido: **los tres repos van por su cuenta**, y cada uno refleja lo que tú has hecho en él.
 
 > [!example] Paso 5: Cierra el vídeo, nómbralo y súbelo
 > Detén la grabación, nombra el vídeo `Fase 0.6 — Simulación final`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps** (`00:00 Presentación`, Paso 2 apuntes, Paso 3 práctica, Paso 4 comprobación).
@@ -96,7 +119,8 @@
 > [!help] Preguntas Críticas
 > 1. Describe el "circuito completo" (Obsidian → add → commit → push → GitHub → pull).
 > 2. ¿Qué comando haces **siempre** al llegar a un ordenador?
-> 3. Apuntes y práctica son **dos repos distintos**: ¿en qué carpeta está cada uno?
+> 3. Ahora tienes **tres repositorios**: dilos, y di en qué carpeta está cada uno.
+> 4. Si un día trabajas en los apuntes y en el Bloque 1, ¿cuántos `pull` haces? ¿Y cuántos `push`? **¿Por qué?**
 
 ---
 

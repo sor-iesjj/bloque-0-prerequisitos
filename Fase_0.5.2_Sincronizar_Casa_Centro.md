@@ -26,6 +26,7 @@
 ### 🎯 Objetivos
 
 - [ ] Dominar el **ciclo diario**: `pull` al empezar → trabajar → `commit` y `push` al terminar.
+- [ ] Explicar que el ciclo se hace **en cada repositorio** que toques ese día, no una vez.
 - [ ] Explicar por qué **OneDrive y Git no pueden gestionar la misma carpeta**.
 - [ ] Confirmar que un cambio hecho en un equipo aparece en el otro.
 
@@ -48,6 +49,12 @@
 > 3. Antes de irme         →  git add . → git commit → git push
 > ```
 > Si **siempre** haces `pull` al empezar y `push` al terminar, tus dos equipos nunca se desincronizan.
+>
+> > [!warning] ⚠️ Ojo: el ciclo es POR CARPETA, no por día
+> > Aquí lo practicamos sobre `Trimestre_1`, pero **no es "el ciclo de los apuntes"**: es el ciclo **de cada repositorio**. Y tú tienes tres:
+> > `00_Apuntes/Trimestre_1/` · `01_Practicas/bloque-1-entorno/` · `01_Practicas/boochan-1/`
+> >
+> > Git **no sabe nada de tus otras carpetas**. Un `pull` en los apuntes no baja nada del Bloque 1. Si hoy vas a tocar dos, haces el ciclo **dos veces**, una en cada una.
 
 > [!warning] Si olvidas el `pull`
 > Puede aparecer un **conflicto** (Git no sabe qué versión vale). Por eso: **primero `pull`, siempre.** Si ves la palabra `CONFLICT`, para y pregúntame.

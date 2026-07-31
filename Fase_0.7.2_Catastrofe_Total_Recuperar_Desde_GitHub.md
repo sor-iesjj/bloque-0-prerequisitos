@@ -33,8 +33,8 @@
 ### 🎯 Objetivos
 
 - [ ] Explicar por qué en este desastre **Git en tu ordenador no puede hacer nada**.
-- [ ] Comprobar, antes de borrar, que tus dos repos están **realmente** en GitHub.
-- [ ] Reconstruir la bóveda entera **clonando** los dos repositorios.
+- [ ] Comprobar, antes de borrar, que tus **tres** repos están **realmente** en GitHub.
+- [ ] Reconstruir la bóveda entera **clonando** los tres repositorios.
 - [ ] Clonar con el **nombre de carpeta que tú decides**, no el que trae el repo.
 - [ ] Decir qué se pierde para siempre y **de qué depende** que sea mucho o poco.
 
@@ -53,7 +53,7 @@
 > Lo que hoy vas a comprobar es que **te da exactamente igual**. Que un ordenador es una herramienta reemplazable y tu trabajo no vive ahí.
 
 > [!success] Objetivo de esta Fase
-> Borrar la bóveda entera —los dos repositorios, con todo dentro— y reconstruirla desde cero **en menos de dos minutos**, clonando desde GitHub. Y saber decir con exactitud qué se ha perdido por el camino.
+> Borrar la bóveda entera —los tres repositorios, con todo dentro— y reconstruirla desde cero **en menos de dos minutos**, clonando desde GitHub. Y saber decir con exactitud qué se ha perdido por el camino.
 
 ---
 
@@ -106,7 +106,7 @@
 ### 🛠️ Procedimiento Práctico
 
 > [!danger] 🛑 Paso 0: LA COMPROBACIÓN QUE NO TE PUEDES SALTAR
-> **No grabes todavía.** Antes de destruir nada, hay que verificar que hay de dónde recuperar. Hazlo en **los dos repositorios**, uno detrás de otro.
+> **No grabes todavía.** Antes de destruir nada, hay que verificar que hay de dónde recuperar. Hazlo en **los tres repositorios**, uno detrás de otro.
 >
 > **En `00_Apuntes/Trimestre_1/`** (clic derecho → abrir terminal ahí):
 > ```bash
@@ -116,7 +116,8 @@
 > - `nothing to commit, working tree clean` → no hay nada sin guardar
 > - `Your branch is up to date with 'origin/main'` → **no hay nada sin subir**
 >
-> **Repite exactamente lo mismo en `01_Practicas/boochan-1/`.**
+> **Repite exactamente lo mismo en `01_Practicas/boochan-1/` y en `01_Practicas/bloque-1-entorno/`.**
+> Sí, los tres: cada repositorio va por su cuenta y `git status` solo te habla de la carpeta en la que estás.
 >
 > | Lo que dice | Qué significa | Qué haces |
 > | :--- | :--- | :--- |
@@ -126,16 +127,16 @@
 >
 > **Léete además el procedimiento entero** antes de grabar: tiene **6 pasos** grabados. Y **crea ya la entrada de apuntes de esta fase**: si la creas después de borrar la bóveda, tendrás que rehacerla.
 >
-> **Última comprobación, y esta con los ojos:** abre `github.com`, entra en tus dos repositorios y **mira que tus ficheros están ahí**. No te fíes solo del terminal. Si algo no aparece en la web, **no existe** para lo que viene ahora.
+> **Última comprobación, y esta con los ojos:** abre `github.com`, entra en tus tres repositorios y **mira que tus ficheros están ahí**. No te fíes solo del terminal. Si algo no aparece en la web, **no existe** para lo que viene ahora.
 
 > [!example] Paso 1: Arranca la grabación y preséntate
 > Inicia la grabación en **OBS**, preséntate, **enseña tu perfil de GitHub** 2-3 segundos y di qué vas a hacer: *"Voy a borrar mi bóveda entera, incluidos los apuntes y la práctica, y a reconstruirla clonando desde GitHub."*
 
 > [!example] Paso 2: Demuestra que tienes red debajo (grabando)
 > Esto es lo que convierte el vídeo en una demostración y no en un acto de fe. Enseña, en pantalla:
-> 1. El **`git status`** de los dos repos, con el `up to date` visible. Léelo en voz alta.
-> 2. Los **dos repositorios en la web de GitHub**, con sus ficheros dentro.
-> 3. Tu bóveda en el Explorador: `00_Apuntes/Trimestre_1/` y `01_Practicas/boochan-1/`, con todo su contenido.
+> 1. El **`git status`** de los tres repos, con el `up to date` visible en cada uno. Léelo en voz alta.
+> 2. Los **tres repositorios en la web de GitHub**, con sus ficheros dentro.
+> 3. Tu bóveda en el Explorador: `00_Apuntes/Trimestre_1/`, `01_Practicas/boochan-1/` y `01_Practicas/bloque-1-entorno/`, con todo su contenido.
 >
 > Di la frase: *"Todo lo que voy a borrar está en GitHub. Lo acabo de comprobar."*
 
@@ -161,7 +162,7 @@
 > ```
 > **Léelo en voz alta y explícalo:** *"Git me dice que aquí no hay ningún repositorio. La carpeta `.git` con todo mi historial estaba dentro de `Trimestre_1`, y la he borrado. En la fase anterior `git restore` me salvó porque `.git` existía. Hoy no existe, así que Git en mi ordenador no puede hacer absolutamente nada."*
 
-> [!example] Paso 5: Reconstruye clonando los dos repos
+> [!example] Paso 5: Reconstruye clonando los tres repos
 > 1. **Los apuntes.** Abre la terminal en `00_Apuntes/` y comprueba dónde estás:
 >    ```bash
 >    pwd          # .../Boveda_SOR/00_Apuntes
@@ -196,7 +197,7 @@
 >    00:30 Paso 2 - Compruebo que todo esta en GitHub
 >    01:40 Paso 3 - Borro la boveda entera
 >    02:50 Paso 4 - Git ya no puede ayudarme
->    03:40 Paso 5 - Reconstruyo clonando los dos repos
+>    03:40 Paso 5 - Reconstruyo clonando los tres repos
 >    05:30 Paso 6 - Repaso final
 >    ```
 > 2. **Escribe la entrada de esta fase**, pega el enlace del vídeo y contesta las Preguntas Críticas.
@@ -230,10 +231,10 @@
 ### ✅ Checklist Final de la Fase 0.7.2
 
 - [ ] `git status` comprobado en **los dos** repos, con `up to date with 'origin/main'` visible.
-- [ ] Los dos repositorios comprobados **también en la web** de GitHub.
+- [ ] Los tres repositorios comprobados **también en la web** de GitHub.
 - [ ] `Trimestre_1`, `boochan-1` y `bloque-1-entorno` borradas por completo, y equipo reiniciado.
 - [ ] `fatal: not a git repository` demostrado y explicado en voz alta.
-- [ ] Los dos repos clonados, con `Trimestre_1` recuperando **su nombre de carpeta**.
+- [ ] Los tres repos clonados, con `Trimestre_1` recuperando **su nombre de carpeta**.
 - [ ] `git log` enseñado tras el clon: el **historial completo** ha vuelto, no solo los ficheros.
 - [ ] Sabes explicar qué se pierde si hay commits sin `push`.
 - [ ] Vídeo `Fase 0.7.2 — Se ha llevado el disco por delante` subido a la playlist, con timestamps.
