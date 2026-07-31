@@ -223,7 +223,7 @@
 > 2. ¿Por qué una copia de seguridad guardada en el mismo disco que el original no es una copia de seguridad?
 > 3. `git status` te dice `Your branch is ahead of 'origin/main' by 3 commits`. Con tus palabras: ¿qué está pasando y **qué arriesgas** si el disco se rompe ahora?
 > 4. ¿Qué hace el segundo argumento de `git clone <dirección> <carpeta>` y por qué en esta fase era imprescindible?
-> 5. Un compañero guarda sus apuntes en una carpeta de la bóveda que **no** es ninguno de los dos repositorios. Le pasa lo de hoy. ¿Qué recupera? ¿Por qué?
+> 5. Un compañero guarda sus apuntes en una carpeta de la bóveda que **no** es ninguno de los tres repositorios. Le pasa lo de hoy. ¿Qué recupera? ¿Por qué?
 > 6. 🔬 **Reto:** cronometra el Paso 5. ¿Cuánto has tardado en reconstruir todo tu curso? Ahora calcula cuánto habrías tardado en reescribirlo a mano.
 
 ---
