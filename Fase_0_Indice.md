@@ -81,6 +81,7 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 | ↳ **0.2.1** | [[Fase_0.2.1_Cuenta_GitHub_y_Git]] | Crea la cuenta de GitHub y configura Git. |
 | ↳ **0.2.2** | [[Fase_0.2.2_Autenticacion_SSH]] | Clave SSH (y token HTTPS) + verificación. |
 | **0.3** | [[Fase_0.3_Repo_Apuntes_y_Primera_Entrada]] | Repo del Trimestre 1 + entrada de la fase + **primera entrega** en Teams. |
+| **0.3b** | [[Fase_0.3b_Que_No_Se_Sube_Gitignore]] | El **`.gitignore`**: qué no se sube nunca y por qué subir una clave no se arregla borrándola. |
 | **0.4** | [[Fase_0.4_Clonar_Practica_Boochan]] | Crea **sus copias** del Bloque 1 y de `boochan-1` (`Use this template`) y las clona. Domina `status → commit → push` + **3 retos** de borrado y recuperación. |
 | **0.5** | [[Fase_0.5_Casa_y_Centro_Sincronizacion]] | *(índice)* Casa ↔ centro, en 2 partes ↓ |
 | ↳ **0.5.1** | [[Fase_0.5.1_Montar_Entorno_Casa]] | Monta el entorno en casa y clona sus repos. |
