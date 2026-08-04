@@ -10,11 +10,11 @@
 
 
 > [!abstract] 📋 Qué se te evalúa en esta fase
-> **RA.06**
+> **RA.05**
 >
 > | Código | Criterio de evaluación |
 > | :--- | :--- |
-> | `CE.06.e` | Se ha accedido a sistemas de archivos en red desde equipos con diferentes sistemas operativos. |
+> | `CE.05.d` | Se han realizado tareas de mantenimiento del software instalado en el sistema. |
 >
 > Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
 

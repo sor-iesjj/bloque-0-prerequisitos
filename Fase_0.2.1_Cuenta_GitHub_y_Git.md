@@ -10,11 +10,11 @@
 
 
 > [!abstract] 📋 Qué se te evalúa en esta fase
-> **RA.02**
+> **RA.01**
 >
 > | Código | Criterio de evaluación |
 > | :--- | :--- |
-> | `CE.02.a` | Se han configurado y gestionado cuentas de usuario. |
+> | `CE.01.g` | Se han aplicado preferencias en la configuración del entorno personal. |
 >
 > Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
 
