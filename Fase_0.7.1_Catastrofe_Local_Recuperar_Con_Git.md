@@ -8,6 +8,16 @@
 >
 > **⏱️ Tiempo estimado:** ~1 hora · **Requisitos:** Fases 0.3 a 0.6 completas. Tus entradas de apuntes commiteadas.
 
+
+> [!abstract] 📋 Qué se te evalúa en esta fase
+> **RA.05**
+>
+> | Código | Criterio de evaluación |
+> | :--- | :--- |
+> | `CE.05.d` | Se han realizado tareas de mantenimiento del software instalado en el sistema. |
+>
+> Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
+
 ---
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)

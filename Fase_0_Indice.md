@@ -5,6 +5,23 @@
 >
 > Bloque de **prerrequisitos** que se hace **antes** del proyecto Boochan. Monta el método de trabajo del curso: tomar apuntes en Obsidian, versionarlos con Git y enviarlos por GitHub para que el profesor los corrija. Se calcula que ocupa **2-3 semanas** de clase.
 
+
+> [!abstract] 📋 Qué se evalúa en el Bloque 0
+> Este bloque es **instrumental**: monta el entorno con el que entregarás todo lo demás (Git, GitHub, SSH, Obsidian). No es el contenido central del módulo, pero **sí demuestra criterios de evaluación reales**, sobre todo de configuración del entorno, seguridad de acceso y mantenimiento.
+>
+> | CE | Criterio | Dónde |
+> | :--- | :--- | :--- |
+> | `CE.01.g` | Preferencias en la configuración del entorno personal | 0.1 · 0.3 · 0.5.1 |
+> | `CE.02.a` | Configurar y gestionar cuentas de usuario | 0.2.1 |
+> | `CE.04.b` | Qué recursos se comparten y en qué condiciones | 0.3b |
+> | `CE.04.f` | Niveles de seguridad para controlar el acceso | 0.2.2 |
+> | `CE.05.d` | Mantenimiento del software instalado | 0.5.1 · 0.7.1 · 0.7.2 |
+> | `CE.05.e` | Automatización de tareas del sistema | 0.5.2 |
+> | `CE.05.f` | Interpretar la información de configuración | 0.6 |
+>
+> Cada fase indica en su cabecera los suyos, con el texto literal del **RD 1691/2007**.
+
+
 ---
 
 ### ¿Por qué existe esta fase?

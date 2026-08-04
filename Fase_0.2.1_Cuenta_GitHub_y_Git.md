@@ -8,6 +8,16 @@
 >
 > **⏱️ Tiempo estimado:** ~1 - 1,5 horas · **Requisitos:** Git y OBS instalados (Consellería). Bóveda `Boveda_SOR` creada (Fase 0.1). Conexión a Internet.
 
+
+> [!abstract] 📋 Qué se te evalúa en esta fase
+> **RA.02**
+>
+> | Código | Criterio de evaluación |
+> | :--- | :--- |
+> | `CE.02.a` | Se han configurado y gestionado cuentas de usuario. |
+>
+> Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
+
 ---
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)

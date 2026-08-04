@@ -13,6 +13,16 @@
 > **⏱️ Tiempo estimado:** ~1,5 - 2 horas (explicación + montar el canal de vídeo + práctica grabada)
 > **Requisitos:** Obsidian y OBS ya instalados en el equipo (los instala Consellería — tú no tienes permisos). Necesitarás una **cuenta de Gmail/YouTube** (la creas en el Paso previo). No hace falta Git en esta fase todavía.
 
+
+> [!abstract] 📋 Qué se te evalúa en esta fase
+> **RA.01**
+>
+> | Código | Criterio de evaluación |
+> | :--- | :--- |
+> | `CE.01.g` | Se han aplicado preferencias en la configuración del entorno personal. |
+>
+> Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
+
 ---
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)

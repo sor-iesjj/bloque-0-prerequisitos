@@ -8,6 +8,16 @@
 >
 > **⏱️ Tiempo estimado:** ~45 min · **Requisitos:** Fase 0.3 completa (tu repo `apuntes-sor-t1` funcionando).
 
+
+> [!abstract] 📋 Qué se te evalúa en esta fase
+> **RA.04**
+>
+> | Código | Criterio de evaluación |
+> | :--- | :--- |
+> | `CE.04.b` | Se han identificado los recursos del sistema que se van a compartir y en qué condiciones. |
+>
+> Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
+
 ---
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)

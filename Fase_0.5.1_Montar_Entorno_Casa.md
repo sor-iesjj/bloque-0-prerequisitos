@@ -8,6 +8,17 @@
 >
 > **⏱️ Tiempo estimado:** ~1,5 horas (en casa) · **Requisitos:** Fases 0.1 a 0.4 completas (con tus repos ya en GitHub). En casa: un ordenador donde **sí** tengas permisos de administrador.
 
+
+> [!abstract] 📋 Qué se te evalúa en esta fase
+> **RA.01 · RA.05**
+>
+> | Código | Criterio de evaluación |
+> | :--- | :--- |
+> | `CE.01.g` | Se han aplicado preferencias en la configuración del entorno personal. |
+> | `CE.05.d` | Se han realizado tareas de mantenimiento del software instalado en el sistema. |
+>
+> Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
+
 ---
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)

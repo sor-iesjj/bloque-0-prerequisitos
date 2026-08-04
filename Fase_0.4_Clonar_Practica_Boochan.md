@@ -8,6 +8,16 @@
 >
 > **⏱️ Tiempo estimado:** ~1,5 horas · **Requisitos:** Fases 0.1, 0.2.1 y 0.2.2 completas.
 
+
+> [!abstract] 📋 Qué se te evalúa en esta fase
+> **RA.06**
+>
+> | Código | Criterio de evaluación |
+> | :--- | :--- |
+> | `CE.06.e` | Se ha accedido a sistemas de archivos en red desde equipos con diferentes sistemas operativos. |
+>
+> Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
+
 ---
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)

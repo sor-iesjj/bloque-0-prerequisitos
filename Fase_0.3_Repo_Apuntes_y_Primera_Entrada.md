@@ -8,6 +8,16 @@
 >
 > **⏱️ Tiempo estimado:** ~1,5 - 2 horas · **Requisitos:** Fases 0.1, 0.2.1 y 0.2.2 completas (bóveda + cuenta GitHub + autenticación).
 
+
+> [!abstract] 📋 Qué se te evalúa en esta fase
+> **RA.01**
+>
+> | Código | Criterio de evaluación |
+> | :--- | :--- |
+> | `CE.01.g` | Se han aplicado preferencias en la configuración del entorno personal. |
+>
+> Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
+
 ---
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)

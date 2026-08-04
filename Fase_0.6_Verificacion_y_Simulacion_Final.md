@@ -8,6 +8,16 @@
 >
 > **⏱️ Tiempo estimado:** ~1 - 1,5 horas · **Requisitos:** Fases 0.1 a 0.5.2 completas.
 
+
+> [!abstract] 📋 Qué se te evalúa en esta fase
+> **RA.05**
+>
+> | Código | Criterio de evaluación |
+> | :--- | :--- |
+> | `CE.05.f` | Se ha interpretado la información de configuración del sistema operativo en red. |
+>
+> Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
+
 ---
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)

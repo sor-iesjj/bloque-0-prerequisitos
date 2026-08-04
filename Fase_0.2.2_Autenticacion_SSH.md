@@ -8,6 +8,16 @@
 >
 > **⏱️ Tiempo estimado:** ~1 - 1,5 horas · **Requisitos:** Fase 0.2.1 completa (cuenta de GitHub + Git configurado).
 
+
+> [!abstract] 📋 Qué se te evalúa en esta fase
+> **RA.04**
+>
+> | Código | Criterio de evaluación |
+> | :--- | :--- |
+> | `CE.04.f` | Se han establecido niveles de seguridad para controlar el acceso del cliente a los recursos compartidos. |
+>
+> Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
+
 ---
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)

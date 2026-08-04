@@ -8,6 +8,16 @@
 >
 > **⏱️ Tiempo estimado:** ~1 - 1,5 horas · **Requisitos:** Fase 0.7.1 completa. Los **dos** repos (`apuntes-sor-t1` y `boochan-1`) subidos a GitHub.
 
+
+> [!abstract] 📋 Qué se te evalúa en esta fase
+> **RA.05**
+>
+> | Código | Criterio de evaluación |
+> | :--- | :--- |
+> | `CE.05.d` | Se han realizado tareas de mantenimiento del software instalado en el sistema. |
+>
+> Los criterios están tomados literalmente del **RD 1691/2007** y de la programación del módulo.
+
 ---
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)
