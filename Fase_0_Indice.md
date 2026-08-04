@@ -4,7 +4,7 @@
 > **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)
 >
 > Bloque de **prerrequisitos** que se hace **antes** del proyecto Boochan. Monta el método de trabajo del curso: tomar apuntes en Obsidian, versionarlos con Git y enviarlos por GitHub para que el profesor los corrija. Se calcula que ocupa **2-3 semanas** de clase.
-z
+
 
 > [!abstract] 📋 Qué se evalúa en el Bloque 0
 > Este bloque es **instrumental**: monta el entorno con el que entregarás todo lo demás (Git, GitHub, SSH, Obsidian). No es el contenido central del módulo, pero **sí demuestra criterios de evaluación reales**, sobre todo de configuración del entorno, seguridad de acceso y mantenimiento.
