@@ -305,7 +305,7 @@ Al terminar esta fase serás capaz de:
 
 > [!example] Paso 6: Cierra el vídeo, nómbralo y súbelo a YouTube
 > 1. **Detén la grabación** en OBS y localiza el archivo del vídeo.
-> 2. **Renombra el archivo** (el `.mkv` o `.mp4` que ha dejado OBS) a `Fase 0.1 - Metodologia y estructura`. Con **guion normal y sin tildes**: es un nombre de fichero, no un título.
+> 2. **Renombra el archivo** (el `.mkv` o `.mp4` que ha dejado OBS) a `B0.1 - Metodologia y estructura`. Con **guion normal y sin tildes**: es un nombre de fichero, no un título.
 > 3. **Súbelo a YouTube**, a tu playlist **`B0_Prerrequisitos`**, como **"No listado"**. Ahí sí, el **título del vídeo** en YouTube va tal cual: `B0.1 · Metodología y estructura`.
 > 4. En la **descripción**, añade los **timestamps** (uno por paso). Ejemplo:
 >    ```
