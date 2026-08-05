@@ -48,9 +48,9 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > [!important] 📤 Cómo se ENTREGA (tres sitios, tres trabajos distintos)
 > Lo que más se confunde el primer día. Cada cosa tiene su función y **no se sustituyen entre sí**:
 >
-> | | Qué es | Para qué sirve |
+> | Playlist| Qué es | Para qué sirve |
 > | :--- | :--- | :--- |
-> | **Playlist `B0_Prerrequisitos`** | Organización del alumno. TODOS los vídeos del bloque van dentro. | Que no se pierdan |
+> | ** `B0_Prerrequisitos`** | Organización del alumno. TODOS los vídeos del bloque van dentro. | Que no se pierdan |
 > | **La entrada de apuntes** | Una **por fase**. Dentro va el **enlace de ESE vídeo** y las **respuestas** a las Preguntas Críticas. | Que el profesor vea qué hizo y qué entendió |
 > | **La tarea de Teams** | La entrega evaluable. La abre el profesor, con notificación y **fecha límite de varios días**. | Poner nota |
 >
