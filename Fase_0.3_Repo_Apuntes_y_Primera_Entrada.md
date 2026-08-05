@@ -191,7 +191,7 @@
 > Fíjate en que abajo del todo aparece un `:` o el nombre del fichero: **esa es la señal** de que estás dentro del paginador.
 >
 > Y no es cosa de Git: es el mismo programa que verás en las páginas de manual (`man`) y en muchas herramientas de Linux. **La tecla `q` te va a sacar de todas ellas.** Apréndetela hoy y te ahorras cerrar la terminal a lo bruto durante años.
-
+>
 > > [!important] 🕐 Por qué un commit por fase y no uno gordo
 > > Podrías hacer `git add .` y un único commit con todo. **Funcionaría igual.** Pero fíjate en la diferencia cuando pides el historial:
 > > ```bash
