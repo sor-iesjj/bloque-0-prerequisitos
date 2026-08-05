@@ -12,7 +12,7 @@
 > | CE | Criterio | Dónde |
 > | :--- | :--- | :--- |
 > | `CE.01.g` | Preferencias en la configuración del entorno personal | 0.1 · 0.2.1 · 0.3 · 0.5.1 |
-> > | `CE.04.b` | Qué recursos se comparten y en qué condiciones | 0.3b |
+> | `CE.04.b` | Qué recursos se comparten y en qué condiciones | 0.3b |
 > | `CE.04.f` | Niveles de seguridad para controlar el acceso | 0.2.2 |
 > | `CE.05.d` | Mantenimiento del software instalado | 0.4 · 0.5.1 · 0.7.1 · 0.7.2 |
 > | `CE.05.e` | Automatización de tareas del sistema | 0.5.2 |
