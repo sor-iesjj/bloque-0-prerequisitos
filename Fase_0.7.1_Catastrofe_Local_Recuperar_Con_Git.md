@@ -147,6 +147,19 @@
 >    ```
 >    Léelo en voz alta. Ahí está una línea por cada fase que has hecho. **Cada una de esas líneas es un punto al que puedes volver.**
 
+> [!question] 🤔 Paso 2b: PREDICE, en voz alta y por escrito, antes de romper nada
+> Para en seco y contesta **antes** de tocar una tecla. Escríbelo en tu entrada de apuntes y dilo en el vídeo:
+>
+> 1. Si borras el contenido de tus apuntes y **guardas**, ¿lo has perdido para siempre?
+> 2. ¿Y si además **reinicias el ordenador**?
+> 3. ¿Necesitarás **Internet** para recuperarlo?
+> 4. ¿Podrías recuperar **una sola** de las entradas y dejar las demás como están?
+>
+> > [!tip] 💡 Acertar no puntúa. Haber pensado, sí
+> > Esto no es una adivinanza: es la diferencia entre seguir una receta y **entender qué hace**. Si te equivocas, mejor: escribe después por qué creías lo otro. **Eso es exactamente lo que quiero leer.**
+> >
+> > Y es un hábito que vas a usar todo el curso: en los bloques siguientes vas a romper servidores enteros, siempre prediciendo primero.
+
 > [!example] Paso 3: 💥 Provoca el desastre
 > Explicando lo que haces y por qué:
 > 1. En Obsidian, abre **cada una de tus entradas** de `B0_Prerrequisitos/`, selecciona todo el contenido (`Ctrl+A`) y **bórralo** (`Supr`). Guarda.
@@ -237,6 +250,7 @@
 
 - [ ] `git status` limpio comprobado **antes** de provocar el desastre.
 - [ ] Historial enseñado con `git log --oneline` antes de romper nada.
+- [ ] 🤔 **Tus cuatro predicciones escritas en la entrada ANTES de romper**, y dichas en voz alta.
 - [ ] Desastre provocado, equipo reiniciado y desastre confirmado tras reiniciar.
 - [ ] Diagnóstico hecho con `git status` **y** `git diff`, narrando cuántas líneas se perdieron.
 - [ ] Recuperación completa con `git restore .` y `status` limpio de nuevo.

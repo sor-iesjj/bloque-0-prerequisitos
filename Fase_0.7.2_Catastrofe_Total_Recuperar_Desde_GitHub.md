@@ -150,6 +150,19 @@
 >
 > Di la frase: *"Todo lo que voy a borrar está en GitHub. Lo acabo de comprobar."*
 
+> [!question] 🤔 Paso 2b: PREDICE, en voz alta y por escrito, antes de romper nada
+> Para en seco y contesta **antes** de borrar. Escríbelo en tu entrada de apuntes y dilo en el vídeo:
+>
+> 1. Si borras la bóveda **entera**, ¿qué pierdes de verdad y qué no?
+> 2. ¿Te serviría de algo `git` en el equipo, con la carpeta ya borrada? ¿Por qué?
+> 3. ¿Recuperarás **todo** lo que tenías, o solo hasta un punto? ¿Hasta cuál exactamente?
+> 4. En la fase anterior recuperaste **sin Internet**. ¿Podrás hacerlo ahora igual?
+>
+> > [!tip] 💡 La 4 es la que separa esta fase de la anterior
+> > Si respondes bien esa, has entendido **la diferencia entre tu historial local y tu copia remota** — que es todo lo que enseñan estas dos fases juntas.
+> >
+> > Acertar no puntúa. Haber pensado, sí. Si fallas, escribe después por qué creías lo otro.
+
 > [!example] Paso 3: 💥 Provoca la catástrofe
 > Ahora, sin miedo, porque acabas de comprobar que hay red:
 > 1. Cierra **Obsidian** (si no, se queja de que le mueven las carpetas).
@@ -243,6 +256,7 @@
 
 - [ ] `git status` comprobado en **los dos** repos, con `up to date with 'origin/main'` visible.
 - [ ] Los tres repositorios comprobados **también en la web** de GitHub.
+- [ ] 🤔 **Tus cuatro predicciones escritas en la entrada ANTES de borrar**, y dichas en voz alta.
 - [ ] `Trimestre_1`, `boochan-1` y `bloque-1-entorno` borradas por completo, y equipo reiniciado.
 - [ ] `fatal: not a git repository` demostrado y explicado en voz alta.
 - [ ] Los tres repos clonados, con `Trimestre_1` recuperando **su nombre de carpeta**.

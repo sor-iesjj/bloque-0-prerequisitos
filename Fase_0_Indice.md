@@ -27,42 +27,76 @@
 
 Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremos todo el curso:
 
-- **Apuntes** en Obsidian (**una entrada por fase**), separados de las **prácticas** (Boochan).
+- **Apuntes** en Obsidian (**una entrada por entrega**), separados de las **prácticas** (Boochan).
 - Todo **versionado con Git** y subido a **GitHub** (un repo de apuntes por trimestre).
 - Todo **grabado con OBS** y **subido a YouTube** (playlist `B0_Prerrequisitos`), con el **enlace de cada vídeo dentro de su entrada de apuntes**, y entregado en **tareas de Teams agrupadas**, no fase a fase.
 
-> [!important] Herramientas y cuentas necesarias
-> - **Obsidian**, **Git** y **OBS Studio** — los instala **Consellería** en el centro (el alumno no tiene permisos); en **casa** los instala él (Fase 0.5.1).
-> - **Cuenta de Gmail/YouTube** (para subir los vídeos) — la crea el alumno en el **Paso previo de la Fase 0.1**, con un nombre parecido a su correo `@alu.edu.gva.es`.
+> [!important] 🧰 Herramientas, cuentas y material
+> **Programas** *(los instala **Consellería** en el centro, porque no tienes permisos; en **casa** los instalas tú en la Fase 0.5.1)*
+> - **Obsidian** · **Git** · **OBS Studio**
+>
+> **Cuentas** *(las creas tú)*
+> - **Cuenta de Gmail/YouTube**, para subir los vídeos — en el **Paso previo de la Fase 0.1**, con un nombre parecido a tu correo `@alu.edu.gva.es`.
+> - **Cuenta de GitHub** — en la **Fase 0.2.1**.
+>
+> **Material que traes tú** *(no lo pone el centro)*
+>
+> | Qué | Para qué | Cuándo lo necesitas |
+> | :--- | :--- | :--- |
+> | **1 o 2 pendrives** de 64-128 GB | Preparar medios de instalación y mover imágenes de sistema | **Bloque 1** |
+> | **1 disco externo** de 1-2 TB | **Las copias de seguridad de tus servidores.** Cada fase se exporta entera (5-8 GB) y son 8 fases por bloque | **Bloque 2 en adelante** |
+
+> [!danger] 💾 El disco externo no es opcional, y conviene tenerlo pronto
+> A partir del Bloque 2 vas a construir servidores, y **cada fase termina guardando una copia del tuyo en ese disco**. No vale la nube: son varios gigas por fase y toda la clase subiendo a la vez.
+>
+> Y no vale dejarlo dentro del programa de virtualización: si formatean el equipo del aula —que pasa— **pierdes el curso entero**.
+>
+> **Una copia que vive en el mismo sitio que el original no es una copia.** Es la primera idea seria de administración de sistemas que te vas a llevar, y empieza por comprar un disco.
 
 > [!important] 📹 Método de grabación (igual en TODAS las sub-fases)
 > - Se **graba TODO el procedimiento con OBS, desde el principio** (no un repaso al final).
 > - **Preparación primero (sin grabar):** comprobar lo necesario + leerse el procedimiento entero.
 > - **Al empezar a grabar:** el alumno **se presenta**, **muestra en pantalla algo que demuestre que es él** (Teams/correo `@alu.edu.gva.es`; desde la 0.2.2, su perfil de GitHub) y dice qué va a hacer.
 > - **Timestamps SIEMPRE** en la descripción: `00:00 Presentación` + uno por cada paso.
-> - **Nombre del vídeo** = nombre de la fase. **Se sube a YouTube** (playlist `B0_Prerrequisitos`, como "No listado").
-> - **Duración ~5 min.** Si una fase se pasa con creces, se **parte en dos** (como 0.2 y 0.5).
+> - **Nombre del vídeo:** **`B0.<código> · Título`** — por ejemplo `B0.2.1 · Cuenta de GitHub y Git`. **Se sube a YouTube** (playlist `B0_Prerrequisitos`, como "No listado").
+> - **Duración ~5 min.** Si una fase se pasa con creces, se **parte en dos**: `B0.4 · Bajar el material del curso (1 de 2)` y `(2 de 2)`.
 > - **Cada fase se graba una vez**, en su sitio: 🏫 **centro** (0.1, 0.2.1, 0.2.2, 0.3, 0.4, 0.6, 0.7.1, 0.7.2) · 🏠 **casa** (0.5.1, 0.5.2). En prerequisitos no se graba dos veces lo mismo: el "en casa" de las 0.1–0.4 **es** la Fase 0.5.1.
 > - **Al subir cada vídeo, el alumno guarda su enlace.** Lo necesitará para la entrega.
+
+> [!info] 🏷️ Por qué el vídeo lleva el código del bloque delante
+> Porque **es la regla de todo el curso, no solo de este bloque**: el Bloque 1 nombra `B1.5 · …`, el Bloque 6 `B6.1.1 · …` y el Bloque 2 `B2 · F1 · …`.
+>
+> Ya lo estás aplicando sin darte cuenta: tu carpeta de apuntes se llama `B0_Prerrequisitos` y tu playlist también. **Los vídeos siguen el mismo criterio.**
+>
+> Mirando el nombre de un vídeo suelto, dentro de seis meses, **sabrás de dónde sale sin abrirlo**. Y ordenados alfabéticamente salen en el orden del curso.
 
 > [!important] 📤 Cómo se ENTREGA (tres sitios, tres trabajos distintos)
 > Lo que más se confunde el primer día. Cada cosa tiene su función y **no se sustituyen entre sí**:
 >
-> | Playlist| Qué es | Para qué sirve |
+> | Dónde | Qué es | Para qué sirve |
 > | :--- | :--- | :--- |
-> | ** `B0_Prerrequisitos`** | Organización del alumno. TODOS los vídeos del bloque van dentro. | Que no se pierdan |
-> | **La entrada de apuntes** | Una **por fase**. Dentro va el **enlace de ESE vídeo** y las **respuestas** a las Preguntas Críticas. | Que el profesor vea qué hizo y qué entendió |
+> | **La playlist `B0_Prerrequisitos`** | Organización del alumno. TODOS los vídeos del bloque van dentro. | Que no se pierdan |
+> | **La entrada de apuntes** | Una **por vídeo**. Dentro va el **enlace de ESE vídeo** y las **respuestas** a las Preguntas Críticas. | Que el profesor vea qué hizo y qué entendió |
 > | **La tarea de Teams** | La entrega evaluable. La abre el profesor, con notificación y **fecha límite de varios días**. | Poner nota |
 >
-> **La regla que lo sostiene todo: DONDE HAY VÍDEO, HAY ENTRADA.** Una entrada por fase grabada, con su enlace y sus respuestas dentro. Así el repositorio cuenta la historia completa y no hace falta cotejar nada contra ninguna lista.
+> **La regla que lo sostiene todo: DONDE HAY VÍDEO, HAY ENTRADA.** Cada vídeo grabado tiene su entrada, con su enlace y sus respuestas dentro. Así el repositorio cuenta la historia completa y no hace falta cotejar nada contra ninguna lista.
 >
 > **En la tarea de Teams se pegan SOLO enlaces de repositorio** (el de apuntes y, al final, el de la práctica) **y el de la playlist**. **Nunca enlaces de vídeo sueltos**: esos ya están dentro de las entradas.
 >
 > > **Las entregas se agrupan**, no van fase a fase. El profesor decide qué fases cubre cada tarea y lo dice al abrirla en Teams: un bloque puede tener dos, tres o cuatro entregas según lo denso que sea. El alumno **no tiene que adivinarlo** — le llega la notificación.
 
 > [!tip] Otros convenios
-> - **Entrada:** una **por fase**, no una por día. Si una fase dura varias clases, se sigue escribiendo en el mismo fichero. Nombre `fase-CODIGO-titulo-corto.md` — **se llama como la fase, sin fecha** (el código ya ordena). Los días de teoría suelta: `teoria-MMDDAA-tema.md`. Estructura fija con dos apartados obligatorios: **Respuesta a las preguntas** y **Enlace al vídeo explicativo**. Se define en la **Fase 0.1**.
+> - **Entrada:** una **por entrega**, no una por día. Si una entrega dura varias clases, se sigue escribiendo en el mismo fichero. Nombre `fase-CODIGO-titulo-corto.md` — **se llama como la entrega, sin fecha** (el código ya ordena). Los días de teoría suelta: `teoria-MMDDAA-tema.md`. Estructura fija con dos apartados obligatorios: **Respuesta a las preguntas** y **Enlace al vídeo explicativo**. Se define en la **Fase 0.1**.
 > - **Ciclo diario:** `git pull` al empezar → trabajar → `git add` / `commit` / `push` al terminar.
+
+> [!warning] ⚠️ "Una entrega" no siempre es "una fase". Léelo ahora y ahórrate el lío
+> **En el Bloque 0, cada fase es una entrega:** un vídeo, una entrada. Sencillo, y es como vas a empezar.
+>
+> **A partir del Bloque 2 no siempre.** Allí una fase es un trabajo mucho más largo y se parte en varias entregas, cada una con **su vídeo y su entrada**. La Fase 1 del Bloque 2, por ejemplo, tiene **siete**.
+>
+> **No tienes que adivinarlo:** cada fase te lo dice en su apartado **2, "Qué tienes que entregar"**, con la lista exacta de nombres. Míralo antes de empezar y no después.
+>
+> Lo que **no cambia nunca** es la regla de arriba: **donde hay vídeo, hay entrada.**
 
 ---
 
