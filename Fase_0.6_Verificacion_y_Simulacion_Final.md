@@ -26,7 +26,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a hacer la simulación final de la Fase 0."* **Muestra tu perfil de GitHub**. Di qué vas a demostrar.
 > 3. **Graba TODO el circuito**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.6 — Simulación final` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `B0.6 · Simulación final` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5-7 min.** Se graba en **🏫 el centro** (o donde indique el profesor).
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación.
 
@@ -113,7 +113,7 @@
 > Ese contraste es la prueba de que lo has entendido: **los tres repos van por su cuenta**, y cada uno refleja lo que tú has hecho en él.
 
 > [!example] Paso 5: Cierra el vídeo, nómbralo y súbelo
-> Detén la grabación, nombra el vídeo `Fase 0.6 — Simulación final`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps** (`00:00 Presentación`, Paso 2 apuntes, Paso 3 práctica, Paso 4 comprobación).
+> Detén la grabación, nombra el vídeo `B0.6 · Simulación final`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps** (`00:00 Presentación`, Paso 2 apuntes, Paso 3 práctica, Paso 4 comprobación).
 
 ---
 

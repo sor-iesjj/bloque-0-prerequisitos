@@ -31,7 +31,7 @@
 > 2. **Arranca OBS y, nada más empezar, PRESÉNTATE:** *"Hola y bienvenidos. Me llamo [Nombre], soy alumno de 2.º SMR, y en este vídeo voy a explicar la Fase 0.1 — Metodología y estructura de la bóveda."* Y **muestra en pantalla algo que demuestre que eres tú** (tu **Teams** o tu **correo `@alu.edu.gva.es`** con tu nombre; cuando tengas GitHub, tu perfil). Di **qué vas a hacer**.
 > 3. **Graba TODO el procedimiento**, explicando cada paso en voz alta mientras lo haces.
 > 4. **Timestamps SIEMPRE** en la descripción del vídeo: `00:00 Presentación` y **uno por cada paso** (formato `mm:ss`).
-> 5. **Al terminar:** nombra el vídeo `Fase 0.1 — Metodología y estructura`, **súbelo a tu playlist de YouTube `B0_Prerrequisitos`** (No listado) y **pega su enlace en tu entrada de apuntes**.
+> 5. **Al terminar:** nombra el vídeo `B0.1 · Metodología y estructura`, **súbelo a tu playlist de YouTube `B0_Prerrequisitos`** (No listado) y **pega su enlace en tu entrada de apuntes**.
 > 6. **~5 min.** Se graba en **🏫 el centro** (el equipo de casa se monta entero en la Fase 0.5.1, no aquí).
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
 
@@ -306,7 +306,7 @@ Al terminar esta fase serás capaz de:
 > [!example] Paso 6: Cierra el vídeo, nómbralo y súbelo a YouTube
 > 1. **Detén la grabación** en OBS y localiza el archivo del vídeo.
 > 2. **Renombra el archivo** (el `.mkv` o `.mp4` que ha dejado OBS) a `Fase 0.1 - Metodologia y estructura`. Con **guion normal y sin tildes**: es un nombre de fichero, no un título.
-> 3. **Súbelo a YouTube**, a tu playlist **`B0_Prerrequisitos`**, como **"No listado"**. Ahí sí, el **título del vídeo** en YouTube va tal cual: `Fase 0.1 — Metodología y estructura`.
+> 3. **Súbelo a YouTube**, a tu playlist **`B0_Prerrequisitos`**, como **"No listado"**. Ahí sí, el **título del vídeo** en YouTube va tal cual: `B0.1 · Metodología y estructura`.
 > 4. En la **descripción**, añade los **timestamps** (uno por paso). Ejemplo:
 >    ```
 >    00:00 Presentacion
@@ -369,7 +369,7 @@ Al terminar esta fase serás capaz de:
 - [ ] **Tu ruta apuntada** en un papel o una nota.
 - [ ] Estructura de carpetas exacta: `00_Apuntes/` (con `Trimestre_1/2/3` y `B0_Prerrequisitos` en T1) + `01_Practicas/`.
 - [ ] Vídeo grabado **de principio a fin**, con presentación e identidad al inicio.
-- [ ] Vídeo nombrado `Fase 0.1 — Metodología y estructura` y subido a la playlist `B0_Prerrequisitos`.
+- [ ] Vídeo nombrado `B0.1 · Metodología y estructura` y subido a la playlist `B0_Prerrequisitos`.
 - [ ] Timestamps en la descripción (uno por paso).
 - [ ] **Primera entrada escrita** en `B0_Prerrequisitos/`, con nombre `fase-0.1-metodologia-y-estructura.md` y la estructura obligatoria.
 - [ ] **Enlace del vídeo pegado en tu entrada**, en el apartado `Enlace al vídeo explicativo`.

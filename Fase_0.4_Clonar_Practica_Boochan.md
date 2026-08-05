@@ -26,7 +26,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.4 — Bajar el material del curso con Git."* Y **muestra tu perfil de GitHub** (o tu Teams/correo). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.4 — Bajar el material del curso` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `B0.4 · Bajar el material del curso` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~9-10 min** (esta fase lleva **tres retos** al final). Se graba en **🏫 el centro**.
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
 > 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
@@ -222,7 +222,7 @@
 > > Escríbelo en tu entrada de hoy con tus palabras. Es la respuesta que más peso tiene de esta fase.
 
 > [!example] Paso 10: Cierra el vídeo, nómbralo y súbelo
-> Detén la grabación, nombra el vídeo `Fase 0.4 — Clonar la práctica Boochan`, súbelo a la playlist `B0_Prerrequisitos` (No listado) y añade **timestamps**. Los dos retos llevan el suyo, que es lo que voy a mirar primero:
+> Detén la grabación, nombra el vídeo `B0.4 · Bajar el material del curso`, súbelo a la playlist `B0_Prerrequisitos` (No listado) y añade **timestamps**. Los dos retos llevan el suyo, que es lo que voy a mirar primero:
 > ```
 > 00:00 Presentacion
 > 01:00 Paso 2 - Clonar el material del Bloque 1
@@ -272,7 +272,7 @@
 - [ ] **Reto 2 resuelto:** carpeta borrada entera y recuperada clonando, explicando por qué `git restore` ya no valía.
 - [ ] **Reto 3 resuelto:** notas propias sin `push`, borradas y **no recuperadas**; explicado por qué.
 - [ ] **Tu copia** de `bloque-1-entorno` creada, clonada en `01_Practicas/` y visible en Obsidian.
-- [ ] Vídeo `Fase 0.4 — Clonar la práctica Boochan` subido a la playlist, con timestamps.
+- [ ] Vídeo `B0.4 · Bajar el material del curso` subido a la playlist, con timestamps.
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase.
 - [ ] Grabada **🏫 en el centro**.
 

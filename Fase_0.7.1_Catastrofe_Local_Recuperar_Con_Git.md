@@ -26,7 +26,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.7.1 — He perdido lo que escribí."* Y **muestra tu perfil de GitHub**. Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.7.1 — He perdido lo que escribí` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `B0.7.1 · He perdido lo que escribí` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min.** Se graba en **🏫 el centro**.
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
 > 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
@@ -197,7 +197,7 @@
 > > Buscando por internet vas a encontrar `git checkout -- .` para esto mismo. **Hace lo mismo** y funciona: es la forma antigua. `git restore` se creó precisamente porque `git checkout` servía para demasiadas cosas distintas y confundía a todo el mundo. Usa `git restore`, pero reconoce el otro cuando lo veas.
 
 > [!example] Paso 6: Cierra el vídeo, nómbralo y súbelo
-> 1. **Detén la grabación**, nombra el vídeo `Fase 0.7.1 — He perdido lo que escribí` y súbelo a la playlist `B0_Prerrequisitos` (No listado) con **timestamps**:
+> 1. **Detén la grabación**, nombra el vídeo `B0.7.1 · He perdido lo que escribí` y súbelo a la playlist `B0_Prerrequisitos` (No listado) con **timestamps**:
 >    ```
 >    00:00 Presentacion
 >    00:30 Paso 2 - Lo que tenia y mi historial de commits
@@ -242,7 +242,7 @@
 - [ ] Recuperación completa con `git restore .` y `status` limpio de nuevo.
 - [ ] Recuperación de **un solo fichero** demostrada.
 - [ ] Sabes explicar qué **no** recupera este método.
-- [ ] Vídeo `Fase 0.7.1 — He perdido lo que escribí` subido a la playlist, con timestamps.
+- [ ] Vídeo `B0.7.1 · He perdido lo que escribí` subido a la playlist, con timestamps.
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase, con las respuestas.
 - [ ] Grabada **🏫 en el centro**.
 

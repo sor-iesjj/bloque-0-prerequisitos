@@ -26,7 +26,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.7.2 — Se ha llevado el disco por delante."* Y **muestra tu perfil de GitHub**. Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.7.2 — Se ha llevado el disco por delante` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `B0.7.2 · Se ha llevado el disco por delante` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5-7 min.** Se graba en **🏫 el centro**.
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
 > 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
@@ -201,7 +201,7 @@
 > 4. Abre **Obsidian**: tus entradas están, con sus respuestas y sus enlaces. Y el material de Boochan también. Enséñalo.
 
 > [!example] Paso 6: Cierra el vídeo, nómbralo y súbelo
-> 1. **Detén la grabación**, nombra el vídeo `Fase 0.7.2 — Se ha llevado el disco por delante` y súbelo a la playlist `B0_Prerrequisitos` (No listado) con **timestamps**:
+> 1. **Detén la grabación**, nombra el vídeo `B0.7.2 · Se ha llevado el disco por delante` y súbelo a la playlist `B0_Prerrequisitos` (No listado) con **timestamps**:
 >    ```
 >    00:00 Presentacion
 >    00:30 Paso 2 - Compruebo que todo esta en GitHub
@@ -248,7 +248,7 @@
 - [ ] Los tres repos clonados, con `Trimestre_1` recuperando **su nombre de carpeta**.
 - [ ] `git log` enseñado tras el clon: el **historial completo** ha vuelto, no solo los ficheros.
 - [ ] Sabes explicar qué se pierde si hay commits sin `push`.
-- [ ] Vídeo `Fase 0.7.2 — Se ha llevado el disco por delante` subido a la playlist, con timestamps.
+- [ ] Vídeo `B0.7.2 · Se ha llevado el disco por delante` subido a la playlist, con timestamps.
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase, con las respuestas.
 - [ ] Grabada **🏫 en el centro**.
 

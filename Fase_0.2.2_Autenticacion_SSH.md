@@ -26,7 +26,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.2.2 — Autenticación con clave SSH."* Y **muestra algo que demuestre que eres tú**: ya tienes GitHub, así que enseña **tu perfil de GitHub** (o tu Teams/correo). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.2.2 — Autenticación SSH` y súbelo a tu playlist **`B0_Prerrequisitos`** como "No listado".
+> 5. **Al terminar:** nombra el vídeo `B0.2.2 · Autenticación SSH` y súbelo a tu playlist **`B0_Prerrequisitos`** como "No listado".
 > 6. **~5 min.** Se graba en **🏫 el centro** (la clave SSH de casa se genera en la Fase 0.5.1).
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
 > 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
@@ -107,7 +107,7 @@
 > Para conocer la otra vía: GitHub → **Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate**, con permiso **`repo`**. **Copia el token** (solo se ve una vez) y guárdalo. Cuando clones/empujes por `https://`, pon tu usuario y **pega el token como contraseña**. *(El token **caduca**; por eso preferimos SSH.)*
 
 > [!example] Paso 6: Cierra el vídeo, nómbralo y súbelo
-> Detén la grabación, nómbralo `Fase 0.2.2 — Autenticación SSH`, súbelo a la playlist `B0_Prerrequisitos` (No listado) y añade **timestamps**:
+> Detén la grabación, nómbralo `B0.2.2 · Autenticación SSH`, súbelo a la playlist `B0_Prerrequisitos` (No listado) y añade **timestamps**:
 > ```
 > 00:00 Presentación
 > 00:20 Paso 2 — Generar la clave SSH
@@ -142,7 +142,7 @@
 - [ ] Clave **pública** añadida a GitHub.
 - [ ] `ssh -T git@github.com` responde `Hi TU-USUARIO!`.
 - [ ] *(Alternativa)* Token HTTPS creado y guardado.
-- [ ] Vídeo `Fase 0.2.2 — Autenticación SSH` subido a la playlist `B0_Prerrequisitos`, con timestamps.
+- [ ] Vídeo `B0.2.2 · Autenticación SSH` subido a la playlist `B0_Prerrequisitos`, con timestamps.
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase.
 - [ ] Grabada **🏫 en el centro**.
 

@@ -26,7 +26,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.5.2 — Sincronizar casa y centro."* Y **muestra tu perfil de GitHub**. Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.5.2 — Sincronizar casa y centro` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `B0.5.2 · Sincronizar casa y centro` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min.** Se graba en **🏠 casa**.
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
 > 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
@@ -102,7 +102,7 @@
 > y que eso **baja** la entrada que hiciste en casa. (Si puedes, demuéstralo con el otro equipo; si no, explícalo con el flujo.)
 
 > [!example] Paso 3: Cierra el vídeo, nómbralo y súbelo
-> Detén la grabación, nombra el vídeo `Fase 0.5.2 — Sincronizar casa y centro`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps**.
+> Detén la grabación, nombra el vídeo `B0.5.2 · Sincronizar casa y centro`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps**.
 
 ---
 
@@ -127,7 +127,7 @@
 - [ ] Ciclo `pull → editar → push` practicado y grabado.
 - [ ] Sincronización confirmada (o explicada) entre casa y centro.
 - [ ] Sabes explicar por qué la bóveda no va en OneDrive.
-- [ ] Vídeo `Fase 0.5.2 — Sincronizar casa y centro` subido a la playlist, con timestamps.
+- [ ] Vídeo `B0.5.2 · Sincronizar casa y centro` subido a la playlist, con timestamps.
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase.
 - [ ] Grabada **🏠 en casa**.
 

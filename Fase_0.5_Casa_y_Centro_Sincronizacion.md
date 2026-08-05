@@ -13,8 +13,8 @@
 
 | Parte | Qué haces | Vídeo |
 | :--- | :--- | :--- |
-| **[Fase 0.5.1 — Montar el entorno en casa](Fase_0.5.1_Montar_Entorno_Casa.md)** | Instalas Obsidian/Git/OBS en casa, creas la clave SSH de ese equipo y **reconstruyes la bóveda clonando tus repos** | `Fase 0.5.1 — Montar el entorno en casa` |
-| **[Fase 0.5.2 — Sincronizar casa ↔ centro](Fase_0.5.2_Sincronizar_Casa_Centro.md)** | El **ciclo diario** `pull → trabajar → push` y por qué el puente es Git, **nunca OneDrive** | `Fase 0.5.2 — Sincronizar casa y centro` |
+| **[Fase 0.5.1 — Montar el entorno en casa](Fase_0.5.1_Montar_Entorno_Casa.md)** | Instalas Obsidian/Git/OBS en casa, creas la clave SSH de ese equipo y **reconstruyes la bóveda clonando tus repos** | `B0.5.1 · Montar el entorno en casa` |
+| **[Fase 0.5.2 — Sincronizar casa ↔ centro](Fase_0.5.2_Sincronizar_Casa_Centro.md)** | El **ciclo diario** `pull → trabajar → push` y por qué el puente es Git, **nunca OneDrive** | `B0.5.2 · Sincronizar casa y centro` |
 
 > [!tip] Orden
 > Primero la **0.5.1** (necesitas el entorno montado en casa) y luego la **0.5.2** (sincronizar). Las dos a tu playlist `B0_Prerrequisitos`.

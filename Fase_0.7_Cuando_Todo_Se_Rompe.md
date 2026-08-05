@@ -21,8 +21,8 @@
 
 | Parte | El desastre | Cómo se arregla | Vídeo |
 | :--- | :--- | :--- | :--- |
-| **[Fase 0.7.1 — He perdido lo que escribí](Fase_0.7.1_Catastrofe_Local_Recuperar_Con_Git.md)** | Los ficheros siguen ahí, pero **vacíos**. Has perdido el contenido | **Solo con Git, sin Internet.** Tu propio ordenador guarda el historial | `Fase 0.7.1 — He perdido lo que escribí` |
-| **[Fase 0.7.2 — Se ha llevado el disco por delante](Fase_0.7.2_Catastrofe_Total_Recuperar_Desde_GitHub.md)** | **No queda nada**: ni carpetas, ni ficheros, ni el historial de Git | **Solo desde GitHub.** Aquí Git en local no puede hacer nada | `Fase 0.7.2 — Se ha llevado el disco por delante` |
+| **[Fase 0.7.1 — He perdido lo que escribí](Fase_0.7.1_Catastrofe_Local_Recuperar_Con_Git.md)** | Los ficheros siguen ahí, pero **vacíos**. Has perdido el contenido | **Solo con Git, sin Internet.** Tu propio ordenador guarda el historial | `B0.7.1 · He perdido lo que escribí` |
+| **[Fase 0.7.2 — Se ha llevado el disco por delante](Fase_0.7.2_Catastrofe_Total_Recuperar_Desde_GitHub.md)** | **No queda nada**: ni carpetas, ni ficheros, ni el historial de Git | **Solo desde GitHub.** Aquí Git en local no puede hacer nada | `B0.7.2 · Se ha llevado el disco por delante` |
 
 > [!warning] ⚠️ Orden obligatorio, y no es un capricho
 > Primero la **0.7.1** y luego la **0.7.2**. La 0.7.2 destruye el propio historial de Git, así que si la haces antes ya no puedes practicar la recuperación local: te has cargado la herramienta con la que se arregla.

@@ -26,7 +26,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.3 — Repositorio de apuntes y primera entrada."* Y **muestra tu perfil de GitHub** (o tu Teams/correo). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `B0.3 · Repo de apuntes y primera entrada` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min.** Se graba en **🏫 el centro**.
 > 7. **Al terminar esta fase toca revisar Teams**: ahí tendrás la tarea que cubre estas primeras fases.
 
@@ -211,7 +211,7 @@
 > Recarga GitHub: debe verse `B0_Prerrequisitos/` con **tus dos entradas** dentro.
 
 > [!example] Paso 6: Cierra el vídeo, complétalo todo y entrega
-> 1. **Detén la grabación**, nombra el vídeo `Fase 0.3 — Repo de apuntes y primera entrada`, súbelo a la playlist `B0_Prerrequisitos` y **copia su enlace**.
+> 1. **Detén la grabación**, nombra el vídeo `B0.3 · Repo de apuntes y primera entrada`, súbelo a la playlist `B0_Prerrequisitos` y **copia su enlace**.
 > 2. **Pega ese enlace en la entrada de esta fase**, en el apartado `Enlace al vídeo explicativo`. Y aprovecha para **repasar tus entradas anteriores**: la de la 0.1, la 0.2.1 y la 0.2.2 tienen que tener **su** enlace y **sus** respuestas. Donde hay vídeo, hay entrada — y donde hay entrada, hay enlace.
 > 3. **Sube los cambios.** Como antes, con mensajes que digan algo:
 >    ```bash
@@ -268,7 +268,7 @@
 - [ ] `Trimestre_1` convertido en repositorio; repo `apuntes-sor-t1` en GitHub.
 - [ ] `commit` + `push` hechos; la entrada se ve en GitHub.
 - [ ] Enlace enviado (y acceso concedido si es privado).
-- [ ] Vídeo `Fase 0.3 — Repo de apuntes y primera entrada` subido a la playlist, con timestamps.
+- [ ] Vídeo `B0.3 · Repo de apuntes y primera entrada` subido a la playlist, con timestamps.
 - [ ] **Entrega hecha en Teams**: enlace del repositorio + enlace de la playlist, y pulsado `Entregar`.
 - [ ] Todas mis entradas (0.1, 0.2.1, 0.2.2, 0.3) tienen **su enlace de vídeo** y **sus respuestas**.
 - [ ] Grabada **🏫 en el centro**.

@@ -27,7 +27,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.5.1 — Montar el entorno en casa."* Y **muestra tu perfil de GitHub** (o tu Teams/correo). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.5.1 — Montar el entorno en casa` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `B0.5.1 · Montar el entorno en casa` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min.** Se graba en **🏠 casa** (en tu propio ordenador).
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
 > 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
@@ -112,7 +112,7 @@
 > > [!note] 📌 El truco del nombre: al escribir `... .git Trimestre_1` al final, la carpeta se llama `Trimestre_1` (no `apuntes-sor-t1`), idéntica a la del centro.
 
 > [!example] Paso 4: Cierra el vídeo, nómbralo y súbelo
-> En Obsidian, en casa, debes ver la **misma estructura** que en el centro. Detén la grabación, nombra el vídeo `Fase 0.5.1 — Montar el entorno en casa`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps**.
+> En Obsidian, en casa, debes ver la **misma estructura** que en el centro. Detén la grabación, nombra el vídeo `B0.5.1 · Montar el entorno en casa`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps**.
 
 ---
 
@@ -137,7 +137,7 @@
 - [ ] Obsidian, Git y OBS instalados en casa.
 - [ ] Clave SSH de casa creada y añadida a GitHub (`Equipo Casa`).
 - [ ] Estructura `Boveda_SOR` recreada (local, fuera de OneDrive) con los repos clonados en su sitio.
-- [ ] Vídeo `Fase 0.5.1 — Montar el entorno en casa` subido a la playlist, con timestamps.
+- [ ] Vídeo `B0.5.1 · Montar el entorno en casa` subido a la playlist, con timestamps.
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase.
 - [ ] Grabada **🏠 en casa**.
 

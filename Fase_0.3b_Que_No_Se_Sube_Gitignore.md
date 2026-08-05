@@ -26,7 +26,7 @@
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.3b — Qué no se sube: el `.gitignore`."* Y **muestra tu perfil de GitHub**. Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
-> 5. **Al terminar:** nombra el vídeo `Fase 0.3b — Que no se sube, el gitignore` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
+> 5. **Al terminar:** nombra el vídeo `B0.3b · Qué no se sube, el gitignore` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min.** Se graba en **🏫 el centro**.
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación.
 > 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`.
@@ -176,7 +176,7 @@
 > Cuando termines, borra los dos ficheros de prueba: `rm practica_grabada.mp4 claves.txt`
 
 > [!example] Paso 5: Cierra el vídeo, nómbralo y súbelo
-> Detén la grabación, nombra el vídeo `Fase 0.3b — Que no se sube, el gitignore`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps**:
+> Detén la grabación, nombra el vídeo `B0.3b · Qué no se sube, el gitignore`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps**:
 > ```
 > 00:00 Presentacion
 > 00:25 Paso 2 - Creo los ficheros peligrosos y los ve git
@@ -216,7 +216,7 @@
 - [ ] `git status` demostrado **antes y después**: los ficheros desaparecen de la lista.
 - [ ] `.gitignore` subido a GitHub y comprobado que el `.mp4` y el `claves.txt` **no** están.
 - [ ] Sabes por qué subir una clave por error **no se arregla borrándola**.
-- [ ] Vídeo `Fase 0.3b — Que no se sube, el gitignore` subido a la playlist, con timestamps.
+- [ ] Vídeo `B0.3b · Qué no se sube, el gitignore` subido a la playlist, con timestamps.
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase, con las respuestas.
 - [ ] Grabada **🏫 en el centro**.
 
