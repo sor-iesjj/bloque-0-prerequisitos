@@ -43,11 +43,13 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 >
 > | Qué | Para qué | Cuándo lo necesitas |
 > | :--- | :--- | :--- |
-> | **1 o 2 pendrives** de 64-128 GB | Preparar medios de instalación y mover imágenes de sistema | **Bloque 1** |
-> | **1 disco externo** de 1-2 TB | **Las copias de seguridad de tus servidores.** Cada fase se exporta entera (5-8 GB) y son 8 fases por bloque | **Bloque 2 en adelante** |
+> | **3 pendrives** de 128 o 256 GB | Los medios de instalación: **uno por sistema**, para no tener que rehacerlos cada vez que montes una máquina | **Bloque 1** |
+> | **1 SSD externo** de 1 o 2 TB | **Las copias de seguridad de tus servidores.** Cada fase se exporta entera (5-8 GB), son 8 fases por bloque, y en el proyecto final llegas a tener **cinco máquinas virtuales** | **Bloque 2 en adelante** |
 
 > [!danger] 💾 El disco externo no es opcional, y conviene tenerlo pronto
 > A partir del Bloque 2 vas a construir servidores, y **cada fase termina guardando una copia del tuyo en ese disco**. No vale la nube: son varios gigas por fase y toda la clase subiendo a la vez.
+>
+> **Y que sea SSD no es un capricho:** vas a exportar e importar máquinas de 5-8 GB muchas veces. Con un disco mecánico, cada copia son diez o quince minutos mirando una barra de progreso.
 >
 > Y no vale dejarlo dentro del programa de virtualización: si formatean el equipo del aula —que pasa— **pierdes el curso entero**.
 >
