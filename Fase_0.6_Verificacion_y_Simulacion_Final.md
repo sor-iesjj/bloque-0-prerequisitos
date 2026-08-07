@@ -22,7 +22,7 @@
 
 > [!important] 📹 Obligaciones de grabación (LÉEME — es igual en TODAS las fases)
 > Esta fase **es** un vídeo: una simulación completa grabada de principio a fin.
-> 1. **Prepárate primero (sin grabar):** repasa mentalmente todo el flujo (apuntes y práctica) y **crea la entrada de apuntes de esta fase** en Obsidian: fichero `fase-0.6-simulacion-final.md` con la estructura de la Fase 0.1, **vacía**. Rellenarla es cosa tuya, después.
+> 1. **Prepárate primero (sin grabar):** repasa mentalmente todo el flujo (apuntes y práctica) y **crea la entrada de apuntes de esta fase** en Obsidian: fichero `b0-0.6-simulacion-final.md` con la estructura de la Fase 0.1, **vacía**. Rellenarla es cosa tuya, después.
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a hacer la simulación final de la Fase 0."* **Muestra tu perfil de GitHub**. Di qué vas a demostrar.
 > 3. **Graba TODO el circuito**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
@@ -58,7 +58,7 @@
 ### 🛠️ Procedimiento Práctico (la simulación)
 
 > [!example] Paso 0: Prepárate (sin grabar) y arranca OBS
-> Repasa el flujo y **léete el procedimiento entero** (tiene **5 pasos** grabados). **Crea la entrada de apuntes de esta fase** (`fase-0.6-simulacion-final.md`), con su estructura y vacía. Abre **OBS**, comprueba pantalla y **micrófono** (vas a hablar) y empieza a grabar.
+> Repasa el flujo y **léete el procedimiento entero** (tiene **5 pasos** grabados). **Crea la entrada de apuntes de esta fase** (`b0-0.6-simulacion-final.md`), con su estructura y vacía. Abre **OBS**, comprueba pantalla y **micrófono** (vas a hablar) y empieza a grabar.
 
 > [!example] Paso 1: Preséntate
 > *"Soy [Nombre], 2.º SMR, simulación final de la Fase 0."* Enseña tu **perfil de GitHub** 2-3 segundos.

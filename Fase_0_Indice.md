@@ -109,7 +109,7 @@ Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init
 ├── 00_Apuntes/
 │   ├── Trimestre_1/             ← REPO propio (apuntes-sor-t1) → GitHub → enlace al profe
 │   │   └── B0_Prerrequisitos/
-│   │       └── fase-0.1-metodologia-y-estructura.md  ← una entrada por FASE
+│   │       └── b0-0.1-metodologia-y-estructura.md  ← una entrada por FASE
 │   ├── Trimestre_2/             ← REPO propio (apuntes-sor-t2)
 │   └── Trimestre_3/             ← REPO propio (apuntes-sor-t3)
 └── 01_Practicas/

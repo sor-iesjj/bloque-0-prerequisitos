@@ -120,18 +120,33 @@ Al terminar esta fase serás capaz de:
 > 2. **Para ti, en junio.** Buscar "lo de las claves SSH" en un fichero llamado `Fase 0.2.2` es inmediato. Buscarlo repartido en tres entradas de tres martes distintos es perder la tarde.
 
 > [!important] 5. La entrada: NOMBRE obligatorio
-> **Un fichero por fase** dentro de la carpeta del bloque que toque. **La entrada se llama como la fase**:
+> **Un fichero por fase**, dentro de la carpeta del bloque que toque. Y el nombre se construye **siempre igual, en todo el curso**:
 > ```
-> fase-CODIGO-titulo-corto.md
+> material - código - titulo-corto . md
 > ```
 > Todo en minúsculas, con guiones, **sin tildes ni espacios**.
 >
-> **¿Y la fecha? No va en el nombre.** No hace falta: **el código de la fase ya ordena**. `fase-0.1`, `fase-0.2.1`, `fase-0.2.2`, `fase-0.3`… se colocan solas y en el orden en que las hemos dado. Meter además la fecha sería repetir información y encima descolocaría el orden si una fase se retrasa. La fecha va **dentro** de la entrada, en su campo.
+> | Trozo | Qué hace | Ejemplos |
+> | :--- | :--- | :--- |
+> | **material** | Dice **de dónde sale** | `b0` `b1` `b2` `b6` · `git` `shell` |
+> | **código** | **Ordena.** Los niveles se separan con **punto** | `0.2.2` · `1.4` · `1.2.1` |
+> | **título corto** | Dice **de qué va**. Los espacios, con guion | `clave-ssh` |
 >
-> **Correcto:** `fase-0.1-metodologia-y-estructura.md` · `fase-0.2.2-clave-ssh.md`
-> **Incorrecto:** `apuntes dia 1.md` ❌ · `Fase 0.1.md` ❌ (espacios y mayúsculas) · `0.1.md` ❌ (sin decir de qué va)
+> **Correcto:** `b0-0.2.2-clave-ssh.md` · `b2-1.4-verificacion-y-acceso-remoto.md` · `git-1.2.1-amplia-el-manual.md`
 >
-> La **carpeta ya te dice el bloque**, así que en el título no lo repitas: `fase-0.2.2-clave-ssh` y no `fase-0.2.2-bloque-0-clave-ssh`.
+> **Incorrecto:** `apuntes dia 1.md` ❌ · `Fase 0.1.md` ❌ *(espacios y mayúsculas)* · `0.1.md` ❌ *(no dice de qué va ni de dónde sale)*
+>
+> > [!info] 🎓 Por qué el punto separa el código y el guion separa las palabras
+> > Para que **se vea dónde acaba el código y empieza el título**. En `b2-1.4-verificacion` no hay duda: el código es `1.4`.
+> >
+> > Si todo fueran guiones —`b2-1-4-verificacion`— tendrías que adivinar si el `4` es parte del código o la primera palabra del título. **Un carácter, un trabajo.**
+>
+> > [!info] 📅 ¿Y la fecha? No va en el nombre
+> > No hace falta: **el código ya ordena**. `b0-0.1`, `b0-0.2.1`, `b0-0.2.2`, `b0-0.3`… se colocan solas y en el orden en que las hemos dado.
+> >
+> > Meter la fecha sería repetir información, y encima **descolocaría el orden** si una fase se retrasa. La fecha va **dentro** de la entrada, en su campo.
+>
+> El prefijo dice el bloque **en corto**, así que no lo repitas en palabras: `b0-0.2.2-clave-ssh` y no `b0-0.2.2-bloque-0-clave-ssh`.
 >
 > > [!note] 📌 ¿Y los días de teoría, que no son ninguna fase?
 > > Esos sí llevan fecha, porque no tienen código que los ordene. Se nombran `teoria-MMDDAA-tema.md`:
@@ -291,7 +306,7 @@ Al terminar esta fase serás capaz de:
 > [!example] Paso 5: Crea tu PRIMERA entrada de apuntes (grabando)
 > La carpeta `B0_Prerrequisitos` está vacía, y una carpeta vacía no son apuntes. Vamos a dejarla estrenada:
 > 1. En Obsidian, **clic derecho sobre `B0_Prerrequisitos`** → **`New note`**.
-> 2. **Nómbrala como la fase**, con el formato del apartado 5: `fase-0.1-metodologia-y-estructura`.
+> 2. **Nómbrala como la fase**, con el formato del apartado 5: `b0-0.1-metodologia-y-estructura`.
 > 3. **Pega la plantilla** (apartado 6 del fundamento) y rellena **solo la cabecera**: `Fecha`, `Bloque` y `Fase / práctica`.
 > 4. **Recorre los apartados vacíos con el ratón** y di en voz alta qué vas a poner en cada uno. Eso es lo que quiero ver: que sabes para qué sirve cada sección.
 > 5. **Guarda** y comprueba que el fichero aparece dentro de `B0_Prerrequisitos`.
@@ -371,7 +386,7 @@ Al terminar esta fase serás capaz de:
 - [ ] Vídeo grabado **de principio a fin**, con presentación e identidad al inicio.
 - [ ] Vídeo nombrado `B0.1 · Metodología y estructura` y subido a la playlist `B0_Prerrequisitos`.
 - [ ] Timestamps en la descripción (uno por paso).
-- [ ] **Primera entrada escrita** en `B0_Prerrequisitos/`, con nombre `fase-0.1-metodologia-y-estructura.md` y la estructura obligatoria.
+- [ ] **Primera entrada escrita** en `B0_Prerrequisitos/`, con nombre `b0-0.1-metodologia-y-estructura.md` y la estructura obligatoria.
 - [ ] **Enlace del vídeo pegado en tu entrada**, en el apartado `Enlace al vídeo explicativo`.
 - [ ] **Preguntas Críticas contestadas** en tu entrada (el 🔬 Reto es voluntario).
 - [ ] Grabada **🏫 en el centro**.
