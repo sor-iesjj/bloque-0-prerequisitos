@@ -81,7 +81,7 @@ Al terminar esta fase serás capaz de:
 > | Zona | Qué es | Ejemplo |
 > | :--- | :--- | :--- |
 > | **`00_Apuntes/`** | **Lo que TÚ escribes**: tus notas de lo que yo explico cada día. Es tu cuaderno digital. | "Hoy hemos visto qué es una IP y para qué sirve el ping…" |
-> | **`01_Practicas/`** | **El material que YO te doy**: las prácticas Boochan que descargarás de Internet. Tú las sigues y trabajas sobre ellas. | La práctica `bloque-2-ubuntu-local` con sus fases. |
+> | **`01_Practicas/`** | **El material que YO te doy**: las prácticas Boochan que descargarás de Internet. Tú las sigues y trabajas sobre ellas. | La práctica `B2_Ubuntu_Local` con sus fases. |
 >
 > **¿Por qué separadas?** Porque tus apuntes son **tuyos** y me los entregas para que los corrija; las prácticas son material del curso. Mezclarlos sería como escribir tus apuntes encima del libro de otra persona: un lío para ti y para mí.
 

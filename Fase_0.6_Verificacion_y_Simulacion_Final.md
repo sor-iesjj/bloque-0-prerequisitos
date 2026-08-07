@@ -79,7 +79,7 @@
 > [!example] Paso 3: Simulación B — el MISMO ciclo, en otro repositorio
 > Fíjate en que es **exactamente lo mismo** que acabas de hacer, cambiando de carpeta. Empieza igual, por el `pull`:
 > ```bash
-> pwd          # .../Boveda_SOR/01_Practicas/bloque-2-ubuntu-local  (abre la terminal ahí con clic derecho)
+> pwd          # .../Boveda_SOR/01_Practicas/B2_Ubuntu_Local  (abre la terminal ahí con clic derecho)
 > git pull
 > ```
 > Edita `MIS_DATOS.md`, míralo con `git status` y súbelo:
@@ -97,8 +97,8 @@
 > > Ahora mismo tienes **tres**:
 > > ```
 > > 00_Apuntes/Trimestre_1/        ← tus apuntes
-> > 01_Practicas/bloque-1-entorno/ ← tu copia del Bloque 1
-> > 01_Practicas/bloque-2-ubuntu-local/        ← tu copia de Boochan
+> > 01_Practicas/B1_Entorno/ ← tu copia del Bloque 1
+> > 01_Practicas/B2_Ubuntu_Local/        ← tu copia de Boochan
 > > ```
 > > Si hoy tocas los apuntes y el Bloque 1, hoy haces **dos `pull` y dos `push`**, uno en cada carpeta. Si solo tocas uno, uno.
 > >
@@ -107,8 +107,8 @@
 > [!example] Paso 4: Comprobación final en GitHub
 > Abre en el navegador tus **tres** repositorios y enséñalos:
 > - `apuntes-sor-t1` → el último commit debe ser el de hace un minuto (Simulación A).
-> - `bloque-2-ubuntu-local` → el último commit debe ser el de hace unos segundos (Simulación B).
-> - `bloque-1-entorno` → **este no lo has tocado hoy**, así que su último commit es el de cuando lo copiaste. Y está bien que sea así: enséñalo y explica por qué.
+> - `B2_Ubuntu_Local` → el último commit debe ser el de hace unos segundos (Simulación B).
+> - `B1_Entorno` → **este no lo has tocado hoy**, así que su último commit es el de cuando lo copiaste. Y está bien que sea así: enséñalo y explica por qué.
 >
 > Ese contraste es la prueba de que lo has entendido: **los tres repos van por su cuenta**, y cada uno refleja lo que tú has hecho en él.
 
@@ -124,7 +124,7 @@
 > | :--- | :--- | :--- |
 > | No se me oye en el vídeo. | Micrófono no seleccionado en OBS. | Añade "Captura de entrada de audio" y prueba el nivel. |
 > | Un `push` falla en la simulación. | Olvidaste el `pull`, o hay cambios del otro equipo. | `git pull`, resuelve (o pregunta) y repite el `push`. |
-> | Me lío con las rutas apuntes/práctica. | Son repos distintos. | `pwd`: apuntes en `00_Apuntes/Trimestre_1`, práctica en `01_Practicas/bloque-2-ubuntu-local`. |
+> | Me lío con las rutas apuntes/práctica. | Son repos distintos. | `pwd`: apuntes en `00_Apuntes/Trimestre_1`, práctica en `01_Practicas/B2_Ubuntu_Local`. |
 
 > [!help] Preguntas Críticas
 > 1. Describe el "circuito completo" (Obsidian → add → commit → push → GitHub → pull).

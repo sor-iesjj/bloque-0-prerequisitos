@@ -113,7 +113,7 @@ Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init
 │   ├── Trimestre_2/             ← REPO propio (apuntes-sor-t2)
 │   └── Trimestre_3/             ← REPO propio (apuntes-sor-t3)
 └── 01_Practicas/
-    └── bloque-2-ubuntu-local/               ← tu copia de la plantilla = REPO propio
+    └── B2_Ubuntu_Local/               ← tu copia de la plantilla = REPO propio
 ```
 > `Boveda_SOR/` vive **dentro de la carpeta de usuario** del alumno: `~/Documents/SOR/`, `~/Documentos/SOR/` o `~/SOR/` según el equipo (se decide en la Fase 0.1). **Nunca en OneDrive.**
 

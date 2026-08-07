@@ -101,8 +101,8 @@
 > 3. Clona la práctica **dentro de `01_Practicas/`**:
 >    ```bash
 >    cd RUTA_SOR/Boveda_SOR/01_Practicas
->    git clone git@github.com:TU-USUARIO/bloque-2-ubuntu-local.git
->    git clone git@github.com:TU-USUARIO/bloque-1-entorno.git
+>    git clone git@github.com:TU-USUARIO/bloque-2-ubuntu-local.git B2_Ubuntu_Local
+>    git clone git@github.com:TU-USUARIO/bloque-1-entorno.git B1_Entorno
 >    ```
 >    Sí, **dos**: tus dos copias, la de Boochan y la del Bloque 1. Las dos son **tuyas** y las dos van por SSH — el `Use this template` lo hiciste en el centro, en la Fase 0.4, así que aquí solo hay que clonar.
 >    ```bash

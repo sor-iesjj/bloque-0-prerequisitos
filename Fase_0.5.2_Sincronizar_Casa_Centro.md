@@ -62,7 +62,7 @@
 >
 > > [!warning] ⚠️ Ojo: el ciclo es POR CARPETA, no por día
 > > Aquí lo practicamos sobre `Trimestre_1`, pero **no es "el ciclo de los apuntes"**: es el ciclo **de cada repositorio**. Y tú tienes tres:
-> > `00_Apuntes/Trimestre_1/` · `01_Practicas/bloque-1-entorno/` · `01_Practicas/bloque-2-ubuntu-local/`
+> > `00_Apuntes/Trimestre_1/` · `01_Practicas/B1_Entorno/` · `01_Practicas/B2_Ubuntu_Local/`
 > >
 > > Git **no sabe nada de tus otras carpetas**. Un `pull` en los apuntes no baja nada del Bloque 1. Si hoy vas a tocar dos, haces el ciclo **dos veces**, una en cada una.
 
