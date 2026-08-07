@@ -52,7 +52,7 @@ Boveda_SOR/                 ← se abre en Obsidian. NUNCA se hace git init aqu�
 │   ├── Trimestre_2/
 │   └── Trimestre_3/
 └── 01_Practicas/
-    └── boochan-1/          ← tu copia de la plantilla = repo propio
+    └── bloque-2-ubuntu-local/          ← tu copia de la plantilla = repo propio
 ```
 
 Regla de oro: la bóveda **no** se versiona entera; cada trimestre de apuntes y cada práctica son **repositorios independientes**. El puente entre casa y centro es **Git + GitHub**, nunca OneDrive.

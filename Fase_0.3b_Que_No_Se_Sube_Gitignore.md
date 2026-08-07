@@ -204,7 +204,7 @@
 > 3. Subes por error un fichero con una contraseña, te das cuenta al día siguiente y lo borras. **¿Está resuelto el problema? Explica por qué.**
 > 4. Da **tres** ejemplos de ficheros que nunca subirías, cada uno por un motivo distinto.
 > 5. ¿Qué diferencia hay entre un fichero **untracked** y uno **ignorado**?
-> 6. 🔬 **Reto:** en tu repo `boochan-1` de la Fase 0.4, ¿qué pondrías en su `.gitignore`? Piensa qué generarás ahí durante el proyecto.
+> 6. 🔬 **Reto:** en tu repo `bloque-2-ubuntu-local` de la Fase 0.4, ¿qué pondrías en su `.gitignore`? Piensa qué generarás ahí durante el proyecto.
 
 ---
 
