@@ -6,7 +6,7 @@
 > **[Bloque de Prerrequisitos · Fase 0.7 — parte 2 de 2]**
 > **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)
 >
-> **⏱️ Tiempo estimado:** ~1 - 1,5 horas · **Requisitos:** Fase 0.7.1 completa. Los **dos** repos (`apuntes-sor-t1` y `boochan-1`) subidos a GitHub.
+> **⏱️ Tiempo estimado:** ~1 - 1,5 horas · **Requisitos:** Fase 0.7.1 completa. Los **dos** repos (`apuntes-sor-t1` y `bloque-2-ubuntu-local`) subidos a GitHub.
 
 
 > [!abstract] 📋 Qué se te evalúa en esta fase
@@ -58,7 +58,7 @@
 > [!warning] El Problema
 > El disco duro del aula se estropea. O reinstalan el equipo por vacaciones. O te lo formatean sin avisar. O simplemente borras la carpeta equivocada un viernes a última hora. **No queda absolutamente nada** en local.
 >
-> Y aquí se te va algo que no escribiste tú: en `01_Practicas/boochan-1/` está **el material del proyecto Boochan**, el manual y las fases. Eso no lo puedes reescribir de memoria. No es tuyo.
+> Y aquí se te va algo que no escribiste tú: en `01_Practicas/bloque-2-ubuntu-local/` está **el material del proyecto Boochan**, el manual y las fases. Eso no lo puedes reescribir de memoria. No es tuyo.
 >
 > Lo que hoy vas a comprobar es que **te da exactamente igual**. Que un ordenador es una herramienta reemplazable y tu trabajo no vive ahí.
 
@@ -98,7 +98,7 @@
 
 > [!danger] Lo que NO se recupera hoy, y ya no hay truco
 > - Todo lo que **no habías empujado**. Commiteado o no. Se pierde para siempre.
-> - Cualquier fichero de la bóveda que **no esté dentro de un repositorio**. Si tenías notas sueltas en `Boveda_SOR/` que no viven ni en `Trimestre_1` ni en `boochan-1`, **nadie las está guardando**.
+> - Cualquier fichero de la bóveda que **no esté dentro de un repositorio**. Si tenías notas sueltas en `Boveda_SOR/` que no viven ni en `Trimestre_1` ni en `bloque-2-ubuntu-local`, **nadie las está guardando**.
 >
 > De aquí sale la norma que llevo repitiéndote seis fases y que hoy deja de ser una manía mía: **`push` al terminar cada sesión de trabajo.** No al final de la semana. Al terminar.
 
@@ -126,7 +126,7 @@
 > - `nothing to commit, working tree clean` → no hay nada sin guardar
 > - `Your branch is up to date with 'origin/main'` → **no hay nada sin subir**
 >
-> **Repite exactamente lo mismo en `01_Practicas/boochan-1/` y en `01_Practicas/bloque-1-entorno/`.**
+> **Repite exactamente lo mismo en `01_Practicas/bloque-2-ubuntu-local/` y en `01_Practicas/bloque-1-entorno/`.**
 > Sí, los tres: cada repositorio va por su cuenta y `git status` solo te habla de la carpeta en la que estás.
 >
 > | Lo que dice | Qué significa | Qué haces |
@@ -146,7 +146,7 @@
 > Esto es lo que convierte el vídeo en una demostración y no en un acto de fe. Enseña, en pantalla:
 > 1. El **`git status`** de los tres repos, con el `up to date` visible en cada uno. Léelo en voz alta.
 > 2. Los **tres repositorios en la web de GitHub**, con sus ficheros dentro.
-> 3. Tu bóveda en el Explorador: `00_Apuntes/Trimestre_1/`, `01_Practicas/boochan-1/` y `01_Practicas/bloque-1-entorno/`, con todo su contenido.
+> 3. Tu bóveda en el Explorador: `00_Apuntes/Trimestre_1/`, `01_Practicas/bloque-2-ubuntu-local/` y `01_Practicas/bloque-1-entorno/`, con todo su contenido.
 >
 > Di la frase: *"Todo lo que voy a borrar está en GitHub. Lo acabo de comprobar."*
 
@@ -167,7 +167,7 @@
 > Ahora, sin miedo, porque acabas de comprobar que hay red:
 > 1. Cierra **Obsidian** (si no, se queja de que le mueven las carpetas).
 > 2. En el Explorador, borra **la carpeta `Trimestre_1` entera**. Con todo lo que hay dentro, incluida la carpeta oculta `.git`.
-> 3. Borra también **`boochan-1` entera** y **`bloque-1-entorno` entera**. Sí, con mi manual y las fases del proyecto dentro.
+> 3. Borra también **`bloque-2-ubuntu-local` entera** y **`bloque-1-entorno` entera**. Sí, con mi manual y las fases del proyecto dentro.
 > 4. **Reinicia el ordenador.** Que quede claro que no es un truco de Obsidian.
 > 5. Al volver, abre Obsidian y **enseña el desastre**: `00_Apuntes/` vacía, `01_Practicas/` vacía. No queda nada.
 >
@@ -193,12 +193,12 @@
 >    ```
 >    > [!important] 📌 Fíjate en el `Trimestre_1` del final
 >    > Ese segundo argumento **no está de adorno**. Sin él, `git clone` crea la carpeta con el nombre del repositorio: te quedaría `apuntes-sor-t1/` y tu estructura dejaría de ser la de todo el curso.
->    > **`git clone <dirección> <nombre-de-carpeta>`**: le dices cómo quieres que se llame. Con `boochan-1` no hace falta, porque el repo ya se llama así.
+>    > **`git clone <dirección> <nombre-de-carpeta>`**: le dices cómo quieres que se llame. Con `bloque-2-ubuntu-local` no hace falta, porque el repo ya se llama así.
 >
 > 2. **La práctica.** Abre la terminal en `01_Practicas/`:
 >    ```bash
 >    pwd          # .../Boveda_SOR/01_Practicas
->    git clone git@github.com:TU-USUARIO/boochan-1.git
+>    git clone git@github.com:TU-USUARIO/bloque-2-ubuntu-local.git
 >    git clone git@github.com:TU-USUARIO/bloque-1-entorno.git
 >    ```
 >    Los dos son **repositorios tuyos**, así que los dos van por SSH.
@@ -257,7 +257,7 @@
 - [ ] `git status` comprobado en **los dos** repos, con `up to date with 'origin/main'` visible.
 - [ ] Los tres repositorios comprobados **también en la web** de GitHub.
 - [ ] 🤔 **Tus cuatro predicciones escritas en la entrada ANTES de borrar**, y dichas en voz alta.
-- [ ] `Trimestre_1`, `boochan-1` y `bloque-1-entorno` borradas por completo, y equipo reiniciado.
+- [ ] `Trimestre_1`, `bloque-2-ubuntu-local` y `bloque-1-entorno` borradas por completo, y equipo reiniciado.
 - [ ] `fatal: not a git repository` demostrado y explicado en voz alta.
 - [ ] Los tres repos clonados, con `Trimestre_1` recuperando **su nombre de carpeta**.
 - [ ] `git log` enseñado tras el clon: el **historial completo** ha vuelto, no solo los ficheros.
