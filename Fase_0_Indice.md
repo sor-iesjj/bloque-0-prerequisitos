@@ -111,7 +111,7 @@ Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init
 │   ├── Trimestre_2/             ← REPO propio (apuntes-sor-t2)
 │   └── Trimestre_3/             ← REPO propio (apuntes-sor-t3)
 └── 01_Practicas/
-    └── boochan-1/               ← tu copia de la plantilla = REPO propio
+    └── bloque-2-ubuntu-local/               ← tu copia de la plantilla = REPO propio
 ```
 > `Boveda_SOR/` vive **dentro de la carpeta de usuario** del alumno: `~/Documents/SOR/`, `~/Documentos/SOR/` o `~/SOR/` según el equipo (se decide en la Fase 0.1). **Nunca en OneDrive.**
 
@@ -132,7 +132,7 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 | **0.2.2**  | [[Fase_0.2.2_Autenticacion_SSH]]                       | Clave SSH (y token HTTPS) + verificación.                                                                                                                     |
 | **0.3**    | [[Fase_0.3_Repo_Apuntes_y_Primera_Entrada]]            | Repo del Trimestre 1 + entrada de la fase + **primera entrega** en Teams.                                                                                     |
 | **0.3b**   | [[Fase_0.3b_Que_No_Se_Sube_Gitignore]]                 | El **`.gitignore`**: qué no se sube nunca y por qué subir una clave no se arregla borrándola.                                                                 |
-| **0.4**    | [[Fase_0.4_Clonar_Practica_Boochan]]                   | Crea **sus copias** del Bloque 1 y de `boochan-1` (`Use this template`) y las clona. Domina `status → commit → push` + **3 retos** de borrado y recuperación. |
+| **0.4**    | [[Fase_0.4_Clonar_Practica_Boochan]]                   | Crea **sus copias** del Bloque 1 y de `bloque-2-ubuntu-local` (`Use this template`) y las clona. Domina `status → commit → push` + **3 retos** de borrado y recuperación. |
 | **0.5**    | [[Fase_0.5_Casa_y_Centro_Sincronizacion]]              | *(índice)* Casa ↔ centro, en 2 partes ↓                                                                                                                       |
 | **0.5.1**  | [[Fase_0.5.1_Montar_Entorno_Casa]]                     | Monta el entorno en casa y clona sus repos.                                                                                                                   |
 | **0.5.2**  | [[Fase_0.5.2_Sincronizar_Casa_Centro]]                 | Ciclo `pull → push`; regla anti-OneDrive.                                                                                                                     |

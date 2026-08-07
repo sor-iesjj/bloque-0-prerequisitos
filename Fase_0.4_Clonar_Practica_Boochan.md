@@ -102,7 +102,7 @@
 
 > [!example] Paso 3: Haz lo mismo con Boochan
 > **Exactamente el mismo procedimiento**, cambiando el repositorio de origen. Cuéntalo así en el vídeo: *"repito los mismos pasos, porque todo el material del curso se baja igual."*
-> En `github.com/sor-iesjj/bloque-2-ubuntu-local`, pulsa **`Use this template` → Create a new repository**: **Owner** tu usuario, **name** `boochan-1`, **Visibility** la que indique el profesor. **Create repository**. Ahora sí: pulsa el botón verde **`Code`**, pestaña **`SSH`**, y copia tu dirección (`git@github.com:TU-USUARIO/boochan-1.git`).
+> En `github.com/sor-iesjj/bloque-2-ubuntu-local`, pulsa **`Use this template` → Create a new repository**: **Owner** tu usuario, **name** `bloque-2-ubuntu-local`, **Visibility** la que indique el profesor. **Create repository**. Ahora sí: pulsa el botón verde **`Code`**, pestaña **`SSH`**, y copia tu dirección (`git@github.com:TU-USUARIO/bloque-2-ubuntu-local.git`).
 >
 > > [!tip] 💡 ¿Ves la diferencia con la Fase 0.3?
 > > En la 0.3 creaste un repositorio **vacío** y **no había botón `Code`**. Aquí sí lo hay. ¿Por qué? Porque este repo **ya tiene contenido**: lo has copiado de una plantilla que trae el manual y las fases dentro.
@@ -112,21 +112,21 @@
 > Igual que en la Fase 0.3: **clic derecho sobre la carpeta `01_Practicas` de tu bóveda** → `Abrir Git Bash aquí` (Windows) / `Abrir en un terminal` (Linux). Comprueba dónde estás **antes de clonar**:
 > ```bash
 > pwd          # tiene que terminar en .../Boveda_SOR/01_Practicas
-> git clone git@github.com:TU-USUARIO/boochan-1.git
-> cd boochan-1
+> git clone git@github.com:TU-USUARIO/bloque-2-ubuntu-local.git
+> cd bloque-2-ubuntu-local
 > ls
 > ```
 > Debes ver los ficheros de la práctica (`Manual_BoochanV1.md`, `Fases/`…).
 > > [!danger] ⚠️ Comprueba con `pwd` que clonas dentro de `.../Boveda_SOR/01_Practicas`.
 
 > [!example] Paso 5: Ábrela en Obsidian y haz un cambio
-> Como `01_Practicas/boochan-1/` está **dentro** de tu bóveda, Obsidian ya la ve (apuntes y práctica en una sola ventana). Crea ahí una nota `MIS_DATOS.md`:
+> Como `01_Practicas/bloque-2-ubuntu-local/` está **dentro** de tu bóveda, Obsidian ya la ve (apuntes y práctica en una sola ventana). Crea ahí una nota `MIS_DATOS.md`:
 > ```markdown
 > # Mis datos
 > - Alumno: Juan García
 > - Grupo: 2º SMR
 > ```
-> Guarda y, en la terminal (dentro de `boochan-1`), mira el cambio:
+> Guarda y, en la terminal (dentro de `bloque-2-ubuntu-local`), mira el cambio:
 > ```bash
 > git status
 > ```
@@ -138,13 +138,13 @@
 > git commit -m "Anadir mis datos de alumno"
 > git push
 > ```
-> Recarga tu repo `boochan-1` en GitHub: debe aparecer `MIS_DATOS.md`.
+> Recarga tu repo `bloque-2-ubuntu-local` en GitHub: debe aparecer `MIS_DATOS.md`.
 
 > [!example] 🔬 Paso 7 — RETO 1: bórralo y recupéralo (sin Internet)
 > Ahora que tienes tu copia y ya sabes hacer `commit`, vamos a romperla a propósito. **Sigue grabando.**
 >
-> 1. En el Explorador, entra en `boochan-1/Fases/` y **borra TODOS los ficheros de fase**. Todos. Guarda y mira la carpeta vacía.
-> 2. En la terminal, **dentro de `boochan-1`**, mira qué opina Git:
+> 1. En el Explorador, entra en `bloque-2-ubuntu-local/Fases/` y **borra TODOS los ficheros de fase**. Todos. Guarda y mira la carpeta vacía.
+> 2. En la terminal, **dentro de `bloque-2-ubuntu-local`**, mira qué opina Git:
 >    ```bash
 >    git status
 >    ```
@@ -159,14 +159,14 @@
 > > ⚠️ **El punto no es decorativo.** Si escribes `git restore` a secas, Git responde `fatal: you must specify path(s) to restore`: no adivina qué quieres recuperar. El `.` significa *"todo lo que hay desde donde estoy hacia abajo"*.
 > > Comprueba con `git status`: vuelve a decir `working tree clean`. Y las fases están otra vez ahí.
 > >
-> > **¿Por qué ha funcionado?** Porque al clonar te trajiste **también el historial**, que vive en la carpeta oculta `.git` dentro de `boochan-1`. Esos ficheros estaban guardados ahí, en tu propio ordenador. `git restore` los ha copiado de vuelta.
+> > **¿Por qué ha funcionado?** Porque al clonar te trajiste **también el historial**, que vive en la carpeta oculta `.git` dentro de `bloque-2-ubuntu-local`. Esos ficheros estaban guardados ahí, en tu propio ordenador. `git restore` los ha copiado de vuelta.
 > > Dilo en voz alta en el vídeo: *"he recuperado el material sin conectarme a nada, porque el historial está en mi equipo."*
 
 > [!example] 🔬 Paso 8 — RETO 2: ahora bórralo TODO (y aquí sí cambia la cosa)
 > El reto anterior fue fácil. Este no se arregla igual. **Sigue grabando.**
 >
 > 1. Cierra Obsidian.
-> 2. Borra **la carpeta `boochan-1` ENTERA**, con todo dentro. Sí, la carpeta completa.
+> 2. Borra **la carpeta `bloque-2-ubuntu-local` ENTERA**, con todo dentro. Sí, la carpeta completa.
 > 3. Abre la terminal en `01_Practicas/` y prueba el truco de antes:
 >    ```bash
 >    git status
@@ -178,12 +178,12 @@
 > 4. **Explica en voz alta por qué el Reto 1 ya no sirve.** Si no lo ves, la pista está en la respuesta de Git.
 >
 > > [!success] ✅ Solución del Reto 2
-> > **Aquí Git en tu ordenador no puede hacer nada**, y la razón es esta: la carpeta oculta `.git` —tu historial, tu máquina del tiempo— **estaba DENTRO de `boochan-1`**. Al borrar la carpeta, la has borrado con ella. `git restore` no existe si no hay repositorio.
+> > **Aquí Git en tu ordenador no puede hacer nada**, y la razón es esta: la carpeta oculta `.git` —tu historial, tu máquina del tiempo— **estaba DENTRO de `bloque-2-ubuntu-local`**. Al borrar la carpeta, la has borrado con ella. `git restore` no existe si no hay repositorio.
 > >
 > > Lo único que queda está **fuera de tu ordenador**: en GitHub. Así que se vuelve a clonar. Desde `01_Practicas/`:
 > > ```bash
 > > pwd          # .../Boveda_SOR/01_Practicas
-> > git clone git@github.com:TU-USUARIO/boochan-1.git
+> > git clone git@github.com:TU-USUARIO/bloque-2-ubuntu-local.git
 > > ```
 > > En segundos lo tienes todo otra vez: el manual, las fases **y tu historial completo** (`git log --oneline` lo demuestra).
 > >
@@ -231,7 +231,7 @@
 > 03:50 Paso 5 - MIS_DATOS.md
 > 04:30 Paso 6 - add, commit, push
 > 05:20 Paso 7 - RETO 1: borrar las fases y recuperarlas
-> 06:40 Paso 8 - RETO 2: borrar boochan-1 entera y clonar
+> 06:40 Paso 8 - RETO 2: borrar bloque-2-ubuntu-local entera y clonar
 > 08:00 Paso 9 - RETO 3: borrar mis propias notas sin push (NO vuelven)
 > 09:20 Paso 10 - Repaso final
 > ```
@@ -246,12 +246,12 @@
 > | Problema | Causa | Solución |
 > | :--- | :--- | :--- |
 > | `git clone` da `Permission denied (publickey)`. | Usas SSH pero la clave no está lista. | Repasa la 0.2.2, **o** clona por HTTPS con tu token. |
-> | La carpeta `boochan-1` no aparece en Obsidian. | La clonaste fuera de la bóveda. | Comprueba con `pwd`; clónala dentro de `01_Practicas/`. |
+> | La carpeta `bloque-2-ubuntu-local` no aparece en Obsidian. | La clonaste fuera de la bóveda. | Comprueba con `pwd`; clónala dentro de `01_Practicas/`. |
 > | `git push` dice `nothing to commit`. | No hiciste `git add` o no guardaste. | Guarda en Obsidian, `git add .` y `git commit`. |
 > | La pantalla se queda atascada tras `git log` o `git diff` y no puedo escribir. | Estás dentro del **paginador**, no en un editor ni colgado. | Pulsa **`q`**. Es la misma tecla que en `man` y en todo Linux. |
 > | `fatal: you must specify path(s) to restore`. | Escribiste `git restore` **sin el punto**. Git no adivina qué quieres recuperar. | `git restore .` — el punto significa *"todo lo que hay desde aquí hacia abajo"*. Si estás dentro de `Fases/` recupera solo eso; desde la raíz del repo, recupera todo. |
 > | `Permission ... denied` / `403` al hacer `push`. | Estás apuntando al repo **del profesor**, no al tuyo. | `git remote -v`: la dirección debe llevar **TU usuario**. Si lleva `sor-iesjj`, clonaste el original en vez de tu copia. |
-> | `git restore .` no recupera nada. | No estás dentro de `boochan-1`. | `pwd`: tienes que estar dentro de la carpeta del repo, no en `01_Practicas`. |
+> | `git restore .` no recupera nada. | No estás dentro de `bloque-2-ubuntu-local`. | `pwd`: tienes que estar dentro de la carpeta del repo, no en `01_Practicas`. |
 > | Tras el Reto 2, `git clone` dice `destination path already exists`. | La carpeta no se borró del todo. | Bórrala por completo y repite. |
 > | Tras el Reto 2 falta algo que yo había creado. | No le hiciste `push`. | No hay solución: no estaba en GitHub. Es justo la lección del reto. |
 > | No veo "Use this template". | El repo no está como plantilla o no has iniciado sesión. | Inicia sesión; si sigue, avisa al profesor. |
@@ -265,8 +265,8 @@
 
 ### ✅ Checklist Final de la Fase 0.4
 
-- [ ] Copia de la plantilla creada (`boochan-1` en tu cuenta).
-- [ ] Repo clonado dentro de `01_Practicas/boochan-1/` (se ve en Obsidian).
+- [ ] Copia de la plantilla creada (`bloque-2-ubuntu-local` en tu cuenta).
+- [ ] Repo clonado dentro de `01_Practicas/bloque-2-ubuntu-local/` (se ve en Obsidian).
 - [ ] `MIS_DATOS.md` creado y subido con `add` → `commit` → `push`; visible en GitHub.
 - [ ] **Reto 1 resuelto:** fases borradas y recuperadas con `git restore`, explicando por qué no hizo falta Internet.
 - [ ] **Reto 2 resuelto:** carpeta borrada entera y recuperada clonando, explicando por qué `git restore` ya no valía.
