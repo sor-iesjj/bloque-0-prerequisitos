@@ -59,11 +59,16 @@
 > [!important] 1. Recordatorio: cómo se llama y cómo se escribe una entrada
 > Esto ya lo viste en la **Fase 0.1** y hoy lo repites, porque hoy toca **la entrada de HOY**. Por si no lo tienes a mano:
 >
-> - **Nombre:** `fase-CODIGO-titulo-corto.md`, en minúsculas y con guiones. La entrada **se llama como la fase**, sin fecha: el código ya ordena. Ejemplo: `b0-0.3-repo-de-apuntes.md`
-> - **Estructura:** cabecera (`Fecha`, `Bloque`, `Fase / práctica`) + los cuatro apartados: *Qué hemos visto hoy*, *Conceptos clave*, *Comandos / pasos importantes*, *Dudas / a repasar en casa*.
+> - **Nombre:** `material-CODIGO-titulo-corto.md`, en minúsculas y con guiones. Sin fecha: el código ya ordena. Ejemplo: `b0-0.3-repo-de-apuntes.md`
+> - **Estructura:** la cabecera con tus datos y los seis apartados: *🎯 Qué se pedía*, *⌨️ Comandos y pasos importantes*, *🛠️ Qué he hecho*, *🚩 Qué me ha fallado*, *🤔 Respuestas a las preguntas*, *🔗 Enlaces*.
+>
+> **La plantilla completa, para copiar y pegar, está en la [[Fase_0.1_Metodologia_y_Estructura|Fase 0.1]].** No la repito aquí a propósito: **una sola fuente**, para que no acaben dos versiones distintas dando vueltas.
 >
 > > [!tip] 💡 Hoy SÍ hay comandos que anotar
 > > En la 0.1 el apartado de comandos lo dejaste vacío. Hoy no: `git init`, `git add`, `git commit`, `git push`. Anótalos **con lo que hace cada uno**, que es justo lo que se te va a olvidar en dos semanas.
+>
+> > [!danger] 🛑 Y hoy estrenas el apartado de fallos
+> > Es tu primer `push` de verdad. **Si algo falla —y suele fallar— apunta el mensaje literal** y qué hiciste para arreglarlo. Ese apartado vale más que todos los demás juntos.
 
 ### 📖 Diccionario de Conceptos Clave
 

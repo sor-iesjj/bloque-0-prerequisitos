@@ -154,34 +154,62 @@ Al terminar esta fase serás capaz de:
 > > Así, dentro de la carpeta del bloque, **las fases van juntas y en orden, y la teoría va junta y por fecha**.
 
 > [!important] 6. La entrada: ESTRUCTURA obligatoria
-> Todas tus entradas se escriben igual. Cópiala tal cual y rellénala:
+> **Esta estructura es la misma en TODO el curso**: prerrequisitos, curso de Git, curso de Shell, Boochan y lo que venga después. Se aprende una vez y se repite doscientas.
+>
+> Cópiala tal cual y rellénala:
 > ```markdown
-> # Fase 0.1 — Metodología y estructura
+> # b0-0.1 · Metodología y estructura
 >
-> **Fecha:** 15/09/2026            (si la fase dura varios días: 15/09/2026 - 17/09/2026)
-> **Bloque:** B0 — Prerrequisitos
-> **Fase / práctica:** Fase 0.1 — Metodología y estructura
+> - **Alumno:** Nombre Apellido
+> - **Bloque:** B0 — Prerrequisitos
+> - **Fase / ejercicio:** Fase 0.1
+> - **Fecha de inicio:** 15/09/2026
+> - **Fecha de entrega:** 17/09/2026
 >
-> ## Qué hemos visto hoy
-> - (con tus palabras)
+> ---
 >
-> ## Conceptos clave
-> - **Término:** definición corta.
+> ## 🎯 Qué se pedía
 >
-> ## Comandos / pasos importantes
+> (Dos o tres líneas con tus palabras: qué había que conseguir.)
+>
+> ## ⌨️ Comandos y pasos importantes
+>
 > - `comando` — para qué sirve.
 >
-> ## Respuesta a las preguntas
-> 1. (respuesta a la pregunta 1 de la fase)
-> 2. (respuesta a la pregunta 2)
-> 3. …
+> ## 🛠️ Qué he hecho
 >
-> ## Enlace al vídeo explicativo
-> - https://youtu.be/XXXXXXXXXXX
+> (Los pasos que has seguido. No copies el enunciado: cuenta lo que hiciste tú.)
 >
-> ## Dudas / a repasar en casa
+> ## 🚩 Qué me ha fallado y cómo lo he resuelto
+>
+> (El mensaje de error LITERAL y qué hiciste. Si no falló nada, escribe "nada"
+> — pero piénsalo dos veces antes.)
+>
+> ## 🤔 Respuestas a las preguntas
+>
+> 1.
+> 2.
+> 3.
+>
+> ## 🔗 Enlaces
+>
+> - **Vídeo de esta fase:** https://youtu.be/XXXXXXXXXXX
+> - **Playlist:** B0_Prerrequisitos
+>
+> ## 💭 Dudas / a repasar
+>
 > - (lo que no te ha quedado claro)
 > ```
+
+> [!warning] ⚠️ El apartado que más se deja vacío es el de los fallos
+> Y es el que más dice de ti. **Una fase donde todo salió a la primera es casi siempre una fase que no se ha entendido**, o una donde se copió y pegó sin mirar.
+>
+> Anota el mensaje de error **literal**, no "me dio un error". Te va a servir a ti dentro de tres semanas y a un compañero la semana que viene.
+
+> [!info] 📅 Por qué dos fechas y no una
+> Porque **una fase puede durarte varios días**, y eso es normal. **Lo que no se hace es abrir una entrada nueva cada día.** Abres la de la fase el primer día y sigues escribiendo en ella hasta terminarla.
+>
+> **Una entrada = una fase**, dure lo que dure.
 >
 > Dos apartados son **nuevos y obligatorios**, y son los que más peso tienen:
 >
