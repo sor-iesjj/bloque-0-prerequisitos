@@ -29,7 +29,7 @@
 > 5. **Al terminar:** nombra el vídeo `B0.4 · Bajar el material del curso` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~9-10 min** (esta fase lleva **tres retos** al final). Se graba en **🏫 el centro**.
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
-> 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
+> 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `🔗 Enlaces`. No lo guardes en un papel: va ahí.
 
 ---
 

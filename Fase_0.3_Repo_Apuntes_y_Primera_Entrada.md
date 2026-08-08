@@ -217,7 +217,7 @@
 
 > [!example] Paso 6: Cierra el vídeo, complétalo todo y entrega
 > 1. **Detén la grabación**, nombra el vídeo `B0.3 · Repo de apuntes y primera entrada`, súbelo a la playlist `B0_Prerrequisitos` y **copia su enlace**.
-> 2. **Pega ese enlace en la entrada de esta fase**, en el apartado `Enlace al vídeo explicativo`. Y aprovecha para **repasar tus entradas anteriores**: la de la 0.1, la 0.2.1 y la 0.2.2 tienen que tener **su** enlace y **sus** respuestas. Donde hay vídeo, hay entrada — y donde hay entrada, hay enlace.
+> 2. **Pega ese enlace en la entrada de esta fase**, en el apartado `🔗 Enlaces`. Y aprovecha para **repasar tus entradas anteriores**: la de la 0.1, la 0.2.1 y la 0.2.2 tienen que tener **su** enlace y **sus** respuestas. Donde hay vídeo, hay entrada — y donde hay entrada, hay enlace.
 > 3. **Sube los cambios.** Como antes, con mensajes que digan algo:
 >    ```bash
 >    git add .

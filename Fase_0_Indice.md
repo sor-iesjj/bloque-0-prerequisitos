@@ -88,7 +88,8 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > > **Las entregas se agrupan**, no van fase a fase. El profesor decide qué fases cubre cada tarea y lo dice al abrirla en Teams: un bloque puede tener dos, tres o cuatro entregas según lo denso que sea. El alumno **no tiene que adivinarlo** — le llega la notificación.
 
 > [!tip] Otros convenios
-> - **Entrada:** una **por entrega**, no una por día. Si una entrega dura varias clases, se sigue escribiendo en el mismo fichero. Nombre `fase-CODIGO-titulo-corto.md` — **se llama como la entrega, sin fecha** (el código ya ordena). Los días de teoría suelta: `teoria-MMDDAA-tema.md`. Estructura fija con dos apartados obligatorios: **Respuesta a las preguntas** y **Enlace al vídeo explicativo**. Se define en la **Fase 0.1**.
+> - **Entrada:** una **por entrega**, no una por día. Si una entrega dura varias clases, se sigue escribiendo en el mismo fichero. Nombre `material-CODIGO-titulo-corto.md` — `b0-0.2.2-clave-ssh.md` — **sin fecha**, que el código ya ordena. Los días de teoría suelta sí la llevan: `teoria-MMDDAA-tema.md`.
+> - **Estructura de la entrada:** siete apartados fijos, iguales en todo el curso. **Se define en la [[Fase_0.1.b_El_Sistema_de_Apuntes|Fase 0.1.b]]**, que es la página de referencia de los apuntes.
 > - **Ciclo diario:** `git pull` al empezar → trabajar → `git add` / `commit` / `push` al terminar.
 
 > [!warning] ⚠️ "Una entrega" no siempre es "una fase". Léelo ahora y ahórrate el lío

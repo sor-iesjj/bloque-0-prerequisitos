@@ -29,7 +29,7 @@
 > 5. **Al terminar:** nombra el vídeo `B0.2.2 · Autenticación SSH` y súbelo a tu playlist **`B0_Prerrequisitos`** como "No listado".
 > 6. **~5 min.** Se graba en **🏫 el centro** (la clave SSH de casa se genera en la Fase 0.5.1).
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
-> 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
+> 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `🔗 Enlaces`. No lo guardes en un papel: va ahí.
 
 > [!danger] ⚠️ LÉEME: la clave privada no se comparte JAMÁS
 > Vas a generar una **pareja de claves**. Comparte **solo la PÚBLICA** (el fichero que termina en **`.pub`**). La **privada** se queda en tu equipo y no se sube, ni se pega en un chat, ni se enseña con detalle en el vídeo. Si alguien te la pide: **NO**.

@@ -30,7 +30,7 @@
 > 5. **Al terminar:** nombra el vídeo `B0.5.1 · Montar el entorno en casa` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min.** Se graba en **🏠 casa** (en tu propio ordenador).
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
-> 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `Enlace al vídeo explicativo`. No lo guardes en un papel: va ahí.
+> 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `🔗 Enlaces`. No lo guardes en un papel: va ahí.
 
 > [!danger] ⚠️ La bóveda de casa TAMPOCO va en OneDrive
 > Igual que en el centro: la bóveda va **dentro de tu carpeta de usuario** (en `Documentos`, o directamente en tu carpeta personal), **fuera de OneDrive**. En casa haz la **misma comprobación** que hiciste en la Fase 0.1: si tu `Documentos` tiene el icono de **nube ☁️**, está sincronizado con OneDrive y no vale. Git y OneDrive se pelean. Tu "nube" es **GitHub**.
