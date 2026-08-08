@@ -116,7 +116,7 @@
 > cd B2_Ubuntu_Local
 > ls
 > ```
-> Debes ver los ficheros de la práctica (`Manual_BoochanV1.md`, `Fases/`…).
+> Debes ver los ficheros de la práctica (`Manual_Bloque_2.md`, `Fases/`…).
 > > [!danger] ⚠️ Comprueba con `pwd` que clonas dentro de `.../Boveda_SOR/01_Practicas`.
 
 > [!example] Paso 5: Ábrela en Obsidian y haz un cambio

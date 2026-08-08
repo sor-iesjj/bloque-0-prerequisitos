@@ -278,6 +278,6 @@
 - [ ] Todas mis entradas (0.1, 0.2.1, 0.2.2, 0.3) tienen **su enlace de vídeo** y **sus respuestas**.
 - [ ] Grabada **🏫 en el centro**.
 
-> **Siguiente paso:** Fase 0.3b — **Qué NO se sube**: el `.gitignore`. Antes de meter nada más en el repo, hay que decidir qué debe quedarse fuera.
+> **Siguiente paso:** Fase 0.3.b — **Qué NO se sube**: el `.gitignore`. Antes de meter nada más en el repo, hay que decidir qué debe quedarse fuera.
 
 > *(Y después, Fase 0.4 — Bajar el material del curso: tus copias del Bloque 1 y de Boochan.)*
