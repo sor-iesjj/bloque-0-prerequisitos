@@ -14,7 +14,7 @@
 > [!danger] 🔖 ESTA ES LA PÁGINA QUE MÁS VAS A ABRIR. MÁRCALA
 > No es teoría de un día: es **el manual de referencia de tus apuntes**. Aquí está el nombre que le pones a cada fichero y la plantilla que va dentro.
 >
-> Cuando en cualquier práctica del curso —prerrequisitos, curso de Git, curso de Shell, Boochan— leas *"crea tu entrada de apuntes con la estructura de la Fase 0.1"*, **se refiere a esta página**.
+> Cuando en cualquier práctica del curso —prerrequisitos, curso de Git, curso de Shell, Boochan— leas *"crea tu entrada de apuntes con la estructura del **Bloque 0 · Fase 0.1.b**"*, **se refiere a esta página**.
 >
 > En Obsidian: clic derecho sobre esta nota → **`Add to bookmarks`**. Treinta segundos que te ahorran buscarla cincuenta veces.
 
