@@ -109,7 +109,7 @@
 > [!example] Paso 6: Cierra el vídeo, nómbralo y súbelo
 > Detén la grabación, nómbralo `B0.2.2 · Autenticación SSH`, súbelo a la playlist `B0_Prerrequisitos` (No listado) y añade **timestamps**:
 > ```
-> 00:00 Presentación
+> 00:00 Paso 1 - Presentacion
 > 00:20 Paso 2 — Generar la clave SSH
 > 01:30 Paso 3 — Añadir la clave pública a GitHub
 > 02:40 Paso 4 — Verificar la conexión

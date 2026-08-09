@@ -150,7 +150,7 @@
 > 3. **Súbelo** a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 4. **Timestamps** en la descripción, por ejemplo:
 >    ```
->    00:00 Presentación
+>    00:00 Paso 1 - Presentacion
 >    00:25 Paso 2 — Crear la cuenta de GitHub
 >    02:40 Paso 3 — Configurar Git (nombre y correo)
 >    03:30 Paso 4 — Repaso final

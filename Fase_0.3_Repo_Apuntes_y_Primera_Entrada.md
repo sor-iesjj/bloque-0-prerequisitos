@@ -213,6 +213,8 @@
 > > Y hay algo más importante que la estética: cada commit es un **punto de restauración**. Si mañana rompes la entrada de la 0.2.2, puedes volver a como estaba **esa sola**, sin tocar las demás. Con un commit gordo, o vuelves entero o no vuelves. Lo vas a comprobar tú mismo en la **Fase 0.7.1**, rompiendo tus apuntes a propósito.
 > >
 > > **Regla para todo el curso: un commit = un cambio con sentido propio.** Ni un commit por cada letra, ni uno cada tres semanas con todo dentro.
+
+> [!success] ✅ Comprueba el resultado del Paso 5
 > Recarga GitHub: debe verse `B0_Prerrequisitos/` con **tus cuatro entradas** dentro — las de las fases 0.1, 0.2.1, 0.2.2 y 0.3.
 >
 > **Sí, cuatro.** Las tres primeras las escribiste en su día pero **nunca habían salido de tu ordenador**: hasta hoy no tenías repositorio. Este `push` es el que se las lleva a GitHub por primera vez.

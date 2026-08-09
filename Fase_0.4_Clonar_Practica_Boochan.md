@@ -192,7 +192,7 @@
 > > En segundos lo tienes todo otra vez: el manual, las fases **y tu historial completo** (`git log --oneline` lo demuestra).
 > >
 > > > [!important] 🔍 Fíjate en un detalle que lo explica todo
-> > > **`MIS_DATOS.md` también ha vuelto.** ¿Por qué? Porque en el Paso 5 hiciste `push`. Estaba en GitHub.
+> > > **`MIS_DATOS.md` también ha vuelto.** ¿Por qué? Porque en el Paso 6 hiciste `push`. Estaba en GitHub.
 > > > Si lo hubieras creado y **no** lo hubieras empujado, ahora no estaría. Se habría perdido para siempre, junto con la carpeta.
 > > > **Esa es toda la lección:** lo que está en GitHub sobrevive; lo que solo está en tu ordenador, no. Por eso `push` al terminar cada sesión.
 >
