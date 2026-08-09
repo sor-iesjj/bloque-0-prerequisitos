@@ -60,7 +60,7 @@
 > Esto ya lo viste en la **Fase 0.1** y hoy lo repites, porque hoy toca **la entrada de HOY**. Por si no lo tienes a mano:
 >
 > - **Nombre:** `material-CODIGO-titulo-corto.md`, en minúsculas y con guiones. Sin fecha: el código ya ordena. Ejemplo: `b0-0.3-repo-de-apuntes.md`
-> - **Estructura:** la cabecera con tus datos y los seis apartados: *🎯 Qué se pedía*, *⌨️ Comandos y pasos importantes*, *🛠️ Qué he hecho*, *🚩 Qué me ha fallado*, *🤔 Respuestas a las preguntas*, *🔗 Enlaces*.
+> - **Estructura:** la cabecera con tus datos y los **siete** apartados: *🎯 Qué se pedía*, *⌨️ Comandos y pasos importantes*, *🛠️ Qué he hecho*, *🚩 Qué me ha fallado*, *🤔 Respuestas a las preguntas*, *🔗 Enlaces* y *💭 Dudas / a repasar*.
 >
 > **La plantilla completa, para copiar y pegar, está en la [[Fase_0.1_Metodologia_y_Estructura|Fase 0.1]].** No la repito aquí a propósito: **una sola fuente**, para que no acaben dos versiones distintas dando vueltas.
 >
