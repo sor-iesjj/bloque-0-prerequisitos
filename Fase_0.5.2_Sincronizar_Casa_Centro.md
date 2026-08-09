@@ -84,11 +84,15 @@
 >    pwd          # .../Boveda_SOR/00_Apuntes/Trimestre_1
 >    git pull
 >    ```
-> 2. En Obsidian, crea una entrada de prueba (formato de la Fase 0.3).
+> 2. En Obsidian, abre **la entrada de esta fase** —`b0-0.5.2-sincronizar-casa-centro.md`, la que creaste en el Paso 0— y escribe algo de verdad en ella.
+>
+>    > [!tip] 💡 No crees una entrada "de prueba"
+>    > Se quedaría en tu repositorio para siempre, y **rompe la regla del bloque**: una fase, una entrada. Usa la que ya te toca escribir hoy — así el ejercicio y la entrega son lo mismo.
+>
 > 3. **Al terminar**, sube:
 >    ```bash
 >    git add .
->    git commit -m "Apuntes desde casa (prueba)"
+>    git commit -m "Fase 0.5.2: apuntes escritos desde casa"
 >    git push
 >    ```
 > 4. Compruébalo en GitHub.

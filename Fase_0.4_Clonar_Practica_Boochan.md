@@ -1,4 +1,4 @@
-	## 📦 Fase 0.4: Bajar el Material del Curso y el Ciclo de Trabajo con Git
+## 📦 Fase 0.4: Bajar el Material del Curso y el Ciclo de Trabajo con Git
 
 ### Dos repositorios, dos relaciones distintas — y qué pasa cuando los borras
 
@@ -6,7 +6,7 @@
 > **[Bloque de Prerrequisitos · Fase 0 — Puesta a punto del entorno de trabajo]**
 > **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)
 >
-> **⏱️ Tiempo estimado:** ~1,5 horas · **Requisitos:** Fases 0.1, 0.2.1 y 0.2.2 completas.
+> **⏱️ Tiempo estimado:** ~1,5 horas · **Requisitos:** Fases 0.1 a 0.3 completas.
 
 
 > [!abstract] 📋 Qué se te evalúa en esta fase
@@ -27,7 +27,11 @@
 > 3. **Graba TODO**, explicando cada paso en voz alta.
 > 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `B0.4 · Bajar el material del curso` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
-> 6. **~9-10 min** (esta fase lleva **tres retos** al final). Se graba en **🏫 el centro**.
+> 6. **~9-10 min**, y por eso **esta fase se entrega en DOS vídeos**:
+>    - `B0.4 · Bajar el material del curso (1 de 2)` — los pasos 1 a 6, el ciclo normal
+>    - `B0.4 · Bajar el material del curso (2 de 2)` — los **tres retos** de borrado y recuperación
+>
+>    Los dos van a la playlist `B0_Prerrequisitos` y **los dos enlaces, a la misma entrada de apuntes**: una fase, una entrada. Se graba en **🏫 el centro**.
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
 > 8. **El enlace del vídeo va DENTRO de tu entrada de apuntes**, en el apartado `🔗 Enlaces`. No lo guardes en un papel: va ahí.
 
@@ -138,7 +142,7 @@
 > git commit -m "Anadir mis datos de alumno"
 > git push
 > ```
-> Recarga tu repo `B2_Ubuntu_Local` en GitHub: debe aparecer `MIS_DATOS.md`.
+> Recarga tu repo `bloque-2-ubuntu-local` en GitHub: debe aparecer `MIS_DATOS.md`.
 
 > [!example] 🔬 Paso 7 — RETO 1: bórralo y recupéralo (sin Internet)
 > Ahora que tienes tu copia y ya sabes hacer `commit`, vamos a romperla a propósito. **Sigue grabando.**
@@ -193,7 +197,7 @@
 > > > **Esa es toda la lección:** lo que está en GitHub sobrevive; lo que solo está en tu ordenador, no. Por eso `push` al terminar cada sesión.
 >
 > > [!note] 📌 Esto lo volveremos a ver, y con calma
-> > Los dos retos de hoy son un aperitivo, hechos deprisa sobre una práctica que acabas de clonar. En la **Fase 0.7** los repetiremos **sobre todo tu trabajo del curso** —apuntes incluidos—, con la teoría detrás y las comprobaciones de seguridad que hoy nos hemos saltado porque aquí no arriesgabas nada.
+> > Los retos de hoy son un aperitivo, hechos deprisa sobre una práctica que acabas de clonar. En la **Fase 0.7** los repetiremos **sobre todo tu trabajo del curso** —apuntes incluidos—, con la teoría detrás y las comprobaciones de seguridad que hoy nos hemos saltado porque aquí no arriesgabas nada.
 
 > [!example] 🔬 Paso 9 — RETO 3: ¿y si lo que borro son MIS anotaciones?
 > Los dos retos anteriores han ido bien porque recuperaste **material que yo había escrito**. Ahora vamos a por lo que has escrito **tú**, que es lo que de verdad no se puede rehacer.
@@ -222,7 +226,14 @@
 > > Escríbelo en tu entrada de hoy con tus palabras. Es la respuesta que más peso tiene de esta fase.
 
 > [!example] Paso 10: Cierra el vídeo, nómbralo y súbelo
-> Detén la grabación, nombra el vídeo `B0.4 · Bajar el material del curso`, súbelo a la playlist `B0_Prerrequisitos` (No listado) y añade **timestamps**. Los dos retos llevan el suyo, que es lo que voy a mirar primero:
+> Detén la grabación y **parte el vídeo en dos**, como dice la caja de grabación del principio:
+>
+> | Vídeo | Qué lleva |
+> | :--- | :--- |
+> | `B0.4 · Bajar el material del curso (1 de 2)` | Pasos 1 a 6 — el ciclo normal |
+> | `B0.4 · Bajar el material del curso (2 de 2)` | Los **tres retos** de borrado y recuperación |
+>
+> Los dos a la playlist `B0_Prerrequisitos` (No listado), con **timestamps**. **Los tres retos llevan el suyo**, que es lo que voy a mirar primero:
 > ```
 > 00:00 Presentacion
 > 01:00 Paso 2 - Clonar el material del Bloque 1

@@ -62,7 +62,7 @@
 > - **Nombre:** `material-CODIGO-titulo-corto.md`, en minúsculas y con guiones. Sin fecha: el código ya ordena. Ejemplo: `b0-0.3-repo-de-apuntes.md`
 > - **Estructura:** la cabecera con tus datos y los **siete** apartados: *🎯 Qué se pedía*, *⌨️ Comandos y pasos importantes*, *🛠️ Qué he hecho*, *🚩 Qué me ha fallado*, *🤔 Respuestas a las preguntas*, *🔗 Enlaces* y *💭 Dudas / a repasar*.
 >
-> **La plantilla completa, para copiar y pegar, está en la [[Fase_0.1_Metodologia_y_Estructura|Fase 0.1]].** No la repito aquí a propósito: **una sola fuente**, para que no acaben dos versiones distintas dando vueltas.
+> **La plantilla completa, para copiar y pegar, está en la [[Fase_0.1.b_El_Sistema_de_Apuntes|Bloque 0 · Fase 0.1.b]].** No la repito aquí a propósito: **una sola fuente**, para que no acaben dos versiones distintas dando vueltas.
 >
 > > [!tip] 💡 Hoy SÍ hay comandos que anotar
 > > En la 0.1 el apartado de comandos lo dejaste vacío. Hoy no: `git init`, `git add`, `git commit`, `git push`. Anótalos **con lo que hace cada uno**, que es justo lo que se te va a olvidar en dos semanas.
@@ -213,7 +213,9 @@
 > > Y hay algo más importante que la estética: cada commit es un **punto de restauración**. Si mañana rompes la entrada de la 0.2.2, puedes volver a como estaba **esa sola**, sin tocar las demás. Con un commit gordo, o vuelves entero o no vuelves. Lo vas a comprobar tú mismo en la **Fase 0.7.1**, rompiendo tus apuntes a propósito.
 > >
 > > **Regla para todo el curso: un commit = un cambio con sentido propio.** Ni un commit por cada letra, ni uno cada tres semanas con todo dentro.
-> Recarga GitHub: debe verse `B0_Prerrequisitos/` con **tus dos entradas** dentro.
+> Recarga GitHub: debe verse `B0_Prerrequisitos/` con **tus cuatro entradas** dentro — las de las fases 0.1, 0.2.1, 0.2.2 y 0.3.
+>
+> **Sí, cuatro.** Las tres primeras las escribiste en su día pero **nunca habían salido de tu ordenador**: hasta hoy no tenías repositorio. Este `push` es el que se las lleva a GitHub por primera vez.
 
 > [!example] Paso 6: Cierra el vídeo, complétalo todo y entrega
 > 1. **Detén la grabación**, nombra el vídeo `B0.3 · Repo de apuntes y primera entrada`, súbelo a la playlist `B0_Prerrequisitos` y **copia su enlace**.
@@ -262,7 +264,7 @@
 
 > [!help] Preguntas Críticas
 > 1. ¿Por qué un repositorio por trimestre?
-> 2. Escribe el nombre de una entrada del 3 de octubre de 2026 titulada "servidor DNS".
+> 2. Un día damos **teoría suelta**, que no pertenece a ninguna fase. ¿Cómo se llamaría esa entrada, y **por qué esa sí lleva la fecha** cuando las de fase no la llevan? *(La convención está en el **Bloque 0 · Fase 0.1.b**.)*
 > 3. ¿En qué carpeta EXACTA se hace `git init`?
 
 ---

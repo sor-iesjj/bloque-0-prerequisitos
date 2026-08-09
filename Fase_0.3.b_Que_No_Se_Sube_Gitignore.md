@@ -25,7 +25,7 @@
 > 1. **Prepárate primero (sin grabar):** comprueba lo necesario, **léete el procedimiento entero** y **crea la entrada de apuntes de esta fase** en Obsidian: fichero `b0-0.3.b-gitignore.md` con la estructura del **Bloque 0 · Fase 0.1.b**, **vacía**. Rellenarla es cosa tuya, después.
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.3.b — Qué no se sube: el `.gitignore`."* Y **muestra tu perfil de GitHub**. Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
-> 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
+> 4. **Timestamps SIEMPRE:** `00:00 Paso 1 — Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `B0.3.b · Qué no se sube, el gitignore` y súbelo a tu playlist **`B0_Prerrequisitos`** (No listado).
 > 6. **~5 min.** Se graba en **🏫 el centro**.
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación.
@@ -54,7 +54,19 @@
 > git commit -m "Apuntes de hoy"
 > git push
 > ```
-> Y ese `git add .` acaba de meter **un fichero de 800 MB** en tu repositorio. El `push` tarda veinte minutos, GitHub te avisa de que has superado el límite… **y lo peor es que ya no se puede quitar del todo.** Aunque lo borres mañana, se queda en el historial para siempre.
+> Y ese `git add .` acaba de meter **un fichero de 800 MB** en tu repositorio. Lo que pasa a partir de ahí depende del tamaño, y conviene que sepas distinguirlo:
+>
+> | El fichero pesa | Qué hace GitHub | Cómo te enteras |
+> | :--- | :--- | :--- |
+> | **Más de 100 MB** *(tu vídeo)* | **Rechaza el `push` entero.** Es un límite duro, no un aviso | `remote: error: File … is 800.00 MB; this exceeds GitHub's file size limit of 100.00 MB` |
+> | **Menos de 100 MB** *(80 MB, por ejemplo)* | **Lo acepta sin decir nada** | No te enteras. Hasta que el repo pesa un giga |
+>
+> **Y en los dos casos el commit ya está hecho en tu ordenador.** Ahí está la trampa:
+>
+> - Si te lo **rechazó**: el fichero se queda en tu historial local y **te bloquea todos los `push` siguientes**. Puedes borrarlo y hacer commit del borrado — da igual, el `push` seguirá fallando, porque Git intenta subir *también* el commit en el que lo añadiste.
+> - Si te lo **aceptó**: peor todavía. Está en el historial **para siempre**, y todo el que clone tu repositorio se lo descarga.
+>
+> En ambos casos, sacarlo de verdad exige **reescribir el historial**, que es una operación fea y peligrosa.
 >
 > Eso le pasa a todo el mundo una vez. Vamos a evitar que te pase a ti.
 
@@ -88,7 +100,7 @@
 > [!danger] 3. El fallo nº1: llegar tarde
 > `.gitignore` **solo funciona con lo que Git todavía no controla**. Si ya hiciste `commit` de un fichero, añadirlo al `.gitignore` **no lo saca**: Git ya lo tiene fichado y lo sigue vigilando.
 >
-> Y aunque lo borres y hagas commit del borrado, **el fichero sigue en el historial**: quien clone tu repo se descargará esos 800 MB igualmente, porque `git clone` trae **toda la historia**.
+> Y aunque lo borres y hagas commit del borrado, **el fichero sigue en el historial**: si llegó a subirse, quien clone tu repo se lo descargará igualmente, porque `git clone` trae **toda la historia**.
 >
 > Sacarlo de verdad exige reescribir el historial entero, que es una operación fea y peligrosa. **Por eso el `.gitignore` se escribe al principio, no cuando ya ha pasado.**
 
@@ -132,6 +144,14 @@
 > ```
 > *(En Windows con Git Bash, `nano` funciona igual. Para guardar: `Ctrl+O`, `Enter`, y `Ctrl+X` para salir.)*
 >
+> > [!tip] 💡 Si tu terminal te dice `nano: command not found`
+> > Pasa en algunas instalaciones de Git para Windows. Tienes dos salidas, las dos válidas:
+> > ```bash
+> > notepad .gitignore     # Windows: abre el Bloc de notas
+> > touch .gitignore       # crea el fichero vacío y lo editas donde quieras
+> > ```
+> > **Lo que importa es el contenido del fichero, no con qué lo escribas.**
+>
 > Escribe esto dentro:
 > ```gitignore
 > # Vídeos y audio — nunca al repositorio
@@ -142,8 +162,11 @@
 > *.wav
 >
 > # Nada que contenga claves o contraseñas
-> claves.txt
+> *clave*
+> *password*
 > *.key
+> *.pem
+> id_*
 > .env
 >
 > # Basura del sistema operativo

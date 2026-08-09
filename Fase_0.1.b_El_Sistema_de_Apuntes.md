@@ -145,7 +145,7 @@ Cópiala tal cual y rellénala:
 > [!danger] 🛑 🔗 El enlace — el del VÍDEO, no el de la playlist
 > Son cosas distintas y aquí va **el del vídeo**. En YouTube: abre **ese vídeo**, `Compartir` → `Copiar enlace`. Te saldrá algo como `https://youtu.be/aB3dE5f...`.
 >
-> Si pegas el de la playlist (lleva `list=` dentro), me estás mandando a una lista de ocho vídeos para que adivine cuál es el de esta fase. **Eso no lo voy a hacer.**
+> Si pegas el de la playlist (lleva `list=` dentro), me estás mandando a una lista con todos los vídeos del bloque para que adivine cuál es el de esta fase. **Eso no lo voy a hacer.**
 
 > [!tip] 💭 Y las dudas no son de relleno
 > El apartado **"Dudas"** es lo que me dice **en qué tengo que insistir**. Si lo dejas vacío siempre, o no te estás enterando de nada, o no te estás enterando de que no te enteras.

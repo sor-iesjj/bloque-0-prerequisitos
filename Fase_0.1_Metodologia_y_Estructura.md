@@ -22,7 +22,7 @@
 > | :--- | :--- | :--- | :--- |
 > | 📗 | **[[Fase_0.1.a_Obsidian_y_la_Boveda\|a · Obsidian y la bóveda]]** | Qué es una bóveda · apuntes vs. prácticas · por qué las carpetas se llaman como los bloques · **diccionario** | Antes de tocar el ordenador |
 > | 📘 | **[[Fase_0.1.b_El_Sistema_de_Apuntes\|b · El sistema de apuntes]]** | La regla de oro · **el nombre del fichero** · **la plantilla** · por qué se graba todo | Hoy, y **todo el curso** |
-> | 📙 | **[[Fase_0.1.c_Procedimiento\|c · Procedimiento]]** | Montar el canal · los **6 pasos grabados** · problemas frecuentes | Con OBS delante |
+> | 📙 | **[[Fase_0.1.c_Procedimiento\|c · Procedimiento]]** | **Paso previo** (montar el canal) + los **6 pasos grabados** · problemas frecuentes | Con OBS delante |
 
 > [!danger] 🔖 La parte `b` no es de un día: es tu manual de referencia
 > Cuando en **cualquier** práctica del curso leas *"crea tu entrada de apuntes con la estructura del **Bloque 0 · Fase 0.1.b**"*, se refiere a **[[Fase_0.1.b_El_Sistema_de_Apuntes|la parte b]]**.

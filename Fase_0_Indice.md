@@ -35,6 +35,15 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > **Programas** *(los instala **Consellería** en el centro, porque no tienes permisos; en **casa** los instalas tú en la Fase 0.5.1)*
 > - **Obsidian** · **Git** · **OBS Studio**
 >
+> [!info] 🎬 Este bloque tiene **tres** playlists, no una
+> | Playlist | Para qué |
+> | :--- | :--- |
+> | **`B0_Prerrequisitos`** | Las fases 0.1 a 0.7 — la creas en la Fase 0.1 |
+> | **`B0_Curso_Git`** | El curso de Git, cuando lo empecemos |
+> | **`B0_Curso_Shell`** | El curso de Shell, cuando lo empecemos |
+>
+> **Cada una se llama como su material**, igual que las carpetas de apuntes. Las dos últimas las crearás cuando toque; hoy solo la primera.
+
 > **Cuentas** *(las creas tú)*
 > - **Cuenta de Gmail/YouTube**, para subir los vídeos — en el **Paso previo de la Fase 0.1**, con un nombre parecido a tu correo `@alu.edu.gva.es`.
 > - **Cuenta de GitHub** — en la **Fase 0.2.1**.

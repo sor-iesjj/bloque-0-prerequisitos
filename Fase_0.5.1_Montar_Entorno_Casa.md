@@ -105,8 +105,6 @@
 >    git clone git@github.com:TU-USUARIO/bloque-1-entorno.git B1_Entorno
 >    ```
 >    Sí, **dos**: tus dos copias, la de Boochan y la del Bloque 1. Las dos son **tuyas** y las dos van por SSH — el `Use this template` lo hiciste en el centro, en la Fase 0.4, así que aquí solo hay que clonar.
->    ```bash
->    ```
 > 4. Abre Obsidian → **`Open folder as vault`** → tu `Boveda_SOR`.
 >
 > > [!note] 📌 El truco del nombre: al escribir `... .git Trimestre_1` al final, la carpeta se llama `Trimestre_1` (no `apuntes-sor-t1`), idéntica a la del centro.

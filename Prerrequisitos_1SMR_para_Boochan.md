@@ -11,7 +11,7 @@ tags: [SOR, Boochan, prerrequisitos, diagnostico, SMR]
 # Prerrequisitos de 1º SMR para el itinerario Boochan
 
 > [!info] Qué es este documento
-> Estudio del **conocimiento previo** que un alumno debe traer de **1º SMR** para poder enfrentarse a las prácticas Boochan de 2º (SOR) sin naufragar. Aplica por igual a las 6 versiones de la matriz (V1 · V1.1 · V2 · V2.1 · V3 · V3.1), porque todas enseñan los mismos conceptos y asumen el mismo sustrato.
+> Estudio del **conocimiento previo** que un alumno debe traer de **1º SMR** para poder enfrentarse a las prácticas Boochan de 2º (SOR) sin naufragar. Aplica por igual a **todos los bloques del proyecto** —el servidor en local y el servidor en la nube—, porque todos enseñan los mismos conceptos y asumen el mismo sustrato.
 
 ---
 
@@ -52,7 +52,7 @@ Ese sustrato es el **conocimiento previo**, y se ha derivado leyendo lo que las 
 | `ping` / ICMP para diagnosticar conectividad | Verificación de casi todas las fases | **Dominar** |
 | Modelo cliente-servidor | Concepto vertebrador de todo el proyecto | Dominar |
 | Puertos TCP/UDP (qué es un puerto, protocolo ↔ puerto) | Fases cloud: Security Groups abren 3389 RDP, 53 DNS, 445 SMB, 88 Kerberos, 389 LDAP, 51820 WireGuard | Reconocer |
-| Subredes distintas y por qué no se solapan | V3/V3.1 (VPC `172.31.x` ≠ túnel `10.0.0.x`) | Reconocer |
+| Subredes distintas y por qué no se solapan | Bloques en la nube (la red del proveedor ≠ la del túnel VPN) | Reconocer |
 
 ### De Sistemas Operativos Monopuesto
 
@@ -123,4 +123,4 @@ Cada RA del módulo presupone competencias de 1º:
 
 ---
 
-*Relacionado: los manuales `Manual_BoochanV*.md` y las `Fases/Fase_1.md` de cada versión. Este documento es transversal a las 6 versiones; no vive dentro de ninguna carpeta `BoochanV*` para no propagarse a los repos públicos `sor-iesjj`.*
+*Este documento es transversal: lo que pide vale para cualquier bloque del proyecto, montes el servidor en tu ordenador o en la nube.*

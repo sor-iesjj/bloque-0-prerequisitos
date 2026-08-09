@@ -25,7 +25,7 @@
 > 1. **Prepárate primero (sin grabar):** comprueba lo necesario, **léete el procedimiento entero** y **crea la entrada de apuntes de esta fase** en Obsidian: fichero `b0-0.2.1-cuenta-github-y-git.md` con la estructura del **Bloque 0 · Fase 0.1.b**, **vacía**. Rellenarla es cosa tuya, después; hoy solo tiene que existir.
 > 2. **Arranca OBS y PRESÉNTATE:** *"Hola, me llamo [Nombre], 2.º SMR, en este vídeo voy a explicar la Fase 0.2.1 — Cuenta de GitHub y configuración de Git."* Y **muestra algo que demuestre que eres tú**: tu **Teams** o tu **correo `@alu.edu.gva.es`** (aún no tienes GitHub, lo creas ahora). Di qué vas a hacer.
 > 3. **Graba TODO**, explicando cada paso en voz alta.
-> 4. **Timestamps SIEMPRE:** `00:00 Presentación` + uno por paso.
+> 4. **Timestamps SIEMPRE:** `00:00 Paso 1 — Presentación` + uno por paso.
 > 5. **Al terminar:** nombra el vídeo `B0.2.1 · Cuenta de GitHub y Git` y súbelo a tu playlist **`B0_Prerrequisitos`** como "No listado".
 > 6. **~5 min.** Se graba en **🏫 el centro** (crear la cuenta es de una sola vez; el equipo de casa se monta en la Fase 0.5.1).
 > 7. **La entrega va por la TAREA de Teams.** Cuando toque, abriré una tarea que cubrirá **esta fase y otras**; te llegará notificación. Tú, hoy: graba, sube el vídeo a la playlist y **pega su enlace en tu entrada de apuntes**.
