@@ -1,3 +1,4 @@
+
 ## 🧭 Fase 0.1: Metodología de Trabajo y Estructura de la Bóveda
 
 ### Cómo vamos a trabajar todo el curso (y por qué así) — **ÍNDICE · 3 partes**
