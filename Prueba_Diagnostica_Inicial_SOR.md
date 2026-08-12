@@ -8,7 +8,6 @@ fecha: 2026-07-21
 duracion: 15-20 min
 tags: [SOR, Boochan, diagnostico, prerrequisitos]
 ---
-i
 # Prueba diagnóstica inicial — SOR
 
 > [!info] Para qué sirve
