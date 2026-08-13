@@ -6,7 +6,7 @@
 > **[Bloque de Prerrequisitos · Fase 0.5 — parte 1 de 2]**
 > **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)
 >
-> **⏱️ Tiempo estimado:** ~1,5 horas (en casa) · **Requisitos:** Fases 0.1 a 0.4 completas (con tus repos ya en GitHub). En casa: un ordenador donde **sí** tengas permisos de administrador.
+> **⏱️ Tiempo estimado:** ~1,5 horas (en casa) · **Requisitos:** Fases 0.1 a 0.4.b completas (con tu repositorio de apuntes ya en GitHub). En casa: un ordenador donde **sí** tengas permisos de administrador.
 
 
 > [!abstract] 📋 Qué se te evalúa en esta fase
@@ -38,7 +38,7 @@
 ---
 
 > [!info] 📌 Qué es realmente esta fase
-> Es **la versión de casa de las Fases 0.1 a 0.4, todas juntas**: en el centro montaste el equipo del cole poco a poco; aquí dejas **tu ordenador de casa** en el mismo estado, de una sola vez (instalar → clave SSH → clonar tus repos). Lo que se hizo "una sola vez" (crear la cuenta de GitHub, crear los repos) **no** se repite: ya está hecho.
+> Es **la versión de casa de las Fases 0.1 a 0.4.b, todas juntas**: en el centro montaste el equipo del cole poco a poco; aquí dejas **tu ordenador de casa** en el mismo estado, de una sola vez (instalar → clave SSH → clonar tus repos). Lo que se hizo "una sola vez" (crear la cuenta de GitHub, crear los repos) **no** se repite: ya está hecho.
 
 ---
 
@@ -98,13 +98,22 @@
 >    pwd          # comprueba que estás donde crees
 >    git clone git@github.com:TU-USUARIO/apuntes-sor-t1.git Trimestre_1
 >    ```
-> 3. Clona la práctica **dentro de `01_Practicas/`**:
+> 3. Clona el material **dentro de `01_Practicas/`**. Son **tres**, los mismos que bajaste en el centro en la **Bloque 0 · Fase 0.4.a**:
 >    ```bash
 >    cd RUTA_SOR/Boveda_SOR/01_Practicas
 >    git clone git@github.com:TU-USUARIO/bloque-2-ubuntu-local.git B2_Ubuntu_Local
->    git clone git@github.com:TU-USUARIO/bloque-1-entorno.git B1_Entorno
+>    git clone git@github.com:sor-iesjj/bloque-0-prerequisitos.git B0_Prerrequisitos
+>    git clone git@github.com:sor-iesjj/bloque-1-entorno.git B1_Entorno
 >    ```
->    Sí, **dos**: tus dos copias, la de Boochan y la del Bloque 1. Las dos son **tuyas** y las dos van por SSH — el `Use this template` lo hiciste en el centro, en la Fase 0.4, así que aquí solo hay que clonar.
+>    > [!warning] ⚠️ Mira bien de quién es cada dirección: **no son todas iguales**
+>    > | Repositorio | El dueño es | Por qué |
+>    > | :--- | :--- | :--- |
+>    > | `bloque-2-ubuntu-local` | **`TU-USUARIO`** | Es **tu copia**: el `Use this template` lo hiciste en el centro, y ahí dentro está tu trabajo |
+>    > | `bloque-0-prerequisitos` · `bloque-1-entorno` | **`sor-iesjj`** | Material **mío**, que solo lees. No hay copia tuya que clonar |
+>    >
+>    > Si te equivocas y pones tu usuario en los dos últimos, Git te dirá `Repository not found`. Y si pones `sor-iesjj` en el primero, te bajarás **mi** Boochan sin tu trabajo dentro.
+>
+>    Aquí van los tres por SSH, que es la vía por defecto. Los dos míos también los puedes clonar por HTTPS, como en la 0.4.a: son públicos.
 > 4. Abre Obsidian → **`Open folder as vault`** → tu `Boveda_SOR`.
 >
 > > [!note] 📌 El truco del nombre: al escribir `... .git Trimestre_1` al final, la carpeta se llama `Trimestre_1` (no `apuntes-sor-t1`), idéntica a la del centro.
@@ -134,7 +143,7 @@
 
 - [ ] Obsidian, Git y OBS instalados en casa.
 - [ ] Clave SSH de casa creada y añadida a GitHub (`Equipo Casa`).
-- [ ] Estructura `Boveda_SOR` recreada (local, fuera de OneDrive) con los repos clonados en su sitio.
+- [ ] Estructura `Boveda_SOR` recreada (local, fuera de OneDrive) con los **cuatro** repositorios clonados en su sitio: `Trimestre_1`, `B0_Prerrequisitos`, `B1_Entorno` y `B2_Ubuntu_Local`.
 - [ ] Vídeo `B0.5.1 · Montar el entorno en casa` subido a la playlist, con timestamps.
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase.
 - [ ] Grabada **🏠 en casa**.

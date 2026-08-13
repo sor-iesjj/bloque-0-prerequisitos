@@ -284,4 +284,4 @@
 
 > **Siguiente paso:** Fase 0.3.b — **Qué NO se sube**: el `.gitignore`. Antes de meter nada más en el repo, hay que decidir qué debe quedarse fuera.
 
-> *(Y después, Fase 0.4 — Bajar el material del curso: tus copias del Bloque 1 y de Boochan.)*
+> *(Y después, Fase 0.4.a — Bajar el material del curso: los tres repositorios del trimestre, cada uno por una vía distinta.)*

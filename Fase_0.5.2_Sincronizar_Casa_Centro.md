@@ -61,10 +61,12 @@
 > Si **siempre** haces `pull` al empezar y `push` al terminar, tus dos equipos nunca se desincronizan.
 >
 > > [!warning] ⚠️ Ojo: el ciclo es POR CARPETA, no por día
-> > Aquí lo practicamos sobre `Trimestre_1`, pero **no es "el ciclo de los apuntes"**: es el ciclo **de cada repositorio**. Y tú tienes tres:
-> > `00_Apuntes/Trimestre_1/` · `01_Practicas/B1_Entorno/` · `01_Practicas/B2_Ubuntu_Local/`
+> > Aquí lo practicamos sobre `Trimestre_1`, pero **no es "el ciclo de los apuntes"**: es el ciclo **de cada repositorio**. Y tú tienes cuatro:
+> > `00_Apuntes/Trimestre_1/` · `01_Practicas/B0_Prerrequisitos/` · `01_Practicas/B1_Entorno/` · `01_Practicas/B2_Ubuntu_Local/`
 > >
 > > Git **no sabe nada de tus otras carpetas**. Un `pull` en los apuntes no baja nada del Bloque 1. Si hoy vas a tocar dos, haces el ciclo **dos veces**, una en cada una.
+> >
+> > **Y de los cuatro, solo en dos empujas tú:** `Trimestre_1` y `B2_Ubuntu_Local`. `B0_Prerrequisitos` y `B1_Entorno` son material mío — ahí el ciclo se queda en `pull`, porque no tienes nada que subir. Lo comprobaste en la **Bloque 0 · Fase 0.4.b**, cuando el `push` te salió rechazado.
 
 > [!warning] Si olvidas el `pull`
 > Puede aparecer un **conflicto** (Git no sabe qué versión vale). Por eso: **primero `pull`, siempre.** Si ves la palabra `CONFLICT`, para y pregúntame.

@@ -227,7 +227,7 @@
 > 3. Subes por error un fichero con una contraseña, te das cuenta al día siguiente y lo borras. **¿Está resuelto el problema? Explica por qué.**
 > 4. Da **tres** ejemplos de ficheros que nunca subirías, cada uno por un motivo distinto.
 > 5. ¿Qué diferencia hay entre un fichero **untracked** y uno **ignorado**?
-> 6. 🔬 **Reto:** en tu repo `bloque-2-ubuntu-local` de la Fase 0.4, ¿qué pondrías en su `.gitignore`? Piensa qué generarás ahí durante el proyecto.
+> 6. 🔬 **Reto:** en tu repo `bloque-2-ubuntu-local` de la **Fase 0.4.a**, ¿qué pondrías en su `.gitignore`? Piensa qué generarás ahí durante el proyecto.
 
 ---
 
@@ -247,4 +247,4 @@
 > Que **un repositorio no es una copia de seguridad de tu carpeta**. Es el sitio donde vive lo que has escrito tú y merece conservarse, y eso implica **decidir qué queda fuera**.
 > La regla de las claves vale para siempre y no admite matices: **lo que sube a un repositorio, sube para quedarse.** Por eso se piensa antes, no después.
 
-> **Siguiente paso:** Fase 0.4 — Bajar el material del curso: tus copias del Bloque 1 y de Boochan, y tres retos de recuperación.
+> **Siguiente paso:** Fase 0.4.a — Bajar el material del curso: los tres repositorios del trimestre, cada uno por una vía distinta.

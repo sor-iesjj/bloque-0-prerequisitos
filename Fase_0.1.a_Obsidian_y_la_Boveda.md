@@ -70,7 +70,7 @@ Dentro de la bóveda tendremos **dos zonas separadas a propósito**:
 > [!success] 🎯 Un bloque, UN nombre
 > Fíjate en un detalle que **te va a ahorrar líos**: tu carpeta de apuntes del Bloque 0 se llama `B0_Prerrequisitos`… y tu **playlist de YouTube** de este bloque se llama **exactamente igual**.
 >
-> Y cuando en la **Fase 0.4** te descargues el material de una práctica, esa carpeta **también** se llamará como el bloque.
+> Y cuando en la **Fase 0.4.a** te descargues el material del curso, esas carpetas **también** se llamarán como su bloque.
 >
 > | Dónde | Cómo se llama |
 > | :--- | :--- |

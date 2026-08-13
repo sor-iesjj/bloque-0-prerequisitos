@@ -14,7 +14,7 @@
 > | `CE.01.g` | Preferencias en la configuración del entorno personal | 0.1 · 0.2.1 · 0.3 · 0.5.1 |
 > | `CE.04.b` | Qué recursos se comparten y en qué condiciones | 0.3.b |
 > | `CE.04.f` | Niveles de seguridad para controlar el acceso | 0.2.2 |
-> | `CE.05.d` | Mantenimiento del software instalado | 0.4 · 0.5.1 · 0.7.1 · 0.7.2 |
+> | `CE.05.d` | Mantenimiento del software instalado | 0.4.a · 0.4.b · 0.5.1 · 0.7.1 · 0.7.2 |
 > | `CE.05.e` | Automatización de tareas del sistema | 0.5.2 |
 > | `CE.05.f` | Interpretar la información de configuración | 0.6 |
 >
@@ -70,8 +70,8 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > - **Al empezar a grabar:** el alumno **se presenta**, **muestra en pantalla algo que demuestre que es él** (Teams/correo `@alu.edu.gva.es`; desde la 0.2.2, su perfil de GitHub) y dice qué va a hacer.
 > - **Timestamps SIEMPRE** en la descripción: `00:00 Presentación` + uno por cada paso.
 > - **Nombre del vídeo:** **`B0.<código> · Título`** — por ejemplo `B0.2.1 · Cuenta de GitHub y Git`. **Se sube a YouTube** (playlist `B0_Prerrequisitos`, como "No listado").
-> - **Duración ~5 min.** Si una fase se pasa con creces, se **parte en dos**: `B0.4 · Bajar el material del curso (1 de 2)` y `(2 de 2)`.
-> - **Cada fase se graba una vez**, en su sitio: 🏫 **centro** (0.1, 0.2.1, 0.2.2, 0.3, 0.4, 0.6, 0.7.1, 0.7.2) · 🏠 **casa** (0.5.1, 0.5.2). En prerequisitos no se graba dos veces lo mismo: el "en casa" de las 0.1–0.4 **es** la Fase 0.5.1.
+> - **Duración ~5 min.** Si una fase da para más, **se parte en dos sub-fases con entidad propia** —una entrada y un vídeo cada una—, como la `0.4.a` y la `0.4.b`. Nunca un mismo vídeo troceado en "(1 de 2)".
+> - **Cada fase se graba una vez**, en su sitio: 🏫 **centro** (0.1, 0.2.1, 0.2.2, 0.3, 0.4.a, 0.4.b, 0.6, 0.7.1, 0.7.2) · 🏠 **casa** (0.5.1, 0.5.2). En prerequisitos no se graba dos veces lo mismo: el "en casa" de las 0.1–0.4 **es** la Fase 0.5.1.
 > - **Al subir cada vídeo, el alumno guarda su enlace.** Lo necesitará para la entrega.
 
 > [!info] 🏷️ Por qué el vídeo lleva el código del bloque delante
@@ -123,8 +123,11 @@ Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init
 │   ├── Trimestre_2/             ← REPO propio (apuntes-sor-t2)
 │   └── Trimestre_3/             ← REPO propio (apuntes-sor-t3)
 └── 01_Practicas/
-    └── B2_Ubuntu_Local/               ← tu copia de la plantilla = REPO propio
+    ├── B0_Prerrequisitos/       ← material del profesor, CLONADO (solo lectura)
+    ├── B1_Entorno/              ← material del profesor, CLONADO (solo lectura)
+    └── B2_Ubuntu_Local/         ← tu copia de la plantilla = REPO propio
 ```
+> **Ojo a la diferencia**, que se explica en la Fase 0.4.a: el material que **solo lees** se clona de mi repositorio; el que **trabajas y entregas** se copia antes con `Use this template` para que sea tuyo. **Tus apuntes nunca se escriben dentro de `01_Practicas/`.**
 > `Boveda_SOR/` vive **dentro de la carpeta de usuario** del alumno: `~/Documents/SOR/`, `~/Documentos/SOR/` o `~/SOR/` según el equipo (se decide en la Fase 0.1). **Nunca en OneDrive.**
 
 > [!note] La regla de oro del diseño
@@ -147,7 +150,8 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 | **0.2.2**  | [[Fase_0.2.2_Autenticacion_SSH]]                       | Clave SSH (y token HTTPS) + verificación.                                                                                                                     |
 | **0.3**    | [[Fase_0.3_Repo_Apuntes_y_Primera_Entrada]]            | Repo del Trimestre 1 + entrada de la fase + **primera entrega** en Teams.                                                                                     |
 | **0.3.b**   | [[Fase_0.3.b_Que_No_Se_Sube_Gitignore]]                 | El **`.gitignore`**: qué no se sube nunca y por qué subir una clave no se arregla borrándola.                                                                 |
-| **0.4**    | [[Fase_0.4_Clonar_Practica_Boochan]]                   | Crea **sus copias** del Bloque 1 y de `bloque-2-ubuntu-local` (`Use this template`) y las clona. Domina `status → commit → push` + **3 retos** de borrado y recuperación. |
+| **0.4.a**  | [[Fase_0.4.a_Bajar_El_Material_Del_Curso]]             | Baja los **tres** repositorios del trimestre por **tres vías distintas** (SSH · HTTPS · ZIP) y descubre por qué el ZIP no vale. `Use this template` solo donde toca + `status → commit → push`. |
+| **0.4.b**  | [[Fase_0.4.b_Tres_Retos_De_Recuperacion]]              | **Tres retos** de borrado y recuperación: `git restore`, reclonar, y lo único que **no vuelve**.                                                                        |
 | **0.5**    | [[Fase_0.5_Casa_y_Centro_Sincronizacion]]              | *(índice)* Casa ↔ centro, en 2 partes ↓                                                                                                                       |
 | **0.5.1**  | [[Fase_0.5.1_Montar_Entorno_Casa]]                     | Monta el entorno en casa y clona sus repos.                                                                                                                   |
 | **0.5.2**  | [[Fase_0.5.2_Sincronizar_Casa_Centro]]                 | Ciclo `pull → push`; regla anti-OneDrive.                                                                                                                     |

@@ -6,7 +6,7 @@
 > **[Bloque de Prerrequisitos · Fase 0.7 — parte 2 de 2]**
 > **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)
 >
-> **⏱️ Tiempo estimado:** ~1 - 1,5 horas · **Requisitos:** Fase 0.7.1 completa. Los **dos** repos (`apuntes-sor-t1` y `bloque-2-ubuntu-local`) subidos a GitHub.
+> **⏱️ Tiempo estimado:** ~1 - 1,5 horas · **Requisitos:** Fase 0.7.1 completa. Tus **dos** repositorios (`apuntes-sor-t1` y `bloque-2-ubuntu-local`) subidos a GitHub, y las cuatro carpetas de la bóveda en su sitio.
 
 
 > [!abstract] 📋 Qué se te evalúa en esta fase
@@ -126,8 +126,11 @@
 > - `nothing to commit, working tree clean` → no hay nada sin guardar
 > - `Your branch is up to date with 'origin/main'` → **no hay nada sin subir**
 >
-> **Repite exactamente lo mismo en `01_Practicas/B2_Ubuntu_Local/` y en `01_Practicas/B1_Entorno/`.**
-> Sí, los tres: cada repositorio va por su cuenta y `git status` solo te habla de la carpeta en la que estás.
+> **Repite exactamente lo mismo en `01_Practicas/B2_Ubuntu_Local/`, en `01_Practicas/B1_Entorno/` y en `01_Practicas/B0_Prerrequisitos/`.**
+> Sí, los cuatro: cada repositorio va por su cuenta y `git status` solo te habla de la carpeta en la que estás.
+>
+> > [!tip] 💡 En los dos míos siempre saldrá limpio, y tiene sentido
+> > `B0_Prerrequisitos` y `B1_Entorno` son material mío: no has escrito nada ahí *(y si lo hiciste, la **Bloque 0 · Fase 0.4.b** te enseñó por qué no debías)*. Lo que estás comprobando en ellos no es tu trabajo, es que **sabes de dónde volverán**.
 >
 > | Lo que dice | Qué significa | Qué haces |
 > | :--- | :--- | :--- |
@@ -145,8 +148,10 @@
 > [!example] Paso 2: Demuestra que tienes red debajo (grabando)
 > Esto es lo que convierte el vídeo en una demostración y no en un acto de fe. Enseña, en pantalla:
 > 1. El **`git status`** de los tres repos, con el `up to date` visible en cada uno. Léelo en voz alta.
-> 2. Los **tres repositorios en la web de GitHub**, con sus ficheros dentro.
-> 3. Tu bóveda en el Explorador: `00_Apuntes/Trimestre_1/`, `01_Practicas/B2_Ubuntu_Local/` y `01_Practicas/B1_Entorno/`, con todo su contenido.
+> 2. **Dónde vive cada uno en la web**, que no es el mismo sitio:
+>    - En **tu** cuenta: `apuntes-sor-t1` y `bloque-2-ubuntu-local`.
+>    - En **la mía** (`github.com/sor-iesjj`): `bloque-0-prerequisitos` y `bloque-1-entorno`. Ábrelos también: **de ahí es de donde volverán**.
+> 3. Tu bóveda en el Explorador: `00_Apuntes/Trimestre_1/`, `01_Practicas/B0_Prerrequisitos/`, `01_Practicas/B1_Entorno/` y `01_Practicas/B2_Ubuntu_Local/`, con todo su contenido.
 >
 > Di la frase: *"Todo lo que voy a borrar está en GitHub. Lo acabo de comprobar."*
 
@@ -167,7 +172,11 @@
 > Ahora, sin miedo, porque acabas de comprobar que hay red:
 > 1. Cierra **Obsidian** (si no, se queja de que le mueven las carpetas).
 > 2. En el Explorador, borra **la carpeta `Trimestre_1` entera**. Con todo lo que hay dentro, incluida la carpeta oculta `.git`.
-> 3. Borra también **`B2_Ubuntu_Local` entera** y **`B1_Entorno` entera**. Sí, con mi manual y las fases del proyecto dentro.
+> 3. Borra también **`B2_Ubuntu_Local`**, **`B1_Entorno`** y **`B0_Prerrequisitos`**, enteras. Sí, con mi manual y las fases del proyecto dentro.
+>
+> > [!danger] 🛑 Antes de borrar `B0_Prerrequisitos`, abre esta fase en el navegador
+> > Porque **estás a punto de borrar el procedimiento que estás siguiendo**. Ábrelo en GitHub (`github.com/sor-iesjj/bloque-0-prerequisitos`) y déjalo en una pestaña.
+> > No es una anécdota: es una regla de oficio. **El manual de recuperación nunca se guarda dentro del sistema que vas a recuperar.** Los que aprenden esto por las malas son los que se quedan mirando un servidor caído con las instrucciones dentro.
 > 4. **Reinicia el ordenador.** Que quede claro que no es un truco de Obsidian.
 > 5. Al volver, abre Obsidian y **enseña el desastre**: `00_Apuntes/` vacía, `01_Practicas/` vacía. No queda nada.
 >
@@ -193,15 +202,16 @@
 >    ```
 >    > [!important] 📌 Fíjate en el `Trimestre_1` del final
 >    > Ese segundo argumento **no está de adorno**. Sin él, `git clone` crea la carpeta con el nombre del repositorio: te quedaría `apuntes-sor-t1/` y tu estructura dejaría de ser la de todo el curso.
->    > **`git clone <dirección> <nombre-de-carpeta>`**: le dices cómo quieres que se llame. **Lo vas a usar en los tres clones de esta fase**, porque en tu bóveda las carpetas se llaman como los bloques (`B1_Entorno`, `B2_Ubuntu_Local`) y los repositorios de GitHub van en minúsculas y con guiones. Sin el segundo argumento, te reconstruyes la bóveda con los nombres cambiados.
+>    > **`git clone <dirección> <nombre-de-carpeta>`**: le dices cómo quieres que se llame. **Lo vas a usar en los cuatro clones de esta fase**, porque en tu bóveda las carpetas se llaman como los bloques (`B1_Entorno`, `B2_Ubuntu_Local`) y los repositorios de GitHub van en minúsculas y con guiones. Sin el segundo argumento, te reconstruyes la bóveda con los nombres cambiados.
 >
-> 2. **La práctica.** Abre la terminal en `01_Practicas/`:
+> 2. **Las prácticas.** Abre la terminal en `01_Practicas/`:
 >    ```bash
 >    pwd          # .../Boveda_SOR/01_Practicas
 >    git clone git@github.com:TU-USUARIO/bloque-2-ubuntu-local.git B2_Ubuntu_Local
->    git clone git@github.com:TU-USUARIO/bloque-1-entorno.git B1_Entorno
+>    git clone git@github.com:sor-iesjj/bloque-0-prerequisitos.git B0_Prerrequisitos
+>    git clone git@github.com:sor-iesjj/bloque-1-entorno.git B1_Entorno
 >    ```
->    Los dos son **repositorios tuyos**, así que los dos van por SSH.
+>    **Mira de quién es cada dirección.** El primero es **tuyo** (ahí está tu trabajo); los otros dos son **míos**, y por eso ponen `sor-iesjj`. Si te confundes, Git te dirá `Repository not found` — y ya sabrás por qué.
 >
 > 3. **Comprueba que ha vuelto TODO, no solo los ficheros:**
 >    ```bash
@@ -254,12 +264,13 @@
 
 ### ✅ Checklist Final de la Fase 0.7.2
 
-- [ ] `git status` comprobado en **los dos** repos, con `up to date with 'origin/main'` visible.
-- [ ] Los tres repositorios comprobados **también en la web** de GitHub.
+- [ ] `git status` comprobado en **los cuatro** repos, con `up to date with 'origin/main'` visible.
+- [ ] Comprobado **también en la web** dónde vive cada uno: dos en tu cuenta, dos en `sor-iesjj`.
 - [ ] 🤔 **Tus cuatro predicciones escritas en la entrada ANTES de borrar**, y dichas en voz alta.
-- [ ] `Trimestre_1`, `B2_Ubuntu_Local` y `B1_Entorno` borradas por completo, y equipo reiniciado.
+- [ ] Esta fase abierta en el navegador **antes** de borrar nada.
+- [ ] `Trimestre_1`, `B0_Prerrequisitos`, `B1_Entorno` y `B2_Ubuntu_Local` borradas por completo, y equipo reiniciado.
 - [ ] `fatal: not a git repository` demostrado y explicado en voz alta.
-- [ ] Los tres repos clonados, con `Trimestre_1` recuperando **su nombre de carpeta**.
+- [ ] Los **cuatro** repos clonados —cada uno de su dueño—, con `Trimestre_1` recuperando **su nombre de carpeta**.
 - [ ] `git log` enseñado tras el clon: el **historial completo** ha vuelto, no solo los ficheros.
 - [ ] Sabes explicar qué se pierde si hay commits sin `push`.
 - [ ] Vídeo `B0.7.2 · Se ha llevado el disco por delante` subido a la playlist, con timestamps.
