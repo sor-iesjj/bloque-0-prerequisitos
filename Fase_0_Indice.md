@@ -123,11 +123,11 @@ Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init
 │   ├── Trimestre_2/             ← REPO propio (apuntes-sor-t2)
 │   └── Trimestre_3/             ← REPO propio (apuntes-sor-t3)
 └── 01_Practicas/
-    ├── B0_Prerrequisitos/       ← material del profesor, CLONADO (solo lectura)
-    ├── B1_Entorno/              ← material del profesor, CLONADO (solo lectura)
+    ├── B0_Prerrequisitos/       ← tu copia de la plantilla = REPO propio
+    ├── B1_Entorno/              ← tu copia de la plantilla = REPO propio
     └── B2_Ubuntu_Local/         ← tu copia de la plantilla = REPO propio
 ```
-> **Ojo a la diferencia**, que se explica en la Fase 0.4.a: el material que **solo lees** se clona de mi repositorio; el que **trabajas y entregas** se copia antes con `Use this template` para que sea tuyo. **Tus apuntes nunca se escriben dentro de `01_Practicas/`.**
+> **Todo el material del curso se baja igual** (Fase 0.4.a): plantilla → `Use this template` → **tu** repositorio → `git clone`. Así lo que anotes es tuyo y viaja contigo del aula a casa. **Tus apuntes, en cambio, siguen yendo a `00_Apuntes/`.**
 > `Boveda_SOR/` vive **dentro de la carpeta de usuario** del alumno: `~/Documents/SOR/`, `~/Documentos/SOR/` o `~/SOR/` según el equipo (se decide en la Fase 0.1). **Nunca en OneDrive.**
 
 > [!note] La regla de oro del diseño
@@ -150,7 +150,7 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 | **0.2.2**  | [[Fase_0.2.2_Autenticacion_SSH]]                       | Clave SSH (y token HTTPS) + verificación.                                                                                                                     |
 | **0.3**    | [[Fase_0.3_Repo_Apuntes_y_Primera_Entrada]]            | Repo del Trimestre 1 + entrada de la fase + **primera entrega** en Teams.                                                                                     |
 | **0.3.b**   | [[Fase_0.3.b_Que_No_Se_Sube_Gitignore]]                 | El **`.gitignore`**: qué no se sube nunca y por qué subir una clave no se arregla borrándola.                                                                 |
-| **0.4.a**  | [[Fase_0.4.a_Bajar_El_Material_Del_Curso]]             | Baja los **tres** repositorios del trimestre por **tres vías distintas** (SSH · HTTPS · ZIP) y descubre por qué el ZIP no vale. `Use this template` solo donde toca + `status → commit → push`. |
+| **0.4.a**  | [[Fase_0.4.a_Bajar_El_Material_Del_Curso]]             | Saca **sus tres copias** con `Use this template` y las clona por **tres vías distintas** (SSH · HTTPS · ZIP), descubriendo por qué el ZIP no vale. `status → commit → push`. |
 | **0.4.b**  | [[Fase_0.4.b_Tres_Retos_De_Recuperacion]]              | **Tres retos** de borrado y recuperación: `git restore`, reclonar, y lo único que **no vuelve**.                                                                        |
 | **0.5**    | [[Fase_0.5_Casa_y_Centro_Sincronizacion]]              | *(índice)* Casa ↔ centro, en 2 partes ↓                                                                                                                       |
 | **0.5.1**  | [[Fase_0.5.1_Montar_Entorno_Casa]]                     | Monta el entorno en casa y clona sus repos.                                                                                                                   |

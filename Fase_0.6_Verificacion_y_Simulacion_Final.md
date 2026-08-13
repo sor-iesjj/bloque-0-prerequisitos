@@ -98,33 +98,24 @@
 > >
 > > **`git pull` y `git push` NO son "lo que se hace al llegar y al irme".** Son **lo que se hace en cada carpeta en la que vas a trabajar**. Git no sabe nada de tus otras carpetas: cada repositorio va por su cuenta y **no se entera de lo que pasa en los demás**.
 > >
-> > Ahora mismo tienes **cuatro**:
+> > Ahora mismo tienes **cuatro**, y **los cuatro son tuyos**:
 > > ```
-> > 00_Apuntes/Trimestre_1/         ← tus apuntes          → pull y push
-> > 01_Practicas/B2_Ubuntu_Local/   ← tu copia de Boochan  → pull y push
-> > 01_Practicas/B0_Prerrequisitos/ ← material mio         → solo pull
-> > 01_Practicas/B1_Entorno/        ← material mio         → solo pull
+> > 00_Apuntes/Trimestre_1/         ← tus apuntes
+> > 01_Practicas/B0_Prerrequisitos/ ← tu copia de los prerrequisitos
+> > 01_Practicas/B1_Entorno/        ← tu copia del Bloque 1
+> > 01_Practicas/B2_Ubuntu_Local/   ← tu copia de Boochan
 > > ```
 > > Si hoy tocas los apuntes y la práctica, hoy haces **dos `pull` y dos `push`**, uno en cada carpeta. Si solo tocas uno, uno.
 > >
-> > **Y fíjate en la columna de la derecha:** en los dos de abajo el ciclo se queda a medias, porque son míos y ahí tú no empujas. Lo comprobaste en la **Bloque 0 · Fase 0.4.b**, cuando el `push` te salió rechazado con un `403`.
-> >
-> > **Hoy simulamos dos** porque con dos ya se ve el patrón y el vídeo tiene que durar cinco minutos.
+> > **Hoy simulamos dos** porque con dos ya se ve el patrón y el vídeo tiene que durar cinco minutos. Los otros dos funcionan **exactamente igual**: mismo comando, otra carpeta.
 
 > [!example] Paso 4: Comprobación final en GitHub
-> Abre en el navegador **los dos repositorios que son tuyos** y enséñalos:
+> Abre en el navegador tus **cuatro** repositorios y enséñalos:
 > - `apuntes-sor-t1` → el último commit debe ser el de hace un minuto (Simulación A).
 > - `bloque-2-ubuntu-local` → el último commit debe ser el de hace unos segundos (Simulación B).
+> - `bloque-0-prerequisitos` y `bloque-1-entorno` → **estos no los has tocado hoy**, así que su último commit es el de cuando los copiaste. Y está bien que sea así: enséñalo y explica por qué.
 >
-> **Y ahora el contraste, que es lo que quiero ver.** En tu cuenta de GitHub **no hay ningún `bloque-1-entorno` ni ningún `bloque-0-prerequisitos`**, y no es un olvido. Demuéstralo desde la terminal:
-> ```bash
-> pwd          # .../01_Practicas/B1_Entorno
-> git remote -v    # pone sor-iesjj, no tu usuario
-> git log --oneline -3
-> ```
-> Los commits que salen **son míos**. Explica en voz alta por qué ese material lo tienes en tu ordenador pero no en tu GitHub: **lo clonaste, no lo copiaste con `Use this template`** — porque ahí tú solo lees.
->
-> Ese contraste es la prueba de que lo has entendido: **cada repositorio va por su cuenta**, y no todos son tuyos.
+> Ese contraste es la prueba de que lo has entendido: **los cuatro repositorios van por su cuenta**, y cada uno refleja lo que tú has hecho en él.
 
 > [!example] Paso 5: Cierra el vídeo, nómbralo y súbelo
 > Detén la grabación, nombra el vídeo `B0.6 · Simulación final`, súbelo a la playlist `B0_Prerrequisitos` con **timestamps** (`00:00 Presentación`, Paso 2 apuntes, Paso 3 práctica, Paso 4 comprobación).
@@ -143,7 +134,7 @@
 > [!help] Preguntas Críticas
 > 1. Describe el "circuito completo" (Obsidian → add → commit → push → GitHub → pull).
 > 2. ¿Qué comando haces **siempre** al llegar a un ordenador?
-> 3. Ahora tienes **tres repositorios**: dilos, y di en qué carpeta está cada uno.
+> 3. Ahora tienes **cuatro repositorios**: dilos, y di en qué carpeta está cada uno.
 > 4. Si un día trabajas en los apuntes y en el Bloque 1, ¿cuántos `pull` haces? ¿Y cuántos `push`? **¿Por qué?**
 
 ---
@@ -154,8 +145,8 @@
 - [ ] **0.2.1 / 0.2.2:** cuenta de GitHub + Git configurado + autenticación (SSH/token).
 - [ ] **0.3:** repo `apuntes-sor-t1` con entradas con formato correcto; enlace enviado.
 - [ ] **0.3.b:** `.gitignore` escrito, commiteado y **comprobado** con un fichero que no debe subir.
-- [ ] **0.4.a:** los **tres** repositorios bajados —cada uno por una vía distinta (SSH · HTTPS · ZIP)—, tu copia de `bloque-2-ubuntu-local` creada con `Use this template`, y un cambio subido.
-- [ ] **0.4.b:** los **3 retos** de borrado y recuperación resueltos, con el `push` rechazado enseñado en el vídeo.
+- [ ] **0.4.a:** tus **tres copias** creadas con `Use this template` y clonadas, cada una por una vía distinta (SSH · HTTPS · ZIP), con un cambio subido.
+- [ ] **0.4.b:** los **3 retos** de borrado y recuperación resueltos.
 - [ ] **0.5.1 / 0.5.2:** entorno replicado en casa + ciclo `pull → push` demostrado.
 - [ ] **0.6:** simulación final grabada.
 - [ ] **0.7.1 / 0.7.2:** las dos catástrofes provocadas y recuperadas (local con `git restore`, total clonando).

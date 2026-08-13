@@ -101,19 +101,16 @@
 > 3. Clona el material **dentro de `01_Practicas/`**. Son **tres**, los mismos que bajaste en el centro en la **Bloque 0 · Fase 0.4.a**:
 >    ```bash
 >    cd RUTA_SOR/Boveda_SOR/01_Practicas
+>    git clone git@github.com:TU-USUARIO/bloque-0-prerequisitos.git B0_Prerrequisitos
+>    git clone git@github.com:TU-USUARIO/bloque-1-entorno.git B1_Entorno
 >    git clone git@github.com:TU-USUARIO/bloque-2-ubuntu-local.git B2_Ubuntu_Local
->    git clone git@github.com:sor-iesjj/bloque-0-prerequisitos.git B0_Prerrequisitos
->    git clone git@github.com:sor-iesjj/bloque-1-entorno.git B1_Entorno
 >    ```
->    > [!warning] ⚠️ Mira bien de quién es cada dirección: **no son todas iguales**
->    > | Repositorio | El dueño es | Por qué |
->    > | :--- | :--- | :--- |
->    > | `bloque-2-ubuntu-local` | **`TU-USUARIO`** | Es **tu copia**: el `Use this template` lo hiciste en el centro, y ahí dentro está tu trabajo |
->    > | `bloque-0-prerequisitos` · `bloque-1-entorno` | **`sor-iesjj`** | Material **mío**, que solo lees. No hay copia tuya que clonar |
->    >
->    > Si te equivocas y pones tu usuario en los dos últimos, Git te dirá `Repository not found`. Y si pones `sor-iesjj` en el primero, te bajarás **mi** Boochan sin tu trabajo dentro.
+>    **Los tres llevan TU usuario**, porque los tres son **tus copias**: el `Use this template` lo hiciste en el centro, en la Fase 0.4.a, así que aquí solo hay que clonar. Si pones `sor-iesjj` te bajarás **mi** versión, sin lo que tú hayas anotado.
 >
->    Aquí van los tres por SSH, que es la vía por defecto. Los dos míos también los puedes clonar por HTTPS, como en la 0.4.a: son públicos.
+>    Aquí van los tres por SSH, que es la vía por defecto. También podrías clonarlos por HTTPS, como en la 0.4.a: los dejaste públicos.
+>
+>    > [!danger] 🛑 Antes de clonar: ¿hiciste `push` en el centro?
+>    > Lo que clonas es **lo que hay en GitHub**, no lo que dejaste en el ordenador del aula. Si el último día anotaste algo y no lo subiste, **aquí no va a aparecer** — y no es un fallo del clon. Es el Reto 3 de la **Bloque 0 · Fase 0.4.b**, pero de verdad.
 > 4. Abre Obsidian → **`Open folder as vault`** → tu `Boveda_SOR`.
 >
 > > [!note] 📌 El truco del nombre: al escribir `... .git Trimestre_1` al final, la carpeta se llama `Trimestre_1` (no `apuntes-sor-t1`), idéntica a la del centro.

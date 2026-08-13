@@ -6,7 +6,7 @@
 > **[Bloque de Prerrequisitos · Fase 0 — Puesta a punto del entorno de trabajo]**
 > **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)
 >
-> **⏱️ Tiempo estimado:** ~1 hora · **Requisitos:** Bloque 0 · Fase 0.4.a completa, con los tres repositorios clonados y `MIS_DATOS.md` subido.
+> **⏱️ Tiempo estimado:** ~1 hora · **Requisitos:** Bloque 0 · Fase 0.4.a completa, con tus tres copias clonadas y `MIS_DATOS.md` subido.
 
 
 > [!abstract] 📋 Qué se te evalúa en esta fase
@@ -37,8 +37,8 @@
 - [ ] **Recuperar ficheros borrados** con `git restore`, sin Internet.
 - [ ] **Reconstruir un repositorio entero** clonando, cuando ya no queda ni el historial.
 - [ ] Explicar **por qué** el segundo caso no se arregla como el primero.
-- [ ] Demostrar que **lo que no se empuja no se recupera**.
-- [ ] Deducir **dónde NO se escriben tus notas** y por qué.
+- [ ] Demostrar que **lo que no se empuja no se recupera**, aunque el repositorio sea tuyo.
+- [ ] Deducir qué significa eso **cuando trabajas en el aula y en casa**.
 
 ---
 
@@ -71,7 +71,7 @@
 > | :---: | :--- | :--- |
 > | **1** | Unos ficheros de dentro | ✅ Sí → se arregla en local |
 > | **2** | La carpeta entera | ❌ No → hay que ir a GitHub |
-> | **3** | La carpeta entera, con algo tuyo **sin subir** dentro | ❌ No, **y en GitHub tampoco estaba** |
+> | **3** | La carpeta entera, con algo tuyo **sin `push`** dentro | ❌ No, **y en GitHub tampoco estaba** |
 
 > [!quote] Terminología
 > - **`git restore .`:** devuelve los ficheros a como estaban en el último commit. El **punto** significa *"todo desde aquí hacia abajo"*.
@@ -146,39 +146,32 @@
 > [!example] 🔬 Paso 4 — RETO 3: ¿y si lo que borro son MIS anotaciones?
 > Los dos retos anteriores han ido bien porque recuperaste **material que yo había escrito**. Ahora vamos a por lo que has escrito **tú**, que es lo que de verdad no se puede rehacer.
 >
-> 1. Entra en `01_Practicas/B1_Entorno/` y **escribe algo tuyo**: crea ahí `MIS_NOTAS_B1.md` con dos o tres líneas de verdad, algo que te costaría rehacer.
-> 2. **Intenta ponerlo a salvo**, como te he enseñado:
->    ```bash
->    pwd          # .../01_Practicas/B1_Entorno
->    git add .
->    git commit -m "Mis notas del Bloque 1"
->    git push
->    ```
-> 3. **El `push` te lo rechaza** con un `403` o un `Permission denied`. Y ya sabes por qué: **ese repositorio es mío**, lo clonaste directamente de `sor-iesjj` en la 0.4.a. Tú ahí no escribes.
-> 4. Da igual, sigue: borra **la carpeta `B1_Entorno` entera** y vuelve a clonarla:
+> 1. Entra en `01_Practicas/B1_Entorno/` y **escribe algo tuyo**: crea ahí `MIS_NOTAS.md` con dos o tres líneas de verdad, algo que te costaría rehacer.
+> 2. **NO hagas `commit` ni `push`.** Guarda y ya está. *(Es lo que pasa de verdad un viernes a última hora: se escribe y se cierra el portátil.)*
+> 3. Borra **la carpeta `B1_Entorno` entera** y vuelve a clonarla:
 >    ```bash
 >    cd ..
 >    pwd          # .../Boveda_SOR/01_Practicas
->    git clone https://github.com/sor-iesjj/bloque-1-entorno.git B1_Entorno
+>    git clone https://github.com/TU-USUARIO/bloque-1-entorno.git B1_Entorno
 >    ```
-> 5. **Busca tu `MIS_NOTAS_B1.md`.**
+> 4. **Busca tu `MIS_NOTAS.md`.**
 >
 > > [!success] ✅ Solución del Reto 3 — y la conclusión de la fase
-> > **No hay solución.** El material del Bloque 1 ha vuelto entero, porque estaba en mi GitHub. **Tus notas no vuelven**, y no hay ningún comando que las traiga.
-> >
-> > Y fíjate en lo que ha pasado exactamente, que es peor de lo que parece: **hiciste `commit`**. Tenías tu punto de restauración… **dentro de la carpeta que has borrado**. El commit vivía en el `.git` de `B1_Entorno`. Y `push`, que lo habría sacado de tu ordenador, **no podías hacerlo**.
+> > **No hay solución.** El material del Bloque 1 ha vuelto entero, porque estaba en tu GitHub desde que copiaste la plantilla. **Tus notas no vuelven**, y no hay ningún comando que las traiga: nunca salieron de la carpeta que acabas de borrar.
 > >
 > > | Qué borraste | ¿Vuelve? | Por qué |
 > > | :--- | :---: | :--- |
-> > | El material del Bloque 1 | ✅ | Estaba en el repositorio del profesor |
-> > | `MIS_DATOS.md` del Reto 2 | ✅ | **Le hiciste `push`**, a un repositorio **tuyo** |
-> > | `MIS_NOTAS_B1.md` de ahora | ❌ | **Nunca salió de tu ordenador**, y no podía salir |
+> > | El material del Bloque 1 | ✅ | Estaba en tu GitHub desde el primer momento |
+> > | `MIS_DATOS.md` del Reto 2 | ✅ | **Le hiciste `push`** |
+> > | `MIS_NOTAS.md` de ahora | ❌ | **Nunca hiciste `push`** |
 > >
-> > > [!danger] 🛑 De aquí sale una regla que vale para todo el curso
-> > > **Tus notas NUNCA se escriben dentro de una carpeta de `01_Practicas/` que sea material mío.** Ahí no hay `push` posible, así que nada de lo que escribas está protegido.
-> > > Tus apuntes van donde han ido siempre: **`00_Apuntes/Trimestre_1/`**, que es tu repositorio `apuntes-sor-t1` y **sí puedes empujar**. Esa es la razón de fondo por la que la bóveda está partida en dos desde la **Bloque 0 · Fase 0.1.a**. Hoy la has tocado con las manos.
+> > Fíjate en que la diferencia **no es el repositorio: es el `push`**. Mismo sitio, mismo Git, distinto resultado — porque uno subió y el otro no.
 > >
-> > **Y la norma que vas a oírme todo el curso:** `commit` y `push` **al terminar cada sesión de trabajo**. No cuando te acuerdes, no el viernes. Al terminar.
+> > > [!important] 🛑 Y esto es exactamente lo que te va a pasar entre el aula y tu casa
+> > > No es un ejercicio de laboratorio. Anotas algo el martes en clase, no haces `push`, y el sábado en casa **esa nota no existe**. No porque se haya perdido: porque nunca salió del ordenador del aula.
+> > > Tu material es tuyo y **puedes** subirlo — pero solo si lo subes.
+> >
+> > **De aquí sale la norma que vas a oírme todo el curso:** `commit` y `push` **al terminar cada sesión de trabajo**. No cuando te acuerdes, no el viernes. Al terminar.
 > > Escríbelo en tu entrada de hoy con tus palabras. Es la respuesta que más peso tiene de esta fase.
 >
 > > [!note] 📌 Esto lo volveremos a ver, y con calma
@@ -190,7 +183,7 @@
 > 00:00 Presentacion
 > 00:30 RETO 1 - Borrar las fases y recuperarlas con git restore
 > 01:50 RETO 2 - Borrar B2_Ubuntu_Local entera y clonar
-> 03:20 RETO 3 - Mis propias notas sin push (NO vuelven)
+> 03:20 RETO 3 - Mis notas sin push (NO vuelven)
 > 04:40 Repaso final
 > ```
 > Y en tu **entrada de apuntes**, además de las respuestas, contesta a esto con tus palabras: **¿por qué el Reto 2 no se arregla igual que el Reto 1, y por qué en el Reto 3 no vuelve todo?** Es la pregunta que resume la fase.
@@ -206,14 +199,14 @@
 > | `git restore .` no recupera nada. | No estás dentro de la carpeta del repositorio. | `pwd`: tienes que estar en `B2_Ubuntu_Local`, no en `01_Practicas`. |
 > | Tras el Reto 2, `git clone` dice `destination path already exists`. | La carpeta no se borró del todo. | Bórrala por completo y repite. |
 > | Tras el Reto 2 falta `MIS_DATOS.md`. | No le hiciste `push` en la 0.4.a. | No hay solución: no estaba en GitHub. Es justo la lección del reto. |
-> | En el Reto 3 el `push` no falla. | Estás en la carpeta equivocada, o clonaste el Bloque 1 de tu cuenta. | `git remote -v`: en `B1_Entorno` debe poner **`sor-iesjj`**. |
+> | En el Reto 3 mis notas SÍ vuelven. | Les hiciste `commit` y `push` sin darte cuenta. | Entonces el reto te ha salido al revés y también has aprendido algo: **con `push` se recupera**. Repítelo sin subir nada. |
 > | `Permission denied (publickey)` al reclonar. | Tu clave SSH no responde en ese equipo. | Repasa la **Bloque 0 · Fase 0.2.2**, o clona ese repositorio por **HTTPS** si es público. |
 > | La pantalla se queda atascada tras `git log`. | Estás en el **paginador**. | Pulsa **`q`**. |
 
 > [!help] Preguntas Críticas
 > 1. ¿Por qué el Reto 1 se arregla **sin Internet** y el Reto 2 no? Contéstalo diciendo **dónde estaba guardado** lo que recuperaste en cada caso.
-> 2. En el Reto 3 llegaste a hacer `commit` y aun así perdiste las notas. **¿De qué sirvió ese commit?**
-> 3. Un compañero guarda sus apuntes dentro de `01_Practicas/B1_Entorno/`. **Dile en dos frases por qué es mala idea** y dónde debería ponerlos.
+> 2. En el Reto 3 el repositorio **era tuyo** y aun así perdiste las notas. **¿Qué faltó?**
+> 3. Un compañero anota cosas en su carpeta de prácticas del aula y no entiende por qué en casa no le salen. **Explícaselo en dos frases.**
 
 ---
 
@@ -221,8 +214,8 @@
 
 - [ ] **Reto 1 resuelto:** fases borradas y recuperadas con `git restore .`, explicando por qué no hizo falta Internet.
 - [ ] **Reto 2 resuelto:** carpeta borrada entera y recuperada clonando, explicando por qué `git restore` ya no valía.
-- [ ] **Reto 3 resuelto:** notas propias perdidas, con el `push` rechazado enseñado en el vídeo.
-- [ ] Explicado **dónde van tus notas** y por qué no dentro de mi material.
+- [ ] **Reto 3 resuelto:** notas propias sin `push`, borradas y **no recuperadas**; explicado por qué.
+- [ ] Explicado qué significa eso para el trabajo **aula ↔ casa**.
 - [ ] Las tres carpetas de la 0.4.a siguen en su sitio y con su nombre.
 - [ ] Vídeo `B0.4.b · Tres retos de recuperación` subido a la playlist, **con un timestamp por reto**.
 - [ ] **Enlace del vídeo pegado en tu entrada de apuntes** de esta fase.

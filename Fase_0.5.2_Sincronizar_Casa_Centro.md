@@ -66,7 +66,7 @@
 > >
 > > Git **no sabe nada de tus otras carpetas**. Un `pull` en los apuntes no baja nada del Bloque 1. Si hoy vas a tocar dos, haces el ciclo **dos veces**, una en cada una.
 > >
-> > **Y de los cuatro, solo en dos empujas tú:** `Trimestre_1` y `B2_Ubuntu_Local`. `B0_Prerrequisitos` y `B1_Entorno` son material mío — ahí el ciclo se queda en `pull`, porque no tienes nada que subir. Lo comprobaste en la **Bloque 0 · Fase 0.4.b**, cuando el `push` te salió rechazado.
+> > **Los cuatro son tuyos y en los cuatro puedes empujar.** Así que si un día anotas una duda en la carpeta de una práctica, esa carpeta también necesita su `push` antes de irte — o el sábado no estará.
 
 > [!warning] Si olvidas el `pull`
 > Puede aparecer un **conflicto** (Git no sabe qué versión vale). Por eso: **primero `pull`, siempre.** Si ves la palabra `CONFLICT`, para y pregúntame.
