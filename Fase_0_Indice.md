@@ -31,29 +31,39 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 - Todo **versionado con Git** y subido a **GitHub** (un repo de apuntes por trimestre).
 - Todo **grabado con OBS** y **subido a YouTube** (playlist `B0_Prerrequisitos`), con el **enlace de cada vídeo dentro de su entrada de apuntes**, y entregado en **tareas de Teams agrupadas**, no fase a fase.
 
-> [!important] 🧰 Herramientas, cuentas y material
-> **Programas** *(los instala **Consellería** en el centro, porque no tienes permisos; en **casa** los instalas tú en la Fase 0.5.1)*
-> - **Obsidian** · **Git** · **OBS Studio**
+> [!important] 🧰 Los programas — **los instala el centro**
+> En el aula los pone **Consellería**: no tienes permisos de administrador, así que **no intentes instalarlos tú** ni bajar versiones "portables". Si falta alguno, avísame. En **casa** sí los instalas tú, en el **Bloque 0 · Fase 0.5.1**.
 >
-> [!info] 🎬 Este bloque tiene **tres** playlists, no una
-> | Playlist | Para qué |
-> | :--- | :--- |
-> | **`B0_Prerrequisitos`** | Las fases 0.1 a 0.7 — la creas en la Fase 0.1 |
-> | **`B0_Curso_Git`** | El curso de Git, cuando lo empecemos |
-> | **`B0_Curso_Shell`** | El curso de Shell, cuando lo empecemos |
->
-> **Cada una se llama como su material**, igual que las carpetas de apuntes. Las dos últimas las crearás cuando toque; hoy solo la primera.
+> | Programa | Para qué lo usas | Desde qué fase |
+> | :--- | :--- | :--- |
+> | **Obsidian** | Escribir los apuntes: una entrada por entrega | **0.1** |
+> | **Git** | Guardar cada versión de esos apuntes y subirlos a GitHub | **0.2.1** |
+> | **OBS Studio** | Grabar el vídeo de cada fase, de principio a fin | **0.1** |
 
-> **Cuentas** *(las creas tú)*
-> - **Cuenta de Gmail/YouTube**, para subir los vídeos — en el **Paso previo de la Fase 0.1**, con un nombre parecido a tu correo `@alu.edu.gva.es`.
-> - **Cuenta de GitHub** — en la **Fase 0.2.1**.
+> [!important] 🔑 Las cuentas — **las creas tú**
+> Ninguna de las dos la da el centro, y las dos son gratuitas.
 >
-> **Material que traes tú** *(no lo pone el centro)*
+> | Cuenta | Para qué | Cuándo la creas |
+> | :--- | :--- | :--- |
+> | **Gmail / YouTube** | Subir los vídeos. Ponle un nombre parecido a tu correo `@alu.edu.gva.es`, para que yo sepa de quién es | **Paso previo de la Fase 0.1** |
+> | **GitHub** | Alojar el repositorio de tus apuntes y bajar el material del curso | **Fase 0.2.1** |
+
+> [!important] 💼 El material — **lo traes tú** *(no lo pone el centro)*
+> No hace falta el primer día, pero **sí antes de lo que crees**: mira la última columna.
 >
 > | Qué | Para qué | Cuándo lo necesitas |
 > | :--- | :--- | :--- |
 > | **3 pendrives** de 128 o 256 GB | Los medios de instalación: **uno por sistema**, para no tener que rehacerlos cada vez que montes una máquina | **Bloque 1** |
 > | **1 SSD externo** de 1 o 2 TB | **Las copias de seguridad de tus servidores.** Cada fase se exporta entera (5-8 GB), son 8 fases por bloque, y en el proyecto final llegas a tener **cinco máquinas virtuales** | **Bloque 2 en adelante** |
+
+> [!info] 🎬 Este bloque tiene **tres** playlists, no una
+> | Playlist | Para qué | Cuándo la creas |
+> | :--- | :--- | :--- |
+> | **`B0_Prerrequisitos`** | Las fases 0.1 a 0.7 | **Hoy**, en la Fase 0.1 |
+> | **`B0_Curso_Git`** | El curso de Git | Cuando lo empecemos |
+> | **`B0_Curso_Shell`** | El curso de Shell | Cuando lo empecemos |
+>
+> **Cada una se llama como su material**, igual que las carpetas de apuntes. Las dos últimas las crearás cuando toque; hoy solo la primera.
 
 > [!danger] 💾 El disco externo no es opcional, y conviene tenerlo pronto
 > A partir del Bloque 2 vas a construir servidores, y **cada fase termina guardando una copia del tuyo en ese disco**. No vale la nube: son varios gigas por fase y toda la clase subiendo a la vez.
