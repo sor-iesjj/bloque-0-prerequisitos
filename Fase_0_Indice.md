@@ -21,6 +21,13 @@
 > Cada fase indica en su cabecera los suyos, con el texto literal del **RD 1691/2007**.
 
 
+> [!tip] 🎬 Antes de empezar: las dos **Simulaciones**
+> Antes de la Fase 0.1 se hacen dos ensayos en vacío del circuito de entrega — grabar, subir a YouTube, playlist, compartir y entregar en Teams — con acciones triviales, para que el día que montes un servidor no sea también el día que peleas con YouTube.
+>
+> 🧭 **[[00_Indice_Simulaciones|Índice de las Simulaciones]]** · [[Simulacion_1_Cinco_Acciones_Cinco_Videos|SIM 1]] · [[Simulacion_2_Una_Grabacion_Con_Timestamps|SIM 2]]
+>
+> Son **la única excepción** del curso a *"donde hay vídeo, hay entrada"*: se hacen antes de que exista el repositorio de apuntes, así que se entregan con enlaces sueltos. A partir de la Fase 0.1 rige la regla normal.
+
 ---
 
 ### ¿Por qué existe esta fase?
@@ -45,7 +52,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 >
 > | Cuenta | Para qué | Cuándo la creas |
 > | :--- | :--- | :--- |
-> | **Gmail / YouTube** | Subir los vídeos. Ponle un nombre parecido a tu correo `@alu.edu.gva.es`, para que yo sepa de quién es | **Paso previo de la Fase 0.1** |
+> | **Gmail / YouTube** | Subir los vídeos. Ponle un nombre parecido a tu correo `@alu.edu.gva.es`, para que yo sepa de quién es | **Antes de las [[00_Indice_Simulaciones\|Simulaciones]]**, que van antes de la Fase 0.1 |
 > | **GitHub** | Alojar el repositorio de tus apuntes y bajar el material del curso | **Fase 0.2.1** |
 
 > [!important] 💼 El material — **lo traes tú** *(no lo pone el centro)*
@@ -56,14 +63,16 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > | **3 pendrives** de 128 o 256 GB | Los medios de instalación: **uno por sistema**, para no tener que rehacerlos cada vez que montes una máquina | **Bloque 1** |
 > | **1 SSD externo** de 1 o 2 TB | **Las copias de seguridad de tus servidores.** Cada fase se exporta entera (5-8 GB), son 8 fases por bloque, y en el proyecto final llegas a tener **cinco máquinas virtuales** | **Bloque 2 en adelante** |
 
-> [!info] 🎬 Este bloque tiene **tres** playlists, no una
+> [!info] 🎬 Este bloque tiene **cinco** playlists, no una
 > | Playlist | Para qué | Cuándo la creas |
 > | :--- | :--- | :--- |
-> | **`B0_Prerrequisitos`** | Las fases 0.1 a 0.7 | **Hoy**, en la Fase 0.1 |
+> | **`B0_Simulacion_1`** | Los 5 vídeos de la Simulación 1 | **Antes de la Fase 0.1** |
+> | **`B0_Simulacion_2`** | El vídeo de la Simulación 2 | **Antes de la Fase 0.1** |
+> | **`B0_Prerrequisitos`** | Las fases 0.1 a 0.7 | En la Fase 0.1 |
 > | **`B0_Curso_Git`** | El curso de Git | Cuando lo empecemos |
 > | **`B0_Curso_Shell`** | El curso de Shell | Cuando lo empecemos |
 >
-> **Cada una se llama como su material**, igual que las carpetas de apuntes. Las dos últimas las crearás cuando toque; hoy solo la primera.
+> **Cada una se llama como su material**, igual que las carpetas de apuntes. Las dos primeras son de las [[00_Indice_Simulaciones|Simulaciones]] y ya las tienes hechas cuando llegas aquí; las dos últimas las crearás cuando toque.
 
 > [!danger] 💾 El disco externo no es opcional, y conviene tenerlo pronto
 > A partir del Bloque 2 vas a construir servidores, y **cada fase termina guardando una copia del tuyo en ese disco**. No vale la nube: son varios gigas por fase y toda la clase subiendo a la vez.
