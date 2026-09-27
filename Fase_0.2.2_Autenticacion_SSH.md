@@ -103,6 +103,34 @@
 > ```
 > La primera vez escribe **`yes`**. Debe responder: `Hi TU-USUARIO! You've successfully authenticated…` (lo de "does not provide shell access" es normal).
 
+> [!warning] ¿Tienes que repetir esta fase? Borra las huellas ANTES de volver a grabar
+> Si el vídeo ha salido mal o quieres volver a practicarlo en el mismo equipo, lo que hiciste **se ha quedado guardado**. Si repites sin borrarlo: `ssh-keygen` te pregunta `Overwrite?`, el Paso 4 ya no te pide el `yes` y en GitHub se amontonan claves que ya no sirven.
+>
+> 🛑 **Solo si la clave `id_ed25519` la creaste TÚ en esta fase.** Si ya estaba en el equipo antes de empezar, no la borres: la está usando otra cosa.
+>
+> Hazlo con **OBS parado**:
+>
+> | # | Qué borras | Cómo | Qué hace |
+> | :--- | :--- | :--- | :--- |
+> | 1 | **La pareja de claves** | `rm ~/.ssh/id_ed25519`<br>`rm ~/.ssh/id_ed25519.pub` | Borra la clave **privada** y la **pública** de este equipo. Sin ellas, este ordenador ya no puede entrar en tu GitHub. |
+> | 2 | **La huella de GitHub** | `ssh-keygen -R github.com` | Borra a GitHub de la lista de servidores que tu equipo ya conoce (`~/.ssh/known_hosts`). Así el Paso 4 vuelve a preguntarte `Are you sure you want to continue connecting (yes/no)?`, igual que la primera vez. Deja una copia `known_hosts.old`: es normal. |
+> | 3 | **La clave en GitHub** | GitHub → **Settings → SSH and GPG keys** → **Delete** en `Equipo Centro` | Quita la clave pública de tu cuenta. Si no lo haces, la cuenta sigue aceptando una clave que ya no existe, y con varias iguales no sabrás cuál es la buena. |
+> | 4 | **El token** *(si hiciste el Paso 5)* | GitHub → **Settings → Developer settings → Personal access tokens → Tokens (classic)** → **Delete** | Anula el token viejo. Un token que no usas es una contraseña que alguien podría encontrar. |
+>
+> **Comprueba que no queda nada:**
+> ```
+> ls ~/.ssh
+> ```
+> **No** deben aparecer `id_ed25519` ni `id_ed25519.pub`. `known_hosts` y `known_hosts.old` sí pueden salir.
+> ```
+> ssh-keygen -F github.com
+> ```
+> **No debe mostrar nada.** Si saca una línea con `github.com`, el punto 2 no se hizo.
+>
+> En GitHub, **SSH and GPG keys** tiene que estar sin la clave que borraste.
+>
+> Ya puedes volver al **Paso 1** y grabar de nuevo.
+
 > [!example] Paso 5: (Alternativa) HTTPS + token
 > Para conocer la otra vía: GitHub → **Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate**, con permiso **`repo`**. **Copia el token** (solo se ve una vez) y guárdalo. Cuando clones/empujes por `https://`, pon tu usuario y **pega el token como contraseña**. *(El token **caduca**; por eso preferimos SSH.)*
 
@@ -126,7 +154,7 @@
 > | :--- | :--- | :--- |
 > | No consigo copiar la clave: `Ctrl+C` no hace nada. | En la terminal `Ctrl+C` **interrumpe**, no copia. | **Selecciona la línea con el ratón** (en Git Bash eso ya la copia) o usa `Ctrl+Insert`. Ver la Fase 0.2.1. |
 > | `Permission denied (publickey)`. | La clave pública no se añadió bien o se pegó cortada. | Repite el Paso 3: copia la línea **entera** de `id_ed25519.pub`. |
-> | `Overwrite?` al generar la clave. | Ya había una clave en este equipo. | Escribe `n` y reutiliza la existente (salta al Paso 3 con `cat`). |
+> | `Overwrite?` al generar la clave. | Ya había una clave en este equipo. | Escribe `n` y reutiliza la existente (salta al Paso 3 con `cat`). Si es **tuya** y estás **repitiendo** la fase, sigue el aviso *«¿Tienes que repetir esta fase?»* que hay después del Paso 4. |
 > | "key is invalid" al pegar. | Copiaste líneas de más o falta `ssh-ed25519`. | Copia solo la línea que empieza por `ssh-ed25519` y acaba en tu correo. |
 
 > [!help] Preguntas Críticas

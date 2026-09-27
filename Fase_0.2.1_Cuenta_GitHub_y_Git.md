@@ -144,6 +144,35 @@
 > git config --global user.email
 > ```
 
+> [!warning] ¿Tienes que repetir este paso? Déjalo como estaba ANTES de volver a grabar
+> Si el vídeo ha salido mal o quieres volver a practicarlo, Git **ya recuerda** tu nombre y tu correo, y el Paso 3 no se vería como la primera vez. Hay que borrarlo.
+>
+> **Por qué basta con borrar un fichero:** `--global` no guarda nada en ningún repositorio. Lo escribe todo en **un único fichero** de tu carpeta personal, `~/.gitconfig`. Git, el programa, **no se toca**: sigue instalado.
+>
+> Hazlo con **OBS parado**, en la terminal (**Git Bash** en Windows / **Terminal** en Linux):
+>
+> 1. **Mira qué hay dentro antes de borrar nada:**
+>    ```
+>    git config --global --list
+>    ```
+>    Si solo ves `user.name=…` y `user.email=…`, sigue al punto 2.
+>    **Si ves más líneas** (alias, `core.…`, lo que sea), **no borres el fichero**: quita solo tus dos datos y salta al punto 3.
+>    ```
+>    git config --global --unset user.name
+>    git config --global --unset user.email
+>    ```
+> 2. **Borra el fichero de configuración global:**
+>    ```
+>    rm ~/.gitconfig
+>    ```
+> 3. **Comprueba que ha quedado limpio:**
+>    ```
+>    git config --global --list
+>    ```
+>    Si hiciste el punto 2, debe responder `fatal: unable to read config file '…/.gitconfig': No such file or directory`. **Ese `fatal` es justo lo que buscas**: dice que ya no hay configuración global. Si usaste `--unset`, no deben aparecer ni `user.name` ni `user.email`.
+>
+> Ya puedes volver al **Paso 1** y grabar de nuevo. La cuenta de GitHub **no se borra**: en el Paso 2 del nuevo vídeo, enseña que entras con ella (`Sign in`) en vez de crearla.
+
 > [!example] Paso 4: Cierra el vídeo, nómbralo y súbelo
 > 1. **Detén la grabación** en OBS.
 > 2. **Nómbralo:** `B0.2.1 · Cuenta de GitHub y Git`.
