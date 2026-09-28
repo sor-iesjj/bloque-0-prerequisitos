@@ -85,6 +85,13 @@
 > ```
 > Verifica: `ssh -T git@github.com` → `Hi TU-USUARIO!`.
 
+> [!warning] ¿Tienes que repetir este paso? Deshazlo ANTES de volver a grabar
+> Se deshace igual que en el centro, con los avisos que ya tienes:
+> - **La configuración de Git** → **Bloque 0 · Fase 0.2.1**, aviso *«¿Tienes que repetir este paso?»* tras el Paso 3 (`git config --global --list` → `rm ~/.gitconfig` → vuelve a comprobar).
+> - **La clave SSH** → **Bloque 0 · Fase 0.2.2**, aviso *«¿Tienes que repetir esta fase?»* tras el Paso 4 (claves, huella de GitHub y clave en tu cuenta).
+>
+> 🛑 **En casa, en GitHub borras SOLO la clave `Equipo Casa`.** La de `Equipo Centro` es la de otro ordenador y **sigue siendo buena**: si la borras, el lunes el equipo del centro no podrá enviar tu trabajo.
+
 > [!example] Paso 3: Reconstruye la bóveda clonando tus repos
 > 1. Crea la estructura contenedor (local, **fuera de OneDrive**). Sustituye `RUTA_SOR` por tu carpeta (la que apuntaste en la Fase 0.1: `~/Documents/SOR`, `~/Documentos/SOR` o `~/SOR`):
 >    ```bash

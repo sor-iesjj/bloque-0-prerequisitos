@@ -114,7 +114,7 @@
 > | :--- | :--- | :--- | :--- |
 > | 1 | **La pareja de claves** | `rm ~/.ssh/id_ed25519`<br>`rm ~/.ssh/id_ed25519.pub` | Borra la clave **privada** y la **pública** de este equipo. Sin ellas, este ordenador ya no puede entrar en tu GitHub. |
 > | 2 | **La huella de GitHub** | `ssh-keygen -R github.com` | Borra a GitHub de la lista de servidores que tu equipo ya conoce (`~/.ssh/known_hosts`). Así el Paso 4 vuelve a preguntarte `Are you sure you want to continue connecting (yes/no)?`, igual que la primera vez. Deja una copia `known_hosts.old`: es normal. |
-> | 3 | **La clave en GitHub** | GitHub → **Settings → SSH and GPG keys** → **Delete** en `Equipo Centro` | Quita la clave pública de tu cuenta. Si no lo haces, la cuenta sigue aceptando una clave que ya no existe, y con varias iguales no sabrás cuál es la buena. |
+> | 3 | **La clave en GitHub** | GitHub → **Settings → SSH and GPG keys** → **Delete** en la clave de **este** equipo (`Equipo Centro` o `Equipo Casa`), **nunca en la del otro** | Quita la clave pública de tu cuenta. Si no lo haces, la cuenta sigue aceptando una clave que ya no existe, y con varias iguales no sabrás cuál es la buena. |
 > | 4 | **El token** *(si hiciste el Paso 5)* | GitHub → **Settings → Developer settings → Personal access tokens → Tokens (classic)** → **Delete** | Anula el token viejo. Un token que no usas es una contraseña que alguien podría encontrar. |
 >
 > **Comprueba que no queda nada:**
