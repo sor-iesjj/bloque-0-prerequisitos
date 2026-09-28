@@ -108,7 +108,7 @@
 >
 > 🛑 **Solo si la clave `id_ed25519` la creaste TÚ en esta fase.** Si ya estaba en el equipo antes de empezar, no la borres: la está usando otra cosa.
 >
-> Hazlo con **OBS parado**:
+> Hazlo con **OBS parado**, en **Git Bash**. Todo está en tu carpeta personal de Windows: `~/.ssh` es **`C:\Users\TU-USUARIO\.ssh`**.
 >
 > | # | Qué borras | Cómo | Qué hace |
 > | :--- | :--- | :--- | :--- |

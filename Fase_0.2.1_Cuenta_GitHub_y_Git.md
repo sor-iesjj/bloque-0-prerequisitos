@@ -147,15 +147,15 @@
 > [!warning] ¿Tienes que repetir este paso? Déjalo como estaba ANTES de volver a grabar
 > Si el vídeo ha salido mal o quieres volver a practicarlo, Git **ya recuerda** tu nombre y tu correo, y el Paso 3 no se vería como la primera vez. Hay que borrarlo.
 >
-> **Por qué basta con borrar un fichero:** `--global` no guarda nada en ningún repositorio. Lo escribe todo en **un único fichero** de tu carpeta personal, `~/.gitconfig`. Git, el programa, **no se toca**: sigue instalado.
+> **Por qué basta con borrar un fichero:** `--global` no guarda nada en ningún repositorio. Lo escribe todo en **un único fichero** de tu carpeta personal de Windows: **`C:\Users\TU-USUARIO\.gitconfig`**. En Git Bash esa carpeta se escribe `~`, así que el fichero es `~/.gitconfig`. Git, el programa, **no se toca**: sigue instalado.
 >
-> Hazlo con **OBS parado**, en la terminal (**Git Bash** en Windows / **Terminal** en Linux):
+> Hazlo con **OBS parado**, en **Git Bash**:
 >
 > 1. **Mira qué hay dentro antes de borrar nada:**
 >    ```
->    git config --global --list
+>    git config --global --list --show-origin
 >    ```
->    Si solo ves `user.name=…` y `user.email=…`, sigue al punto 2.
+>    Cada línea empieza por el fichero donde está guardada: debe ser `file:C:/Users/TU-USUARIO/.gitconfig`. Si solo ves `user.name=…` y `user.email=…`, sigue al punto 2.
 >    **Si ves más líneas** (alias, `core.…`, lo que sea), **no borres el fichero**: quita solo tus dos datos y salta al punto 3.
 >    ```
 >    git config --global --unset user.name
@@ -169,7 +169,7 @@
 >    ```
 >    git config --global --list
 >    ```
->    Si hiciste el punto 2, debe responder `fatal: unable to read config file '…/.gitconfig': No such file or directory`. **Ese `fatal` es justo lo que buscas**: dice que ya no hay configuración global. Si usaste `--unset`, no deben aparecer ni `user.name` ni `user.email`.
+>    Si hiciste el punto 2, debe responder `fatal: unable to read config file 'C:/Users/TU-USUARIO/.gitconfig': No such file or directory`. **Ese `fatal` es justo lo que buscas**: dice que ya no hay configuración global. Si usaste `--unset`, no deben aparecer ni `user.name` ni `user.email`.
 >
 > Ya puedes volver al **Paso 1** y grabar de nuevo. La cuenta de GitHub **no se borra**: en el Paso 2 del nuevo vídeo, enseña que entras con ella (`Sign in`) en vez de crearla.
 
