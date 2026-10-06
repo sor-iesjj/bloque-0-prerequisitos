@@ -146,7 +146,7 @@ Boveda_SOR/                      ← se abre en Obsidian. NUNCA se hace git init
     ├── B1_Entorno/              ← tu copia de la plantilla = REPO propio
     └── B2_Ubuntu_Local/         ← tu copia de la plantilla = REPO propio
 ```
-> **Todo el material del curso se baja igual** (Fase 0.4.a): plantilla → `Use this template` → **tu** repositorio → `git clone`. Así lo que anotes es tuyo y viaja contigo del aula a casa. **Tus apuntes, en cambio, siguen yendo a `00_Apuntes/`.**
+> **En la Fase 0.4.a**, los repositorios `B0_Prerrequisitos`, `B1_Entorno` y `B2_Ubuntu_Local` se crean desde plantillas para practicar con una copia propia. **Los cursos de Git y Shell tienen instrucciones de descarga diferentes en sus respectivos «Antes de empezar»**: sus enunciados se clonan directamente del repositorio público del profesor para poder recibir correcciones. Tus apuntes y ejercicios se guardan en los repositorios de trabajo indicados por cada curso.
 > `Boveda_SOR/` vive **dentro de la carpeta de usuario** del alumno: `~/Documents/SOR/`, `~/Documentos/SOR/` o `~/SOR/` según el equipo (se decide en la Fase 0.1). **Nunca en OneDrive.**
 
 > [!note] La regla de oro del diseño
@@ -180,4 +180,3 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 |  **0.7.2** | [[Fase_0.7.2_Catastrofe_Total_Recuperar_Desde_GitHub]] | Borra la bóveda entera (apuntes **y** práctica) y la reconstruye **clonando**.                                                                                |
 
 ---
-

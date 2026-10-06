@@ -79,7 +79,7 @@
 > [!info] 2. Qué es una plantilla, y por qué te interesa que el material sea tuyo
 > Una **plantilla** es un repositorio pensado para sacar copias. Al pulsar **`Use this template`**, GitHub crea en **tu** cuenta un repositorio **nuevo e independiente**, con el mismo contenido pero **historial propio**. No es un enlace al mío: es **tuyo**.
 >
-> **Todos los repositorios del curso son plantilla**, así que verás ese botón en todos.
+> **Los tres repositorios de esta práctica son plantillas.** En los cursos posteriores de Git y Shell, el material de lectura se descarga directamente del repositorio público del profesor; allí se explicará el procedimiento. No extrapoles este botón a todos los repositorios.
 >
 > ¿Y para qué lo quieres tuyo, si el material lo escribo yo? Por esto:
 >
