@@ -36,7 +36,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 
 - **Apuntes** en Obsidian (**una entrada por entrega**), separados de las **prácticas** (Boochan).
 - Todo **versionado con Git** y subido a **GitHub** (un repo de apuntes por trimestre).
-- Todo **grabado con OBS** y **subido a YouTube** (playlist `B0_Prerrequisitos`), con el **enlace de cada vídeo dentro de su entrada de apuntes**, y entregado en **tareas de Teams agrupadas**, no fase a fase.
+- Todo **grabado con OBS** y **subido a YouTube**, con el enlace de cada vídeo dentro de su entrada. Las fases **0.1–0.7** usan `B0_Prerrequisitos`; las prácticas de la **0.8** indican su propia playlist y su tarea de Teams.
 
 > [!important] 🧰 Los programas — **los instala el centro**
 > En el aula los pone **Consellería**: no tienes permisos de administrador, así que **no intentes instalarlos tú** ni bajar versiones "portables". Si falta alguno, avísame. En **casa** sí los instalas tú, en el **Bloque 0 · Fase 0.5.1**.
@@ -63,7 +63,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > | **3 pendrives** de 128 o 256 GB | Los medios de instalación: **uno por sistema**, para no tener que rehacerlos cada vez que montes una máquina | **Bloque 1** |
 > | **1 SSD externo** de 1 o 2 TB | **Las copias de seguridad de tus servidores.** Cada fase se exporta entera (5-8 GB), son 8 fases por bloque, y en el proyecto final llegas a tener **cinco máquinas virtuales** | **Bloque 2 en adelante** |
 
-> [!info] 🎬 Este bloque tiene **cinco** playlists, no una
+> [!info] 🎬 Hasta la Fase 0.7 se usan **cinco** playlists
 > | Playlist | Para qué | Cuándo la creas |
 > | :--- | :--- | :--- |
 > | **`B0_Simulacion_1`** | Los 5 vídeos de la Simulación 1 | **Antes de la Fase 0.1** |
@@ -72,7 +72,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > | **`B0_Curso_Git`** | El curso de Git | Cuando lo empecemos |
 > | **`B0_Curso_Shell`** | El curso de Shell | Cuando lo empecemos |
 >
-> **Cada una se llama como su material**, igual que las carpetas de apuntes. Las dos primeras son de las Simulaciones y ya las tienes hechas cuando llegas aquí; las dos últimas las crearás cuando toque.
+> **Cada una se llama como su material**, igual que las carpetas de apuntes. Las dos primeras son de las Simulaciones y ya las tienes hechas cuando llegas aquí; las dos últimas las crearás cuando toque. **La práctica 01 de la Fase 0.8 añade otra playlist**, con el nombre exacto de su tarea de Teams; se explica en su propio índice.
 
 > [!danger] 💾 El disco externo no es opcional, y conviene tenerlo pronto
 > A partir del Bloque 2 vas a construir servidores, y **cada fase termina guardando una copia del tuyo en ese disco**. No vale la nube: son varios gigas por fase y toda la clase subiendo a la vez.
@@ -83,7 +83,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 >
 > **Una copia que vive en el mismo sitio que el original no es una copia.** Es la primera idea seria de administración de sistemas que te vas a llevar, y empieza por comprar un disco.
 
-> [!important] 📹 Método de grabación (igual en TODAS las sub-fases)
+> [!important] 📹 Método de grabación de las fases 0.1–0.7
 > - Se **graba TODO el procedimiento con OBS, desde el principio** (no un repaso al final).
 > - **Preparación primero (sin grabar):** comprobar lo necesario + leerse el procedimiento entero.
 > - **Al empezar a grabar:** el alumno **se presenta**, **muestra en pantalla algo que demuestre que es él** (Teams/correo `@alu.edu.gva.es`; desde la 0.2.2, su perfil de GitHub) y dice qué va a hacer.
@@ -92,6 +92,8 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > - **Duración ~5 min.** Si una fase da para más, **se parte en dos sub-fases con entidad propia** —una entrada y un vídeo cada una—, como la `0.4.a` y la `0.4.b`. Nunca un mismo vídeo troceado en "(1 de 2)".
 > - **Cada fase se graba una vez**, en su sitio: 🏫 **centro** (0.1, 0.2.1, 0.2.2, 0.3, 0.4.a, 0.4.b, 0.6, 0.7.1, 0.7.2) · 🏠 **casa** (0.5.1, 0.5.2). En prerequisitos no se graba dos veces lo mismo: el "en casa" de las 0.1–0.4 **es** la Fase 0.5.1.
 > - **Al subir cada vídeo, el alumno guarda su enlace.** Lo necesitará para la entrega.
+>
+> **En la Fase 0.8**, abre la guía de cada práctica: la del centro puede pedir vídeo sin narración, y cada práctica define los nombres de vídeo y playlist de su tarea.
 
 > [!info] 🏷️ Por qué el vídeo lleva el código del bloque delante
 > Porque **es la regla de todo el curso, no solo de este bloque**: el Bloque 1 nombra `B1.5 · …`, el Bloque 6 `B6.1.1 · …` y el Bloque 2 `B2 · F1 · …`.
@@ -105,13 +107,13 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 >
 > | Dónde | Qué es | Para qué sirve |
 > | :--- | :--- | :--- |
-> | **La playlist `B0_Prerrequisitos`** | Organización del alumno. TODOS los vídeos del bloque van dentro. | Que no se pierdan |
+> | **La playlist `B0_Prerrequisitos`** | Organización de los vídeos de las fases 0.1–0.7. La 0.8 usa la playlist indicada en cada práctica. | Que no se pierdan |
 > | **La entrada de apuntes** | Una **por vídeo**. Dentro va el **enlace de ESE vídeo** y las **respuestas** a las Preguntas Críticas. | Que el profesor vea qué hizo y qué entendió |
 > | **La tarea de Teams** | La entrega evaluable. La abre el profesor, con notificación y **fecha límite de varios días**. | Poner nota |
 >
 > **La regla que lo sostiene todo: DONDE HAY VÍDEO, HAY ENTRADA.** Cada vídeo grabado tiene su entrada, con su enlace y sus respuestas dentro. Así el repositorio cuenta la historia completa y no hace falta cotejar nada contra ninguna lista.
 >
-> **En la tarea de Teams se pegan SOLO enlaces de repositorio** (el de apuntes y, al final, el de la práctica) **y el de la playlist**. **Nunca enlaces de vídeo sueltos**: esos ya están dentro de las entradas.
+> **En las tareas de las fases 0.1–0.7** se pegan los enlaces de repositorio que se indiquen y el de la playlist `B0_Prerrequisitos`. **La tarea de cada práctica 0.8** indica sus repositorios y su propia playlist. Nunca pegues enlaces de vídeos sueltos en lugar de la playlist: cada vídeo ya está enlazado desde su bitácora.
 >
 > > **Las entregas se agrupan**, no van fase a fase. El profesor decide qué fases cubre cada tarea y lo dice al abrirla en Teams: un bloque puede tener dos, tres o cuatro entregas según lo denso que sea. El alumno **no tiene que adivinarlo** — le llega la notificación.
 
@@ -178,12 +180,9 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 | **0.7**    | [[Fase_0.7_Cuando_Todo_Se_Rompe]]                      | *(índice)* Romper el trabajo a propósito y recuperarlo, en 2 partes ↓                                                                                         |
 | **0.7.1**  | [[Fase_0.7.1_Catastrofe_Local_Recuperar_Con_Git]]      | Pierde el contenido de sus apuntes y lo recupera **solo con Git**, sin Internet.                                                                              |
 |  **0.7.2** | [[Fase_0.7.2_Catastrofe_Total_Recuperar_Desde_GitHub]] | Borra la bóveda entera (apuntes **y** práctica) y la reconstruye **clonando**.                                                                                |
+| **0.8** | [[Fase_0.8_Practicas]] | *(índice)* Practica el circuito completo de Obsidian, Git y GitHub en proyectos nuevos, con guías separadas para centro y casa. |
 
 ---
 
-### Práctica integrada 01 · Aplicar Git a dos proyectos HTML propios
-
-[[Practica_Integrada_01_Dos_Bovedas_HTML_y_GitHub]] retoma el circuito de las fases 0.3 y 0.3.b. En el centro se crea una bóveda y un repositorio para una página de avisos; en casa, **otra bóveda y otro repositorio**, desde cero, para una página de préstamo. Cada historia muestra una primera versión, una modificación y un fichero nuevo. La parte de casa se hace cuando el equipo doméstico de la fase 0.5.1 ya está preparado.
-
-> [!note] Entrega propia de esta práctica
-> Esta actividad **no cambia la numeración ni las entregas de las fases 0.1–0.7**. Sus dos vídeos van en una playlist independiente cuyo nombre coincide con el de su tarea de Teams. El vídeo del centro muestra solo la pantalla; el de casa incluye explicación oral. El enunciado fija nombres, evidencias y enlaces de entrega.
+> [!note] La Fase 0.8 se abre desde su índice
+> [[Fase_0.8_Practicas]] reúne las prácticas. La primera tiene **dos guías distintas**, una para Cole y otra para Casa, y una playlist propia con el nombre de la tarea de Teams. No cambies las playlists ni las entregas de las fases 0.1–0.7.

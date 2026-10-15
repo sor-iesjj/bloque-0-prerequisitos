@@ -280,4 +280,4 @@
 >
 > Todo lo que viene ahora —el proyecto Boochan, los servidores, los dominios— se apoya en esto. Un servidor se cae igual que se cae tu portátil, y la pregunta siempre es la misma: **¿dónde está la copia y cuánto tardas en volver?**
 
-> **Siguiente paso:** empieza el proyecto **Boochan** (Fase 1). Antes, el profesor pasará la **prueba diagnóstica de redes** (ver `Prueba_Diagnostica_Inicial_SOR`).
+> **Siguiente paso:** [[Fase_0.8_Practicas|Fase 0.8 · Prácticas]]. Después, el profesor indicará cuándo empezar **Boochan** (Fase 1) y pasará la **prueba diagnóstica de redes** (ver `Prueba_Diagnostica_Inicial_SOR`).

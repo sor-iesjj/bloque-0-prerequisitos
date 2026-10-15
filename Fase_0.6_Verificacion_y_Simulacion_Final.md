@@ -139,7 +139,7 @@
 
 ---
 
-### ✅ Checklist Global del Bloque de Prerrequisitos (Fase 0 completa)
+### ✅ Checklist de las fases 0.1 a 0.7
 
 - [ ] **0.1:** bóveda `Boveda_SOR` con estructura + canal de YouTube con playlist `B0_Prerrequisitos`.
 - [ ] **0.2.1 / 0.2.2:** cuenta de GitHub + Git configurado + autenticación (SSH/token).
@@ -172,4 +172,4 @@
 
 ---
 
-> **Siguiente paso:** Fase 0.7 — **Cuando todo se rompe**: vamos a destruir tu trabajo a propósito, dos veces, y a recuperarlo. Es lo último de los prerrequisitos.
+> **Siguiente paso:** Fase 0.7 — **Cuando todo se rompe**: vamos a destruir tu trabajo a propósito, dos veces, y a recuperarlo. Después llega la Fase 0.8, con prácticas nuevas.

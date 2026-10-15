@@ -35,4 +35,4 @@
 
 ---
 
-> **Siguiente paso:** con los prerrequisitos terminados, empieza el proyecto **Boochan** (Fase 1).
+> **Siguiente paso:** [[Fase_0.8_Practicas|Fase 0.8 · Prácticas]] — aplica el circuito a un proyecto nuevo antes de empezar Boochan.
