@@ -180,3 +180,10 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 |  **0.7.2** | [[Fase_0.7.2_Catastrofe_Total_Recuperar_Desde_GitHub]] | Borra la bóveda entera (apuntes **y** práctica) y la reconstruye **clonando**.                                                                                |
 
 ---
+
+### Práctica integrada 01 · Aplicar Git a dos proyectos HTML propios
+
+[[Practica_Integrada_01_Dos_Bovedas_HTML_y_GitHub]] retoma el circuito de las fases 0.3 y 0.3.b. En el centro se crea una bóveda y un repositorio para una página de avisos; en casa, **otra bóveda y otro repositorio**, desde cero, para una página de préstamo. Cada historia muestra una primera versión, una modificación y un fichero nuevo. La parte de casa se hace cuando el equipo doméstico de la fase 0.5.1 ya está preparado.
+
+> [!note] Entrega propia de esta práctica
+> Esta actividad **no cambia la numeración ni las entregas de las fases 0.1–0.7**. Sus dos vídeos van en una playlist independiente cuyo nombre coincide con el de su tarea de Teams. El vídeo del centro muestra solo la pantalla; el de casa incluye explicación oral. El enunciado fija nombres, evidencias y enlaces de entrega.

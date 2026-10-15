@@ -33,6 +33,10 @@ Sigue las sub-fases **en orden**. Cada una es una práctica guiada, muy detallad
 | &nbsp;&nbsp;↳ [Fase 0.7.1 — He perdido lo que escribí](Fase_0.7.1_Catastrofe_Local_Recuperar_Con_Git.md) | Pierde el contenido y lo recupera **solo con Git**, sin Internet |
 | &nbsp;&nbsp;↳ [Fase 0.7.2 — Se ha llevado el disco por delante](Fase_0.7.2_Catastrofe_Total_Recuperar_Desde_GitHub.md) | Borra la bóveda entera y la reconstruye **clonando** desde GitHub |
 
+### Práctica integrada de transferencia
+
+[**Práctica integrada 01 — Dos bóvedas HTML con Git y GitHub**](Practica_Integrada_01_Dos_Bovedas_HTML_y_GitHub.md): crea desde cero un proyecto en el centro y **otro distinto** en casa. Es una tarea propia de Teams, con una playlist que lleva exactamente el nombre de esa tarea; sus dos vídeos no se añaden a `B0_Prerrequisitos`. El profesor indica cuándo empezar la parte de casa, una vez preparado ese equipo.
+
 > 📹 Cada fase se **graba con OBS** (de principio a fin, con presentación e identidad) y se **sube a YouTube** (playlist `B0_Prerrequisitos`, No listado, con timestamps). Regla central: **donde hay vídeo, hay entrada** — cada fase tiene su nota de apuntes, con el **enlace de ese vídeo** y las **respuestas** a sus preguntas dentro. En la **tarea de Teams** se entregan solo los enlaces de **repositorio** y de la **playlist**; las entregas se **agrupan** por varias fases, no van una a una.
 
 ---
