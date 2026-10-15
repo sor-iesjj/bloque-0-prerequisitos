@@ -30,4 +30,4 @@
 
 ---
 
-> **Empieza ahora:** [Cole · Avisos del aula](Cole/Practica_01_Cole_Prestamo_Portatiles.md).
+> **Empieza ahora:** [Cole · Préstamo de portátiles](Cole/Practica_01_Cole_Prestamo_Portatiles.md).

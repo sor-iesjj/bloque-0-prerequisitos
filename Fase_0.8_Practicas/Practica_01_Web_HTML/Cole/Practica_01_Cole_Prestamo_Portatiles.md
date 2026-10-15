@@ -11,7 +11,7 @@
 ---
 
 > [!abstract] 🎯 Tu misión de hoy
-> Crear **desde cero** una bóveda llamada `Boveda_HTML_Centro`. Dentro crearás un proyecto HTML y **su propio repositorio Git**. Crearás **otro repositorio vacío en GitHub**, lo conectarás por SSH y guardarás tres versiones con sentido: página inicial, cambio del estado de un portátil y nueva página de normas. Grabarás **un vídeo de pantalla en el centro**.
+> Crear **desde cero** una bóveda llamada `Boveda_HTML_Centro`. Dentro crearás un proyecto HTML y **su propio repositorio Git**. Crearás **otro repositorio vacío en GitHub**, lo conectarás por SSH y guardarás tres versiones con sentido: página inicial, cambio del estado de un portátil y nueva página de normas. El HTML y los cambios son los mismos en Cole y Casa; repetirás el proceso en un repositorio independiente. Grabarás **un vídeo de pantalla en el centro**.
 
 > [!danger] 🛑 Este proyecto empieza de cero
 > **No abras ni continúes** una bóveda o un repositorio anteriores. El proyecto del centro usa la página de **préstamo de portátiles**, la bóveda `Boveda_HTML_Centro` y GitHub `sor-web-prestamo-portatiles-cole`. Todo se crea de nuevo. En este proyecto, `git init` y `git remote add origin` se hacen una vez; `git add`, `git commit` y `git push` se repiten al guardar cambios.
@@ -130,7 +130,7 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > git status
 > ```
 >
-> El primer `status` muestra `.gitignore`, la bitácora y `web/index.html` sin seguimiento. `git add .` prepara **todos los ficheros no ignorados de `01_Proyecto`**; aquí son los del proyecto. El segundo `status` debe mostrarlos preparados. `git commit` guarda la versión 1 **en el equipo**. `git push -u origin main` la sube por primera vez y configura el seguimiento; en las siguientes subidas bastará `git push`. El último `status` debe estar limpio. Recarga GitHub y abre `web/index.html`: debe decir «disponible».
+> El primer `status` muestra `.gitignore` y las carpetas nuevas `00_Bitacora/` y `web/` sin seguimiento. Git agrupa ahí los ficheros nuevos hasta que los añades. `git add .` prepara **todos los ficheros no ignorados de `01_Proyecto`**; aquí son los del proyecto. El segundo `status` debe mostrarlos preparados. `git commit` guarda la versión 1 **en el equipo**. `git push -u origin main` la sube por primera vez y configura el seguimiento; en las siguientes subidas bastará `git push`. El último `status` debe estar limpio. Recarga GitHub y abre `web/index.html`: debe decir «disponible».
 
 > [!example] Paso H6 · Versión 2: reserva para mantenimiento
 > **Situación:** te comunican que el portátil 01 ya no se puede prestar. Vas a modificar **un fichero que Git ya conoce** y a conservar esa decisión como una versión distinta. En `web/index.html`, cambia **solo** `Equipo 01: disponible.` por `Equipo 01: reservado para mantenimiento.`. Guarda y recarga el navegador.
@@ -234,14 +234,15 @@ La tarea se llama **`B0.P01 · Préstamo de portátiles con Git y GitHub`**, igu
 > [!help] Preguntas críticas para la bitácora
 > 1. ¿Por qué `git init` se hizo en `01_Proyecto` y no en la raíz de la bóveda?
 > 2. ¿Qué mostró `git status` antes de `add`, después de `add` y después de `commit`?
-> 3. ¿Por qué hubo que crear otro repositorio en GitHub y ejecutar aquí `git remote add origin`?
+> 3. ¿Por qué creaste un repositorio de GitHub propio y lo conectaste con `git remote add origin`?
 > 4. ¿Por qué `normas.html` aparecía en `git status` pero no en `git diff -- web/index.html`?
 > 5. Si mañana corriges una errata en `normas.html`, ¿qué pasos repites y cuáles no?
 
 > [!bug] Si algo no sale
 > | Síntoma | Comprueba primero |
 > | :--- | :--- |
-> | `git diff` no muestra nada | ¿Guardaste `index.html`? ¿Hiciste `git add` antes del diff? |\n> | `nothing to commit` | ¿Guardaste el fichero? Mira `pwd`, `git status` y `git log --oneline`. |
+> | `git diff` no muestra nada | ¿Guardaste `index.html`? ¿Hiciste `git add` antes del diff? |
+> | `nothing to commit` | ¿Guardaste el fichero? Mira `pwd`, `git status` y `git log --oneline`. |
 > | `remote origin already exists` | Ya añadiste `origin`. Mira `git remote -v`; no repitas el alta. |
 > | El enlace «Leer las normas» falla | ¿`normas.html` está junto a `index.html`? ¿Coincide el nombre en `href`? |
 > | GitHub no muestra el último cambio | Revisa `git status` y si llegaste a ejecutar `git push` en **este** repo. |
