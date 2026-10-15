@@ -13,7 +13,7 @@
 
 | Práctica | Qué construyes | Dónde están las guías |
 | :--- | :--- | :--- |
-| **[01 · Página web HTML](Fase_0.8_Practicas/Practica_01_Web_HTML/00_Indice_Practica_01_Web_HTML.md)** | Una web de avisos en el centro y otra de préstamo en casa, cada una desde cero | Dentro: **Cole/** y **Casa/**, con sus recursos independientes |
+| **[01 · Página web HTML](Fase_0.8_Practicas/Practica_01_Web_HTML/00_Indice_Practica_01_Web_HTML.md)** | La misma web de préstamo de portátiles, repetida desde cero en el centro y en casa | Dentro: **Cole/** y **Casa/**, con sus recursos independientes |
 
 > [!important] 📍 Orden
 > Haz primero la guía de **Cole** en el centro y luego la de **Casa** en casa, cuando el equipo doméstico de la Fase 0.5.1 esté preparado. La segunda guía **no continúa** el primer proyecto: crea otra bóveda, otro repositorio local y otro repositorio de GitHub. Cada guía indica su grabación y sus pruebas.
