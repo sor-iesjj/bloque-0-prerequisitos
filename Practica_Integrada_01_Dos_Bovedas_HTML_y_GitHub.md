@@ -2,9 +2,9 @@
 
 ### Crear un proyecto desde cero en el centro y repetirlo, con otro proyecto, en casa
 
-> **[Módulo: SOR — Sistemas Operativos en Red · 2.º SMR]**  
-> **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)  
-> **📍 Cuándo se hace:** el proyecto del centro, después de las fases 0.3 y 0.3.b; el de casa, cuando ya esté preparado el equipo doméstico de la fase 0.5.1. Aplica el circuito completo a dos trabajos nuevos.  
+> **[Módulo: SOR — Sistemas Operativos en Red · 2.º SMR]**<br>
+> **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)<br>
+> **📍 Cuándo se hace:** el proyecto del centro, después de las fases 0.3 y 0.3.b; el de casa, cuando ya esté preparado el equipo doméstico de la fase 0.5.1. Aplica el circuito completo a dos trabajos nuevos.<br>
 > **🧭 Referencias:** [[Fase_0.1.b_El_Sistema_de_Apuntes|Plantilla de apuntes]] · [[Fase_0.3_Repo_Apuntes_y_Primera_Entrada|Primer repositorio]] · [[Fase_0.3.b_Que_No_Se_Sube_Gitignore|Qué no se sube]]
 
 ---
@@ -19,8 +19,8 @@
 > El aula necesita publicar un aviso; en casa, alguien necesita una pequeña página para gestionar el préstamo de portátiles. Las páginas son deliberadamente sencillas: aquí no evaluamos diseño web. Lo importante es que cada cambio tenga un motivo visible y que puedas demostrar **qué había antes, qué hay ahora y cuándo se subió a GitHub**.
 
 > [!danger] 🛑 Dos trabajos que no se mezclan
-> **Centro:** `Boveda_HTML_Centro` → repo local `01_Proyecto` → GitHub `sor-web-avisos-aula`.  
-> **Casa:** `Boveda_HTML_Casa` → *otro* repo local `01_Proyecto` → GitHub `sor-web-prestamo-portatiles`.  
+> **Centro:** `Boveda_HTML_Centro` → repo local `01_Proyecto` → GitHub `sor-web-avisos-aula`.<br>
+> **Casa:** `Boveda_HTML_Casa` → *otro* repo local `01_Proyecto` → GitHub `sor-web-prestamo-portatiles`.<br>
 > Son **dos bóvedas, dos carpetas `.git` y dos direcciones `origin`**. En casa vuelves a hacer `git init` porque allí creas **otro proyecto**, no porque se repita en cada commit. **No clones ni continúes el proyecto del centro.**
 
 ---
@@ -57,8 +57,8 @@ Boveda_HTML_Centro/                        Boveda_HTML_Casa/
 ## 2 · PREPARACIÓN Y GRABACIONES
 
 > [!important] 📹 La tarea y la playlist tienen exactamente el mismo nombre
-> **Nombre de la tarea de Teams:** `B0.P01 · Dos bóvedas HTML con Git y GitHub`  
-> **Nombre de la playlist de YouTube:** `B0.P01 · Dos bóvedas HTML con Git y GitHub`  
+> **Nombre de la tarea de Teams:** `B0.P01 · Dos bóvedas HTML con Git y GitHub`<br>
+> **Nombre de la playlist de YouTube:** `B0.P01 · Dos bóvedas HTML con Git y GitHub`<br>
 > Dentro van **dos vídeos No listados**, en este orden: `B0.P01 · Centro · Avisos del aula` y `B0.P01 · Casa · Préstamo de portátiles`. Esta playlist propia es la forma de entrega de **esta práctica integrada**; no mezcles aquí los vídeos de otras fases.
 
 **2A · En el centro, vídeo de pantalla sin explicación oral**
