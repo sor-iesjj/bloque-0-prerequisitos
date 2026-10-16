@@ -161,7 +161,7 @@ Boveda_HTML_Casa/                   ← la abres en Obsidian; aquí NO haces git
 > | :--- | :--- |
 > | 1 | Muestra la carpeta actual. Contrasta su ruta con la indicada en este paso antes de seguir. |
 >
-> **Comprueba ahora:** la ruta debe terminar en `Boveda_HTML_Casa/01_Proyecto`. Si es otra, cambia a la carpeta correcta y repite `pwd`. **No ejecutes `git init` hasta estar en esa ruta.** Una vez comprobada, continúa:
+> **Comprueba ahora:** la ruta debe terminar en `Boveda_HTML_Casa/01_Proyecto`. Si es otra, cambia a la carpeta correcta y vuelve al bloque de comprobación anterior. **No ejecutes `git init` hasta estar en esa ruta.** Una vez comprobada, continúa:
 >
 > **Objetivo del bloque:** inicializar el repositorio en la ruta ya comprobada, nombrar la rama y consultar su estado inicial.
 >
