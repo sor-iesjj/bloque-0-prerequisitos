@@ -331,16 +331,16 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > **Comprueba antes de continuar:** deben aparecer la portada modificada y tres archivos nuevos: normas, contacto e imagen. En el diff, `+` señala líneas añadidas y `-` líneas retiradas. Si aparece un visor, sal con la tecla `q`.
 
 > [!info] Cómo leer el estado abreviado
-> El estado tiene dos columnas antes de la ruta: la izquierda muestra lo preparado; la derecha, los cambios del disco que aún no has preparado.
+> En la tabla siguiente, `[ ]` representa **un espacio**, no caracteres que tengas que escribir. Así puedes distinguir las dos columnas también en el PDF. El estado tiene dos columnas antes de la ruta: la izquierda muestra lo preparado; la derecha, los cambios del disco que aún no has preparado.
 >
 > | Marca | Qué significa aquí |
 > | :--- | :--- |
 > | `??` | Archivo nuevo que Git aún no sigue. |
-> | `A ` | Archivo nuevo preparado; la segunda columna es un espacio. |
-> | ` M` | Archivo ya seguido, modificado pero sin preparar. |
-> | `M ` | Modificación preparada; la segunda columna es un espacio. |
+> | `A[ ]` | Archivo nuevo preparado; la segunda columna es un espacio. |
+> | `[ ]M` | Archivo ya seguido, modificado pero sin preparar. |
+> | `M[ ]` | Modificación preparada; la segunda columna es un espacio. |
 >
-> En esta entrega esperas ` M web/index.html` y `??` delante de cada página nueva y de la imagen. Los vídeos no deben aparecer.
+> En esta entrega esperas `[ ]M web/index.html` y `??` delante de cada página nueva y de la imagen. Los vídeos no deben aparecer.
 
 > [!example] H7 · C · Comprueba por qué los vídeos quedan fuera
 > **Qué vas a hacer:** vas a consultar qué regla de `.gitignore` excluye cada clip. El comando no activa la exclusión: las reglas escritas en H2 ya la aplican. Tampoco borra los vídeos.
@@ -372,7 +372,7 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > | 1 | Prepara el contenido actual de `web/normas.html` para el próximo commit. No guarda todavía una versión ni sube nada. |
 > | 2 | Muestra de nuevo qué está preparado y qué sigue sin preparar. Observa el archivo recién seleccionado. |
 >
-> **Comprueba antes de continuar:** `web/normas.html` debe tener `A `, porque es un archivo nuevo preparado.
+> **Comprueba antes de continuar:** `web/normas.html` debe tener `A[ ]`, porque es un archivo nuevo preparado.
 
 > [!example] H7 · E · Prepara la página de contacto
 > **Qué vas a hacer:** vas a seleccionar solo la página de contacto para la entrega y comprobar el resultado. Los archivos que aún no hayas seleccionado siguen esperando.
@@ -389,7 +389,7 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > | 1 | Prepara el contenido actual de `web/contacto.html` para el próximo commit. No guarda todavía una versión ni sube nada. |
 > | 2 | Muestra de nuevo qué está preparado y qué sigue sin preparar. Observa el archivo recién seleccionado. |
 >
-> **Comprueba antes de continuar:** `web/contacto.html` debe tener `A `, porque es un archivo nuevo preparado.
+> **Comprueba antes de continuar:** `web/contacto.html` debe tener `A[ ]`, porque es un archivo nuevo preparado.
 
 > [!example] H7 · F · Prepara la imagen
 > **Qué vas a hacer:** vas a seleccionar solo la imagen para la entrega y comprobar el resultado. Los archivos que aún no hayas seleccionado siguen esperando.
@@ -406,7 +406,7 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > | 1 | Prepara el contenido actual de `web/imagenes/portatil.png` para el próximo commit. No guarda todavía una versión ni sube nada. |
 > | 2 | Muestra de nuevo qué está preparado y qué sigue sin preparar. Observa el archivo recién seleccionado. |
 >
-> **Comprueba antes de continuar:** `web/imagenes/portatil.png` debe tener `A `, porque es un archivo nuevo preparado.
+> **Comprueba antes de continuar:** `web/imagenes/portatil.png` debe tener `A[ ]`, porque es un archivo nuevo preparado.
 
 > [!example] H7 · G · Prepara la portada modificada
 > **Qué vas a hacer:** vas a seleccionar solo la portada modificada para la entrega y comprobar el resultado. Los archivos que aún no hayas seleccionado siguen esperando.
@@ -423,7 +423,7 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > | 1 | Prepara el contenido actual de `web/index.html` para el próximo commit. No guarda todavía una versión ni sube nada. |
 > | 2 | Muestra de nuevo qué está preparado y qué sigue sin preparar. Observa el archivo recién seleccionado. |
 >
-> **Comprueba antes de continuar:** `web/index.html` debe tener `M `, porque es una modificación de un archivo conocido.
+> **Comprueba antes de continuar:** `web/index.html` debe tener `M[ ]`, porque es una modificación de un archivo conocido.
 
 > [!example] H7 · H · Revisa la selección completa
 > **Qué vas a hacer:** vas a comprobar qué entrará en la entrega antes de guardarla. Preparar cuatro archivos por separado no obliga a crear cuatro commits: forman una ampliación relacionada.
