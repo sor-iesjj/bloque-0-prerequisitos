@@ -35,7 +35,7 @@ Boveda_HTML_Casa/                   ← la abres en Obsidian; aquí NO haces git
 ```
 
 > [!important] 📹 Una grabación completa, con explicación
-> **Antes de grabar:** ten preparada una captura PNG propia sin datos personales y dos clips MP4 propios para H7. Lee esta guía entera, abre OBS y prepara un editor de texto, Obsidian, Git Bash y GitHub. Comprueba que tu clave SSH **ya funciona en este equipo**; si no, vuelve a la Fase 0.5.1.  
+> **Antes de grabar:** ten preparada una captura PNG propia sin datos personales y dos clips MP4 propios para H7. Lee esta guía entera, abre OBS y prepara un editor de texto, Obsidian, Git Bash y GitHub. La comprobación inicial de Git, identidad y SSH se realiza en H0, antes de crear el proyecto.  
 > **Empieza a grabar antes de crear la bóveda.** Preséntate, muestra tu perfil de GitHub y explica qué vas a hacer. Mantén la grabación hasta comprobar el resultado final en GitHub. Di en voz alta qué significa cada `git status`, por qué haces cada commit y por qué este `origin` es distinto. No muestres claves privadas ni contraseñas.  
 > **Título del vídeo:** `B0.P01 · Casa · Préstamo de portátiles`. **Visibilidad:** No listado. **Playlist:** `B0.P01 · Casa · Préstamo de portátiles con Git y GitHub` (igual que la tarea de Teams).
 
@@ -72,6 +72,21 @@ Boveda_HTML_Casa/                   ← la abres en Obsidian; aquí NO haces git
 ---
 
 ## 1 · PREPARA EL PROYECTO MIENTRAS GRABAS
+
+> [!example] Paso H0 · Comprueba el equipo antes de crear el proyecto
+> Con la grabación iniciada, abre Git Bash en tu carpeta personal, **antes de H1**. Ejecuta de uno en uno:
+>
+> ```bash
+> git --version
+> git config --global user.name
+> git config --global user.email
+> ls -l ~/.ssh/id_ed25519 ~/.ssh/id_ed25519.pub
+> ssh -T git@github.com
+> ```
+>
+> Comprueba cada resultado antes de seguir: Git debe mostrar su versión; nombre y correo deben ser los tuyos, no estar vacíos ni pertenecer a otra persona. `ls -l` debe encontrar los dos archivos de claves creados en los prerrequisitos; muestra sus nombres y permisos, **no su contenido**. No abras ni muestres la clave privada. SSH debe confirmar autenticación y saludar a tu usuario de GitHub; puede devolver código 1 porque GitHub no ofrece una shell. Lee el mensaje, no interpretes ese código aislado como un fallo.
+>
+> **Si falta algo o la identidad no es la tuya, detente aquí**, repasa Fase 0.5.1 (preparación del equipo de casa) y repite H0. No pases a H1 hasta completar estas comprobaciones. La clave privada permanece en este equipo y la pública ya debe estar registrada en GitHub: no generes otra pareja por empezar un proyecto nuevo.
 
 > [!example] Paso H1 · Crea la bóveda y las carpetas
 > 1. En Obsidian, crea una bóveda **nueva** llamada `Boveda_HTML_Casa`, en una ubicación local fuera de OneDrive.
@@ -124,21 +139,15 @@ Boveda_HTML_Casa/                   ← la abres en Obsidian; aquí NO haces git
 >
 > ```bash
 > pwd
+> ```
+>
+> **Comprueba ahora:** la ruta debe terminar en `Boveda_HTML_Casa/01_Proyecto`. Si es otra, cambia a la carpeta correcta y repite `pwd`. **No ejecutes `git init` hasta estar en esa ruta.** Una vez comprobada, continúa:
+>
+> ```bash
 > git init
 > git branch -M main
 > git status
 > ```
->
-> Antes de `git init`, ejecuta también:
->
-> ```bash
-> git --version
-> git config user.name
-> git config user.email
-> ssh -T git@github.com
-> ```
->
-> Comprueba que la identidad de los commits es la tuya y que SSH saluda a tu usuario de GitHub. GitHub puede indicar autenticación correcta y devolver código de salida 1 porque no ofrece una shell: lee el mensaje. La clave privada permanece en este equipo; GitHub ya tiene la pública. **No generes otra pareja de claves por crear este proyecto.** Si falla, repasa la Fase 0.2.2 (centro) o la 0.5.1 (casa), antes de continuar.
 >
 > **Por qué:** `pwd` muestra la ruta para evitar iniciar Git en la raíz de la bóveda. `git init` crea el repositorio en `01_Proyecto` y `git branch -M main` pone nombre a la rama. **Punto de control:** `pwd` termina en `Boveda_HTML_Casa/01_Proyecto`. `git status` muestra la rama `main`, que aún no hay commits y que los ficheros iniciales están *sin seguimiento*.  Si la ruta es otra, detente antes de seguir.
 
@@ -299,6 +308,7 @@ Boveda_HTML_Casa/                   ← la abres en Obsidian; aquí NO haces git
 >
 > ```text
 > 00:00 Presentación e identidad
+> TU_TIEMPO Comprobación inicial de Git, identidad y SSH
 > TU_TIEMPO Bóveda y carpetas
 > TU_TIEMPO Primera página en el navegador
 > TU_TIEMPO git init y git status

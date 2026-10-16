@@ -35,7 +35,7 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 ```
 
 > [!important] 📹 Una grabación completa de pantalla
-> **Antes de grabar:** ten preparada una captura PNG propia sin datos personales y dos clips MP4 propios para H7. Lee esta guía entera, abre OBS y prepara un editor de texto, Obsidian, Git Bash y GitHub. Comprueba que tu clave SSH **ya funciona en este equipo**; si no, repasa la configuración de SSH de los prerrequisitos.  
+> **Antes de grabar:** ten preparada una captura PNG propia sin datos personales y dos clips MP4 propios para H7. Lee esta guía entera, abre OBS y prepara un editor de texto, Obsidian, Git Bash y GitHub. La comprobación inicial de Git, identidad y SSH se realiza en H0, antes de crear el proyecto.  
 > **Empieza a grabar antes de crear la bóveda.** Muestra tu perfil de GitHub y cada etapa en pantalla. **En el centro no debes narrar:** deja cada comando y resultado visible para poder leerlo. Mantén la grabación hasta comprobar el resultado en GitHub. No muestres claves privadas ni contraseñas.  
 > **Título del vídeo:** `B0.P01 · Cole · Préstamo de portátiles`. **Visibilidad:** No listado. **Playlist:** `B0.P01 · Cole · Préstamo de portátiles con Git y GitHub` (igual que la tarea de Teams).
 
@@ -53,18 +53,18 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 >
 > **Git** conserva el historial en tu equipo. **GitHub** aloja un remoto para compartirlo y colaborar. Hacer `commit` no sube nada; hacer `push` publica tus commits en ese remoto. Tener un remoto tampoco evita por sí solo los conflictos entre cambios.
 
-| Concepto | Para qué lo usas aquí |
-| :--- | :--- |
-| Bóveda | Carpeta que abres con Obsidian para organizar este proyecto y su bitácora. |
-| Repositorio | Carpeta cuyo historial controla Git; aquí será `01_Proyecto`. |
-| `git status` | Distinguir archivos nuevos, cambios sin preparar y cambios preparados. |
-| Índice o área de preparación | Selección exacta del contenido que entrará en el siguiente commit. |
-| `git add ruta` | Preparar el contenido actual de un archivo concreto. Si vuelves a editarlo, tendrás que preparar también ese nuevo cambio. |
-| `git diff` | Comparar el trabajo con el índice. Antes de preparar cambios, si el índice coincide con el último commit, muestra las diferencias respecto a esa versión. |
-| `git diff --cached` | Revisar lo que ya has preparado para el siguiente commit. |
-| Commit | Versión local identificada por un código y un mensaje que explica el cambio. |
-| Remoto `origin` | Dirección del repositorio de GitHub de este proyecto. |
-| `.gitignore` | Reglas para excluir archivos que todavía no están bajo seguimiento. No borra ni retira archivos ya versionados. |
+| Concepto                     | Para qué lo usas aquí                                                                                                                                     |
+| :--------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bóveda                       | Carpeta que abres con Obsidian para organizar este proyecto y su bitácora.                                                                                |
+| Repositorio                  | Carpeta cuyo historial controla Git; aquí será `01_Proyecto`.                                                                                             |
+| `git status`                 | Distinguir archivos nuevos, cambios sin preparar y cambios preparados.                                                                                    |
+| Índice o área de preparación | Selección exacta del contenido que entrará en el siguiente commit.                                                                                        |
+| `git add ruta`               | Preparar el contenido actual de un archivo concreto. Si vuelves a editarlo, tendrás que preparar también ese nuevo cambio.                                |
+| `git diff`                   | Comparar el trabajo con el índice. Antes de preparar cambios, si el índice coincide con el último commit, muestra las diferencias respecto a esa versión. |
+| `git diff --cached`          | Revisar lo que ya has preparado para el siguiente commit.                                                                                                 |
+| Commit                       | Versión local identificada por un código y un mensaje que explica el cambio.                                                                              |
+| Remoto `origin`              | Dirección del repositorio de GitHub de este proyecto.                                                                                                     |
+| `.gitignore`                 | Reglas para excluir archivos que todavía no están bajo seguimiento. No borra ni retira archivos ya versionados.                                           |
 
 > [!warning] Dos prácticas independientes, no dos personas colaborando
 > En este recorrido crearás tu propia bóveda y tu propio repositorio desde cero. La otra guía repite la teoría y el método para que puedas practicarlos de nuevo, sin depender de ella. Esta repetición no simula colaboración entre compañeros: demuestra que sabes iniciar y mantener un proyecto por tu cuenta.
@@ -72,6 +72,21 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 ---
 
 ## 1 · PREPARA EL PROYECTO MIENTRAS GRABAS
+
+> [!example] Paso H0 · Comprueba el equipo antes de crear el proyecto
+> Con la grabación iniciada, abre Git Bash en tu carpeta personal, **antes de H1**. Ejecuta de uno en uno:
+>
+> ```bash
+> git --version
+> git config --global user.name
+> git config --global user.email
+> ls -l ~/.ssh/id_ed25519 ~/.ssh/id_ed25519.pub
+> ssh -T git@github.com
+> ```
+>
+> Comprueba cada resultado antes de seguir: Git debe mostrar su versión; nombre y correo deben ser los tuyos, no estar vacíos ni pertenecer a otra persona. `ls -l` debe encontrar los dos archivos de claves creados en los prerrequisitos; muestra sus nombres y permisos, **no su contenido**. No abras ni muestres la clave privada. SSH debe confirmar autenticación y saludar a tu usuario de GitHub; puede devolver código 1 porque GitHub no ofrece una shell. Lee el mensaje, no interpretes ese código aislado como un fallo.
+>
+> **Si falta algo o la identidad no es la tuya, detente aquí**, repasa Fase 0.2.1 (Git e identidad) y Fase 0.2.2 (SSH) y repite H0. No pases a H1 hasta completar estas comprobaciones. La clave privada permanece en este equipo y la pública ya debe estar registrada en GitHub: no generes otra pareja por empezar un proyecto nuevo.
 
 > [!example] Paso H1 · Crea la bóveda y las carpetas
 > 1. En Obsidian, crea una bóveda **nueva** llamada `Boveda_HTML_Centro`, en una ubicación local fuera de OneDrive.
@@ -124,21 +139,15 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 >
 > ```bash
 > pwd
+> ```
+>
+> **Comprueba ahora:** la ruta debe terminar en `Boveda_HTML_Centro/01_Proyecto`. Si es otra, cambia a la carpeta correcta y repite `pwd`. **No ejecutes `git init` hasta estar en esa ruta.** Una vez comprobada, continúa:
+>
+> ```bash
 > git init
 > git branch -M main
 > git status
 > ```
->
-> Antes de `git init`, ejecuta también:
->
-> ```bash
-> git --version
-> git config user.name
-> git config user.email
-> ssh -T git@github.com
-> ```
->
-> Comprueba que la identidad de los commits es la tuya y que SSH saluda a tu usuario de GitHub. GitHub puede indicar autenticación correcta y devolver código de salida 1 porque no ofrece una shell: lee el mensaje. La clave privada permanece en este equipo; GitHub ya tiene la pública. **No generes otra pareja de claves por crear este proyecto.** Si falla, repasa la Fase 0.2.2 (centro) o la 0.5.1 (casa), antes de continuar.
 >
 > **Por qué:** `pwd` muestra la ruta para evitar iniciar Git en la raíz de la bóveda. `git init` crea el repositorio en `01_Proyecto` y `git branch -M main` pone nombre a la rama. **Punto de control:** `pwd` termina en `Boveda_HTML_Centro/01_Proyecto`. `git status` muestra la rama `main`, que aún no hay commits y que los ficheros iniciales están *sin seguimiento*.  Si la ruta es otra, detente antes de seguir.
 
@@ -299,6 +308,7 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 >
 > ```text
 > 00:00 Presentación e identidad
+> TU_TIEMPO Comprobación inicial de Git, identidad y SSH
 > TU_TIEMPO Bóveda y carpetas
 > TU_TIEMPO Primera página en el navegador
 > TU_TIEMPO git init y git status
