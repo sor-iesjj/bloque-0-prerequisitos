@@ -31,3 +31,6 @@
 ---
 
 > **Empieza ahora:** [Cole · Préstamo de portátiles](Cole/Practica_01_Cole_Prestamo_Portatiles.md).
+
+> [!success] Ciclo completo en cada recorrido
+> Cada guía repite el encargo empresarial y la teoría: inicio independiente, primera entrega, modificación, dos páginas nuevas enlazadas e imagen, vídeos locales ignorados, preparación individual, commit y push. Termina consultando la primera versión y regresando a `main`. No necesitas abrir la otra guía para completar estos pasos.

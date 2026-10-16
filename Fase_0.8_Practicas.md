@@ -23,3 +23,6 @@ Las prácticas siguientes, cuando se definan, tendrán carpetas hermanas de `Pra
 ---
 
 > **Empieza por:** [Práctica 01 · Página web HTML](Fase_0.8_Practicas/Practica_01_Web_HTML/00_Indice_Practica_01_Web_HTML.md).
+
+> [!success] Ciclo completo en cada recorrido
+> Cada guía repite el encargo empresarial y la teoría: inicio independiente, primera entrega, modificación, dos páginas nuevas enlazadas e imagen, vídeos locales ignorados, preparación individual, commit y push. Termina consultando la primera versión y regresando a `main`. No necesitas abrir la otra guía para completar estos pasos.
