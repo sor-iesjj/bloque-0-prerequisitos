@@ -76,6 +76,8 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > [!example] Paso H0 · Comprueba el equipo antes de crear el proyecto
 > Con la grabación iniciada, abre Git Bash en tu carpeta personal, **antes de H1**. Ejecuta de uno en uno:
 >
+> **Objetivo del bloque:** comprobar que Git está disponible, que la identidad de los commits es la tuya y que existen las claves y funciona la autenticación SSH, antes de crear el proyecto.
+>
 > ```bash
 > git --version
 > git config --global user.name
@@ -84,7 +86,17 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > ssh -T git@github.com
 > ```
 >
-> Comprueba cada resultado antes de seguir: Git debe mostrar su versión; nombre y correo deben ser los tuyos, no estar vacíos ni pertenecer a otra persona. `ls -l` debe encontrar los dos archivos de claves creados en los prerrequisitos; muestra sus nombres y permisos, **no su contenido**. No abras ni muestres la clave privada. SSH debe confirmar autenticación y saludar a tu usuario de GitHub; puede devolver código 1 porque GitHub no ofrece una shell. Lee el mensaje, no interpretes ese código aislado como un fallo.
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Muestra la versión de Git instalada; no instala ni actualiza nada. |
+> | 2 | Muestra el nombre global que Git usará como autor; debe ser el tuyo. |
+> | 3 | Muestra el correo global del autor de los commits; debe ser el tuyo. |
+> | 4 | Comprueba que existen los archivos de clave privada y pública; no muestra su contenido. |
+> | 5 | Prueba la autenticación con GitHub. El saludo debe identificar tu usuario; no abre una shell ni sube archivos. |
+>
+> **Resultado esperado:** Git muestra su versión, nombre y correo son los tuyos, existen ambos archivos de claves y SSH saluda a tu usuario. No muestres la clave privada. GitHub puede devolver código 1 aunque la autenticación sea correcta porque no ofrece una shell: comprueba el mensaje.
 >
 > **Si falta algo o la identidad no es la tuya, detente aquí**, repasa Fase 0.2.1 (Git e identidad) y Fase 0.2.2 (SSH) y repite H0. No pases a H1 hasta completar estas comprobaciones. La clave privada permanece en este equipo y la pública ya debe estar registrada en GitHub: no generes otra pareja por empezar un proyecto nuevo.
 
@@ -137,11 +149,21 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > [!example] Paso H3 · Comprueba la ruta y haz `git init`
 > Abre Git Bash **dentro de `Boveda_HTML_Centro/01_Proyecto`**. No abras la terminal en la raíz de la bóveda. Ejecuta, de uno en uno:
 >
+> **Objetivo del bloque:** comprobar dónde estás antes de inicializar Git; este comando no cambia nada.
+>
 > ```bash
 > pwd
 > ```
 >
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Muestra la carpeta actual. Contrasta su ruta con la indicada en este paso antes de seguir. |
+>
 > **Comprueba ahora:** la ruta debe terminar en `Boveda_HTML_Centro/01_Proyecto`. Si es otra, cambia a la carpeta correcta y repite `pwd`. **No ejecutes `git init` hasta estar en esa ruta.** Una vez comprobada, continúa:
+>
+> **Objetivo del bloque:** inicializar el repositorio en la ruta ya comprobada, nombrar la rama y consultar su estado inicial.
 >
 > ```bash
 > git init
@@ -149,7 +171,15 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > git status
 > ```
 >
-> **Por qué:** `pwd` muestra la ruta para evitar iniciar Git en la raíz de la bóveda. `git init` crea el repositorio en `01_Proyecto` y `git branch -M main` pone nombre a la rama. **Punto de control:** `pwd` termina en `Boveda_HTML_Centro/01_Proyecto`. `git status` muestra la rama `main`, que aún no hay commits y que los ficheros iniciales están *sin seguimiento*.  Si la ruta es otra, detente antes de seguir.
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Crea el repositorio local en la carpeta que acabas de comprobar. |
+> | 2 | Establece main como nombre de la rama actual. |
+> | 3 | Muestra la rama main, sin commits todavía, y los archivos iniciales sin seguimiento. |
+>
+> **Resultado esperado:** rama `main`, todavía sin commits y con los archivos iniciales sin seguimiento.
 
 > [!example] Paso H4 · Crea un repositorio vacío en GitHub
 > En tu propia cuenta de GitHub crea `sor-web-prestamo-portatiles-cole`. Déjalo **vacío**: sin README, sin `.gitignore` y sin licencia generados por GitHub. Elige la visibilidad indicada en Teams. Si es privado, da acceso al profesor con la cuenta indicada allí.
@@ -158,12 +188,21 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 >
 > En la terminal de **este proyecto**, ejecuta:
 >
+> **Objetivo del bloque:** guardar la dirección SSH del repositorio de GitHub y comprobarla; todavía no subirás archivos.
+>
 > ```bash
 > git remote add origin git@github.com:TU-USUARIO/sor-web-prestamo-portatiles-cole.git
 > git remote -v
 > ```
 >
-> **Por qué:** `git remote add origin` guarda la dirección de GitHub; aún no sube ficheros. `git remote -v` permite comprobarla. **Punto de control:** `origin` termina en `sor-web-prestamo-portatiles-cole.git`. Si aparece otro nombre, **no hagas push**; corrige la dirección antes. `git remote add` se hace una vez en este repositorio.
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Registra origin con la dirección SSH de tu repositorio vacío; todavía no envía archivos. |
+> | 2 | Muestra las direcciones de lectura y envío de los remotos; origin debe ser el de este proyecto. |
+>
+> **Comprueba antes del primer push:** `origin` debe terminar en `sor-web-prestamo-portatiles-cole.git`. Si aparece otro repositorio, detente y corrige el remoto antes de continuar.
 
 ---
 
@@ -175,6 +214,8 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > [!example] Paso H5 · Versión 1: página inicial
 > **Situación:** el portátil está disponible y la página ya se abre en el navegador. Vamos a guardar ese punto de partida en Git y subirlo a GitHub. Desde `01_Proyecto`, ejecuta uno a uno:
 >
+> **Objetivo del bloque:** revisar los archivos iniciales, prepararlos, guardar la primera versión y subirla a GitHub.
+>
 > ```bash
 > git status
 > git add .
@@ -184,10 +225,24 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > git status
 > ```
 >
-> El primer `status` muestra `.gitignore` y las carpetas nuevas `00_Bitacora/` y `web/` sin seguimiento. Git agrupa ahí los ficheros nuevos hasta que los añades. `git add .` prepara **todos los ficheros no ignorados de `01_Proyecto`**; aquí son los del proyecto. El segundo `status` debe mostrarlos preparados. `git commit` guarda la versión 1 **en el equipo**. `git push -u origin main` la sube por primera vez y configura el seguimiento; en las siguientes subidas bastará `git push`. El último `status` debe estar limpio. Recarga GitHub y abre `web/index.html`: debe decir «disponible».
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Muestra gitignore, bitácora y portada sin seguimiento; Git puede agrupar los archivos nuevos por carpeta. |
+> | 2 | Prepara todos los archivos no ignorados que hay bajo esta carpeta: en esta primera entrega, gitignore, bitácora y portada. |
+> | 3 | Muestra esos archivos preparados para crear el primer commit. |
+> | 4 | Guarda localmente una versión con los cambios preparados y el mensaje indicado. |
+> | 5 | Sube main por primera vez a origin y configura su seguimiento para las siguientes subidas. |
+> | 6 | Comprueba que ya no quedan cambios pendientes y que la rama tiene seguimiento de origin/main. |
+>
+> **Resultado esperado:** primera versión guardada y subida; estado limpio. En GitHub, abre `web/index.html` y comprueba «disponible».
+
 
 > [!example] Paso H6 · Versión 2: reserva para mantenimiento
 > **Situación:** te comunican que el portátil 01 ya no se puede prestar. Vas a modificar **un fichero que Git ya conoce** y a conservar esa decisión como una versión distinta. En `web/index.html`, cambia **solo** `Equipo 01: disponible.` por `Equipo 01: reservado para mantenimiento.`. Guarda y recarga el navegador.
+>
+> **Objetivo del bloque:** revisar el cambio de disponibilidad de la portada, prepararlo, guardarlo y subirlo como segunda entrega.
 >
 > ```bash
 > git status
@@ -198,9 +253,21 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > git push
 > ```
 >
-> El primer `status` debe mostrar `index.html` modificado. `git diff`, antes de `add`, permite ver exactamente la frase anterior y la nueva. Si sale vacío, comprueba que guardaste el fichero. `git add web/index.html` prepara solo ese HTML; el segundo `status` lo muestra listo. `commit` lo guarda localmente y `push` lo lleva al **mismo repositorio** GitHub. Recarga GitHub y comprueba «reservado». No repitas `git init` ni `git remote add origin`.
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Muestra la portada como modificada y aún sin preparar. |
+> | 2 | Compara la portada del disco con el índice: antes de prepararla verás la frase anterior con - y la nueva con +. No compara dos archivos diferentes. |
+> | 3 | Prepara únicamente el contenido actual del archivo indicado para el próximo commit; no sube nada. |
+> | 4 | Muestra la modificación de la portada preparada para el segundo commit. |
+> | 5 | Guarda localmente una versión con los cambios preparados y el mensaje indicado. |
+> | 6 | Envía los commits pendientes al remoto ya configurado. Comprueba que termina sin errores. |
+>
+> **Resultado esperado:** antes de preparar, el diff muestra la sustitución de «disponible» por «reservado para mantenimiento». Después de subir, comprueba esa frase en GitHub. No vuelvas a inicializar el repositorio ni a registrar el remoto.
 
-> [!example] Paso H7 · Versión 3: nuevas páginas, imágenes y vídeos locales
+
+> [!example] Paso H7 · A · Construye y prueba la ampliación
 > **Petición de la empresa:** publicar normas de préstamo y una vía de contacto con soporte. La portada deberá enlazar a las dos páginas. Además, recibes una imagen para la web y dos clips de vídeo para revisión interna; los clips se conservarán localmente y no se subirán por su volumen.
 >
 > Dentro de `web/`, crea `imagenes/` y `videos/`. Guarda en `imagenes/` una captura propia sin datos personales con el nombre `portatil.png` (formato PNG). Copia en `videos/` dos clips propios reales y renómbralos `revision-01.mp4` y `revision-02.mp4`. No basta con cambiar la extensión de otro tipo de archivo. No copies el vídeo de entrega mientras OBS lo está grabando.
@@ -243,51 +310,221 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 >
 > Guarda y abre la portada en el navegador. Comprueba que la imagen carga, que ambos enlaces abren su página y que puedes volver desde cada una. Las tres páginas deben funcionar **antes de guardar la entrega en Git**.
 >
-> Desde `01_Proyecto`, ejecuta:
+> [!info] Dónde ejecutar H7
+> Todos los bloques de terminal de H7 se ejecutan desde `01_Proyecto`, igual que H5 y H6. Ejecuta un bloque, lee su salida y comprueba el resultado antes de pasar al siguiente.
+
+> [!example] H7 · B · Revisa los archivos antes de prepararlos
+> **Qué vas a hacer:** vas a identificar los archivos nuevos y modificados, y revisar el cambio de la portada. Estas consultas no modifican archivos ni preparan nada para el commit.
 >
 > ```bash
 > git status --short --untracked-files=all
 > git diff -- web/index.html
+> ```
+>
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Muestra el estado abreviado y enumera cada archivo sin seguimiento por su ruta completa, en lugar de agruparlos por carpetas. `--short` abrevia la salida; `--untracked-files=all` despliega los nuevos. |
+> | 2 | Compara la portada guardada en disco con su versión en el índice. Como todavía no has preparado esta entrega, ves el cambio respecto al último commit: la imagen y los enlaces añadidos. No compara dos archivos diferentes ni muestra el contenido de los archivos nuevos sin seguimiento. |
+>
+> **Comprueba antes de continuar:** deben aparecer la portada modificada y tres archivos nuevos: normas, contacto e imagen. En el diff, `+` señala líneas añadidas y `-` líneas retiradas. Si aparece un visor, sal con la tecla `q`.
+
+> [!info] Cómo leer el estado abreviado
+> El estado tiene dos columnas antes de la ruta: la izquierda muestra lo preparado; la derecha, los cambios del disco que aún no has preparado.
+>
+> | Marca | Qué significa aquí |
+> | :--- | :--- |
+> | `??` | Archivo nuevo que Git aún no sigue. |
+> | `A ` | Archivo nuevo preparado; la segunda columna es un espacio. |
+> | ` M` | Archivo ya seguido, modificado pero sin preparar. |
+> | `M ` | Modificación preparada; la segunda columna es un espacio. |
+>
+> En esta entrega esperas ` M web/index.html` y `??` delante de cada página nueva y de la imagen. Los vídeos no deben aparecer.
+
+> [!example] H7 · C · Comprueba por qué los vídeos quedan fuera
+> **Qué vas a hacer:** vas a consultar qué regla de `.gitignore` excluye cada clip. El comando no activa la exclusión: las reglas escritas en H2 ya la aplican. Tampoco borra los vídeos.
+>
+> ```bash
 > git check-ignore -v web/videos/revision-01.mp4 web/videos/revision-02.mp4
 > ```
 >
-> `--untracked-files=all` permite ver los archivos nuevos uno a uno. Deben aparecer `normas.html`, `contacto.html` y `imagenes/portatil.png` sin seguimiento, e `index.html` modificado. Los vídeos no aparecen en el estado normal: `git check-ignore -v` debe mostrar para ambos la regla `*.mp4` de `.gitignore`. Comprueba también que siguen existiendo en el gestor de archivos. **Si alguno no queda ignorado, detente antes de añadir archivos.**
+> **Qué significa cada línea:**
 >
-> Prepara cada archivo por separado y observa cómo cambia su estado:
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Indica, para cada ruta, el archivo de reglas, su número de línea y el patrón que la ignora. `-v` pide esos detalles. |
+>
+> **Comprueba antes de continuar:** deben salir los dos clips asociados a `*.mp4`. Comprueba en el gestor de archivos que ambos siguen en el disco. Si falta alguno o no queda ignorado, detente antes de preparar archivos.
+
+> [!example] H7 · D · Prepara la página de normas
+> **Qué vas a hacer:** vas a seleccionar solo la página de normas para la entrega y comprobar el resultado. Los archivos que aún no hayas seleccionado siguen esperando.
 >
 > ```bash
 > git add web/normas.html
 > git status --short --untracked-files=all
+> ```
+>
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Prepara el contenido actual de `web/normas.html` para el próximo commit. No guarda todavía una versión ni sube nada. |
+> | 2 | Muestra de nuevo qué está preparado y qué sigue sin preparar. Observa el archivo recién seleccionado. |
+>
+> **Comprueba antes de continuar:** `web/normas.html` debe tener `A `, porque es un archivo nuevo preparado.
+
+> [!example] H7 · E · Prepara la página de contacto
+> **Qué vas a hacer:** vas a seleccionar solo la página de contacto para la entrega y comprobar el resultado. Los archivos que aún no hayas seleccionado siguen esperando.
+>
+> ```bash
 > git add web/contacto.html
 > git status --short --untracked-files=all
+> ```
+>
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Prepara el contenido actual de `web/contacto.html` para el próximo commit. No guarda todavía una versión ni sube nada. |
+> | 2 | Muestra de nuevo qué está preparado y qué sigue sin preparar. Observa el archivo recién seleccionado. |
+>
+> **Comprueba antes de continuar:** `web/contacto.html` debe tener `A `, porque es un archivo nuevo preparado.
+
+> [!example] H7 · F · Prepara la imagen
+> **Qué vas a hacer:** vas a seleccionar solo la imagen para la entrega y comprobar el resultado. Los archivos que aún no hayas seleccionado siguen esperando.
+>
+> ```bash
 > git add web/imagenes/portatil.png
 > git status --short --untracked-files=all
+> ```
+>
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Prepara el contenido actual de `web/imagenes/portatil.png` para el próximo commit. No guarda todavía una versión ni sube nada. |
+> | 2 | Muestra de nuevo qué está preparado y qué sigue sin preparar. Observa el archivo recién seleccionado. |
+>
+> **Comprueba antes de continuar:** `web/imagenes/portatil.png` debe tener `A `, porque es un archivo nuevo preparado.
+
+> [!example] H7 · G · Prepara la portada modificada
+> **Qué vas a hacer:** vas a seleccionar solo la portada modificada para la entrega y comprobar el resultado. Los archivos que aún no hayas seleccionado siguen esperando.
+>
+> ```bash
 > git add web/index.html
+> git status --short --untracked-files=all
+> ```
+>
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Prepara el contenido actual de `web/index.html` para el próximo commit. No guarda todavía una versión ni sube nada. |
+> | 2 | Muestra de nuevo qué está preparado y qué sigue sin preparar. Observa el archivo recién seleccionado. |
+>
+> **Comprueba antes de continuar:** `web/index.html` debe tener `M `, porque es una modificación de un archivo conocido.
+
+> [!example] H7 · H · Revisa la selección completa
+> **Qué vas a hacer:** vas a comprobar qué entrará en la entrega antes de guardarla. Preparar cuatro archivos por separado no obliga a crear cuatro commits: forman una ampliación relacionada.
+>
+> ```bash
 > git diff --cached --stat
 > git status
+> ```
+>
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Resume los cambios preparados en el índice: nombres y estadísticas. `--cached` selecciona lo preparado; `--stat` pide un resumen, no todas las líneas. |
+> | 2 | Muestra el estado completo, con los archivos preparados para el commit. |
+>
+> **Comprueba antes de continuar:** deben estar preparados exactamente cuatro archivos: portada, normas, contacto e imagen. No debe haber vídeos preparados. La carpeta de vídeos no se subirá si solo contiene archivos ignorados: Git versiona archivos, no carpetas vacías.
+
+> [!example] H7 · I · Guarda y sube la ampliación
+> **Qué vas a hacer:** vas a guardar esta entrega como la tercera versión de la web y publicarla en el mismo remoto.
+>
+> ```bash
 > git commit -m "Anadir normas contacto e imagen de prestamos"
 > git push
+> ```
+>
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Crea un commit local con los cuatro archivos preparados y un mensaje que identifica la entrega. |
+> | 2 | Envía los commits pendientes a la rama remota configurada en la primera subida. |
+>
+> **Comprueba antes de continuar:** ambas órdenes deben terminar sin errores. Si alguna falla, no des por subida la entrega.
+
+> [!example] H7 · J · Comprueba la entrega terminada
+> **Qué vas a hacer:** vas a comprobar el historial y que no quedan cambios pendientes en los archivos del proyecto.
+>
+> ```bash
 > git log --oneline
 > git status
 > ```
 >
-> Cada `add` prepara solo el archivo indicado; los restantes esperan. En el estado corto, `??` significa nuevo sin seguimiento, `A ` nuevo preparado, ` M` modificación sin preparar y `M ` modificación preparada. La columna izquierda corresponde al índice; la derecha, al trabajo sin preparar.
+> **Qué significa cada línea:**
 >
-> Antes del commit, el resumen preparado debe incluir **cuatro archivos**: las dos páginas nuevas, la imagen y la portada modificada. Un único commit reúne esta entrega relacionada; no necesitas un commit por cada `add`. En GitHub comprueba los tres commits de la web, las páginas y la imagen, y la ausencia de los dos vídeos. `git status` debe quedar limpio aunque los vídeos ignorados sigan en el disco. Git guarda archivos: la carpeta `videos/` no aparecerá en GitHub si solo contiene archivos ignorados.
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Enumera los commits con código abreviado y mensaje, del más reciente al más antiguo. Sal con `q` si se abre un visor. |
+> | 2 | Comprueba que estás en `main` y que el árbol de trabajo está limpio. Los vídeos ignorados pueden seguir en el disco sin aparecer aquí. |
+>
+> **Comprueba antes de continuar:** debe haber tres commits de la web. En GitHub comprueba las tres páginas y la imagen, y la ausencia de clips. Estar limpio no demuestra por sí solo que se haya hecho push: comprueba también el remoto.
 
-> [!example] Paso H7b · Visita la primera entrega y regresa al presente
-> **Situación:** el responsable quiere comparar la entrega actual con la primera. Vas a consultar la versión antigua sin borrar commits ni modificar el historial publicado.
+> [!example] Paso H7b · A · Localiza la primera entrega
+> **Qué vas a hacer:** el responsable quiere comparar la entrega actual con la primera. Primero vas a comprobar que no dejas trabajo pendiente.
 >
-> Ejecuta `git status`: debe estar limpio. Si tienes cambios pendientes, termina de guardarlos con sentido antes de continuar. Con `git log --oneline`, localiza el código del commit **«Crear pagina inicial de prestamos»** y sustituye `CODIGO_PRIMER_COMMIT` en el siguiente comando por ese código real:
+> ```bash
+> git status
+> ```
+>
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Consulta la rama y los cambios pendientes sin alterar el repositorio. |
+>
+> **Comprueba antes de continuar:** debes estar en `main` y sin cambios pendientes. Si no, detente y termina de guardar tu trabajo antes de continuar.
+
+> [!example] H7b · B · Lee el historial
+> **Qué vas a hacer:** vas a obtener el código real del primer commit para poder consultarlo; no uses un código inventado ni copies el de un compañero.
+>
+> ```bash
+> git log --oneline
+> ```
+>
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Muestra el código abreviado y el mensaje de cada commit. Busca «Crear pagina inicial de prestamos» y copia su código. Sal del visor con `q` si se abre. |
+>
+> **Comprueba antes de continuar:** anota el código del commit de la página inicial. En el bloque siguiente, sustituye `CODIGO_PRIMER_COMMIT` por ese código ANTES de ejecutarlo.
+
+> [!example] H7b · C · Abre la versión antigua
+> **Qué vas a hacer:** vas a situarte temporalmente en ese commit para inspeccionarlo. No borres ni reescribas el historial y no edites archivos durante la consulta.
 >
 > ```bash
 > git switch --detach CODIGO_PRIMER_COMMIT
 > git status
 > ```
 >
-> `--detach` te sitúa en un commit concreto para inspeccionarlo, fuera de una rama. Es normal que el estado indique `HEAD detached`. No edites ni crees commits aquí. Abre o recarga **`web/index.html`**: debe volver a mostrar «Equipo 01: disponible.», sin imagen ni enlaces. Las páginas nuevas y la imagen ya no están en esta versión; los vídeos locales ignorados pueden permanecer en el disco porque no pertenecen al historial.
+> **Qué significa cada línea:**
 >
-> Vuelve a la última entrega:
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Cambia los archivos seguidos a la versión del commit indicado. `--detach` permite consultar ese commit sin situarte en una rama. |
+> | 2 | Muestra el estado en ese punto: es normal ver `HEAD detached` o su traducción. |
+>
+> **Comprueba antes de continuar:** abre o recarga `web/index.html`: debe mostrar «Equipo 01: disponible.», sin imagen ni enlaces. Las páginas nuevas y la imagen desaparecen de esta versión; los clips ignorados pueden permanecer porque no forman parte del historial. No hagas commits ni push aquí.
+
+> [!example] H7b · D · Regresa a la entrega actual
+> **Qué vas a hacer:** vas a regresar a `main` y comprobar que recuperas la web ampliada y todo su historial. Esta consulta no crea una entrega nueva y no requiere push.
 >
 > ```bash
 > git switch main
@@ -295,14 +532,40 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > git log --oneline
 > ```
 >
-> Recarga la portada y comprueba otra vez el estado de mantenimiento, la imagen y los dos enlaces. Debes estar en `main`, con los tres commits de la web y sin cambios pendientes. **No hagas push desde el commit antiguo:** esta consulta no crea una entrega ni necesita subir nada. Recuperar una versión para inspeccionarla es distinto de publicar una reversión; aquí no se usa `reset --hard` ni se fuerza un push.
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Vuelve a la rama `main`, recuperando sus archivos seguidos. |
+> | 2 | Comprueba que estás en `main` y sin cambios pendientes. |
+> | 3 | Muestra de nuevo los tres commits de la web; ninguno se ha borrado. |
+>
+> **Comprueba antes de continuar:** recarga la portada: deben volver el estado de mantenimiento, la imagen y los enlaces. Comprueba ambas páginas. Sal del visor con `q` si aparece.
 
 ---
 
 ## 4 · CIERRA EL VÍDEO Y ENTREGA TU TRABAJO
 
 > [!example] Paso H8 · Termina la grabación y completa la bitácora
-> Enseña el resultado en GitHub, `git log --oneline`, `git remote -v` y un `git status` limpio. Detén OBS. Guarda el vídeo en `00_Grabaciones` y súbelo como **No listado** con el título y la playlist indicados al principio.
+> Antes de detener OBS, vas a dejar visibles el historial, el remoto de este proyecto y el estado final. Ejecuta este bloque y enseña el resultado junto a GitHub:
+>
+> **Objetivo del bloque:** mostrar el historial, la dirección remota y el estado final antes de cerrar la grabación.
+>
+> ```bash
+> git log --oneline
+> git remote -v
+> git status
+> ```
+>
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Muestra los códigos abreviados y mensajes de los commits. Si se abre un visor, sal con q antes de la siguiente orden. |
+> | 2 | Muestra las direcciones de lectura y envío de los remotos; origin debe ser el de este proyecto. |
+> | 3 | Muestra qué está sin seguimiento, modificado o preparado en este punto; después de un commit sin otros cambios, debe quedar limpio. |
+>
+> Detén OBS. Guarda el vídeo en `00_Grabaciones` y súbelo como **No listado** con el título y la playlist indicados al principio.
 >
 > En la **descripción del vídeo** escribe los minutos **reales** en que empieza cada etapa; cambia los marcadores por tiempos `mm:ss`:
 >
@@ -325,17 +588,46 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 >
 > **Ahora ya existe la URL de YouTube.** Completar la bitácora es un cierre de documentación posterior al vídeo, como en la Fase 0.3; **no es una cuarta versión de la web**. Desde `Boveda_HTML_Centro/01_Proyecto`, sube esa nota a GitHub:
 >
+> [!example] H8 · A · Revisa antes de guardar la bitácora
+> **Qué vas a hacer:** vas a comprobar que sigues dentro del proyecto correcto y que el cambio pendiente es la nota con el enlace del vídeo.
+>
 > ```bash
 > pwd
 > git remote -v
 > git status
+> ```
+>
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Muestra la carpeta actual. |
+> | 2 | Muestra las direcciones de origin. |
+> | 3 | Identifica los cambios pendientes; debe aparecer la bitácora modificada. |
+>
+> **Comprueba antes de continuar:** la ruta debe terminar en `Boveda_HTML_Centro/01_Proyecto`, origin debe corresponder a `sor-web-prestamo-portatiles-cole` y la nota debe tener el enlace real. Si no coincide, detente antes del bloque siguiente.
+
+> [!example] H8 · B · Guarda y sube la documentación
+> **Qué vas a hacer:** vas a guardar únicamente la bitácora completada y enviarla al remoto de este proyecto.
+>
+> ```bash
 > git add 00_Bitacora/b0-p01-cole-prestamo-portatiles.md
 > git commit -m "Completar bitacora y enlace del video del centro"
 > git push
 > git status
 > ```
 >
-> `pwd` comprueba la carpeta y el primer `status` debe mostrar la bitácora modificada. `git add` prepara solo esa nota, `commit` la guarda localmente y `push` la sube. **Este último commit no puede aparecer en el mismo vídeo**, porque la URL se obtuvo después de pararlo. Comprueba en GitHub que el enlace de la bitácora funciona. El historial tendrá tres commits de la web y uno documental.
+> **Qué significa cada línea:**
+>
+> | Línea | Significado |
+> | :--- | :--- |
+> | 1 | Prepara únicamente la nota de esta práctica. |
+> | 2 | Crea el cuarto commit: es documental, no una cuarta versión de la web. |
+> | 3 | Envía ese commit a GitHub. |
+> | 4 | Comprueba que no quedan cambios pendientes. |
+>
+> **Comprueba antes de continuar:** abre la bitácora en GitHub y comprueba el enlace al vídeo. Este commit es posterior al vídeo y no puede aparecer en esa grabación; el historial final contiene tres commits de web y uno documental.
+
 
 ### 📤 Entrega en Teams
 
@@ -365,16 +657,16 @@ Comprueba que ambos enlaces abren, que el vídeo corresponde a este proyecto y p
 
 
 > [!bug] Si algo no sale
-> | Síntoma | Comprueba primero |
+> | Síntoma | Qué revisar y dónde volver |
 > | :--- | :--- |
-> | `git diff` no muestra nada | ¿Guardaste `index.html`? ¿Hiciste `git add` antes del diff? |
-> | `nothing to commit` | ¿Guardaste el fichero? Mira `pwd`, `git status` y `git log --oneline`. |
-> | `remote origin already exists` | Ya añadiste `origin`. Mira `git remote -v`; no repitas el alta. |
-> | Un enlace o la imagen falla | Comprueba que las dos páginas están junto a `index.html`, que la imagen está en `imagenes/portatil.png` y que las rutas coinciden, incluidas mayúsculas. |
-> | Un vídeo aparece en `git status` | Comprueba `.gitignore`, la extensión real y `git check-ignore -v`. Si ya estaba seguido por Git, la regla no lo retirará. No lo incluyas en la entrega. |
-> | Veo `HEAD detached` | Es lo esperado durante H7b. No edites; vuelve con `git switch main`. |
-> | GitHub no muestra el último cambio | Revisa `git status` y si llegaste a ejecutar `git push` en **este** repo. |
-> | El push apunta al repositorio de casa | **Detente.** Estás en el repo o en el remoto equivocado; comprueba `pwd` y `git remote -v` antes de tocar nada. |
+> | El diff sale vacío | Comprueba que guardaste la portada y si ya preparaste el cambio. Consulta H6 o H7-B para revisar antes de preparar; H7-H para revisar lo preparado. |
+> | No hay nada para guardar | Comprueba que editaste el archivo correcto y lo guardaste; vuelve a la comprobación de estado de ese paso. |
+> | El remoto origin ya existe | No repitas su alta. Vuelve a la comprobación del remoto en H4. |
+> | Un enlace o la imagen falla | Comprueba los nombres, mayúsculas y rutas de H7-A. |
+> | Un vídeo aparece entre los cambios | Revisa el patrón y extensión en H2 y la comprobación de H7-C. Si ya estaba seguido, la regla no lo retira: no sigas con la entrega. |
+> | Estoy fuera de una rama | Es lo esperado durante H7b-C. No edites; vuelve mediante el bloque H7b-D. |
+> | GitHub no muestra la entrega | Comprueba si terminó la subida del paso correspondiente. Estado limpio no demuestra por sí solo que se haya enviado. |
+> | El remoto pertenece al otro proyecto | Detente antes de subir. Revisa la ruta y el remoto mediante H8-A. |
 
 > [!success] ✅ Al acabar en el centro
 > - [ ] Esta bóveda y este repositorio se han creado desde cero en el centro.
