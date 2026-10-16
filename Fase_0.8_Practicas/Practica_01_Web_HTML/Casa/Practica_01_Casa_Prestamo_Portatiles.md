@@ -37,7 +37,7 @@ Boveda_HTML_Casa/                   ← la abres en Obsidian; aquí NO haces git
 > [!important] 📹 Una grabación completa, con explicación
 > **Antes de grabar:** ten preparada una captura PNG propia sin datos personales y dos clips MP4 propios para H7. Lee esta guía entera, abre OBS y prepara un editor de texto, Obsidian, Git Bash y GitHub. Comprueba que tu clave SSH **ya funciona en este equipo**; si no, vuelve a la Fase 0.5.1.  
 > **Empieza a grabar antes de crear la bóveda.** Preséntate, muestra tu perfil de GitHub y explica qué vas a hacer. Mantén la grabación hasta comprobar el resultado final en GitHub. Di en voz alta qué significa cada `git status`, por qué haces cada commit y por qué este `origin` es distinto. No muestres claves privadas ni contraseñas.  
-> **Título del vídeo:** `B0.P01 · Casa · Préstamo de portátiles`. **Visibilidad:** No listado. **Playlist:** `B0.P01 · Préstamo de portátiles con Git y GitHub` (igual que la tarea de Teams).
+> **Título del vídeo:** `B0.P01 · Casa · Préstamo de portátiles`. **Visibilidad:** No listado. **Playlist:** `B0.P01 · Casa · Préstamo de portátiles con Git y GitHub` (igual que la tarea de Teams).
 
 ---
 
@@ -329,7 +329,14 @@ Boveda_HTML_Casa/                   ← la abres en Obsidian; aquí NO haces git
 
 ### 📤 Entrega en Teams
 
-La tarea se llama **`B0.P01 · Préstamo de portátiles con Git y GitHub`**, igual que la playlist. Cuando estén hechos los trabajos de **cole y casa**, pega en esa tarea **tres enlaces**: repositorio GitHub del cole, repositorio GitHub de casa y playlist con los dos vídeos. Comprueba que abren y pulsa **Entregar**. Si los repositorios son privados, el profesor necesita acceso a ambos.
+La tarea de **Casa** se llama **`B0.P01 · Casa · Préstamo de portátiles con Git y GitHub`**. La playlist de este proyecto debe llamarse **exactamente igual** y contener **un único vídeo de entrega**, el de Casa. Los dos clips MP4 de prueba de `web/videos/` son recursos locales: no son vídeos de entrega y no van a esta playlist.
+
+Entrega en esta tarea **dos enlaces**:
+
+1. El repositorio GitHub **de Casa**.
+2. La playlist **de Casa**, que contiene su vídeo completo con las marcas de tiempo.
+
+Comprueba que ambos enlaces abren, que el vídeo corresponde a este proyecto y pulsa **Entregar**. Si el repositorio es privado, concede acceso al profesor. **No esperes a terminar el otro trabajo ni entregues sus enlaces aquí:** Cole y Casa tienen tareas, playlists, repositorios y calificaciones independientes.
 
 ---
 
@@ -369,4 +376,4 @@ La tarea se llama **`B0.P01 · Préstamo de portátiles con Git y GitHub`**, igu
 > - [ ] He visitado el primer commit y vuelto a `main` sin perder el historial.
 > - [ ] El vídeo de casa explica el proceso y tiene timestamps reales.
 > - [ ] La bitácora contiene el enlace del vídeo y está subida a **este** repositorio.
-> - [ ] La tarea de Teams contiene los dos repositorios y la playlist.
+> - [ ] La tarea de Casa contiene únicamente su repositorio y su playlist con un vídeo.

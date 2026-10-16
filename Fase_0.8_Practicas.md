@@ -26,3 +26,6 @@ Las prácticas siguientes, cuando se definan, tendrán carpetas hermanas de `Pra
 
 > [!success] Ciclo completo en cada recorrido
 > Cada guía repite el encargo empresarial y la teoría: inicio independiente, primera entrega, modificación, dos páginas nuevas enlazadas e imagen, vídeos locales ignorados, preparación individual, commit y push. Termina consultando la primera versión y regresando a `main`. No necesitas abrir la otra guía para completar estos pasos.
+
+> [!important] Entregas separadas
+> Cole y Casa tienen cada uno su tarea de Teams y su playlist: `B0.P01 · Cole · Préstamo de portátiles con Git y GitHub` y `B0.P01 · Casa · Préstamo de portátiles con Git y GitHub`. Cada playlist contiene **un vídeo de entrega**. En cada tarea se entregan dos enlaces: su repositorio y su playlist. No se mezclan ni se espera al otro trabajo.

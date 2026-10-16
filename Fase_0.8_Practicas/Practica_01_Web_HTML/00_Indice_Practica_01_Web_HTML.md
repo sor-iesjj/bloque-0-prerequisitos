@@ -19,11 +19,17 @@
 > [!danger] 🛑 No mezcles los dos recorridos
 > No coloques ambas webs en la misma bóveda. No hagas el ejercicio de casa dentro del repositorio del centro. No clones el primero para hacer el segundo. **Repite la misma web, los mismos cambios y los mismos comandos** en un proyecto independiente. **Cierra una guía y luego abre la otra.** Cada una contiene todos sus pasos, comandos, comprobaciones y errores frecuentes.
 
-### 📤 Una tarea de Teams para reunir las dos entregas
+### 📤 Dos tareas y dos playlists independientes
 
-- **Nombre exacto de la tarea y de la playlist:** `B0.P01 · Préstamo de portátiles con Git y GitHub`.
-- **Vídeos No listados:** `B0.P01 · Cole · Préstamo de portátiles` y `B0.P01 · Casa · Préstamo de portátiles`, cada uno con sus marcas de tiempo.
-- **En Teams:** enlace del repositorio del centro, enlace del repositorio de casa y enlace de la playlist. Se entrega **después de terminar la guía de Casa**.
+| Proyecto | Nombre exacto de su tarea y su playlist | Entrega en esa tarea |
+| :--- | :--- | :--- |
+| Cole | `B0.P01 · Cole · Préstamo de portátiles con Git y GitHub` | Repositorio del cole y playlist del cole con **un vídeo** |
+| Casa | `B0.P01 · Casa · Préstamo de portátiles con Git y GitHub` | Repositorio de casa y playlist de casa con **un vídeo** |
+
+- Cada práctica genera **un vídeo de entrega**: dos vídeos en total, repartidos en **dos playlists**.
+- Títulos de los vídeos: `B0.P01 · Cole · Préstamo de portátiles` y `B0.P01 · Casa · Préstamo de portátiles`. No listados y con marcas de tiempo reales.
+- Cada tarea recibe **dos enlaces de su propio proyecto** y se entrega al completarlo, sin esperar al otro. No hay entrega conjunta.
+- Los dos clips locales de H7 sirven para comprobar `.gitignore`; no son vídeos de entrega.
 
 > [!note] Recursos independientes
 > Los recursos de cada lugar se guardan junto a **su propia guía**: [Cole/Recursos](Cole/Recursos/README.md) y [Casa/Recursos](Casa/Recursos/README.md). El PDF de cada guía se conserva en su carpeta de recursos para adjuntarlo en Teams; el repositorio público del curso publica el Markdown.

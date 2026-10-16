@@ -37,7 +37,7 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 > [!important] 📹 Una grabación completa de pantalla
 > **Antes de grabar:** ten preparada una captura PNG propia sin datos personales y dos clips MP4 propios para H7. Lee esta guía entera, abre OBS y prepara un editor de texto, Obsidian, Git Bash y GitHub. Comprueba que tu clave SSH **ya funciona en este equipo**; si no, repasa la configuración de SSH de los prerrequisitos.  
 > **Empieza a grabar antes de crear la bóveda.** Muestra tu perfil de GitHub y cada etapa en pantalla. **En el centro no debes narrar:** deja cada comando y resultado visible para poder leerlo. Mantén la grabación hasta comprobar el resultado en GitHub. No muestres claves privadas ni contraseñas.  
-> **Título del vídeo:** `B0.P01 · Cole · Préstamo de portátiles`. **Visibilidad:** No listado. **Playlist:** `B0.P01 · Préstamo de portátiles con Git y GitHub` (igual que la tarea de Teams).
+> **Título del vídeo:** `B0.P01 · Cole · Préstamo de portátiles`. **Visibilidad:** No listado. **Playlist:** `B0.P01 · Cole · Préstamo de portátiles con Git y GitHub` (igual que la tarea de Teams).
 
 ---
 
@@ -329,7 +329,14 @@ Boveda_HTML_Centro/                   ← la abres en Obsidian; aquí NO haces g
 
 ### 📤 Entrega en Teams
 
-La tarea se llama **`B0.P01 · Préstamo de portátiles con Git y GitHub`**, igual que la playlist. Cuando termines también la guía de **Casa**, pega en esa tarea **tres enlaces**: repositorio GitHub del cole, repositorio GitHub de casa y playlist con los dos vídeos. Comprueba que abren y pulsa **Entregar**. Si los repositorios son privados, el profesor necesita acceso a ambos.
+La tarea de **Cole** se llama **`B0.P01 · Cole · Préstamo de portátiles con Git y GitHub`**. La playlist de este proyecto debe llamarse **exactamente igual** y contener **un único vídeo de entrega**, el de Cole. Los dos clips MP4 de prueba de `web/videos/` son recursos locales: no son vídeos de entrega y no van a esta playlist.
+
+Entrega en esta tarea **dos enlaces**:
+
+1. El repositorio GitHub **de Cole**.
+2. La playlist **de Cole**, que contiene su vídeo completo con las marcas de tiempo.
+
+Comprueba que ambos enlaces abren, que el vídeo corresponde a este proyecto y pulsa **Entregar**. Si el repositorio es privado, concede acceso al profesor. **No esperes a terminar el otro trabajo ni entregues sus enlaces aquí:** Cole y Casa tienen tareas, playlists, repositorios y calificaciones independientes.
 
 ---
 
@@ -369,4 +376,4 @@ La tarea se llama **`B0.P01 · Préstamo de portátiles con Git y GitHub`**, igu
 > - [ ] He visitado el primer commit y vuelto a `main` sin perder el historial.
 > - [ ] El vídeo de pantalla del centro muestra el proceso y tiene timestamps reales.
 > - [ ] La bitácora contiene el enlace del vídeo y está subida a **este** repositorio.
-> - [ ] Guardas los enlaces de este repositorio y vídeo para la entrega conjunta tras la guía de Casa.
+> - [ ] La tarea de Cole contiene únicamente su repositorio y su playlist con un vídeo.
