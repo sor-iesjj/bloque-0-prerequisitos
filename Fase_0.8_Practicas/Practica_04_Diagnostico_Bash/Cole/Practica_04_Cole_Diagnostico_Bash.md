@@ -508,7 +508,7 @@ Los archivos iniciales que se modifican en H6/H7 conservan su ruta: no crees cop
 > - **3.** Muestra los tres commits, del más reciente al más antiguo; sal con q si aparece visor.
 > - **4.** Comprueba main y árbol de trabajo limpio.
 >
-> **Resultado y condición para seguir:** El índice debe contener exactamente 4 archivos de ampliación: `diagnostico/interpretacion.md`, `diagnostico/imagenes/salida.png`, `diagnostico/diagnostico.sh`, `README.md`. Si la revisión no coincide, detente ANTES del commit. En GitHub abre estos archivos, comprueba enlaces e imagen y confirma que los recursos ignorados NO aparecen. Git no conserva una carpeta si solo contiene archivos ignorados.
+> **Resultado y condición para seguir:** La tercera entrega debe estar guardada y subida con sus 4 archivos: `diagnostico/interpretacion.md`, `diagnostico/imagenes/salida.png`, `diagnostico/diagnostico.sh`, `README.md`. Comprueba los tres commits y el estado limpio. En GitHub abre estos archivos, comprueba enlaces e imagen y confirma que los recursos ignorados NO aparecen. Si la subida falla, detente y resuélvela antes de consultar la versión antigua. Git no conserva una carpeta si solo contiene archivos ignorados.
 
 ## 4 · CONSULTA LA PRIMERA ENTREGA Y REGRESA
 

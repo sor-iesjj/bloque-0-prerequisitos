@@ -467,7 +467,7 @@ Prepara dos clips MP4 propios y reales para H7. Son recursos de prueba locales, 
 > - **3.** Muestra los tres commits, del más reciente al más antiguo; sal con q si aparece visor.
 > - **4.** Comprueba main y árbol de trabajo limpio.
 >
-> **Resultado y condición para seguir:** El índice debe contener exactamente 5 archivos de ampliación: `inventario/mantenimiento/EQ02.md`, `inventario/criterios-estados.md`, `inventario/imagenes/equipo.png`, `inventario/equipos.csv`, `README.md`. Si la revisión no coincide, detente ANTES del commit. En GitHub abre estos archivos, comprueba enlaces e imagen y confirma que los recursos ignorados NO aparecen. Git no conserva una carpeta si solo contiene archivos ignorados.
+> **Resultado y condición para seguir:** La tercera entrega debe estar guardada y subida con sus 5 archivos: `inventario/mantenimiento/EQ02.md`, `inventario/criterios-estados.md`, `inventario/imagenes/equipo.png`, `inventario/equipos.csv`, `README.md`. Comprueba los tres commits y el estado limpio. En GitHub abre estos archivos, comprueba enlaces e imagen y confirma que los recursos ignorados NO aparecen. Si la subida falla, detente y resuélvela antes de consultar la versión antigua. Git no conserva una carpeta si solo contiene archivos ignorados.
 
 ## 4 · CONSULTA LA PRIMERA ENTREGA Y REGRESA
 
