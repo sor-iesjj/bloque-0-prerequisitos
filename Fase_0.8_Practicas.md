@@ -14,18 +14,21 @@
 | Práctica | Qué construyes | Dónde están las guías |
 | :--- | :--- | :--- |
 | **[01 · Página web HTML](Fase_0.8_Practicas/Practica_01_Web_HTML/00_Indice_Practica_01_Web_HTML.md)** | La misma web de préstamo de portátiles, repetida desde cero en el centro y en casa | Dentro: **Cole/** y **Casa/**, con sus recursos independientes |
+| **[02 · Manual de soporte](Fase_0.8_Practicas/Practica_02_Manual_Soporte/00_Indice_Practica_02_Manual_Soporte.md)** | Un manual Markdown que evoluciona con las instrucciones de soporte | **Cole/** y **Casa/**: guía y rúbrica del alumno |
+| **[03 · Inventario de equipos](Fase_0.8_Practicas/Practica_03_Inventario_Equipos/00_Indice_Practica_03_Inventario_Equipos.md)** | Un inventario CSV con cambios de ubicación, estado y mantenimiento | **Cole/** y **Casa/**: guía y rúbrica del alumno |
+| **[04 · Herramienta de diagnóstico](Fase_0.8_Practicas/Practica_04_Diagnostico_Bash/00_Indice_Practica_04_Diagnostico_Bash.md)** | Un script de consulta en Git Bash, con versiones que muestran distinta información | **Cole/** y **Casa/**: guía y rúbrica del alumno |
 
 > [!important] 📍 Orden
 > Haz primero la guía de **Cole** en el centro y luego la de **Casa** en casa, cuando el equipo doméstico de la Fase 0.5.1 esté preparado. La segunda guía **no continúa** el primer proyecto: crea otra bóveda, otro repositorio local y otro repositorio de GitHub. Cada guía indica su grabación y sus pruebas.
 
-Las prácticas siguientes, cuando se definan, tendrán carpetas hermanas de `Practica_01_Web_HTML/`, cada una con sus propias carpetas `Cole/` y `Casa/`. **Esta página solo enlaza material ya creado.**
+Las cuatro prácticas tienen carpetas hermanas, cada una con sus propias carpetas `Cole/` y `Casa/`. En las prácticas 02, 03 y 04, **lee la rúbrica de tu contexto antes de empezar**: cada guía incluye el enlace a su versión pública en GitHub. La rúbrica explica los filtros de entrega, los puntos y las evidencias que se van a corregir.
 
 ---
 
 > **Empieza por:** [Práctica 01 · Página web HTML](Fase_0.8_Practicas/Practica_01_Web_HTML/00_Indice_Practica_01_Web_HTML.md).
 
 > [!success] Ciclo completo en cada recorrido
-> Cada guía repite el encargo empresarial y la teoría: inicio independiente, primera entrega, modificación, dos páginas nuevas enlazadas e imagen, vídeos locales ignorados, preparación individual, commit y push. Termina consultando la primera versión y regresando a `main`. No necesitas abrir la otra guía para completar estos pasos.
+> Cada guía repite el encargo empresarial y la teoría: inicio independiente, primera entrega, modificación, ampliación con archivos nuevos, pruebas de exclusión mediante `.gitignore`, preparación individual, commit y push. Termina consultando la primera versión y regresando a `main`, y guarda después la bitácora completada con los enlaces reales. No necesitas abrir la otra guía para completar estos pasos.
 
 > [!important] Entregas separadas
-> Cole y Casa tienen cada uno su tarea de Teams y su playlist: `B0.P01 · Cole · Préstamo de portátiles con Git y GitHub` y `B0.P01 · Casa · Préstamo de portátiles con Git y GitHub`. Cada playlist contiene **un vídeo de entrega**. En cada tarea se entregan dos enlaces: su repositorio y su playlist. No se mezclan ni se espera al otro trabajo.
+> Cole y Casa tienen cada uno su tarea de Teams y su playlist, con el código, contexto y tema indicados en su guía. Cada playlist contiene **un vídeo de entrega**. En cada tarea se entregan dos enlaces: su repositorio y su playlist. No se mezclan ni se espera al otro trabajo.
