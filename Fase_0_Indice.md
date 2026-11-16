@@ -90,7 +90,7 @@ Un técnico no memoriza: **documenta**. Aquí se establece **cómo** trabajaremo
 > - **Timestamps SIEMPRE** en la descripción: `00:00 Presentación` + uno por cada paso.
 > - **Nombre del vídeo:** **`B0.<código> · Título`** — por ejemplo `B0.2.1 · Cuenta de GitHub y Git`. **Se sube a YouTube** (playlist `B0_Prerrequisitos`, como "No listado").
 > - **Duración ~5 min.** Si una fase da para más, **se parte en dos sub-fases con entidad propia** —una entrada y un vídeo cada una—, como la `0.4.a` y la `0.4.b`. Nunca un mismo vídeo troceado en "(1 de 2)".
-> - **Cada fase se graba una vez**, en su sitio: 🏫 **centro** (0.1, 0.2.1, 0.2.2, 0.3, 0.4.a, 0.4.b, 0.6, 0.7.1, 0.7.2) · 🏠 **casa** (0.5.1, 0.5.2). En prerequisitos no se graba dos veces lo mismo: el "en casa" de las 0.1–0.4 **es** la Fase 0.5.1.
+> - **Cada fase se graba una vez**, en su sitio: 🏫 **centro** (0.1, 0.2.1, 0.2.2, 0.3, 0.4.a, 0.4.b, 0.6, 0.7.1, 0.7.2 y la opcional 0.5.3) · 🏠 **casa** (0.5.1, 0.5.2). En prerequisitos no se graba dos veces lo mismo: el "en casa" de las 0.1–0.4 **es** la Fase 0.5.1.
 > - **Al subir cada vídeo, el alumno guarda su enlace.** Lo necesitará para la entrega.
 >
 > **En la Fase 0.8**, abre la guía de cada práctica: la del centro puede pedir vídeo sin narración, y cada práctica define los nombres de vídeo y playlist de su tarea.
@@ -173,9 +173,10 @@ Cada sub-fase = **una práctica grabada** que se sube a YouTube. Las fases larga
 | **0.3.b**   | [[Fase_0.3.b_Que_No_Se_Sube_Gitignore]]                 | El **`.gitignore`**: qué no se sube nunca y por qué subir una clave no se arregla borrándola.                                                                 |
 | **0.4.a**  | [[Fase_0.4.a_Bajar_El_Material_Del_Curso]]             | Saca **sus tres copias** con `Use this template` y las clona por **tres vías distintas** (SSH · HTTPS · ZIP), descubriendo por qué el ZIP no vale. `status → commit → push`. |
 | **0.4.b**  | [[Fase_0.4.b_Tres_Retos_De_Recuperacion]]              | **Tres retos** de borrado y recuperación: `git restore`, reclonar, y lo único que **no vuelve**.                                                                        |
-| **0.5**    | [[Fase_0.5_Casa_y_Centro_Sincronizacion]]              | *(índice)* Casa ↔ centro, en 2 partes ↓                                                                                                                       |
+| **0.5**    | [[Fase_0.5_Casa_y_Centro_Sincronizacion]]              | *(índice)* Casa ↔ centro, en 2 partes + 1 opcional ↓                                                                                                          |
 | **0.5.1**  | [[Fase_0.5.1_Montar_Entorno_Casa]]                     | Monta el entorno en casa y clona sus repos.                                                                                                                   |
 | **0.5.2**  | [[Fase_0.5.2_Sincronizar_Casa_Centro]]                 | Ciclo `pull → push`; regla anti-OneDrive.                                                                                                                     |
+| **0.5.3**  | [[Fase_0.5.3_Sincronizar_Con_Un_Segundo_Equipo]]       | **Opcional.** El ciclo de la 0.5.2 demostrado en el centro: un Windows Sandbox hace de segundo equipo, con tu misma cuenta.                                     |
 | **0.6**    | [[Fase_0.6_Verificacion_y_Simulacion_Final]]           | Simulación completa grabada; verificación global.                                                                                                             |
 | **0.7**    | [[Fase_0.7_Cuando_Todo_Se_Rompe]]                      | *(índice)* Romper el trabajo a propósito y recuperarlo, en 2 partes ↓                                                                                         |
 | **0.7.1**  | [[Fase_0.7.1_Catastrofe_Local_Recuperar_Con_Git]]      | Pierde el contenido de sus apuntes y lo recupera **solo con Git**, sin Internet.                                                                              |

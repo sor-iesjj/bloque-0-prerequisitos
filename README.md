@@ -25,7 +25,7 @@ Sigue las sub-fases **en orden**. Cada una es una práctica guiada, muy detallad
 | [Fase 0.3.b — Qué no se sube: el `.gitignore`](Fase_0.3.b_Que_No_Se_Sube_Gitignore.md) | Qué queda fuera del repositorio y por qué una clave subida no se borra |
 | [Fase 0.4.a — Bajar el material del curso](Fase_0.4.a_Bajar_El_Material_Del_Curso.md) | Sus **tres copias** (`Use this template`) clonadas por **tres vías** (SSH · HTTPS · ZIP); `status → commit → push` |
 | [Fase 0.4.b — Tres retos de recuperación](Fase_0.4.b_Tres_Retos_De_Recuperacion.md) | Romper lo recién bajado y recuperarlo: `git restore`, reclonar, y lo único que **no vuelve** |
-| [Fase 0.5 — Casa y centro (índice)](Fase_0.5_Casa_y_Centro_Sincronizacion.md) | Casa ↔ centro, en 2 partes ↓ |
+| [Fase 0.5 — Casa y centro (índice)](Fase_0.5_Casa_y_Centro_Sincronizacion.md) | Casa ↔ centro, en 2 partes + 1 opcional ↓ |
 | &nbsp;&nbsp;↳ [Fase 0.5.1 — Montar el entorno en casa](Fase_0.5.1_Montar_Entorno_Casa.md) | Instala en casa y clona sus repos |
 | &nbsp;&nbsp;↳ [Fase 0.5.2 — Sincronizar casa ↔ centro](Fase_0.5.2_Sincronizar_Casa_Centro.md) | Ciclo `pull → push`; regla anti-OneDrive |
 | [Fase 0.6 — Verificación y simulación](Fase_0.6_Verificacion_y_Simulacion_Final.md) | Simulación completa grabada + verificación global |
